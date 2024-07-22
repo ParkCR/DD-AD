@@ -30,13 +30,11 @@ application:
         path: 'https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts'
       - name: 'Cats-Team AdBlock List Lite'
         path: 'https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt'
+      - name: 'ParkCR hosts'
+        path: 'https://raw.githubusercontent.com/ParkCR/Config/main/hosts/ParkCR%20hosts.txt'
     local:
       - name: 'DD-AD'
         path: 'DD-AD.txt'
-        
-      - name: 'ParkCR hosts'
-        path: 'rule/ParkCR hosts.txt'
-
         
   output:
     file_header: |  #输出文件头, 占位符${name}将被替换为文件名，如all.txt,  ${date} 将被替换为当前日期
