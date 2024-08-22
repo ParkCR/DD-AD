@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: all.txt
-! Last Modified: 2024-08-22 00:20:26
+! Last Modified: 2024-08-22 09:12:25
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,29 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
-||ads*-normal-hl.amemv.com^
-||ad-*file.myqcloud.com^
-||p*-ad.byteimg.com^
-||ads*-normal-lf.amemv.com^
-||ads*-normal-lq.zijieapi.com^
-||ads*-normal-lf.zijieapi.com^
-||ads*-normal.amemv.com^
-||p*-local-ads.byteimg.com.queniuso.com^
-||lf*-orange.byteorge.com^
-||p*-webcast-sign.douyinpic.com^
-||v*-novelapp.fqnovelvod.com^
-||p*-local-ads.byteimg.com^
-||ads*-normal.zijieapi.com^
-||ads*-normal-lf.zijieapi.com.dhcp^
-||p*-ad-aweme.byteimg.com^
-||p*-ad-sign.byteimg.com^
-||sf*-ttcdn-tos.pstatp.com^
-||ads*-normal-hl.zijieapi.com^
-||v*-ad.video.yximgs.com^
-||ads*-normal-lq.amemv.com^
-||ads*-normal-lq.zijieapi.com.queniuiq.com^
-||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||localads.chengzijianzhan.cn^
 ||ad.99jiasu.com^
@@ -369,6 +346,29 @@
 ||adserver.html.it^
 ||mobads.baidu.com^
 ||a0.app.xiaomi.com^
+! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
+||ads*-normal-hl.amemv.com^
+||ad-*file.myqcloud.com^
+||p*-ad.byteimg.com^
+||ads*-normal-lf.amemv.com^
+||ads*-normal-lq.zijieapi.com^
+||ads*-normal-lf.zijieapi.com^
+||ads*-normal.amemv.com^
+||p*-local-ads.byteimg.com.queniuso.com^
+||lf*-orange.byteorge.com^
+||p*-webcast-sign.douyinpic.com^
+||v*-novelapp.fqnovelvod.com^
+||p*-local-ads.byteimg.com^
+||ads*-normal.zijieapi.com^
+||ads*-normal-lf.zijieapi.com.dhcp^
+||p*-ad-aweme.byteimg.com^
+||p*-ad-sign.byteimg.com^
+||sf*-ttcdn-tos.pstatp.com^
+||ads*-normal-hl.zijieapi.com^
+||v*-ad.video.yximgs.com^
+||ads*-normal-lq.amemv.com^
+||ads*-normal-lq.zijieapi.com.queniuiq.com^
+||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 127.0.0.1 c.sayhi.360.cn
 127.0.0.1 ggs.myzaker.com
@@ -13260,7 +13260,6 @@ blesk.cz##.gam-wrapper
 ##.con_section > .da
 /advpic/*
 @@||server1.affiz.net/tracking/ads_display.php$script,domain=fit.sh
-gidonline.eu,torrent-soft.net#$#abort-on-property-read atob
 cnbeta.com.tw##.article-global
 ##.adblock-modal-content
 90bifen.com##td[bgcolor="#FFFEE0"][height="22"]
@@ -13744,6 +13743,7 @@ cctv.com##.anime_ewm
 @@||189.cn^*/shareBox.
 baidu.com##.link-banner
 chinaz.com###topTxt
+ebay.*#$#hide-if-matches-xpath '//a[contains(@href,"promoted_items")][@target="_blank"][@data-click]/ancestor-or-self::div[@data-viewport][1]'
 @@||c.ad6media.fr/l.js$script,domain=fit.sh
 a.9game.cn##section.normal-module:nth-of-type(2)
 awaker.cn###jiji + div[style="padding: 20px"]
@@ -15086,7 +15086,6 @@ alypw.com##.ceadd
 /xxgg/pf*.js
 ati.su#$#abort-on-property-read Object.prototype._bannerOrderAttr
 cnlmjx.com##.yw_ad
-ghxi.com,mcdulll.com,pixnet.net##div[id*="-ad-"]
 @@||aobi.100bt.com/play/ad/ad*.swf
 dngz.net##.tongji
 bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
@@ -16772,7 +16771,6 @@ delfi.lt#$#simulate-mouse-event 'xpath(.//*[@style]/a[contains(@href,"javascript
 ##.ad_content_mask
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 /1xhtml?$script,third-party
-ebay.*#$#abort-on-property-read window.ebayAdsBerries.render
 ##.main[style="border:#7D8C8E solid 1px;height: 23px;"]
 &xhtml?$script,third-party
 /blog/showdetail.php?z=$script,third-party
@@ -17725,6 +17723,7 @@ bilibili.com##.btn-ctnr
 baixing.com##.refashion-listing-banner
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.content_top
 doupe.zive.cz#@##adblock-leaderboard
+cn.bing.com##.b_bza_pole
 :88/999pc/
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
 .com/myjs/alljs.js
@@ -18800,6 +18799,7 @@ firefoxchina.cn##div[trace-key="ad_theme_skin_link"]
 ##a[href*="/register/?i_code="] > img
 chysg.com##img[width="232"][height="90"]
 =window.awall.adblockwalltemplatefetchdef&
+ebay.*#$#abort-on-property-read window.ebayAdsBerries.render; abort-on-property-read window.berries
 gas.goodlife.tw###leaderboard_banner
 58avgo.com##.BillingLeft
 gas.goodlife.tw###widgets
@@ -20122,8 +20122,6 @@ duanwenxue.com##.shuang11_mb
 7654.com##div[class^="sidebarimg"]
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-@@||cdn-msp*.18comic.*^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||sobot.com^
 @@||captcha.su.baidu.com^
 @@||ad.abchina.com^
@@ -20141,6 +20139,8 @@ duanwenxue.com##.shuang11_mb
 @@||manwa.me^
 @@||img.ads.tvb.com^
 @@||ad.ourgame.com^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+@@||cdn-msp*.18comic.*^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||365xuet.com/assets/web/js/main.jsr_
 hinet.net###media_ad_popup_overlay
@@ -20569,7 +20569,6 @@ ltaaa.com##.topAds2
 maiziedu.com##.msg
 iciba.com##.common-top-nav-item:not([href*=".iciba."])
 uc123.com##.m-link
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_content_[^\n]+?"category":"SPONSORED"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance';
 ||actoys.net/index.php?m=poster&
 kissvk.com###madBlockModal,.modal-backdrop
 lihkg.com#?#div[data-body-portal] > div[class^="_"] > div[class^="_"] > div[class^="_"] > div[class]:has(> div[class^="_"] ins.adsbygoogle)
@@ -21756,6 +21755,7 @@ pchome.net###rightbar
 itdog.cn##.div-tg
 m.baidu.com##.news_ad
 waerfa.com##section > div.article-gg
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_content_[^\n]+?"category":"SPONSORED"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance'
 jingyan.baidu.com##.asp-self-rander > .asp-wrap
 kaoyan.com##.floatQrcode
 zhidao.baidu.com##a[class="cur"][href^="/mobile/board?"] > img
@@ -22097,7 +22097,6 @@ huaban.com#@#img[width="240"][height="400"]
 ||520click.com/ad.$domain=~video.520cc.cc
 juqingba.cn##.jqright1
 ||baimakanshu.com/assets/public/
-kinopoisk.ru#$#hide-if-contains-visible-text /./ 'div[id][class]>div[id][class]' div ^^sh^^ * ^^sh^^ div[data-test]
 smallseotools.com#$#hide-if-matches-xpath './/div[@class]/parent::span[contains(@id,"__stt") and contains(@class,"d-block")]'
 m.chinaso.com##.wrap-layout > .wrap-toolbar
 ||asacdn.com/prod/redirect.html
@@ -22688,6 +22687,7 @@ mobi*.*.top/*_$third-party
 ||acgnz.cn/static/i.js
 m.v.qq.com##.js_open_app.btn_user_hd
 letsplay.tw##.entry-content > div[style="min-width: 300px; min-height:300px;"]
+gidonline.eu,torrent-soft.net#$#abort-on-property-read atob
 y.qq.com##.btn_download
 streamlive.to###adblockplus
 webtor.io##DIV.ad
@@ -24260,6 +24260,7 @@ oschina.net##a[data-traceid="explore_right_bar_70"]
 studygolang.com###ad-right1
 kk200300.com##.xuanfu
 kpw6.com###daojs
+ghxi.com,mcdulll.com,pixnet.net##div[id*="-ad-"]
 qinbing.cn##.left-adv
 nivod9.tv,nivod8.tv,nivod7.tv##.nav-ads
 novinky.cz#$#hide-if-matches-xpath '//div[@id][contains(@style, "max-width: 100%;")]//iframe[@style]/ancestor::div[@style]'
@@ -24820,6 +24821,7 @@ icbc.com.cn###kv-admain > div[id$="_1900_380"]
 vanpeople.com##.advlr
 xw.qq.com##div[class*="elevator"]
 tool.lu##.recommend-container
+kinopoisk.ru#$#hide-if-contains-visible-text /./ 'div[id][class]>div[id][class]' 'div ^^sh^^ * ^^sh^^ div[data-test]'
 tieba.baidu.com##.post_client_down
 ||akuziti.com/tu/*.js
 newtalk.tw###_popIn_recommend
@@ -25810,7 +25812,6 @@ onebox.mydown.com##.fcAgain
 ||5068.com/websleft.js
 nownews.com###viewdeo_dable
 ||17173cdn.com/js/play/page/pThridPlayerAd.js
-||bdgest.com/js/site.js?
 mitbbs.ca,mitbbs.com##.index_add
 ||58cdn.com.cn/ds/zhuangxiu/jzad-
 so.com##.js-left-rec-busi
@@ -25821,6 +25822,7 @@ kinobox.cz,nasepenize.cz##div[class$="-rightcJ"]
 xoilaci.cc#$#abort-on-property-read adsRedirectPopups
 itdog.cn##.top_contents
 jikipedia.com##.download-link
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_c[^\n]+?"SponsoredData","ad_id"[^\n]+"cursor":"[^"]+"\}/' '{}' 'sponsored_auction_distance'
 ||acglover.*/wp-content/uploads/*-720
 lenovo.com.cn##.coffee-top
 qdmm.com,qidian.com##.qdRead_redscan
@@ -26106,6 +26108,7 @@ youku.com###download_btn
 nexusmods.com##div[style="float: left; width: 728px; height: 90px; background: #313131;"]
 ||51pantu.com/pic/1598717206949.gif
 niutuku.com###downAD1
+goosedaily.com##.lightboxbnr
 mp3-gratis.it#$#abort-current-inline-script Math zfgloaded
 sdo.com##.mod-public-ads
 zhujiceping.com##.fcode > center > table
@@ -27007,7 +27010,6 @@ ixigua.com##.J_ad
 poczta.o2.pl#$#hide-if-matches-xpath './/div[@class]/iframe[@sandbox][contains(@src,"wpcdn.pl/tag/poczta.o2.pl/")]/ancestor::div[string-length(@class) >30]'
 tianyancha.com###banner_web
 weibo.com##div[feedtype="ad"]
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"brs_content_label":[^,]+,"(?:category|feed_story_category|story_cat)":"SPONSORED"[^\n]+"cursor":"[^}]+\}/' '{}' 'sponsored_auction_distance';
 muzijie.com##div[style="height: 280px;"]
 kankan.com###modal-adv
 |http://*/js/ad.$domain=~coolpc.com.tw|~sac.net.cn
@@ -28947,7 +28949,6 @@ outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 ||aaknmt.icu^
 ||aol32.cn^
 ||adlaunch.qtfm.cn^
-||bddwm.com^
 ||21.cizhibaogao.org^
 ||aacoffee.cn^
 ||alimama.alicdn.com^
@@ -29603,6 +29604,7 @@ outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 ||a.tainengchong.com^
 ||8861202.com^
 ||76e.org^
+||6820tp1.com^
 ||21qma3vs.com^
 ||87uq.com^
 ||a.armystar.com^
@@ -29611,7 +29613,6 @@ outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 ||afs.googlesyndication.com^
 ||adbot.tw^
 ||1.zou114.com^
-||bdfjw.cn^
 ||adskeeper.co.uk^
 ||aobuygo.com^
 ||baijs02.shop^
@@ -29651,7 +29652,6 @@ outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 ||0k7wod.cn^
 ||32ycta.xyz^
 ||ajghca.xyz^
-||bdgg.qjy168.com^
 ||1.yac8.net^
 ||0322cfmtl.cc^
 ||adjb.5nd.com^
@@ -29794,7 +29794,6 @@ outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 ||ads.sohu.com^
 ||2023sb.net^
 ||aoyou5.top^
-||bdhcpll.cn^
 ||1.11467.com^
 ||api.tw06.xlmc.sec.miui.com^
 ||2pogg4c.cn^
@@ -29951,7 +29950,6 @@ outlook.live.com._6tqjFb_HmyQup_NPe6dhC
 ||ad.szhsx.net^
 ||5ggj5cp.com^
 ||4oz4n.icu^
-||bdfg9a.icu^
 ||1kfnsra.com^
 ||a1.lshou.com^
 ||1106yh.com^
@@ -30094,6 +30092,7 @@ ubmcmm.baidustatic.com
 ||155zn.com^
 ||ads.exoclick.com^
 ||1200555.com^
+||abcqq36q.vip^
 ||acscdn.com^
 ||bdasd.chdbook.cn^
 ||abtt.pufenchuanmu.com^
@@ -30133,6 +30132,7 @@ ubmcmm.baidustatic.com
 ||atlggfy.cn^
 ||bbphonix.xyz^
 ||0tq6ub.cn^
+||55726zubo56686.com^
 ||a.llysc.cn^
 ||aiiaqw.xyz^
 ||analytics-union.sandai.net^
@@ -30977,7 +30977,6 @@ ubmcmm.baidustatic.com
 ||js.tlt.cn/js/
 ||rfidworld.com.cn/js/RFID.js
 ||delicatecascade.com^$third-party
-||slimyseashore.com^$third-party
 ||cdn.shorte.st/link-converter.min.js$script,third-party
 ||eastday.com/static/js/kancookie.js
 ||ebioweb.com/jslibrary/js
@@ -31280,7 +31279,6 @@ ubmcmm.baidustatic.com
 ||kugoucdn.com^*?_t=$xmlhttprequest
 ||raintwig.com^$third-party
 ||ftchinese.com/m/marketing/
-||slit.cn/slimages/
 ||csdnimg.cn/public/common/indexSuperise/1.1.1/indexSuperise.js
 ||mobatory.com^$domain=rapid8.com
 ||chinaacc.com/upload/*_mjy_
@@ -31645,6 +31643,7 @@ ubmcmm.baidustatic.com
 ||cbu01.alicdn.com/img/ibank/2020/714/563/22725365417_967741881.jpg
 ||dfcfw.com/project/gubawap/ad/
 ||mvcat.com/sitefiles/services/cms/adv/
+||bdgest.com/js/site.js?
 ||cctvpic.com/photoAlbum/templet/common/*/game_
 ||crayoncompetition.com^$third-party
 ||distributiontomatoes.com^$third-party
@@ -32389,7 +32388,6 @@ ubmcmm.baidustatic.com
 ||cultofmac.com/wp-content/plugins/com2014-ads/static/js/frontend-functionality.js$script
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||gd.ct10000.com/js/ecssstat.js
-||sloppycalculator.com^$third-party
 ||decisivebase.com^$third-party
 ||gywb.cn/gggl/
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
@@ -32423,7 +32421,6 @@ ubmcmm.baidustatic.com
 ||it610.com/views/front/js/special/
 ||qq.com/PL_adT.htm
 ||jingyanlib.com/home/data/getAdOnlineList?
-||slinksuggestion.com^$third-party
 ||inoreader.com/adv/$domain=inoreader.com
 ||ruten.com.tw/search/imp_ad_
 ||jxnews.com.cn/assets/js/dspshow.js
@@ -33560,7 +33557,6 @@ ubmcmm.baidustatic.com
 ||ghjie.com/JS/youcegg.js
 ||biqiuge8.cc/js/d
 ||pricklypies.com^$third-party
-||slipperysack.com^$third-party
 ||biqiuge8.cc/js/p
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=now.com,important
 ||sinaimg.cn/finance/*/sideQR
@@ -33638,7 +33634,6 @@ ubmcmm.baidustatic.com
 ||caikuu.com/ckimages/*_zg
 ||sina.com.cn/other/src/app/FinanceAppPics.js
 ||eagereden.com^$third-party
-||sloppyearthquake.com^$third-party
 ||chinatimes.com/Scripts/bennerad.
 ||rhythmmoney.com^$third-party
 ||sicksmash.com^$third-party
@@ -33800,7 +33795,6 @@ ubmcmm.baidustatic.com
 ||hotjar.com^$third-party
 ||itc.cn/?prod=rtb&
 ||niubixxx.com/seo/
-||slimyscarf.com^$third-party
 ||enread.com/img/185-50.gif
 ||jd.com/bottom/cps
 ||debonairtree.com^$third-party
@@ -34802,40 +34796,11 @@ ubmcmm.baidustatic.com
 ||ruthlessrobin.com^$third-party
 ||fm086.com/Plugins/search
 ||ruddywash.com^$third-party
-||slopesoap.com^$third-party
 ||killcovid2021.com/*.mp4
 ||bp.blogspot.com^$domain=avmimi.com
 ||lelekan.com/sp/fmt.js
 ||compiledoctor.com^$third-party
 ||markedcrayon.com^$third-party
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||dm*.ppzuowen.com^
-||sax*.sina.
-||js.*2023*.live^
-||impservice*.youdao.com^
-||d*.ruiwen.com^
-||fanpingbi*.gaokao.com^
-||dn*.ixinwei.com^
-||bdlm*.hc360.com^
-||sd.yhzzzs*.com^
-||iwanshang*.asia^
-||bjkedv*.xyz^
-||d*.xinshipu.com^
-||fpb*.51edu.com^
-||p26.gejulm*.com^
-||ja*.gamersky.com^
-||gtlpa*.com^
-||dm*.yxlady.com^
-||same*.stockstar.com^
-||gcw*.2liang.cn^
-||impservice*.yodao.com^
-||js.*2023*.xyz^
-||fpb1.chinacar.
-||opnked*.xyz^
-||js*.abolezi.com^
-||sam*.baby-kingdom.com^
-||qpb*.sohu.com^
-||ky891.oss-*.aliyuncs.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||kszvmqo.cn^
 ||lvphbj.xyz^
@@ -34950,6 +34915,7 @@ ubmcmm.baidustatic.com
 ||buzien.top^
 ||fjtroip.cn^
 ||golilog.com^
+||bddwm.com^
 ||iyes.youku.com^
 ||btwwzqdx.xyz^
 ||drmcmm.baidu.com^
@@ -35006,6 +34972,7 @@ ubmcmm.baidustatic.com
 ||lovespenhas.com^
 ||n3567.com^
 ||gzsscr.cn^
+||kgubus.xyz^
 ||bvsfv6.com^
 ||qhvws.com^
 ||etkht.cn^
@@ -35405,6 +35372,7 @@ ubmcmm.baidustatic.com
 ||n0644.com^
 ||joannarace.com^
 ||poqwnllkm.com^
+||iewruto.top^
 ||sbdebcz.cn^
 ||dsdklnks.com^
 ||qpesok.xyz^
@@ -35681,6 +35649,7 @@ ubmcmm.baidustatic.com
 ||jgntjtyf.icu^
 ||sdjbvjsbvjz.com^
 ||cdn.9823df.com^
+||sauyv.top^
 ||dadbj.cn^
 ||hnfnjn.xyz^
 ||exemptambientcream.com^
@@ -35761,6 +35730,7 @@ ubmcmm.baidustatic.com
 ||mkbbjtfp.xyz^
 ||rmws8.com^
 ||fjbglfrv.com^
+||rkwxfi.xyz^
 ||lzvjtxe.xyz^
 ||n0633.com^
 ||bzvhgbr.xyz^
@@ -35776,7 +35746,6 @@ ubmcmm.baidustatic.com
 ||puqer.cn^
 ||cvnxetmq.xyz^
 ||razrzh.xyz^
-||slkdnlkfnskl.com^
 ||idd1.com^
 ||kyxw9itv.club^
 ||dfxvkgz.xyz^
@@ -35868,6 +35837,7 @@ ubmcmm.baidustatic.com
 ||hfwld.cn^
 ||h5.dzgsdswh5.xyz^
 ||log.vdisk.cn^
+||myabcd.cc^
 ||nlvgxr.xyz^
 ||d8962a.xyz^
 ||kxcp365.com^
@@ -37097,7 +37067,6 @@ ubmcmm.baidustatic.com
 ||cc.xiaodapei.com^
 ||gmx19.top^
 ||jianxinshanghai.com^
-||slkkbnsgn.com^
 ||hitchun.com^
 ||cpro.baidustatic.com^
 ||ilph0.icu^
@@ -37107,6 +37076,7 @@ ubmcmm.baidustatic.com
 ||dexuanyu.top^
 ||fmjjvb.xyz^
 ||mbiypew.cn^
+||bdhcpll.cn^
 ||cijianggun.com^
 ||nbgsintl.com^
 ||forrzp.xyz^
@@ -38523,6 +38493,7 @@ ubmcmm.baidustatic.com
 ||hkbumv.icu^
 ||qutyan8848.com^
 ||logs.amap.com^
+||pwfqjp.xyz^
 ||jfsdiwmnbsk009.top^
 ||bdx.playnext.cn^
 ||nijnqwem.xyz^
@@ -38558,7 +38529,6 @@ ubmcmm.baidustatic.com
 ||fodrxl.xyz^
 ||histats.com^
 ||iosppk.com^
-||slsuggestion.live^
 ||iecmca.xyz^
 ||cgqwgv.icu^
 ||phpad.cqnews.net^
@@ -38955,7 +38925,6 @@ ubmcmm.baidustatic.com
 ||dcxdtp.com^
 ||qnalzly.top^
 ||skfj5d.com^
-||slkdfg.com^
 ||n0566.com^
 ||llaxl.com^
 ||ovykq.online^
@@ -38966,6 +38935,7 @@ ubmcmm.baidustatic.com
 ||hcqumrjbx.xyz^
 ||crhabkd.cn^
 ||cqcrci.xyz^
+||imgoss820.top^
 ||luofk.xyz^
 ||m1.81312.com^
 ||shzzzz.dftoutiao.com^
@@ -39505,7 +39475,6 @@ ubmcmm.baidustatic.com
 ||kbexos.xyz^
 ||dms.vancss.com^
 ||bis8j.com^
-||slonlyuse.shop^
 ||lrtlisl.top^
 ||ehk.trenhdg.com^
 ||oojjsa.com^
@@ -39596,6 +39565,7 @@ ubmcmm.baidustatic.com
 ||dyhnbgtsl.xyz^
 ||ipryes.top^
 ||mvpqrydt.xyz^
+||bdfjw.cn^
 ||d.ab126.com^
 ||hgfutf.xyz^
 ||lfhnzbj.xyz^
@@ -39630,6 +39600,7 @@ ubmcmm.baidustatic.com
 ||nieae.xyz^
 ||pr-bh.ybp.yahoo.com^
 ||pdngnx.xyz^
+||bdgg.qjy168.com^
 ||du1.bbdj.com^
 ||chuzushijian.cn^
 ||oryhic.xyz^
@@ -39900,6 +39871,7 @@ ubmcmm.baidustatic.com
 ||br.bendan.shop^
 ||huiyueting.com^
 ||ityusio.top^
+||bdfg9a.icu^
 ||ent1.12584.cn^
 ||cdn.jquery-cdn.cc^
 ||fredum.cn^
@@ -40149,6 +40121,34 @@ ubmcmm.baidustatic.com
 ||ccav.website^
 ||cdrhjt.com^
 ||huiyunbei.com^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||dm*.ppzuowen.com^
+||sax*.sina.
+||js.*2023*.live^
+||impservice*.youdao.com^
+||d*.ruiwen.com^
+||fanpingbi*.gaokao.com^
+||dn*.ixinwei.com^
+||bdlm*.hc360.com^
+||sd.yhzzzs*.com^
+||iwanshang*.asia^
+||bjkedv*.xyz^
+||d*.xinshipu.com^
+||fpb*.51edu.com^
+||p26.gejulm*.com^
+||ja*.gamersky.com^
+||gtlpa*.com^
+||dm*.yxlady.com^
+||same*.stockstar.com^
+||gcw*.2liang.cn^
+||impservice*.yodao.com^
+||js.*2023*.xyz^
+||fpb1.chinacar.
+||opnked*.xyz^
+||js*.abolezi.com^
+||sam*.baby-kingdom.com^
+||qpb*.sohu.com^
+||ky891.oss-*.aliyuncs.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||xywy.com/zhixing/
 ||totheglory.im/pic/ttg-
@@ -40735,6 +40735,7 @@ ubmcmm.baidustatic.com
 ||tiresomethunder.com^$third-party
 ||topmba.mobi/ad/
 ||sowlettuce.com^$third-party
+||slimyseashore.com^$third-party
 ||woozooo.com/img/*.js
 ||soso.com/wenwen/i/ad/
 ||tinypic.com^$domain=fdzone.org|jandown.com|mimima.com
@@ -40919,6 +40920,7 @@ ubmcmm.baidustatic.com
 ||wtaccesscontrol.com^$third-party
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 ||tanseb.com/vads/
+||slipperysack.com^$third-party
 ||tvfree2.me/pub/
 ||unusedquestion.com^$third-party
 ||youngmarble.com^$third-party
@@ -40953,6 +40955,7 @@ ubmcmm.baidustatic.com
 ||tingchina.com/images/aibaoliang.gif
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
 ||staramuse.com/bmip/showg
+||slit.cn/slimages/
 ||zdcj.net^*/ad
 ||wnacg.*/58s/
 ||wuhaolin.cn/c/ls
@@ -40979,6 +40982,7 @@ ubmcmm.baidustatic.com
 ||snzfj.net^$third-party
 ||tptoon.com/skin/js/tjtjkk.
 ||zol.com.cn/index.php?c=Api_JumpApi&
+||sloppyearthquake.com^$third-party
 ||szfcol.com/js/siteAd.js
 ||ssh.*.com^*!$script,third-party
 ||sootheside.com^$third-party
@@ -41068,6 +41072,7 @@ ubmcmm.baidustatic.com
 ||xs8.cn/qreport?
 ||yunzuowen.com^$third-party
 ||wnacg.*/1605524662751.gif
+||slimyscarf.com^$third-party
 ||standingnest.com^$third-party
 ||tremendousplastic.com^$third-party
 ||spurioussteam.com^$third-party
@@ -41666,6 +41671,7 @@ ubmcmm.baidustatic.com
 ||zzad.com^$third-party
 ||sooopu.com/js/contentad330.js
 ~taobao.com,~tmall.com##A[href="https://s.click.taobao.com/cTAwFvu"]
+||sloppycalculator.com^$third-party
 ||zhihu.com/api/v4/brand/question/*/card
 ||tianshui.com.cn/newbg
 ||zzc.cn/b1/live_b_
@@ -41675,6 +41681,7 @@ ubmcmm.baidustatic.com
 ||upload.cc/i1/2020/07/13/8BGJiL.gif
 ||thunderingtendency.com^$third-party
 ||yezi.cn/_ad/
+||slinksuggestion.com^$third-party
 ||xaogi.com^$domain=pronpic.org
 ||smoggysnakes.com^$third-party
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy?
@@ -41710,32 +41717,10 @@ ubmcmm.baidustatic.com
 ||webkaka.com/ad/
 ||thingsafterthought.com^$third-party
 ||whirlwealth.com^$third-party
+||slopesoap.com^$third-party
 ||tuwan.com/events/courseiframe?
 ||super.cz/*&*=$subdocument,domain=super.cz
 ||xuehi.cn/reward/reward
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||zazgiyoh*.world^
-||zcchyr*.xyz^
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||tupian888.*.bcebos.com^
-||uc*.atobo.com^
-||zabdybod*.club^
-||yhsfsdv*.com^
-||thezbpe5*.xyz^
-||zaqlovh*.xyz^
-||zazgiyoh*.xyz^
-||zcchyw*.xyz^
-||zazgbqg*.xyz^
-||txhfgwgkwt*.asia^
-||zbc6hye*.xyz^
-||www.xxmh*.com^
-||ya*.dwstatic.com^
-||zahrvfbd*.xyz^
-||zbc6hy*.live^
-||static*.365inews.com^
-||union*.365inews.com^
-||vns86.oss-*.aliyuncs.com^
-||ysdm*.ys137.com.cn^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||yuanpinghengkangfuyouxiangongsi.top^
 ||tencent.xn--io0a7i^
@@ -42587,6 +42572,7 @@ ubmcmm.baidustatic.com
 ||zmhqhuq.cn^
 ||vueegqt.xyz^
 ||xn--2qu92fhtxsxexqab.xn--fiqs8s^
+||slkdnlkfnskl.com^
 ||xlhdicw.top^
 ||xiaoqurong.com^
 ||www5.oss-cn-hangzhou.aliyuncs.com^
@@ -42704,6 +42690,7 @@ ubmcmm.baidustatic.com
 ||wsoqwm.xyz^
 ||twlcyc.cn^
 ||zhuozhongfangshui.cn^
+||slsuggestion.live^
 ||u0065.com^
 ||zzlong14.cn^
 ||yje912.cn^
@@ -42712,6 +42699,7 @@ ubmcmm.baidustatic.com
 ||ycgkol.icu^
 ||xingyou25.xyz^
 ||stnew.xyz^
+||tp1902abd.com^
 ||xwqtatnw.icu^
 ||snifdlab.top^
 ||starttui.xyz^
@@ -42764,6 +42752,7 @@ ubmcmm.baidustatic.com
 ||wyisloe.top^
 ||voxirf.xyz^
 ||xls.go.sohu.com^
+||tufzdj.xyz^
 ||vppzjv.xyz^
 ||utkauo.xyz^
 ||szpnp.cn^
@@ -43032,6 +43021,7 @@ ubmcmm.baidustatic.com
 ||www.smtlm.cc^
 ||trc.taboola.com^
 ||spsfupq.cn^
+||slkdfg.com^
 ||uutytp.com^
 ||zeatse.buzz^
 ||szptp.cn^
@@ -43507,6 +43497,7 @@ ubmcmm.baidustatic.com
 ||wazveqv.xyz^
 ||takjttz.cn^
 ||uusjaq.top^
+||slonlyuse.shop^
 ||www.jianpian.vip^
 ||zxpvalr.xyz^
 ||vabzndw.cn^
@@ -43623,6 +43614,7 @@ ubmcmm.baidustatic.com
 ||uflybplr.xyz^
 ||static.rongkao.com^
 ||vpsgu.cn^
+||weacdf211.cn^
 ||srbzw.cn^
 ||sqgnqc.xyz^
 ||yddrqwq.xyz^
@@ -43725,6 +43717,7 @@ ubmcmm.baidustatic.com
 ||ztshg.cn^
 ||szmnd.cn^
 ||xueaaaw.cn^
+||slkkbnsgn.com^
 ||snalzlb.top^
 ||wj.jiancai365.cn^
 ||vijnhyru.xyz^
@@ -44063,6 +44056,7 @@ ubmcmm.baidustatic.com
 ||tuplzt.xyz^
 ||tuvixr.xyz^
 ||webview.unityads.unity3d.com^
+||ytghtq.xyz^
 ||vdoqomz.icu^
 ||xuxwvh.xyz^
 ||xphcrjth.xyz^
@@ -44103,3 +44097,26 @@ ubmcmm.baidustatic.com
 ||tnc3-aliec2.zijieapi^
 ||ylypzbzs.xyz^
 ||whwxxny.com^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||zazgiyoh*.world^
+||zcchyr*.xyz^
+||zhizhizhizhi.oss-*.aliyuncs.com^
+||tupian888.*.bcebos.com^
+||uc*.atobo.com^
+||zabdybod*.club^
+||yhsfsdv*.com^
+||thezbpe5*.xyz^
+||zaqlovh*.xyz^
+||zazgiyoh*.xyz^
+||zcchyw*.xyz^
+||zazgbqg*.xyz^
+||txhfgwgkwt*.asia^
+||zbc6hye*.xyz^
+||www.xxmh*.com^
+||ya*.dwstatic.com^
+||zahrvfbd*.xyz^
+||zbc6hy*.live^
+||static*.365inews.com^
+||union*.365inews.com^
+||vns86.oss-*.aliyuncs.com^
+||ysdm*.ys137.com.cn^
