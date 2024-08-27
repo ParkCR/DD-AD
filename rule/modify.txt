@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-08-27 00:20:54
+! Last Modified: 2024-08-27 09:12:55
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,7 +17,7 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
@@ -13164,6 +13164,7 @@ vidmoly.to###adsblock
 mobile01.com###ad-control
 ||alicdn.com/img/ibank/*_256401016.
 m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
+skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::div[@aria-label]/parent::div[1]'
 ||52che.com/NewLocal/TemplateHtml/headflash1_
 kuai8.com###left_Ad
 m.v.qq.com##.mod_more
@@ -17435,7 +17436,6 @@ ithome.com###hd_float1
 m.nivod2.com,m.nivod2.tv,m.nivod4.com,m.nivod4.tv,m.nivod5.com,m.nivod5.tv,m.nivod7.com,m.nivod7.tv,m.nivod8.com,m.nivod8.tv,m.nivod9.com,m.nivod9.tv#%#//scriptlet('evaldata-prune', 'entity.commercial')
 rou.video##.grid > div[class^="col-span"]:has(> div[class] > div[id^="ts_ad_native"])
 hanyu.baidu.com###J_Suspens
-instacart.ca,instacart.com#$#hide-if-matches-xpath './/*[@class]/span[contains(@style,"display:")][2]/ancestor::div[@id="Featured Items"]'
 videowood.tv#@#.textAd
 gz.bendibao.com##.content_r_ad300
 wap.gamersky.com##.ymw-footer
@@ -18671,6 +18671,7 @@ mail.pchome.com.tw##.sceng
 soshu888.net##[style$='width: 100vw; position: relative;']
 zhcw.com##.hzg60
 read.qidian.com##.operation-wrap
+skyscanner.*#$#hide-if-matches-xpath './/button[contains(@class,"SponsoredInfoButton_adInfoBtn")]/ancestor-or-self::a[contains(@href,"sponsored")][@data-testid]/parent::div[1]'
 sysin.org##img[src^="/img/promotion"]
 ||ak530.com/js/*.js
 ifeng.com###sideBar[class^="box_"]
