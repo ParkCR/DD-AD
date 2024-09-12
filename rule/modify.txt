@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-09-12 00:20:42
+! Last Modified: 2024-09-12 09:14:58
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,7 +17,7 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 ::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
@@ -11544,6 +11544,7 @@ walla.co.il,sheee.co.il##[data-google-av-flags]
 tut.by#@#.text-ads
 lzacg.one##.sidebar .zib-widget > .textwidget > a[target="blank"]
 urlchecker.org###adchecker
+huya.com#%#//scriptlet('remove-attr', 'style', '#banner[style*="background-image:url"]')
 kuakao.com##.addTQBar
 soonnight.com##.display_natural
 win007.com##td[height="18"][bgcolor="#FFFFE8"]
@@ -16148,6 +16149,7 @@ pp.ua###id_ad_image
 romzhijia.net##.ggposition
 shanson320.ru#$#abort-current-inline-script document.createElement atob
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
+huya.com#$##banner > a ~ .banner-close { display: none !important; }
 ||api.wudizuqiu.com/bocai.js
 myqqjd.com##.adsbygoogl
 jianshu.com##.top
@@ -16742,6 +16744,7 @@ omnitalk.com##td[bgcolor="#ffffc8"]
 w3cschool.cn##.widget-main
 www.toptruyenqq.pro#$#abort-current-inline-script setTimeout open
 midroll$xmlhttprequest,domain=iprima.cz
+huya.com#@##banner
 ||7mmtv.tv/u_banner/
 liepin.com##DIV[id^="nodetpl_g_"]
 quora.com##span[data-nosnippet="true"] .q-box.qu-pb--tiny.qu-pt--medium
@@ -19126,7 +19129,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||overconfidentfood.com^$third-party
 ||c4d.cn/template/iscwo_zcool/iscwo/ad/
 ||chinaz.com/c0g/
-||slimopinion.com^$third-party
 ||floweryfact.com^$third-party
 ||bdstatic.com/tb/cms/activity_head/file_
 ||eol.cn/images/*1000-
@@ -19529,7 +19531,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||js.tlt.cn/js/
 ||rfidworld.com.cn/js/RFID.js
 ||delicatecascade.com^$third-party
-||slimyseashore.com^$third-party
 ||cdn.shorte.st/link-converter.min.js$script,third-party
 ||eastday.com/static/js/kancookie.js
 ||ebioweb.com/jslibrary/js
@@ -19832,7 +19833,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kugoucdn.com^*?_t=$xmlhttprequest
 ||raintwig.com^$third-party
 ||ftchinese.com/m/marketing/
-||slit.cn/slimages/
 ||csdnimg.cn/public/common/indexSuperise/1.1.1/indexSuperise.js
 ||mobatory.com^$domain=rapid8.com
 ||chinaacc.com/upload/*_mjy_
@@ -20975,7 +20975,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||it610.com/views/front/js/special/
 ||qq.com/PL_adT.htm
 ||jingyanlib.com/home/data/getAdOnlineList?
-||slinksuggestion.com^$third-party
 ||inoreader.com/adv/$domain=inoreader.com
 ||ruten.com.tw/search/imp_ad_
 ||jxnews.com.cn/assets/js/dspshow.js
@@ -21960,6 +21959,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dianping.com/wedding/pro/jsonppage
 ||bio-equip.com/dimgs/
 ||exhibitsneeze.com^$third-party
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=news.now.com,important
 ||dailydivision.com^$third-party
 ||cavecurtain.com^$third-party
 ||enchantedtop.com^$third-party
@@ -22111,9 +22111,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ghjie.com/JS/youcegg.js
 ||biqiuge8.cc/js/d
 ||pricklypies.com^$third-party
-||slipperysack.com^$third-party
 ||biqiuge8.cc/js/p
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=now.com,important
 ||sinaimg.cn/finance/*/sideQR
 ||bitcoin25.com/libs/check.js$script
 ||n5m5.com/static/js/playcon.js
@@ -22350,7 +22348,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hotjar.com^$third-party
 ||itc.cn/?prod=rtb&
 ||niubixxx.com/seo/
-||slimyscarf.com^$third-party
 ||enread.com/img/185-50.gif
 ||jd.com/bottom/cps
 ||debonairtree.com^$third-party
@@ -23691,6 +23688,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zoosnet.net^$third-party
 ||ytconv.net/site/adblock_detect
 ||y.gtimg.cn/music/common//upload/kg_ad^
+||slimopinion.com^$third-party
 ||snakesstone.com^$third-party
 ||teenytinyshirt.com^$third-party
 ||vk920.com/img1/
@@ -23946,6 +23944,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tiresomethunder.com^$third-party
 ||topmba.mobi/ad/
 ||sowlettuce.com^$third-party
+||slimyseashore.com^$third-party
 ||woozooo.com/img/*.js
 ||soso.com/wenwen/i/ad/
 ||tinypic.com^$domain=fdzone.org|jandown.com|mimima.com
@@ -24129,6 +24128,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||wtaccesscontrol.com^$third-party
 ||t*.baidu.com/it/u=*,*&fm=76$third-party
 ||tanseb.com/vads/
+||slipperysack.com^$third-party
 ||tvfree2.me/pub/
 ||unusedquestion.com^$third-party
 ||youngmarble.com^$third-party
@@ -24163,6 +24163,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tingchina.com/images/aibaoliang.gif
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
 ||staramuse.com/bmip/showg
+||slit.cn/slimages/
 ||zdcj.net^*/ad
 ||wnacg.*/58s/
 ||wuhaolin.cn/c/ls
@@ -24280,6 +24281,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||xs8.cn/qreport?
 ||yunzuowen.com^$third-party
 ||wnacg.*/1605524662751.gif
+||slimyscarf.com^$third-party
 ||standingnest.com^$third-party
 ||tremendousplastic.com^$third-party
 ||spurioussteam.com^$third-party
@@ -24889,6 +24891,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||upload.cc/i1/2020/07/13/8BGJiL.gif
 ||thunderingtendency.com^$third-party
 ||yezi.cn/_ad/
+||slinksuggestion.com^$third-party
 ||xaogi.com^$domain=pronpic.org
 ||smoggysnakes.com^$third-party
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy?
