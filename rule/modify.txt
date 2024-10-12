@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-10-12 00:20:53
+! Last Modified: 2024-10-12 09:16:41
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -2083,6 +2083,7 @@ baidu.com##.top-ad-cont
 @@||shopeemobile.com/shopee/*/modules/ads/
 ##.chat-top-ad
 dytt5.net##.detail-body > .fly-panel
+e.mail.ru#$#override-property-read Object.prototype.createSlotBlockItem null; override-property-read Object.prototype.listTypes null
 aura.cn##.left-zc
 /html/709/*.js
 .com/c.php?s=*=*=$third-party
@@ -3238,7 +3239,6 @@ baidu.com##.corneradv
 @@||forums.macg.co/js/audentio/funbox/advertisement.js
 /js/ads/hf*.js
 @@||static.adf.ly/static/image/ad*.png$image,third-party
-e.mail.ru#$#override-property-read Object.prototype._batch undefined
 @@||chinamobile.com^*/ad$~third-party
 2345.com##.acts11-sidefixed
 .com/vh5/$script,third-party
@@ -11248,6 +11248,7 @@ seznamzpravy.cz#$#prevent-listener message window.top
 ||58cdn.com.cn/*.gif$domain=mmff30.com
 gugeys.cc##.am-g
 ||83133.com/api/
+www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@role="complementary"]//div[not(@class) and not(@id)]/span[not(@class) and not(@id) and not(@aria-labelledby)]'; hide-if-matches-xpath './/div[@role="complementary"]//span/following::div[@aria-labelledby][@role][@tabindex]/ancestor-or-self::span'; race stop;
 zww.me##.sad
 ||ak0gsh40.com^$third-party
 ifeng.com##div[class^="ad_"]
@@ -16317,7 +16318,6 @@ house365.com##.left_fudong_ad
 ltn.com.tw##[data-desc="內廣"]
 qianzhan.com##.qqonline
 redocn.com##.big_vip_gg
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="complementary"]//div[not(@class) and not(@id)]/span[not(@class) and not(@id) and not(@aria-labelledby)]'
 koolhydraatarmerecepten.info##body > [style^="z-index: 1000000; "]
 ||ainunu.*/vad.js
 ||abcache.com/xc/image/
