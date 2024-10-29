@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-10-29 16:22:44
+! Last Modified: 2024-10-30 00:22:25
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -950,7 +950,6 @@ cztv.com##.ad_003
 @@||ad.sevenads.net/banner.php?$script,domain=uploaded-premium.ru
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.top-sec + .middle-sec
 anisubsia.com###de13
-/^(?!.*(intensedebate.com|vixcloud.co|cdn.plyr.io|authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru|cloudflare.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=manshuxs.com|yemancomic.com|qimiaoxiaoshuo.com|gaofuwu.org|nxpaaq.com|dengbi2.com|92hm.top|634.tv|myhaitang.cc|ckplayer.vip
 /img/skin/tao$domain=firefox.com.cn|firefoxchina.cn
 cls.cn#@#.share-body
 baidu.com##.rightAd-skin
@@ -7007,6 +7006,7 @@ ahhhhfs.com###ri_home_slider_widget-2
 ##a[href^="/hy-"][ontouchstart]
 /to8to_pc/chunks/slide_and_popup_
 @@||ntust.edu.tw/bin/showads.
+damon624.pixnet.net##.article-content-inner > p:has(> span > a[href] > ins.adsbygoogle)
 @@||pubads.g.doubleclick.net/gampad/ads?$object-subrequest,domain=viki.mx|viki.com
 @@||hoy.tv/wp-content/themes/vodi-child/videojs-event-tracking.js
 ##body > DIV[style*='height: 33px'][style*='132px !important;']
@@ -11667,6 +11667,7 @@ jb51.net,makaidong.com###txtlink
 goodcome.com.tw###fulljad
 hamivideo.hinet.net#%#//scriptlet("set-constant", "myPlayer.adDisplay", "undefined")
 moe.best###rcm_sidebar
+www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@aria-describedby][@aria-labelledby]//span[@data-ad-rendering-role="sponsored_label"]/a[@attributionsrc][contains(@href,"?__cft__")]/span/span[@aria-labelledby]/ancestor-or-self::div[@aria-describedby][@aria-labelledby]'; hide-if-contains /./ 'div[aria-describedby][aria-labelledby]' 'div[id]>span>a[attributionsrc][href*="?__cft__"][target="_blank"] span[style]>span[aria-labelledby] svg[style] * ^^svg^^'; race stop;
 poczta.o2.pl#$#hide-if-matches-xpath './/a[@class][contains(@href,"wp.pl/")]/parent::div[@style]/ancestor-or-self::div[@class][@slot="NATIVE_FEED"]/parent::div[1]'
 hentai-flix.net###wppa-overlay-bg
 tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
@@ -11750,7 +11751,6 @@ gucheng.com##.gcw_r_ad_pc2
 hlgnet.com,sina.com##.tad
 m.sohu.com##.fr
 ||1010pic.com/scripts/hd/yueyue
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@aria-describedby][@aria-labelledby]//span[@data-ad-rendering-role="sponsored_label"]/a[@attributionsrc][contains(@href,"?__cft__")]/span/span[@aria-labelledby]/ancestor-or-self::div[@aria-describedby][@aria-labelledby]'
 tsubasa.im#%#//scriptlet('prevent-setInterval', '/home/?adblock=')
 ||2529.com^$third-party
 v2rayssr.com#?#.sidebar-innter > .widget:has(.adsbygoogle)
@@ -11926,7 +11926,6 @@ pxstream.tv###mg_dindin
 hackhw.com##.widget_content_b
 hongrentao.cc,houhuayuan.pink,mrmad.com.tw,myself-bbs.com,paltv.top,pbhz.com,sportsyeah.hk,zhaoze.party#@##adsense
 naekranie.pl###niceMessage
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt)[^\n]+?("sponsored_data"|"lbl_sp_data")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons)/'
 jianshu.com##.call-app-Ad-bottom
 r3sub.com##div[class] > a[href^="show.php?id="]
 ||962.net/show/cms_$script
@@ -18499,6 +18498,7 @@ pixabay.com##.carbon-ad
 league-funny.com##div[class^="dan_pmp"]
 ||api.wudizuqiu.com/72nba
 ||autoimg.cn/club/v1Content/images/heycar1111.jpg
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label)[^\n]+?"sponsored_data"[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons)/'
 newtalk.tw##.dable_response
 ||520cc.tw/AD/
 hkcards.com#@##ad-slot
