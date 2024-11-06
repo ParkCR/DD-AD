@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-11-06 00:22:02
+! Last Modified: 2024-11-06 09:17:26
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -2448,6 +2448,7 @@ bitauto.com##div > ins[data-type="ad_play"]
 52fx.cn##.nex_index_top_ads
 @@||nadajemy.pl/*/adsense/ad/banner/adv.js$script
 c4dsky.com##a[href*="ibaotu.com"]
+e.mail.ru#$#array-override push rb-mimic
 codeplayer.vip,cupfox.app##.banner-box
 ###sitefocus.focus
 ahaonline.czinfo.cz,onetv.cz##a[href*="Banner"]
@@ -5253,7 +5254,6 @@ cibaipuki.com##SECTION[id^='download_']
 feng.com##.ad-aside
 .com/cpv/*.ashx?$script,third-party
 .xyz/gif$third-party
-aliexpress.*#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div>div.card--out-wrapper' 'div > div > div > a[target="_blank"] + div[class]'
 ##.opt > a[target="_blank"] > img[src*=".360buyimg.com"]
 chinanewsx.com##.side-nav
 dmzj.com###khdDown
@@ -5871,7 +5871,6 @@ autohome.com.cn###ad_ic_video
 163.com##.ns_side_qrcode
 flightradar24.com##.noads
 36.cn#@#.mainAd
-e.mail.ru#$#json-prune [].response
 businessweekly.com.tw##ins[pid]
 chexun.com##.ad1100
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
@@ -6069,7 +6068,6 @@ eeyy.com##.top-bg
 afzhan.com##.topRightAdv
 baidu.com##.ec_wise_ad
 ebay.*#$#hide-if-matches-xpath '//script[contains(text(),"amclksrc")][@type="module"]/preceding::a[contains(@href,"APL_CLK")]/ancestor-or-self::div[@id="cGxhY2VtZW50MTAxMTk2"]'
-douyin.com###videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
 @@||10010.com^$generichide
 cnubis.com#@#.text-ad-links
 ##.adBlockWarning
@@ -7774,6 +7772,7 @@ bjnews.com.cn##a[href*="/ads/"]
 324324.cn###gg_728_90
 baidu.com##.player-pause-code
 bog.ac##.sidebar-url
+aliexpress.*#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div>div.card-out-wrapper' 'div > div > div > a[target="_blank"] + div[class]'
 1point3acres.com##div[style="width: 450px; min-height: 210px;"]
 973.com###a0
 .cam/ads/
@@ -8362,6 +8361,7 @@ chinaz.com##.adSpon
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
 @@||eslite.com^*/ad
 bjcxqd.com##.box-vdgd
+douyin.com#?##videoSideBar:-abp-has(div:-abp-contains(/商品|商家|退款|店铺/))
 ##.myui-extra + .noticetext
 77mh.nl###bdtopbot
 cnr.cn###gtop00
@@ -11702,7 +11702,6 @@ m.yicai.com##.m-float-appopen
 www.goha.ru,3dnews.ru,avtovzglyad.ru,baby.ru,dni.ru,kufar.by,ura.news#$#abort-on-property-read Ya
 ||114la.com/static/js/egg.js
 m.thepaper.cn##.btn_app
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label|br_sft_con_lbl|b_safety_con_lbl|brand_sf_content_lbl)[^\n]+?("sponsored_data"|"sp_data"|"data_for_spon"|"data_sponsored")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons|spon_auc_dis|dist_auction_sps|dis_auc_spons)/'
 mydrivers.com##.jdong11bg
 xinhuanet.com##.columBox.book
 sina.com.tw###cboxOverlay
@@ -12884,6 +12883,7 @@ m.zhanqi.tv##.h5-foot-area
 olehdtv.com##.container > div[class^="B1"]
 tieba.baidu.com##.client_ad_banner
 v.qq.com##.module-image[style*="width:1240px;"]
+||51miz.com/index.php?m=Ad&
 iqiyi.com##.cell-right
 smzdm.com##.side-stuff
 wk.baidu.com##.pop-manager-view-containter
@@ -14900,6 +14900,7 @@ iplaysoft.com##.crumb_ad
 ishare.ifeng.com##section[class^="allLook"]
 storm.mg,mobile01.com##div[id^="dablewidget_"]
 uotan.cn###fuck-ads
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label|br_sft_con_lbl|b_safety_con_lbl|brand_sf_content_lbl)[^\n]+?("sponsored_data"|"sp_data"|"data_for_spon"|"data_sponsored")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons|spon_auc_dis|dist_auction_sps|dis_auc_spons|auc_dist_sps)/'
 jthysh.com##.box980
 zerozero.pt###ad_block_msg
 wbiao.cn###popupImgCorner
@@ -16940,7 +16941,6 @@ zhibo8.cc##.ad_box_250
 med66.com##.banner
 ||acceptableauthority.com^$third-party
 ||abackchain.com^$third-party
-||baidu.com/cms/rc/adSideConfig.json?
 ||alicdn.com/img/ibank/*_456388.
 smzy.com###showa
 pan.baidu.com##div.content DIV.photo-banner
@@ -20302,6 +20302,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||enthusiasticdad.com^$third-party
 ||ladepeche.fr/taffrail^
 ||cngoldres.com/web/js/*_advs
+||ibaotu.com/revision/js/ad/
 ||p.wktfkj.com^$third-party
 ||fx168.com/am.js
 ||home.mi.com/cgi-op/api/v1/recommendation/banner^
@@ -21425,6 +21426,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||coatfood.com^$third-party
 ||loli.net^$domain=xinqingdou.net
+||baidu.com/cms/rc/adSideConfig.json?
 ||easou.com/online/banner/
 ||qidian.com/Images/990x40_
 ||cndns.com/incs/js/website_mobile.js
