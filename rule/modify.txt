@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-11-07 00:22:03
+! Last Modified: 2024-11-07 09:17:48
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -4857,6 +4857,7 @@ douxie.com##.ndxChdjBox
 ###leftCouplet
 4gamers.com.tw##.scroller-ads-wrapper
 crazygames.com#?#div:-abp-has(> div[class]:-abp-contains(Advertisement)[style*="width"])
+frandroid.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad-center")]/ancestor-or-self::div[@class="optidigital-wrapper-div"][1]'
 /blockcake.js$script
 @@/show_ads.js$script,domain=imgclick.net
 @@_cpc_cpm_$domain=saraba1st.com
@@ -5713,7 +5714,6 @@ alist.nn.ci##.ss
 118pan.com##.card.mt-2:nth-child(2)
 /pc/Tpl/baibaipc/js/*
 ##[href="/ad/007.html"]
-frandroid.com#$#hide-if-matches-xpath './/div[contains(@class,"-ad-center")]/ancestor::div[@class][1][not(contains(@class,"with-sidebar"))]'
 @@||karaoketexty.cz/img/*.png$image,domain=karaoketexty.cz
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.order_repost_wrap
 @@||ency-educ.com^$generichide
@@ -11126,6 +11126,7 @@ xiaopan.co#@#.adsbygoogle
 news.pchome.com.tw##div[style="width:300px;height:250px"]
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
 vardembed.xyz,videovard.sx###MyDickIsFat
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label|br_sft_con_lbl|b_safety_con_lbl|brand_sf_content_lbl|br_sf_cnt)[^\n]+?("sponsored_data"|"sp_data"|"data_for_spon"|"data_sponsored")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons|spon_auc_dis|dist_auction_sps|dis_auc_spons|auc_dist_sps|spons_auct_distance)/'
 ||3dmgame.com/page/js/push_browser.js
 itavcn.com###ADE
 sex8.cc##.j-oscar
@@ -12119,6 +12120,7 @@ gitee.com##.fixed-notice-messages
 tech.sina.com.cn##.zc-app
 userstyles.org###top_android_button
 y.qq.com##.c_bg1.bottom_bar__bd
+www.facebook.com,web.facebook.com#$#hide-if-contains /./ 'div[role="main"] div[aria-describedby][aria-labelledby]' 'div[id]>span[style]>a[attributionsrc][href="#"][role="link"][tabindex][style^="display: inline-block;"] span[style]>span[aria-labelledby] svg[style] * ^^svg^^'
 hoteastday.com##.incentive
 novinky.cz##a[title="Rekɭama"]
 ||0579.cn/SHow/Showplacenew.aspx
@@ -12490,7 +12492,6 @@ ldqk.xyz,masuit.com##.ibox-content > .wow[id]
 xvna.com##.articleAD
 sm.cn##.ad-dot-container
 tobosu.com###alert_order
-www.facebook.com,web.facebook.com#$#hide-if-contains-visible-text /./ 'div[role="main"] div[aria-describedby][aria-labelledby]' 'div[aria-describedby][aria-labelledby] a[aria-label][attributionsrc][role="link"][tabindex="0"] span[aria-labelledby][style] svg[style] * ^^svg^^'
 ||91xiazai.com/Public/index/images/zanzhushang.gif
 ||5icool.org/uploadfile/poster/
 ghxi.com##div[style^="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index"]
@@ -14899,7 +14900,6 @@ iplaysoft.com##.crumb_ad
 ishare.ifeng.com##section[class^="allLook"]
 storm.mg,mobile01.com##div[id^="dablewidget_"]
 uotan.cn###fuck-ads
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_c|label_field_for_brs|new_label_for_brs|cont_lb_brs|cnt_lbl_brs|the_cnt_lbl_for_brs|newest_lbl_for_brs|flag_for_brs|brs_content_label|flag_of_cnt_lbl_brs|lbl_br_cnt|cont_of_brs_lb|content_type_lbl_brs|flag_for_content_type_brs|identifier_for_content_type_brs|identifier_brs_cnt|br_safety_cont_label|br_sft_con_lbl|b_safety_con_lbl|brand_sf_content_lbl)[^\n]+?("sponsored_data"|"sp_data"|"data_for_spon"|"data_sponsored")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sponsored_auct_dist|auction_dist_for_sponsored|distance_for_sp_auction|auct_dist_for_spon|sps_auct_dist|auct_distance_lbl_for_spons|spon_auc_dis|dist_auction_sps|dis_auc_spons|auc_dist_sps)/'
 jthysh.com##.box980
 zerozero.pt###ad_block_msg
 wbiao.cn###popupImgCorner
@@ -20837,7 +20837,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hoteastday.com/newspc/show?
 ||pupudy.com/images/wxrj.gif
 ||m.daomutxt.cc/dist/common.js
-||ruthlessmilk.com^$third-party
 ||gaoqing.la/wp-content/uploads/*980x
 ||mdfsbn.com^$third-party
 ||readgoldfish.com^$third-party
@@ -25011,6 +25010,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tq.cn/floatcard?
 ||showsport-tv.com/js/detect.css$stylesheet
 ||tiexue.net/pic/tx_1220.jpg
+||ruthlessmilk.com^$third-party
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||t.cn^$domain=28kys.com|92kvip.com
 ||vipyearha.com/uploads/20*.gif
