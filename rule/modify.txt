@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-11-16 16:21:14
+! Last Modified: 2024-11-17 00:21:11
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -2107,6 +2107,7 @@ downkr.com##.banner-right
 ##div#ad_id
 firefox.com.cn,firefoxchina.cn##.main-promote-sites
 aliyun.com##.yq-main-left > a:first-child
+##[onclick*='m.kanshuapp.net']
 ##.header-blocked-ad
 cdiscount.com#$#hide-if-matches-xpath './/div[contains(@class,"sponsored")]/parent::div[@id]/ancestor::div[@class="o-block"]'
 /css/gg.js
@@ -3696,7 +3697,6 @@ csdn.net##.csdn-tracking-statistics[style$="250px;"]
 enigmaboard.com##.no
 bbs-mychat.com#@#.adContent
 =Preroll$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
-gamer.com.tw#$##flyRightBox { position: absolute!important; left: -3000px!important; }
 bing.com###b_results > li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
 @@||annhe.net^$generichide
 /bbhd_*_kkis.js
@@ -3969,6 +3969,7 @@ bitauto.com##.advertise-nav-down
 @@||animedigitalnetwork.fr/templates/adn/js/advertising.js$script
 flashback.org###top-banner-container
 duba.com##.taobao_search
+##body#read.read > a.appguide-wrap
 @@||pubads.g.doubleclick.net/gampad/ads?$object-subrequest,xmlhttprequest,domain=tv.majorleaguegaming.com
 77mh.nl###bdcotopnew
 ##[href^='https://fcc.hxaxfcc.cn/']
@@ -7416,7 +7417,6 @@ a.9game.cn##.DownBox
 @@||srs.blastingnews.com/js/adv/_compiled.js$script
 ##.gotoclick[adv_id]
 9xav.cc#%#//scriptlet('remove-class', 'q-body--prevent-scroll', 'body')
-gamer.com.tw#$#img[onload="AntiAd.check(this)"] { position: absolute!important; left: -3000px!important; }
 54new.com##img[width="1280"][height="100"]
 ##.theme-dark > .ayx > a
 85tube.com##.block-album > .table > .opt
@@ -13033,6 +13033,7 @@ icbc.com.cn#@#.adLeft
 hao123.com###lefttip
 iqiyi.com##.cell-left
 tvboxnow.com##td[style="width:15%;height:100%;"]
+gamer.com.tw#$##flyRightBox { position: absolute!important; left: -3000px!important; }
 news.lyd.com.cn##td[width="300px"] > table[width="300"] > tbody > tr:nth-last-child(n+2)
 technews.tw##.inside_AD
 liaocao.tv##[onclick]
@@ -16443,6 +16444,7 @@ www.youtube.com##ytlr-banner-cta-renderer
 muchong.com##.bg > .wrapper:nth-child(14) > .forum_Post_index
 ||autohome.com.cn/news/$script
 sm.cn##.ali_row[ad_aid]
+gamer.com.tw#$#img[onload="AntiAd.check(this)"] { position: absolute!important; left: -3000px!important; }
 nbc.com##.video-player__overlay.video-player__overlay--mute
 ||91jbz.com/file/script/A
 woshipm.com##.article--heroAd
@@ -18671,7 +18673,6 @@ i.factor.ua##[data-place-block]
 gvm.com.tw##.promotion_ad
 hefei.cc##.bbs_app_fk > a:first-child
 jandan.net###random-ads
-||b7yy.com/ad/
 hjenglish.com###regscrollcontainer
 nani.baidu.com,ala.baidu.com##.tbui_aside_float_bar + .clearfix
 seznamzpravy.cz#$#abort-on-property-write Object.prototype.writeAd
@@ -22850,7 +22851,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||itopdog.cn/itopdog/ad.js
 ||dobiez.com/statics/wap_v1/js/qwd.
 ||qhyy8.com/template/default_wap/html/public/img/*.gif
-||root-nation.com/wp-content/uploads/*background*$image,domain=root-nation.com
 ||kontrolnaya-rabota.ru^*/toastr.$script,stylesheet
 ||kuakao.com:6053/floatcard?
 ||r3sub.com/posters/0069810.jpg
@@ -23114,6 +23114,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||marblediscussion.com^$third-party
 ||remehealth.net^$third-party
 ||ctenetwork.com^$third-party
+||b7yy.com/ad/
 ||goosedaily.com/advertise/
 ||giraffepiano.com^$third-party
 ||mima.club/tuijian/speedtest/
@@ -24854,6 +24855,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||shinesavage.com^$third-party
 ||sbo8.com/static/theme/js/bottom.
 ||ufile.cc/pps.js
+||root-nation.com/wp-content/uploads/*background*$image,domain=root-nation.com
 ||scarcecard.com^$third-party
 ||storesurprise.com^$third-party
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
