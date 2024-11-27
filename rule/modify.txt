@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-11-27 00:24:08
+! Last Modified: 2024-11-27 09:24:54
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,7 +17,7 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
@@ -138,6 +138,7 @@ danlan.org##.ad98090
 ##[href^='https://tz.jingjiezhenkong.com']
 biter.tv,indianpornvideo.org,hindixxxvideos.net,xxxhdporno.net#$#abort-on-property-read decodeURI
 freedom-ip.com#@#.pub_vertical ins
+altadefinizione.*#$#abort-current-inline-script document.createElement script; hide-if-matches-xpath './/iframe[@style="position: fixed; width: 100%; height: 100%; inset: 0px; opacity: 0; z-index: 2147483647;"]';
 eastmoney.com###zwbtextlink
 duba.com###ad-zongyi
 emule-island.ru##.newsgroup
@@ -1635,7 +1636,6 @@ freedidi.com,ottawazine.com##div[id^="text-"]
 @@||chinacourt.gov.cn/share/jquery/plugins/adbox/
 ##.pro1-molnk
 animepahe.ru,animepahe.org,animepahe.com#$#abort-on-property-read document.querySelector
-bilibili.com###slide_ad + .ad-report
 ###adblockDetect
 /yryy/css/venmy.js
 19lou.com##.pop-ad
@@ -11198,6 +11198,7 @@ rfidworld.com.cn###divTopContainer
 so.com##li[data-id^="cm_display_init_text_"]
 pinggu.org##a[target="_blank"][href*=".cda.cn"]
 m.jiemian.com##.box-home
+sailtool.com##body > div[style^="position:fixed;right:0;top:"]
 myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 udn.com###ad-pall
 ||adscat.ru^$third-party
@@ -13671,6 +13672,7 @@ zhujiwiki.com##.ssrtop
 howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-adblock)
 huarenjie.com###cftoutiao
 hoteastday.com##.watermarh_ul
+tripadvisor.com#$#hide-if-matches-xpath './/div/span[contains(text(), "Sponsored")]/ancestor::section[@class][not(@id)]'
 ruyo.net##.textwidget a > img
 ||51xuediannao.com/uploads/un/
 phimmoi.club,motphimww.net#$#abort-current-inline-script addEvent popu
@@ -16506,6 +16508,7 @@ tripadvisor.com#$#hide-if-matches-xpath './/a[contains(text(),"Sponsored")][@tar
 ||2018x.*/guang/
 linetv.tw##.aspect-ratio > img.object-cover + .aspect-ratio-content + div[class^="absolute inset-"][class*="bg-brand"]
 sese733.info##.fp-player > div[style^="position: absolute;"][style*="overflow: hidden; z-index:"]:not([class])
+instacart.ca,instacart.com#$#race start; hide-if-matches-xpath './/img[@alt="Advertisers have paid to boost this product"]/preceding::img[@alt="Advertisement"]/ancestor-or-self::div[contains(@id,"-inner")]/parent::div'; hide-if-matches-xpath './/img[@alt="This is an ad"]/preceding::img[@alt="Advertisement"]/ancestor-or-self::div[contains(@id,"-inner")]/parent::div'; race stop;
 mydown.com##.doubleDownload_bottom
 stockstar.com##.much_ad
 ||91hs005.xyz^*.gif
@@ -17181,7 +17184,6 @@ rakuten.com###second_promo
 hanyu.baidu.com##.fengchao-el
 trafictube.ro#@#.widget-adv
 jdbbs.com##div[id^="archy_ad"]
-tripadvisor.com#$#hide-if-matches-xpath './/div/span[contains(text(), "Sponsored")]/ancestor::section'
 ||51ui.cn/999.png
 hao.rising.cn##.channel-adimg
 pixabay.com##.show-gtty-item
@@ -18223,7 +18225,6 @@ jianbiaoku.com##div[style="width:960px;height:130px;margin:0 auto;margin-top:35p
 qq.com###mod_float_box
 iqiyi.com##a[id^="100000"]
 gohome.com.hk,idv.st#@##adFrame
-instacart.ca,instacart.com#$#hide-if-matches-xpath './/img[@alt="Advertisers have paid to boost this product"]/preceding::img[@alt="Advertisement"]/ancestor-or-self::div[contains(@id,"-inner")]/parent::div'
 hexieshe.com,hexieshe.xyz,xxshe.info##.entry-header + p + p[style="text-align: center;"]
 mmff30.com##span[id$="_gg"]
 to8to.com##.btm-float
