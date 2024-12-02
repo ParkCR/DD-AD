@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-12-02 09:27:20
+! Last Modified: 2024-12-02 16:25:35
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,6 +19,8 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -2819,7 +2821,6 @@ facebookproxy.info###overlay-holder
 =ad_top_slider&
 @@||jstatic.3.cn^$domain=m.jd.com
 cnpingpang.com###new-flash
-gameapps.hk#$#body { background-image: none !important; }
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=elfqrin.com
 exler.ru##.adblock-pls
 boo.tw##.blockUI
@@ -4596,6 +4597,7 @@ finance.sina.com.cn##div[data-sudaclick="right_ads2_p"]
 ##ul.thread_detail_ads
 */larkf?id=*$domain=animeunity.cc
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.BAIDU_CLB_AD
+b0d8a0f6.com##DIV[id^="content_"]
 element-plus.gitee.io##aside > .page-content
 ##.C1U,.C1M,.C2L,.C2R
 elecfans.com##.dfma
@@ -6895,6 +6897,7 @@ dayt.se#@##Ad3TextAd
 /*/*.add.*.add
 /static/images/ky888.gif
 ##.mbads
+.xyz:*/bug?*=$third-party
 duba.com,newduba.cn###J_FloorWave
 21yq.com##div[style^="width:980px;height:80px;"]
 beanfun.com#@#.ad-slider
@@ -8315,7 +8318,6 @@ douyu.com##.layout-Main > section.layout-Customize
 bing.com#?#li[class="b_algo"]:-abp-has(a[href="#"]:not([class]))
 /pushstart.aspx?$popup,third-party
 @@||int.mwbbiz.com/static/*/app.js$domain=91porny.com
-gameapps.hk#$?#.pc-header-video > a[class^="top-ad-"] + .youtube-container { remove: true; }
 cnool.net##.second-banner
 21uscity.com##.ad300x60
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=thebitcoinsheep.com
@@ -10293,7 +10295,6 @@ weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains
 huanqiu.com##.ad_t1
 manhuagui.com##div[class]:has(> .adsbyexoclick)
 rkanr.com##.bill
-||awifi.cn^$third-party
 wandhi.com##.table-bordered
 yb983.com##div[id^="pop"]
 tzfdc.com##.AD_B
@@ -12329,6 +12330,7 @@ m.thepaper.cn###newDetailHotRecommend
 hao123.com###ecom
 novinky.cz,super.cz,sport.cz,horoskopy.cz##div[data-impressionurl]
 oschina.net##a[data-traceid*="_detail_above_text_link_"]
+gameapps.hk#$#body { background-image: none !important; }
 jb51.net##.rjTestPos
 poczta.o2.pl#$#hide-if-matches-xpath '//div[@class]/following-sibling::a[@target="_blank"]/following::div[@class][@id][@style]/preceding::div[@class][1]'
 hanyu.baidu.com###download-wrapper
@@ -17208,6 +17210,7 @@ hmanga.world#%#//scriptlet('prevent-fetch', 'method:HEAD')
 ||apk.tw/static/js/showpic.js
 pcsoft.com.cn##.xzdz_huodong
 hclips.com#$#abort-on-property-write adLoaded
+gameapps.hk#$?#.pc-header-video > a[class^="top-ad-"] + .youtube-container { remove: true; }
 nownews.com##.adBlk
 trackr.fr##.alert-dashed
 ||7junshi.com/con/ad
@@ -19069,6 +19072,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dajiazhao.com/login/reg.js
 ||imooc.com/open/courselistrandjs
 ||bb1nn.com/js/i.js
+||awifi.cn^$third-party
 ||laozuo.org/wp-content/themes/weisaysimple/js/banner.js
 ||oneinstack.com/images/oneinstack-
 ||mw6.me/images/*.gif
@@ -19207,7 +19211,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||haiyuer.com/nb.js
 ||ikkdm.com/mg/show2.js
 ||kkkjpg-522.cc^$third-party
-||remotupload.com/js/bigtouch.js$script
 ||biddingx.com^$third-party
 ||gk99.com/static/js/a-d-sys.js
 ||bookben.com/js/m/wap.js
@@ -19245,6 +19248,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||img.scupio.com$domain=briian.com
 ||iask.cn^*/qiye.
 ||eclassified.my/cp_featured
+||diyibanzhu*/js/cdn.js$~third-party
 ||cnfol.com/index_new.php?id=
 ||bitscn.com/js/a2
 ||china.chemnet.com/cnbanner/
@@ -20902,6 +20906,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||quizzicalzephyr.com^$third-party
 ||hmoe12.com/wp-content/uploads/202*.gif
 ||btbtdy.*/templets/btdy/js/ad
+||hongosi.xn--*.cc$third-party
 ||jxnews.com.cn/first/js/home/index_ad
 ||jianhuadaily.com/wp-content/plugins/popup-
 ||jiaoyu.baidu.com/tieba/
@@ -22086,7 +22091,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ifengimg.com^*/embed*.js
 ||muddledaftermath.com^$third-party
 ||dftoutiao.com/dfpcitv/pcitv?jsonpcallback=
-||rememberdiscussion.com^$third-party
 ||plausiblecable.com^$third-party
 ||exuberanteyes.com^$third-party
 ||enviousthread.com^$third-party
@@ -23100,7 +23104,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||heiguang.com/_r/2015/js/hrBottomBar.
 ||jrjimg.cn/common/foot/allfc.js
 ||marblediscussion.com^$third-party
-||remehealth.net^$third-party
 ||ctenetwork.com^$third-party
 ||b7yy.com/ad/
 ||goosedaily.com/advertise/
@@ -23635,6 +23638,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zhihu.com/sku/km_resource?token=feed-right-banner
 ||tencent.com/developer/api/common/getOneAds
 ||vzttq.brfvyrrp.com^$all
+||remotupload.com/js/bigtouch.js$script
 ||streaming-foot.info/images/adblok.mp3$media
 ||s-msn.com/portal/js/vendor/manto/
 ||up.qingdaonews.com/up/$object,script
@@ -24248,6 +24252,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||thirdrespect.com^$third-party
 ||sooopu.com/js/*950.js
 ||yxdm.tv/js/gad.js
+||rememberdiscussion.com^$third-party
 ||yxdd.com^$subdocument
 ~125.la,~52pojie.cn,~chysg.com,~hawkaoe.net,~yswc1.xyz##.a_mu
 ||yieldingwoman.com^$third-party
@@ -25127,6 +25132,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zhihu.com/api/v4/brand/question/*/card
 ||tianshui.com.cn/newbg
 ||zzc.cn/b1/live_b_
+||remehealth.net^$third-party
 ||sccnn.com/SF/zt.jpg
 ||webkaka.com^*x50.
 ||serengeseba.com/static/view.js
@@ -25197,5 +25203,3 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tuwan.com/events/courseiframe?
 ||super.cz/*&*=$subdocument,domain=super.cz
 ||xuehi.cn/reward/reward
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
