@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2024-12-07 00:22:45
+! Last Modified: 2024-12-07 09:24:51
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1121,6 +1121,7 @@ acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
 element-plus.gitee.io##.toc-content > .m-t-16px
 chinaz.com###centerTxt
 ###hfad
+bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 ##.qzdhf
 baidu.com###relative_shop_flow
 @@||cvs.com^$generichide
@@ -1236,6 +1237,7 @@ cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][
 ##ul > li > A[href$='_list.html']
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 ##DIV.code-block[style='margin: 8px 0; clear: both;']
+##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 douban.com##.channel_promo
 chinabidding.com.cn##.innovate + .layer
 ftchinese.com#@#.AdsBox
@@ -1338,7 +1340,6 @@ duba.com,newduba.cn##a[href*=".zhhainiao.com/"]
 airav.cc###jssor_banner
 ecchi.animeron.tv###confirmOverlay
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=uiadmin.net
-gameapps.hk###top-ad-left
 @@||imasdk.googleapis.com$domain=vvvvid.it
 @@/adverts/*$domain=onlychild.cn
 /80sad/*
@@ -2988,7 +2989,6 @@ bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##di
 china.com##.mxm
 .xyz/hm.js?$third-party
 fullmatchesandshows.com#@#.adsbox
-cn.bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 3dmgame.com##.Gmaeinfobtn + span
 ##a[href*=".xyz:"] > img[src*=".qlogo.cn"]
 finance.sina.com.cn###ny-link-r0
@@ -5095,6 +5095,7 @@ csdn.net##.openApp
 ##DIV.div_sticky2.hidden-lg
 ananvod.com##.rbPicAll
 ##div[style^="width: 100%;"][style$="z-index: inherit;"] iframe[scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
+2urs.com#%#//scriptlet('abort-on-property-read', 'ads')
 58.com#?#LI[sortid]:-abp-has(.icon-jingxuan)
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com
 ##.toy52apparel_ALL
@@ -8322,7 +8323,6 @@ cnool.net##.second-banner
 21uscity.com##.ad300x60
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=thebitcoinsheep.com
 aipai.com###videosRightDown
-b0d8a0f6.com##div[id^="content_"]
 @@/images/adv/*$domain=gueizu.com
 @@||virpe.com/includes/js/adver.js$script,domain=virpe.com
 .info/ad.js
@@ -11046,9 +11046,11 @@ wap.gamersky.com##section.ymw-rel-list
 sina.cn##.qr_box
 iduba.com,newduba.cn##.m_nav_top
 socialblade.com#@##bottomAd
+talkwithstranger.com,heureka.cz,the-crossword-solver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,woxikon.*,palabr.as,cruciverba.it,motscroises.fr,crosswordsolver.com,dziennik.pl,convertcase.net,raetsel-hilfe.de,manta.com,tportal.hr,petitfute.com,laleggepertutti.it,wfmz.com,golf-live.at,word-grabber.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,wort-suchen.de,rostercon.com,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 hkepc.com##.headBanner
 hornmatters.com#@#.footer_ad
 novinky.cz##article[data-dot^="advert-item"]
+gameapps.hk###top-ad-left
 user.qzone.qq.com##.f-single-biz
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55)
 yayanimes.net#$#abort-current-inline-script document.createElement _wtxnqkt
@@ -16758,7 +16760,6 @@ sohu.com##a[href^="https://m.sohu.com/promotion?"]
 nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
 mm-cg.com###ArticlesEx_box
 ||158zm.com/top.js
-||avseesee.com/htmls/vlinks.html
 ifeng.com##.news_ADbox
 it1352.com##.glyphicon-certificate + a
 hkepc.com###headBanner
@@ -16819,7 +16820,6 @@ m.nivod2.com,m.nivod2.tv,m.nivod4.com,m.nivod4.tv,m.nivod5.com,m.nivod5.tv,m.niv
 walmart.ca,walmart.com##div[data-testid^="sba-container"]
 ruten.com.tw##.side-advertise
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
-talkwithstranger.com,heureka.cz,the-crossword-solver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,woxikon.*,palabr.as,cruciverba.it,motscroises.fr,crosswordsolver.com,dziennik.pl,convertcase.net,raetsel-hilfe.de,manta.com,tportal.hr,petitfute.com,laleggepertutti.it,wfmz.com,golf-live.at,word-grabber.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,wort-suchen.de,rostercon.com#$#abort-current-inline-script Symbol error-report.com
 ||211600.com/data/attachment/portal/
 tvbs.com.tw###news_detail_div > strong > a[rel="noreferrer"]
 hao123.cn##.cool > tbody > tr > td[align="center"]:last-child
@@ -20586,7 +20586,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||qinbing.cn/data/upload/ueditor/
 ||fearfulmint.com^$third-party
 ||hexun.com/js/att_count.js
-||html-load.com^$domain=talkwithstranger.com|heureka.cz|the-crossword-solver.com|nyitvatartas24.hu|oraridiapertura24.it|horairesdouverture24.fr|oeffnungszeitenbuch.de|palabr.as|cruciverba.it|motscroises.fr|crosswordsolver.com|dziennik.pl|convertcase.net|raetsel-hilfe.de|manta.com|tportal.hr|petitfute.com|laleggepertutti.it|wfmz.com|golf-live.at|word-grabber.com|kreuzwortraetsel.de|verkaufsoffener-sonntag.com|wort-suchen.de|rostercon.com|woxikon.de|woxikon.es|woxikon.se|woxikon.com|woxikon.fr|woxikon.mx|woxikon.it|woxikon.nl|woxikon.com.br|woxikon.co|woxikon.dk|woxikon.pl|woxikon.cl|woxikon.pt|woxikon.ru|woxikon.bg|woxikon.co.uk
 ||huyaimg.msstatic.com/cdnimage/roomad/
 ||parallelbulb.com^$third-party
 ||gtimg.com/qqlive/
@@ -20839,7 +20838,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||m.daomutxt.cc/dist/common.js
 ||gaoqing.la/wp-content/uploads/*980x
 ||mdfsbn.com^$third-party
-||readgoldfish.com^$third-party
 ||intelligentscissors.com^$third-party
 ||jrzj.com/img_index/guanggao
 ||milimili.tv/js/loadjs/jquery10.7.js
@@ -21212,6 +21210,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||fang99.com^*/advjs/
 ||qnvod.net/qna/
 ||fabulousterritory.com^$third-party
+||avseesee.com/htmls/vlinks.html
 ||lgmi.com^*_gg
 ||bravebone.com^$third-party
 ||goupu.org/1files/*.gif
@@ -22542,6 +22541,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||m.9wx.org/statics/js/new.js
 ||excelhome.net/js/banner-
 ||hexun.com/hxpage_jrtj2020/
+||html-load.com^$domain=talkwithstranger.com|heureka.cz|the-crossword-solver.com|nyitvatartas24.hu|oraridiapertura24.it|horairesdouverture24.fr|oeffnungszeitenbuch.de|palabr.as|cruciverba.it|motscroises.fr|crosswordsolver.com|dziennik.pl|convertcase.net|raetsel-hilfe.de|manta.com|tportal.hr|petitfute.com|laleggepertutti.it|wfmz.com|golf-live.at|word-grabber.com|kreuzwortraetsel.de|verkaufsoffener-sonntag.com|wort-suchen.de|rostercon.com|woxikon.de|woxikon.es|woxikon.se|woxikon.com|woxikon.fr|woxikon.mx|woxikon.it|woxikon.nl|woxikon.com.br|woxikon.co|woxikon.dk|woxikon.pl|woxikon.cl|woxikon.pt|woxikon.ru|woxikon.bg|woxikon.co.uk|eurointegration.com.ua
 ||huoyan.tv/yb/img/*.gif
 ||qingsedhh.com/images/gg.gif
 ||godlygeese.com^$third-party
@@ -22961,7 +22961,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||guokr.com/apis/flowingboard/item/guokrapp_
 ||helpsetup.ru/home/solnisko.php
 ||blesspizzas.com^$third-party
-||readingguilt.com^$third-party
 ||chinafpd.net/js/2012-10/
 ||douyucdn.cn/japi/sign/web/getinfo
 ||duba.com/static/*/js/min.pop.js
@@ -25018,6 +25017,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||shuneiya.com/js/wcnm/foot.js
 ||subhd.com/images/ap/
 ||thepaper.cn/bottomBanner_
+||readingguilt.com^$third-party
 ||recessrain.com^$third-party
 ||s.weibo.com/widget.html
 ||suddensidewalk.com^$third-party
@@ -25094,6 +25094,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||showsport-tv.com/js/detect.css$stylesheet
 ||tiexue.net/pic/tx_1220.jpg
 ||ruthlessmilk.com^$third-party
+||readgoldfish.com^$third-party
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||t.cn^$domain=28kys.com|92kvip.com
 ||vipyearha.com/uploads/20*.gif
