@@ -1,7 +1,22 @@
 [ADFS Adblock List]
 ! Title: all.txt
-! Last Modified: 2025-01-06 16:22:52
+! Last Modified: 2025-01-07 00:21:35
 ! Homepage: https://github.com/ParkCR/DD-AD
+! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
+||*-ad.wtzw.com^
+||api2.coolapk.com/v6/page/dataList$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;apkImageCard&quot;.*?\\u0022}&quot;}\,/ /
+||api2.coolapk.com/v6/feed/detail$replace=/\,&quot;detailSponsorCard&quot;:{.*}/}}/
+/pangolin-sdk-toutiao.*/
+/pangolin-sdk-toutiao1.*/
+/pglstatp-toutiao.*/
+||api2.coolapk.com/v6/feed/detail$replace=/&quot;include_goods_ids&quot;:\[.*?]\,&quot;include_goods&quot;:\[.*?]\,/ /
+||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
+||*-ad.adukwai.com^
+||*-ad.adbkwai.com^
+||api2.coolapk.com/v6/main/init$replace=/{&quot;id&quot;:1170.*?}\,/ /
+||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
+/pangolin-sdk.*/
+||*-ad.gskwai.com^
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||ads*-normal-hl.amemv.com^
 ||ad-*file.myqcloud.com^
@@ -25,21 +40,6 @@
 ||ads*-normal-lq.amemv.com^
 ||ads*-normal-lq.zijieapi.com.queniuiq.com^
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
-! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
-||*-ad.wtzw.com^
-||api2.coolapk.com/v6/page/dataList$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;apkImageCard&quot;.*?\\u0022}&quot;}\,/ /
-||api2.coolapk.com/v6/feed/detail$replace=/\,&quot;detailSponsorCard&quot;:{.*}/}}/
-/pangolin-sdk-toutiao.*/
-/pangolin-sdk-toutiao1.*/
-/pglstatp-toutiao.*/
-||api2.coolapk.com/v6/feed/detail$replace=/&quot;include_goods_ids&quot;:\[.*?]\,&quot;include_goods&quot;:\[.*?]\,/ /
-||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
-||*-ad.adukwai.com^
-||*-ad.adbkwai.com^
-||api2.coolapk.com/v6/main/init$replace=/{&quot;id&quot;:1170.*?}\,/ /
-||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
-/pangolin-sdk.*/
-||*-ad.gskwai.com^
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||localads.chengzijianzhan.cn^
 ||ad.99jiasu.com^
@@ -1211,6 +1211,7 @@
 127.0.0.1 adsrich.qq.com
 127.0.0.1 uvu.nojmlxq.cn
 127.0.0.1 sdk.cferw.com
+127.0.0.1 hpd.baidu.com
 127.0.0.1 ads.wapx.cn
 127.0.0.1 rpt.gdt.qq.com
 127.0.0.1 app.starschina.com
@@ -4356,7 +4357,6 @@
 127.0.0.1 glean.pop6.com
 127.0.0.1 www.55588a.com
 127.0.0.1 www.v8940m.com
-127.0.0.1 hpd.baidu.com
 127.0.0.1 onclkds.com
 127.0.0.1 t.teads.tv
 127.0.0.1 genieedmp.com
@@ -10317,9 +10317,6 @@
 0.0.0.0 stgowan.com
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-@@||cdn-msp*.18comic*.*^
-@@||cdn-msp*.18comic.*^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -20304,6 +20301,9 @@ c.m.163.com##.commentBar
 7654.com##div[class^="sidebarimg"]
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+@@||cdn-msp*.18comic*.*^
+@@||cdn-msp*.18comic.*^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||sobot.com^
 @@||captcha.su.baidu.com^
 @@||ad.abchina.com^
@@ -20321,25 +20321,6 @@ c.m.163.com##.commentBar
 @@||manwa.me^
 @@||img.ads.tvb.com^
 @@||ad.ourgame.com^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||38.33.15.*.gif
-||67.21.92.*.gif
-||adi*.cnool.net^
-||ads*-normal*.zijieapi.com^
-||a*.chajiaotong.com^
-||ac*.faxingchina.com^
-||ac*.786ip.com^
-||163487*.qmgmw.com^
-||ad*.on.cc^
-||ax.*.ifeng.com^
-||121.204.246.*.gif
-||acookie.*.gif?
-||107.167.16.*.gif
-outlook.live.com._6tqjFb_HmyQup_NPe6dhC
-||ac*.pingguolv.com^
-||107.167.22.*.gif
-||asd8900.oss-*.aliyuncs.com^
-||at*.doubanio.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||365xuet.com/assets/web/js/main.jsr_
 hinet.net###media_ad_popup_overlay
@@ -29138,6 +29119,25 @@ view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 maoken.com###siderAd01
 mathportal.org/temp/blocked/blockedCounter.php
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||38.33.15.*.gif
+||67.21.92.*.gif
+||adi*.cnool.net^
+||ads*-normal*.zijieapi.com^
+||a*.chajiaotong.com^
+||ac*.faxingchina.com^
+||ac*.786ip.com^
+||163487*.qmgmw.com^
+||ad*.on.cc^
+||ax.*.ifeng.com^
+||121.204.246.*.gif
+||acookie.*.gif?
+||107.167.16.*.gif
+outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+||ac*.pingguolv.com^
+||107.167.22.*.gif
+||asd8900.oss-*.aliyuncs.com^
+||at*.doubanio.com^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||1buo.icu^
 ||7299tu75.cc^
 ||ad.cdnjm.cn^
@@ -30325,34 +30325,6 @@ ubmcmm.baidustatic.com
 ||b-gtc.getui.net^
 ||adroition.net^
 ||ayebsc.xyz^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||bdcpro*.techweb.com.cn^
-||sax*.sina.
-||js.*2023*.live^
-||impservice*.youdao.com^
-||d*.ruiwen.com^
-||fanpingbi*.gaokao.com^
-||dn*.ixinwei.com^
-||molpmh.xyz|
-||bdlm*.hc360.com^
-||sd.yhzzzs*.com^
-||bjkedv*.xyz^
-||d*.xinshipu.com^
-||fpb*.51edu.com^
-||p26.gejulm*.com^
-||ja*.gamersky.com^
-||gtlpa*.com^
-||dm*.yxlady.com^
-||same*.stockstar.com^
-||gcw*.2liang.cn^
-||impservice*.yodao.com^
-||js.*2023*.xyz^
-||fpb1.chinacar.
-||opnked*.xyz^
-||js*.abolezi.com^
-||sam*.baby-kingdom.com^
-||qpb*.sohu.com^
-||ky891.oss-*.aliyuncs.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
@@ -35001,6 +34973,34 @@ ubmcmm.baidustatic.com
 ||killcovid2021.com/*.mp4
 ||lelekan.com/sp/fmt.js
 ||compiledoctor.com^$third-party
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||bdcpro*.techweb.com.cn^
+||sax*.sina.
+||js.*2023*.live^
+||impservice*.youdao.com^
+||d*.ruiwen.com^
+||fanpingbi*.gaokao.com^
+||dn*.ixinwei.com^
+||molpmh.xyz|
+||bdlm*.hc360.com^
+||sd.yhzzzs*.com^
+||bjkedv*.xyz^
+||d*.xinshipu.com^
+||fpb*.51edu.com^
+||p26.gejulm*.com^
+||ja*.gamersky.com^
+||gtlpa*.com^
+||dm*.yxlady.com^
+||same*.stockstar.com^
+||gcw*.2liang.cn^
+||impservice*.yodao.com^
+||js.*2023*.xyz^
+||fpb1.chinacar.
+||opnked*.xyz^
+||js*.abolezi.com^
+||sam*.baby-kingdom.com^
+||qpb*.sohu.com^
+||ky891.oss-*.aliyuncs.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||kszvmqo.cn^
 ||hwilmiu.top^
@@ -40330,29 +40330,6 @@ ubmcmm.baidustatic.com
 ||ccav.website^
 ||cdrhjt.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||zazgiyoh*.world^
-||zcchyr*.xyz^
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||tupian888.*.bcebos.com^
-||uc*.atobo.com^
-||zabdybod*.club^
-||yhsfsdv*.com^
-||thezbpe5*.xyz^
-||zaqlovh*.xyz^
-||zazgiyoh*.xyz^
-||zcchyw*.xyz^
-||zazgbqg*.xyz^
-||zbc6hye*.xyz^
-||www.xxmh*.com^
-||ya*.dwstatic.com^
-||zahrvfbd*.xyz^
-||zbc6hy*.live^
-||static*.365inews.com^
-||union*.365inews.com^
-||zbb.bbb.*.pics^
-||vns86.oss-*.aliyuncs.com^
-||ysdm*.ys137.com.cn^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||xywy.com/zhixing/
 ||totheglory.im/pic/ttg-
 ||ysm.ezprice.net^$third-party
@@ -41767,6 +41744,29 @@ ubmcmm.baidustatic.com
 ||xuehi.cn/reward/reward
 ||szfcol.com/js/siteAd.js
 ||ssh.*.com^*!$script,third-party
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||zazgiyoh*.world^
+||zcchyr*.xyz^
+||zhizhizhizhi.oss-*.aliyuncs.com^
+||tupian888.*.bcebos.com^
+||uc*.atobo.com^
+||zabdybod*.club^
+||yhsfsdv*.com^
+||thezbpe5*.xyz^
+||zaqlovh*.xyz^
+||zazgiyoh*.xyz^
+||zcchyw*.xyz^
+||zazgbqg*.xyz^
+||zbc6hye*.xyz^
+||www.xxmh*.com^
+||ya*.dwstatic.com^
+||zahrvfbd*.xyz^
+||zbc6hy*.live^
+||static*.365inews.com^
+||union*.365inews.com^
+||zbb.bbb.*.pics^
+||vns86.oss-*.aliyuncs.com^
+||ysdm*.ys137.com.cn^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||tencent.xn--io0a7i^
 ||www.youzonggw.com^
