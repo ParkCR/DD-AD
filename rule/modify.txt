@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-01-14 09:15:55
+! Last Modified: 2025-01-14 16:21:37
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,7 +17,7 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
@@ -633,7 +633,6 @@ bbs.fobshanghai.com##.t_infoline
 @@||10010.com/mall/common/js/fa.js?referer=
 @@||kaitao.cn/public/wenda/ad/css/ds-un-detail.css
 1point3acres.com###portal_block_479
-allegro.pl#$#hide-if-matches-xpath './/span[text()="Sponsorowane"]/parent::div/ancestor::a[@role]';
 ettoday.net###mobileweb_inread
 extmovie.com##.cd_listtop_pc
 ##.txtguanggao
@@ -2657,6 +2656,7 @@ foerderland.de#@#.text_ad
 @@||china.com/dianbo/adv1.xml
 @@||199it.com^$generichide
 bestopview.com##.Adv_c
+gamer.com.tw,pili.com.tw#@#.text-ad-links
 126.com,163.com##.gWel-promt
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
 58b.tv#$#.playmar > .playl { visibility: hidden!important; }
@@ -2906,6 +2906,7 @@ eeyy.com##.gg_top
 /nowscore/ad/*
 /\.[a-z]weisi[a-z].top\//$script,third-party
 @@||gamer-cds.cdn.hinet.net/vod/gamer/*.m3u8^$domain=ani.gamer.com.tw
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[1]/ancestor-or-self::article[@class]'
 akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,akwam.us,gateanime.com#$#abort-on-property-read String.fromCharCode
 expreview.com##.colbaba
 16rd.com###diy_ad_article_right IMG
@@ -4989,7 +4990,6 @@ bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
 dogedoge.com##.tag-home__item
 @@||drstickyfingers.com/intermission/loadTargetUrl$xmlhttprequest
 @@||briian.com/advert.
-etoland.co.kr#$#abort-on-property-write Element.prototype.remove; abort-on-property-read adshield; override-property-read alert true; abort-on-property-read btoa; override-property-read confirm true;
 ##.playtopad
 clanky.seznam.cz,search.seznam.cz##.Result-ico:not([class="Result-ico"])
 dualeotruyenbeta.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
@@ -7043,7 +7043,6 @@ bilibili.com##a[href*=".doubleclick."]
 @@||muzlan.top/ads/banner.png
 downg.com##.Gs_d[href$=".exe"]
 @@||edmondpoon.com^$generichide
-etoland.co.kr#$#abort-on-property-read atob;
 /91ad.
 /main/s?
 dapenti.com###center > div[align="center"][target="_blank"]
@@ -7479,7 +7478,6 @@ baidu.com###left-promotion
 ###container > .sectionBanner
 ##body.page.player > DIV.shortcuts-mobile-overlay
 dailygh.com##.div_removeable
-etoland.co.kr#$#hide-if-matches-xpath './/span/div[contains(@style,"display: flex; justify-content: center; align-items: center; position: relative;")]/ancestor-or-self::span'
 @@||translate.googleapis.com/element/
 @@||nowvideo.li/banner.php$script
 1111.baidu.com,bdimg.com,live.baidu.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/fengchao_ad
@@ -8184,6 +8182,7 @@ cloud.tencent.com##.mod-commercial
 2345.com###header-img-new
 2345.com##div[id^="bd-search-ad"]
 firefoxchina.cn##.w-full[track_key="adv_top_banner"]
+gamer.com.tw,pili.com.tw#@#.text-ad
 cnbeta.com.tw##div[id^="cbh"]
 csdn.net##.wap-shadowbox.weixin-shadowbox
 @@||520cc.cc/ad/520cc/images/logo3w.png
@@ -8415,6 +8414,7 @@ cnblogs.com###cnblogs_c1
 /clys.js?2020
 bamxs.com###inglestore
 ##div.callApp_fl_btn.an
+convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 141hongkong.com##.wp.at
 /vh2/*$third-party
 @@||a.f1g.fr/*/adsense.js$script,domain=lefigaro.fr
@@ -11187,7 +11187,6 @@ jd.com###J_mobile > DIV.mobile_static:nth-child(2)
 scantrad.net##.adbon
 tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
 tieba.baidu.com##.more-btn-desc:contains(打开APP)
-talkwithstranger.com,convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
 ||avitya.ru^$domain=pronpic.org
 kingkong.com.tw##.public-activity
 v2rayssr.com###gg-box
@@ -12124,6 +12123,7 @@ ifsp.tv##.video-page-right
 liaoningmovie.net#$#.with-ad[data-layout="list"] .main-header { width: 100% !important; }
 tw.news.yahoo.com##li[id^="ad-"]
 ||7moor.com^$third-party
+smsonline.cloud,infinityfree.com,flatpanelshd.com,maketecheasier.com,the-crossword-solver.com,crosswordsolver.com,nyitvatartas24.hu,oraridiapertura24.it,horairesdouverture24.fr,oeffnungszeitenbuch.de,palabr.as,motscroises.fr,raetsel-hilfe.de,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,cruciverba.it,word-grabber.com,woxikon.de,woxikon.es,woxikon.se,woxikon.fr,woxikon.it,woxikon.nl,woxikon.com.br,woxikon.dk,woxikon.pl,woxikon.pt,woxikon.bg,wort-suchen.de#$#abort-on-iframe-property-read atob btoa
 ifeng.com##.adbest
 koding.work#?#.sidebar > .widget_text:has(> .textwidget > .adsbygoogle)
 hentaicomic.*,wnacg1.cc,wnacg.*#%#//scriptlet("abort-current-inline-script", "document.write", "/\.(gif|php)/")
@@ -12158,7 +12158,6 @@ hao.rising.cn##.bd-lmhot
 item.m.jd.com###imk2FixedBottom
 ojogo.pt###moldura_ojogo
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
-gamer.com.tw,pili.com.tw#@#.text-ad-links
 splash.antipubfirefox.org##DIV[align="center"]
 ptbus.com##.content14
 yahoo.com##div[class*="bg-Ad"]
@@ -17118,7 +17117,6 @@ hvhbbs.com##.margin-add > style + div
 hao.360.cn###background.festival
 gotv.ctitv.com.tw##div[class^="code-block code-block-"][style="margin: 8px 0; clear: both;"]
 ifeng.com##a[href*=".app"]
-gamer.com.tw,pili.com.tw#@#.text-ad
 github.com##a[href*=".aliyun.com/minisite/goods?"]
 hentaicomic.ru#@#.pcd_ad
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
@@ -17702,7 +17700,6 @@ tuchong.com##.float
 ||ac-room.cc/images/ad_
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adcurl="]
 ziqiangxuetang.com###tutorial_btm
-the-crossword-solver.com,winfuture.de#$#abort-on-property-read navigator.userAgent; abort-on-property-read document.hidden
 my0511.com##div[id^="topad"]
 uptobox.com#@##adblocktrap
 weishangshijie.cn##.w_bzb_1
@@ -18951,7 +18948,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||cao0001.com/vip/js/
 ||ppshk.com^*banner/
 ||gracefulmilk.com^$third-party
-||html-load.com^$domain=talkwithstranger.com|convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 ||fuoo1.top^$third-party
 ||circlelevel.com^$third-party
 ||imgchili.net/media/top.gif
@@ -20311,6 +20307,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||forevergears.com^$third-party
 ||distributiontomatoes.com^$third-party
 ||fapoff.com/Webservices/jsParseLinks.aspx$script,third-party
+||html-load.com^$domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua
 ||buhgalter911.com^*/blocker.
 ||oschina.net/uploads/ad/
 ||images.jurong.cn/bbs/
@@ -22466,7 +22463,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||price.com.hk/scripts/ysm.js
 ||relationrest.com^$third-party
 ||defensevest.com^$third-party
-||info.error-report.com^$domain=picrew.me|javatpoint.com|m.ygosu.com|ndtvprofit.com
 ||mahua.com/www/default/js/replace_ab.js
 ||bdimg.com/muzhi/adwap/top-banner.jpg
 ||cdndm5.com^*/ad_360_
