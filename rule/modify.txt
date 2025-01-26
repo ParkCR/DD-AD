@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-01-26 00:20:02
+! Last Modified: 2025-01-26 09:19:41
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,6 +19,8 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -17559,7 +17561,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [i
 marketwatch.com#$#hide-if-matches-xpath './/img/following-sibling::span[contains(text(),"Ad Block")]/ancestor::div/ancestor::div[string-length(@class) >26]'; hide-if-matches-xpath './/div[@style][@class][@data-dianomi-context-id]//img[@style]/following::iframe[@style][contains(@title,"Dianomi ad")]/ancestor::div[string-length(@class) >26][1]';
 l-a-w.ru,mhelp.kz##.swal2-container
 ||9938.net/video/tvg/hot.js
-||baidu.com/tb/cms/game/*_banner_
 volynpost.com#$#abort-on-property-read trek_shownow
 y.qq.com###js_mod_dialog
 quora.com##.q-box.qu-borderTop>[class^="Box-"] .q-box.qu-pt--medium.qu-pb--tiny
@@ -17585,7 +17586,6 @@ miercn.com##.color-box
 ||alicdn.com/imgextra/*_!!1091819078.
 gucheng.com##.gcw_r_ad_pc
 ydss.cn###indexBlad
-||baidu.com/tb/cms/game/*_banner.
 ||500xxxx.com/go.js
 lanrentuku.com###divjdgg
 mini.eastday.com##li[class^="recommend_news recommend_ad_hot_"]
@@ -18803,8 +18803,6 @@ zi.media##body > div[style="height: 300px;"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 maoken.com###siderAd01
 mathportal.org/temp/blocked/blockedCounter.php
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
@@ -22115,6 +22113,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lewenma.com/js/read.js
 ||ebiotrade.com/newsf/js/news_top_banner.js
 ||courageousbaby.com^$third-party
+||baidu.com/tb/cms/game/*_banner_
 ||gleamingcow.com^$third-party
 ||mat1.gtimg.com/cq/flash/
 ||neighborlywatch.com^$third-party
@@ -22143,6 +22142,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||pointdigestion.com^$third-party
 ||cnfol.com/f=ud/Js/Ad
 ||onedala.tv/uploads/banner/
+||baidu.com/tb/cms/game/*_banner.
 ||l.qq.com/lview?
 ||qiyipic.com/common/*/kehuzhuanqu
 ||floodprincipal.com^$third-party
@@ -22242,7 +22242,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gluedpixel.com^$third-party
 ||eagereden.com^$third-party
 ||chinatimes.com/Scripts/bennerad.
-||sicksmash.com^$third-party
 ||jd.com/ddimg/$domain=bimiacg.net
 ||hao123img.com/v4/MB/xU/jy/VY/YX/MBxUjyVYYX.js
 ||google-analytics.com$third-party
@@ -24902,3 +24901,4 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sina.com.tw^$subdocument
 ||szfcol.com/js/siteAd.js
 ||ssh.*.com^*!$script,third-party
+||sicksmash.com^$third-party
