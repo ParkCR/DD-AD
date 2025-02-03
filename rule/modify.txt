@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-02-03 16:22:34
+! Last Modified: 2025-02-04 00:20:59
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,8 +19,6 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1778,6 +1776,7 @@ cnpingpang.com###diycity1103
 52pk.com##span[style*="gaosu"]
 ##.broadcastMe[style="width: 1200px;"]
 applealmond.com##div[style*="height: 260px;"][style*="text-align: center;"]
+.com:*.js?v=17*$third-party
 gamefy.cn,sitv.com.cn##.att-bar
 /assets/sidebar/*$domain=v2ex.com
 apk.tw#@#.ad300
@@ -1982,7 +1981,6 @@ azofreeware.com,pttjoke.com###HTML3
 anjuke.com,sunofbeach.net##div[class$="-ad"]
 ##.indexad2
 18avtube.com,mm-cg.com###friendLink
-.top/*/*.js?ts=$third-party
 doubibackup.com##.widgetRoller
 18comic.*##.modal-body > ul.pop-list
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=grajkownia.com
@@ -3428,6 +3426,7 @@ ckdzb.com##div[style="float:right;margin:10px 10px;clear:right;height:310px;widt
 ##a[href^="http://yunbofangbt."]
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
 apk.tw#?#body > div:has(> div[class^="yap-ad-"])
+.top/*/*.js?ts=*$third-party
 esu.moe,esu.wiki###siteNotice
 ###qinav_a1
 doii.cc##.w-\[200px\].fixed
@@ -7814,7 +7813,6 @@ cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-t
 /yryy/css/zepto-lie.js
 ##.his-sign-cont[data-dysign-adid]
 6parknews.com##.other_list_ad
-.com:*.js?v=17$third-party
 @@||jeu-concours.biz/show_ads.js
 ##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 .com/rmb/daohang*.js
@@ -10004,6 +10002,8 @@ c.m.163.com##.commentBar
 92wy.com##.adhengfu
 7654.com##div[class^="sidebarimg"]
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||365xuet.com/assets/web/js/main.jsr_
 hinet.net###media_ad_popup_overlay
@@ -12693,6 +12693,7 @@ plus-belle-la-vie-replay.blogspot.com#@##publicite
 nivod2.com,nivod2.tv,nivod4.com,nivod4.tv,nivod5.com,nivod5.tv,nivod7.com,nivod7.tv,nivod8.com,nivod8.tv,nivod9.com,nivod9.tv#%#//scriptlet('set-constant', 'pageData.__banners.1.commercial.jumpUrl', '')
 vndoc.com#$#override-property-read seconds 0
 wss://*/api/wss/GetNotReadCount$third-party
+lxmanga.cloud#$#abort-current-inline-script $ PopUnder
 numberempire.com###toplink > h3[style="color: red"]
 holyfilm.org#$#abort-current-inline-script window.addEventListener window.open
 mrmad.com.tw#?#div[id^="mrmad-"][style]:has(> .adsbygoogle)
@@ -17307,7 +17308,6 @@ m.yicai.com###app1
 xiaohongshu.com##.user-notes-clo-layout-container.user-notes-box
 jjmhw.cc##div[style^="position:fixed; bottom:"][style*="z-index:"][style*="background:"]
 m.toutiao.com##.recommendation-container + div[class]
-||baidu.com/cms/lemmaconfig/baikeDynamic.
 m.douban.com##.download-app
 ifeng.com##.recommend > .picNews
 kanman.com###\5f _acgn-virtual-coin__
@@ -18337,7 +18337,6 @@ playno1.com##.sd.pph
 ||268de.com/js/
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/推*广/))
 ||aibing.cc/vip/img/gou.gif
-lxmanga.info#$#abort-current-inline-script $ PopUnder
 qzone.qq.com##.side_wrapper.side_wrapper_v3
 md4u.ru###pagecontent > div[style*="background-color"]
 nxpaaq.com#$##mainContent { display: block !important; }
@@ -19481,7 +19480,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||chinalawedu.com/js/weixin/weixin.js
 ||riaway.com/statics/idea.jpg
 ||lizardslaugh.com^$third-party
-||shesubscriptions.com^$third-party
 ||rqq.co/visitScript/$script,third-party
 ||eepw.com.cn/pub/js/TopFullScreen.js
 ||gdmm.com/api.php?mod=js&bid=2111
@@ -19933,7 +19931,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||info.vip.iqiyi.com/promotion/
 ||lotour.net/bcef/388.js
 ||gamersky.com/wap/js/gs/gsAllOpenAppBtn.
-||shewang.net/images/*/900x
 ||jd-bbs.com^*/gif/
 ||opticsky.cn/images/2015/gy-px201
 ||cnool.net/AdShowCache?
@@ -21893,6 +21890,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||iask.ca/img/*.gif
 ||jrzj.com/images/bgright_ad.jpg
 ||mzhhdn.com/hongbao.jpg
+||baidu.com/cms/lemmaconfig/baikeDynamic.
 ||pstatp.com/origin/13816000374e83a453717.jpg
 ||cdn.tvdez.com^$third-party
 ||offer.alibaba.com^$popup
@@ -21978,7 +21976,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||curiouschalk.com^$third-party
 ||effulgentnook.com^$third-party
 ||puffyloss.com^$third-party
-||shewang.net/images/*/CHD
 ||qzone.la/Scripts/m.js
 ||combbit.com^$third-party
 ||loli.io^$domain=kisssub.org
@@ -23880,6 +23877,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ssjv1.com/dm/
 ||t2.picb.cc/2022/08/07/6rpRKd.jpg
 ||sinaimg.cn/large/6f8a2832gy1g7qyw7suqjj21400p0ake.jpg
+||shesubscriptions.com^$third-party
 ||springsnails.com^$third-party
 ||sina.com.cn/activity/promotion?
 ||tangibleteam.com^$third-party
@@ -24007,6 +24005,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sinaimg.cn/cj/finance/forex/res/searchCallup.js
 ||tb58.net/plugin.php?id=tb58_
 ||shiverscissors.com^$third-party
+||shewang.net/images/*/CHD
 ||xinshijueba.com/js/home/
 ||wafmedia3.com^$script,domain=online.dramacafe.in
 ||xxl.bt-xd.com^$third-party
@@ -24191,6 +24190,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sicksmash.com^$third-party
 ||wnacg.*/zec/
 ||superfish.com^$third-party
+||shewang.net/images/*/900x
 ||sina.com.cn/3/2016/1114/45.js
 ||stats.tadic.tk^$domain=torrent-rutor.org
 ||thirdrespect.com^$third-party
