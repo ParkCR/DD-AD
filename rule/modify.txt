@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-02-22 00:21:34
+! Last Modified: 2025-02-22 09:17:35
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,7 +17,7 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 ::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
@@ -598,7 +598,6 @@ beppegrillo.it#@#div[id^="div-gpt-ad-"]
 /jquery.adblock.js|$script
 dailymail.co.uk##.molads_sky_right_top
 /arlinablock.js
-gameapps.hk##.adClick
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=voyageforum.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=theplace2.ru
 @@||allanalpass.com/intermission/loadTargetUrl$xmlhttprequest
@@ -4013,6 +4012,7 @@ flyblog.cc,maxfoodfun.com#?#.article-body > div[style]:has(> div[style] > div[id
 ##DIV.duilian[style*='z-index: 9999; top: 0px; ']
 flipkart.com#$#race start; hide-if-contains-visible-text /Sponsored/ 'div[style]' div[class]>span; hide-if-matches-xpath './/div[contains(@data-tkid,"ADVIEW")]/following::*[@width]/*[@width][@height][@fill]/ancestor::div[@data-id][@style]/parent::div[1]/parent::div'; race stop;
 e0575.com###img2
+.sinaimg.cn/large/008qC0LFgy1hyp0pc9jz3g30jg01otpp.
 3d66.com##.advertisement-carousel
 @@||ghacks.net/wp-content/plugins/bwp-minify/$stylesheet,domain=ghacks.net
 booktxts.com##div[style*="position:"]
@@ -10467,6 +10467,7 @@ jable.tv##.badge
 gwiazdy.wp.pl,film.wp.pl,teleshow.wp.pl,wawalove.wp.pl,opinie.wp.pl,moto.wp.pl,finanse.wp.pl#$#abort-on-property-read prebidConfig.hb
 youranshare.com#%#//scriptlet("abort-current-inline-script", "$", "adskilltest")
 iqiyi.com###videoBuyContainer
+gameapps.hk##.adClick
 haoweichi.com#$#.adsbygoogle { height: 1px !important; }
 rtlxl.nl##.adblock
 m.youku.com###banner
@@ -14740,7 +14741,6 @@ novinky.cz##div[style^="background-Image:"], [style^="bACkgrOund-imAge:"]
 huya.com##div[class*="NavDownload"]
 mocospace.com###dialog-adblocker
 toy-people.com##.good72890
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_content_label|br_lb_label|br_lb_label_co|lbl_content_brs|labe_br_con_the|br_safety_content_label)[^\n]+?("sponsored_data"|"data_spon")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sp_auct_dis|flag_distan_spon_auc|of_distanc_auctio_spons)/'
 musify.club#$#abort-current-inline-script $ get_ya_browser
 ltn.com.tw##.Slider > li.L1ad
 tieba.baidu.com##.comment-box
@@ -17000,7 +17000,6 @@ news.baidu.com###favoriteTips
 graffica.info#@#.ad300-250
 seznamzpravy.cz##[class^="dynamic_banner"]
 med66.com##.banner
-||baidu.com/cms/rc/adSideConfig.json?
 ||alicdn.com/img/ibank/*_456388.
 smzy.com###showa
 pan.baidu.com##div.content DIV.photo-banner
@@ -17598,6 +17597,7 @@ gdekluet.ru##body > div[class^="stop-block"]
 le.com##.lay_title[style^="width:490px;height:60px;"]
 xhtml?$domain=kanshu8.net
 iprima.cz#@#.bannerAd
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"(brs_content_label|br_lb_label|br_lb_label_co|lbl_content_brs|labe_br_con_the|br_safety_content_label|br_con_label_for_safety)[^\n]+?("sponsored_data"|"data_spon")[^\n]+?("SponsoredData"|"ad_id")[^\n]+"cursor":"[^"]+"\}/' '{}' '/(sponsored_auction_distance|sp_auct_dis|flag_distan_spon_auc|of_distanc_auctio_spons|auction_distance_sp)/'
 netbardh.com###bg_right
 oilchem.net##.LzAdv
 sohu.com##.cbd-plate-bill.common-ad
@@ -19498,7 +19498,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||codeclan.altervista.org/wp-content/uploads/*/*/*.mp3$media
 ||mydrivers.com/drivers/2021/racent.jpg
 ||outbrain.com^$domain=wenxuecity.com
-||sinaimg.cn/tech/*/sidebar.js
 ||iiauu.cn/777/
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||cautiouscherries.com^$third-party
@@ -19993,7 +19992,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||pincai.com/js/pubuliu.
 ||bleedlight.com^$third-party
 ||citysbs.com/no/*/980x
-||sinaimg.cn/sports/20214c6d/20181128/880_110.png
 ||d67p.com/love/
 ||dodo8.com/template/*/images/g_js/
 ||foodfunfestivals.com^$third-party
@@ -21634,6 +21632,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||coatfood.com^$third-party
 ||shejiben.com/common/widgets/ui/*zb.js
+||baidu.com/cms/rc/adSideConfig.json?
 ||easou.com/online/banner/
 ||qidian.com/Images/990x40_
 ||cndns.com/incs/js/website_mobile.js
@@ -22836,7 +22835,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||miscreantmoon.com^$third-party
 ||baishuku.com/news/$script
 ||geekbackyard.com^$third-party
-||sinaimg.cn/news/diversion/index2/static/js/index.
 ||manhuapi.com/style/js/common.js
 ||firefoxchina.cn^*_topbanner
 ||ifeng.com/showcode
@@ -23519,6 +23517,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tz659.com/js/html*.js
 ||zmk.pw/zfb.png
 ||www.karaoketexty.cz/*/*.jpg$domain=karaoketexty.cz,rewrite=abp-resource:2x2-transparent-png
+||sinaimg.cn/sports/20214c6d/20181128/880_110.png
 ||totheglory.im/pic/ttg_
 ||waipian*.com/statics/recommend/
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
@@ -24124,6 +24123,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||xanimu.com/*.php$domain=xanimu.com
 ||xchina.*/plugins/jquery.modal/
 ||www.kupi.cz/*&*=$subdocument,domain=www.kupi.cz
+||sinaimg.cn/news/diversion/index2/static/js/index.
 ||trymask.com/api/$third-party
 ||zhibok8.com/js/di
 ||taizexy.com^*.gif
@@ -24362,6 +24362,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tui555.com/public/gong/js/a_
 ||zhihu.com/node/Banner?
 ||todayapp.tv^$popup,third-party
+||sinaimg.cn/tech/*/sidebar.js
 ||videojj.com/flash/bin/vjj_config.xml
 ||zlyk.com/Runtime/Js/m_nav_bottom.js
 ||yahoo.com/gdsale/gdsale.asp$domain=beephone.com.tw
