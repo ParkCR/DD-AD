@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-03-03 00:20:29
+! Last Modified: 2025-03-03 09:23:28
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,7 +17,7 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
@@ -14712,6 +14712,7 @@ www.wp.pl#$#abort-on-property-read SlotRegistrar; abort-current-inline-script PR
 kurs.com.ua#$#abort-current-inline-script document.documentElement.clientWidth
 sciencenet.cn##.mbanner
 opticsky.cn###head > .tac
+reshu.by,reshuent.kz,sdamgia.ru#@#.googlead
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
 ||85wp.com/ad/
 gq.com#@#.text-ads
@@ -15003,7 +15004,6 @@ hoteastday.com##.detail_top_mask_ad
 ifeng.com##div[class^="shareFix"]
 novom.ru#$#abort-on-property-read zoneNativeSett
 ptthito.com##.scupio-f
-reshu.by,sdamgia.ru##div[class$="-BlockDetect"]
 ||amazonaws.com^*/abb-msg.js$domain=hardocp.com
 neihanshequ.com###pageletTopBanner
 pan.baidu.com##.decrease-active
@@ -15139,7 +15139,6 @@ jingyingjiajiao.com##DIV[style="width:auto;border: 1px solid #aaaaaa; position:f
 root-nation.com#$#hide-if-matches-xpath './/img[contains(@alt,"")]/parent::div[@class="backstretch"]//ancestor-or-self::img[1]'
 muchong.com##.viewad
 |http://*/js/tc.js
-reshu.by,reshuent.kz,reshuolymp.ru,sdamgia.ru#@#.googlead
 sohu.com##[data-spm^='ad-']
 heiguang.com##.syAdTopTxt
 newyx.net,yxbao.com##.gs
@@ -16090,7 +16089,6 @@ ifeng.com##.ad08
 iqiyi.com##.content-wrap > .ch-res > .ad-ef
 ifeng.com##.ad07
 morningpost.com.cn###\33 60hot
-sdamgia.ru##div[style^="text-align:center; color:red;"][style*="font-size:16px"]
 ||apiimg.com/huaer/xiahe.
 onifile.com#$#abort-on-property-read _pop
 meizhou.com##.adwords + div
@@ -17303,6 +17301,7 @@ hcomic.net##div[class^="horizontalBanner_"]
 www.seznam.cz#$#hide-if-matches-xpath './/div[contains(@class,"gadget-container")]/div[@id and @class]/div[@*="animated-height"]//span[text()]/following-sibling::a[contains(text(),"reklamu")]//following::div[@*="gadget__content"]//div[@class and @style]/ancestor::div[7][@class]/ancestor::div[contains(@class,"gadget-container")]'; hide-if-matches-xpath './/div[starts-with(@class,"d-flex")]/div[contains(@class,"flex-column")]/div[@class and @style]//div[2]/div[@class and @style]/parent::div/ancestor-or-self::div[contains(@style,"flex-basis:")]'; hide-if-matches-xpath './/div[@*="mainFeed"]//div[@class="overflow-hidden"]/div[contains(@class,"atm-text-placeholder")]/parent::div[@class][1]/ancestor::div[3]/parent::div[@class and @*]/ancestor::li[@data-analytics-first-item]';
 teddysun.com##.sidebar > .widget:nth-child(3)
 webofcomics.ru##.reklandvipinfo
+sdamgia.ru##.S29e4f5cdae
 map.baidu.com###mapBanner
 m.v.qq.com##.pull-app-btns
 ke.com##.app_daoliu_layer
@@ -21982,6 +21981,8 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hk-pub.com/forum/images/banner/
 ||cupid.iqiyi.com/mixer?
 ||qguwoq.cn^$third-party
+||csgola.com/Public/img/lala/1.jpg
+||palmertx.com/template/js/img-1.php
 ||chengdu.cn/acts/phoneqss/openCornerWin/
 ||limon.biz^$domain=pronpic.org
 ||shallowblade.com^$third-party
@@ -22278,7 +22279,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gluedpixel.com^$third-party
 ||eagereden.com^$third-party
 ||chinatimes.com/Scripts/bennerad.
-||sicksmash.com^$third-party
 ||jd.com/ddimg/$domain=bimiacg.net
 ||hao123img.com/v4/MB/xU/jy/VY/YX/MBxUjyVYYX.js
 ||google-analytics.com$third-party
@@ -24950,3 +24950,4 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sina.com.tw^$subdocument
 ||szfcol.com/js/siteAd.js
 ||ssh.*.com^*!$script,third-party
+||sicksmash.com^$third-party
