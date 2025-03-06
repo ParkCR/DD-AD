@@ -1,7 +1,22 @@
 [ADFS Adblock List]
 ! Title: all.txt
-! Last Modified: 2025-03-06 16:23:11
+! Last Modified: 2025-03-07 00:22:48
 ! Homepage: https://github.com/ParkCR/DD-AD
+! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
+||*-ad.wtzw.com^
+||api2.coolapk.com/v6/page/dataList$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;apkImageCard&quot;.*?\\u0022}&quot;}\,/ /
+||api2.coolapk.com/v6/feed/detail$replace=/\,&quot;detailSponsorCard&quot;:{.*}/}}/
+/pangolin-sdk-toutiao.*/
+/pangolin-sdk-toutiao1.*/
+/pglstatp-toutiao.*/
+||api2.coolapk.com/v6/feed/detail$replace=/&quot;include_goods_ids&quot;:\[.*?]\,&quot;include_goods&quot;:\[.*?]\,/ /
+||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
+||*-ad.adukwai.com^
+||*-ad.adbkwai.com^
+||api2.coolapk.com/v6/main/init$replace=/{&quot;id&quot;:1170.*?}\,/ /
+||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
+/pangolin-sdk.*/
+||*-ad.gskwai.com^
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||localads.chengzijianzhan.cn^
 ||ad.99jiasu.com^
@@ -332,21 +347,6 @@
 ||mobads.baidu.com^
 ||a0.app.xiaomi.com^
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
-||*-ad.wtzw.com^
-||api2.coolapk.com/v6/page/dataList$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;apkImageCard&quot;.*?\\u0022}&quot;}\,/ /
-||api2.coolapk.com/v6/feed/detail$replace=/\,&quot;detailSponsorCard&quot;:{.*}/}}/
-/pangolin-sdk-toutiao.*/
-/pangolin-sdk-toutiao1.*/
-/pglstatp-toutiao.*/
-||api2.coolapk.com/v6/feed/detail$replace=/&quot;include_goods_ids&quot;:\[.*?]\,&quot;include_goods&quot;:\[.*?]\,/ /
-||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
-||*-ad.adukwai.com^
-||*-ad.adbkwai.com^
-||api2.coolapk.com/v6/main/init$replace=/{&quot;id&quot;:1170.*?}\,/ /
-||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
-/pangolin-sdk.*/
-||*-ad.gskwai.com^
-! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||ads*-normal-hl.amemv.com^
 ||ad-*file.myqcloud.com^
 ||p*-ad.byteimg.com^
@@ -369,6 +369,8 @@
 ||ads*-normal-lq.amemv.com^
 ||ads*-normal-lq.zijieapi.com.queniuiq.com^
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 127.0.0.1 c.sayhi.360.cn
 127.0.0.1 ggs.myzaker.com
@@ -1211,7 +1213,6 @@
 127.0.0.1 adsrich.qq.com
 127.0.0.1 uvu.nojmlxq.cn
 127.0.0.1 sdk.cferw.com
-127.0.0.1 hpd.baidu.com
 127.0.0.1 ads.wapx.cn
 127.0.0.1 rpt.gdt.qq.com
 127.0.0.1 app.starschina.com
@@ -1931,8 +1932,6 @@
 127.0.0.1 vstat.v.blog.sohu.com
 127.0.0.1 msg.ptqy.gitv.tv
 127.0.0.1 ads-go.adroi.com.cn
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: 1024网站及澳门皇家赌场及恶意广告主机列表 (https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)
 127.0.0.1 www.chemdraw.com.cn
 127.0.0.1 exoclick.com
@@ -4357,6 +4356,7 @@
 127.0.0.1 glean.pop6.com
 127.0.0.1 www.55588a.com
 127.0.0.1 www.v8940m.com
+127.0.0.1 hpd.baidu.com
 127.0.0.1 onclkds.com
 127.0.0.1 t.teads.tv
 127.0.0.1 genieedmp.com
@@ -5548,6 +5548,7 @@
 127.0.0.1 ads.music.126.net
 127.0.0.1 ads-api-o.api.leiniao.com
 127.0.0.1 ulogjs.gifshow.com
+127.0.0.1 api.yfanads.com
 127.0.0.1 log.stat.kugou.com
 127.0.0.1 mission-pub.smart-tv.cn
 127.0.0.1 api.installer.xiaomi.com
@@ -5573,7 +5574,6 @@
 127.0.0.1 analytics-api.samsunghealthcn.com
 127.0.0.1 api-access.pangolin-sdk-toutiao2.com
 127.0.0.1 catalog.fjwhcbsh.com
-127.0.0.1 client.app.coc.10086.cn
 127.0.0.1 g2.ganjing.world
 127.0.0.1 hugelog.fcbox.com
 127.0.0.1 ad-scope.com.cn
@@ -5608,6 +5608,7 @@
 127.0.0.1 ad-download.hismarttv.com
 127.0.0.1 addata.jd.com
 127.0.0.1 an.facebook.com
+127.0.0.1 ads.zhinengxiyifang.cn
 127.0.0.1 adsense.google.cn
 127.0.0.1 p2-lm.adkwai.com
 127.0.0.1 chat1.jd.com
@@ -5926,6 +5927,8 @@
 104.19.123.145             www.perplexity.ai
 104.21.234.45           sv2.paipancon.com
 127.0.0.1          live1.octanerender.com # #
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 0.0.0.0 omhoa.com
 0.0.0.0 zhanzhang.net
@@ -10341,8 +10344,6 @@
 0.0.0.0 fc.zuixinchao.com
 0.0.0.0 fuvbbjl.xyz
 0.0.0.0 stgowan.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
