@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-03-14 00:23:20
+! Last Modified: 2025-03-14 09:22:06
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -442,6 +442,7 @@ baidu.com##.result-op[tpl="vmp_strengthen_brand"]
 /cpro/ui/*
 163disk.com##.gg_990_90
 cinemablend.com#@#.pub_300x250
+ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato)/ 'div[data-viewport]' 'div[data-viewport] div[role="text"]'
 @@||dlkoo.com^$generichide
 @@||sports.ru^*/adfox.$xmlhttprequest
 ##[href*='anrvl.com']
@@ -2458,7 +2459,6 @@ bitauto.com##div > ins[data-type="ad_play"]
 52fx.cn##.nex_index_top_ads
 @@||nadajemy.pl/*/adsense/ad/banner/adv.js$script
 c4dsky.com##a[href*="ibaotu.com"]
-ebay.com#$#hide-if-matches-xpath './/span[contains(@class,"items-carousel") and contains(.,"Sponsored")]/ancestor::div[@data-hscroll]/parent::li[1]'
 codeplayer.vip,cupfox.app##.banner-box
 ###sitefocus.focus
 ahaonline.czinfo.cz,onetv.cz##a[href*="Banner"]
@@ -3421,7 +3421,6 @@ cekresi.com##.pleasehideadblkuc.popio
 ##[src$='/dibu.adadadad']
 bilibili.com##.ad-f
 ckdzb.com##div[style="float:right;margin:10px 10px;clear:right;height:310px;width:336px;"]
-ebay.com#$#hide-if-contains-visible-text /\s*sponsored\s*/ 'div[data-viewport]' 'div[data-viewport] h2'
 /js/mmdaohang_2.js
 ##a[href^="http://yunbofangbt."]
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
@@ -3839,6 +3838,7 @@ cnplugins.com##.pushbox1
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
 .vip/ads/
 freshsexvideos.com,sexvideos.rodeo,xxxvideo.link,ixxx.onl,xvideosx.one,xxxpor.org,xmxx.live#$#cookie-remover tgpOut; abort-current-inline-script document.querySelectorAll popMagic; override-property-read setTimeout noopFunc;
+ebay.*#$#hide-if-contains-visible-text /(\s*sponsored\s*|\s*anzeigen\s*|\s*sponsorisés\s*|\s*commandités\s*|\s*sponsorowane\s*|\s*gesponsord\s*|\s*patrocinados\s*|\s*sponsorizzati\s*)/ 'div[data-viewport]' 'div[data-viewport] h2'
 ##DIV[class*='id_ads__']
 @@||sascdn.com^$script,domain=bild.de
 /data/cache/myad-
@@ -6316,7 +6316,6 @@ aihami.com##.context_ad
 ahtv.cn,sexbarss.net##.l1
 ##.mobadsq
 elecfans.com###company-ad
-ebay.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-viewport]' 'div[data-viewport] div[role="text"]'
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 .nyaa.fun/static/img/host/*.gif
 .m.fhxiaoshuo.com^
@@ -7526,6 +7525,7 @@ da-fan-shu.cn#@#.ad-s
 @@||ad.filmweb.pl/adbanner/reklamy/adx.js$script
 @@||gmads.net^$object-subrequest,domain=sat1.de|sat1.ch
 @@||hdnumerique.com/tpl/jscript/advert.js
+ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"items-carousel")][contains(.,"Sponsored") or contains(.,"Anzeigen") or contains(.,"Sponsorisés") or contains(.,"Commandités") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzati") or contains(.,"贊助")]/ancestor::div[@data-hscroll]/parent::li[1]'
 :8007/*/*?is_not=
 chem99.com###div_main_ta
 @@||51img1.com/??*/adsys.
