@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-03-28 00:24:01
+! Last Modified: 2025-03-28 09:24:27
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: search5-search-hl.ixigua.com
 :: adservice.google.com
@@ -3185,7 +3183,6 @@ downkr.com##.address-right > div > a[target="_blank"] > img
 ##a[href*="/2e9c9aa9.com/"]
 crsky.com##.Adown_v_gs
 ##.ad-alert-message-text
-cdiscount.com#$#hide-if-contains /Sponsorisé/ 'li[class="abLabel"], li[data-sku]' '*[pos][id] ^^sh^^ div[class]'
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 baidu.com###content_right > div > div[id^="m"]
 ##a[href*=".hg63222.com"]
@@ -3349,6 +3346,7 @@ eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 @@||hugo.zdunskawola24.pl/$script,domain=zdunskawola24.pl
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 dzen.ru,lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
+cdiscount.com#$#hide-if-matches-xpath './/input[contains(@name,"Sponsored")]/ancestor::*[(self::article[contains(@class,"c-productCard")] and parent::li) or (self::form and ancestor::div[contains(@class,"prdtBlocInline")])]/ancestor::li[1]'
 ##.adwap
 @@||exashare.com/ici.html$subdocument
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=voyageforum.com
@@ -12979,7 +12977,6 @@ user.qzone.qq.com##div[id^="fct_20050606_"]
 ||28.com/public/js/w3c_float.js
 zol.com.cn###relatedProduct
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-weigou-view-container
-||azhibo.*images/leisu.png
 huya.com###J_roomGgTop
 jiumodiary.com###forum-panel
 pcauto.com.cn##.fix_sinup_box
@@ -17191,6 +17188,7 @@ jsphp.net##.widget_tuijian
 sm.cn###download-uc
 ishare.iask.sina.com.cn##.loginRedPacket-dialog
 ||alicdn.com/img/ibank/*_794019354.
+tripadvisor.com#$#hide-if-matches-xpath '//span[text()="Sponsored"]/parent::div/parent::div/parent::div[.//a[contains(@href, "Restaurant_Review")]]/parent::div/parent::div[.//button[contains(@data-automation, "trips-save-button")]]'
 wnacg.com##a[href^="http"]:not([href*="wnacg."]) img
 ||antdv.com/kaikeb
 seznamzpravy.cz/*seznamzpravy.cz$subdocument
@@ -20409,7 +20407,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gleaminghaven.com^$third-party
 ||hoopchina.com.cn/web/ad/
 ||isky.ltd/skin/js/ad.js
-||shihuo.cn/alibtn_
 ||everyonepiano.cn/Public/*0x
 ||newume.com/v1/data/ume-
 ||connect.facebook.net^*/fbds.js$third-party
@@ -20486,7 +20483,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sdzbcg.com/images/sdfhyl
 ||buzzhand.com/images/$subdocument
 ||qqc.co/Webservices/jsParseLinks.aspx$script,third-party
-||shfq.com/wuyue
 ||dyo.gs/visitScript/$script,third-party
 ||pinyuege.net/template/pinygm/public/js/
 ||dnvod.tv/listprovider/ajaxlist.async.ashx
@@ -22152,6 +22148,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||eefcdn.com/promotion/module/module.
 ||fearlessfeast.com^$third-party
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
+||azhibo.*images/leisu.png
 ||cdyee.com/external/5070.files/ad/
 ||btdb.in/beacon.html
 ||dyecloud.com^$third-party
@@ -22985,7 +22982,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||qunar.com/render/*Advertisement.jsp?
 ||liuxue86.com/css/liuxue_output.js
 ||rhythmrule.com^$third-party
-||shfq.com/data/attachment/portal/
 ||bestboundary.com^$third-party
 ||ettoday.net/ad/*_action.js
 ||rainpat.com/Content/1360x55/
@@ -24680,6 +24676,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||youqunjx.com^$third-party
 ~cityheaven.net###gg1
 ||userscontent.com^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
+||shihuo.cn/alibtn_
 ||xingwangzz.com/123/
 ||zt.chuanke.com/?mod=
 ||youaima.com/rest/
@@ -24726,6 +24723,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||xbiqu5.com/12345678.
 ||xiaopi.com/api.php?op=get_p&
 ||xiacaidd.com/xiacai/ad/
+||shfq.com/wuyue
 ||ww7814.win/pic
 ||super.bad996.com/*ads.js
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
@@ -24805,6 +24803,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||stats.chinaz.com/tool/
 ||unknowncrate.com^$third-party
 ||tongji.trafficmanager.net/?
+||shfq.com/data/attachment/portal/
 ||xzji.com/data/block_js/softShow_
 ||xpcha.com/js/notice.js
 ||sinajs.cn/t6/home/js/pl/guide/bigday/
@@ -25139,7 +25138,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||u7u9.com^$third-party
 ||uooyoo.com/hz/*str.js
 ||strivesquirrel.com^$third-party
-||youyiya.com/Tpl/mobile/js/you
 ||youaima.com/zz/
 ||tingchina.com/js/*220-
 ||zdqx.com/statics/v1/images/gif/
@@ -25300,3 +25298,5 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tuwan.com/events/courseiframe?
 ||super.cz/*&*=$subdocument,domain=super.cz
 ||xuehi.cn/reward/reward
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
