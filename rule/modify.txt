@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-04-02 00:22:56
+! Last Modified: 2025-04-02 09:26:20
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: search5-search-hl.ixigua.com
 :: adservice.google.com
@@ -36,6 +34,7 @@
 :: oauth-login-drcn.platform.dbankcloud.com
 :: weather-community-drcn.weather.dbankcloud.cn
 :: ads3-normal-hl.zijieapi.com
+::1 localhost
 :: huichuan.sm.cn
 :: tangram.e.qq.com
 :: tencent-dtv.m.cn.miaozhen.com
@@ -4077,7 +4076,6 @@ dcard.tw#?#div[data-index] > article:contains(贊助活動)
 720yun.com##div[class^="Ads_ads_"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
 baidu.com##.ec-fc-ad-results
-fx112.com##a[href^="/union."]
 @@||vali.cp*.ott.cibntv.net^$domain=m.youku.com,third-party
 ##DIV[style='background-color: rgb(249, 249, 249); display: flex; align-items: center; justify-content: center;']
 /js/adv-slide-toggle.
@@ -5943,6 +5941,7 @@ digitalcitizen.life##.TopAdBanner
 @@||dlkoo.cc/down/copy0
 :8888/zhu/pc_
 boylov.xyz,boylove.cc,boyloves.fun##div[data-type="1"]
+/^(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.so\d{1,6}koaq\.com$/
 /ettoday/gemini/*
 alist.nn.ci##.ss
 118pan.com##.card.mt-2:nth-child(2)
@@ -6512,7 +6511,6 @@ baidu.com##.wgt-union
 *.lijie.*/*_*?$third-party
 dismall.com##.d_money
 /tencentvideo/script/webtips/*
-fx112.com##div[class*="floatap"]
 @@||s.tgfcer.com^$generichide
 baidu.dj###ETE
 /adpfile/*
@@ -6876,6 +6874,7 @@ cyberscore.live##.wrapper-partner-rb
 @@/.adforge.|$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
 freeomovie.co.in#$#abort-on-property-read decodeURIComponent
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dialogJmodal
+/(mon|tue|wed|thu|fri|sat|sun)\d{1,2}\.so\d{1,6}koaq\.com\//$script,third-party
 :8080/ad/
 @@||tui.click^$generichide
 ##.cpcad
@@ -13407,6 +13406,7 @@ pogoda.wp.pl#$#abort-on-property-read prebidConfig.config.floorprices
 manga.bilibili.com##.download-hinter
 ||17173cdn.com/a/www/index/2016v2/js/seed.js
 image.baidu.com###relecom54
+fx112.com##a[href^="/union."]
 mjzj.com##div[id^="sidebar-top-carouse"]
 hackhw.com##.hengfuad
 vidmoly.to#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-on-property-read window.open;
@@ -15630,6 +15630,7 @@ mrtzcmp3.net###hstp_interstitial
 m.mydrivers.com###content > .bb
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
 ||anqu.com/b.js
+fx112.com##div[class*="floatap"]
 justjared.com,pockettactics.com#$#abort-on-property-read PerformanceLongTaskTiming
 qixin.com##.web-diversion-container
 yts.*#$#abort-on-property-read window.__adFormats;
