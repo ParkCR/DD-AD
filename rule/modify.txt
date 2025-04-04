@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-04-04 00:23:15
+! Last Modified: 2025-04-04 09:24:56
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,6 +19,8 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api.jietuhb.com
 :: search5-search-hl.ixigua.com
@@ -234,8 +236,6 @@
 :: xlviirdr.com
 :: g.dtv.cn.miaozhen.com
 :: tnc3-bjlgy.toutiaoapi.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -383,6 +383,7 @@ baidu.com###index_banner_top
 firefoxchina.cn##.engine-jokes
 agmov.com,huaban.com##.promotion
 bt.cn,lotour.com##.btad
+6parknews.com##div[class^="InContent_"]
 duplichecker.com#$#hide-if-matches-xpath './/img[@class="img-responsive"][@src]/preceding::a[@target="blank"][@rel="nofollow"]/ancestor-or-self::div[1]'
 /jianshen8/images/plan_banner_
 ##.itopbar + .container
@@ -9481,6 +9482,7 @@ ali213.net##div[id^="ali-ad-js-"]
 3g.163.com##.big_boom
 ##a#wrapper_left_bg
 @@||play.wtk.insys.pl/Scripts/InsysPlayer.v0.1.0/adTest.png$image
+fx110.com,fx110.uk##.Adv_1
 baidu.com###tab_news_1
 @@||stream4free.eu/modules/mod_jpayday/js/doubleclick.js$script,domain=stream4free.eu
 ###adblock_message
@@ -9766,8 +9768,6 @@ csdn.net##.toolbar-advert
 ##.a_sxfl
 ##.con_search + #carousel-example-generic[style^="max-width: 1170px;"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
-6parknews.com##.InContent_1
-6parknews.com##.InContent_0
 ##DIV.hidden-lg[style='position: absolute;bottom: 0px;z-index: 10;']
 @@||imfeifan.com/adv/$~third-party
 ##.content > .module > .small-icon-container > a.small-icon-div[target="_blank"]
@@ -18423,7 +18423,6 @@ playno1.com###m2
 liaoningmovie.net##[class^="c-ad"]:not(.c-ad-103)
 playno1.com###m7
 tom.com###body_right_banner
-fx110.com,fx110.uk##.Adv_1
 goodcome.com.tw###jad-right
 ifeng.com##.yiyuan
 honglingjin.co.uk##.rs-side-ads
@@ -21866,6 +21865,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||beareyes.com.cn^*/ad/
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||coatfood.com^$third-party
+||shejiben.com/common/widgets/ui/*zb.js
 ||baidu.com/cms/rc/adSideConfig.json?
 ||easou.com/online/banner/
 ||qidian.com/Images/990x40_
@@ -24048,7 +24048,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||xkzzz.com/zb_users/plugin/MoreLinks/MoreLinks.
 ||wap.hfoyjg.cn^$third-party
 ||vxotu.com/i/*.gif
-||shejiben.com/common/widgets/ui/*zb.js
 ||snmi.cn^$third-party
 ||yinghua8.*/bar/
 ||yuntue.com/zb_users/plugin/MoreLinks*.php
