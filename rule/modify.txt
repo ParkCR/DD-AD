@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-04-10 00:24:49
+! Last Modified: 2025-04-10 09:25:27
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api.jietuhb.com
 :: fundingchoicesmessages.google.com
@@ -36,7 +38,6 @@
 :: weather-community-drcn.weather.dbankcloud.cn
 :: adexp.chinaliftoff.io
 :: ads3-normal-hl.zijieapi.com
-::1 localhost
 :: huichuan.sm.cn
 :: tangram.e.qq.com
 :: tencent-dtv.m.cn.miaozhen.com
@@ -5228,7 +5229,6 @@ chinese.engadget.com##body #ldrBoardAd
 alypw.com##.ceadd
 /local_p.js^$domain=bigtitslust.com|freeporn8.com|maturetubehere.com|megatube.xxx
 @@||ibon.com.tw/imageserver/images/ad_file/
-ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'li[class*="brwrvr__item-card"]' 'li[class*="brwrvr__item-card"] span[class="su-sponsored-label__sep"] > span[role="text"] > span[class]'
 /xxgg/pf*.js
 ati.su#$#abort-on-property-read Object.prototype._bannerOrderAttr
 cnlmjx.com##.yw_ad
@@ -6308,6 +6308,7 @@ docsmall.com##.modal-connection.show
 aguitar.cn##img[width="470"][height="60"]
 bilibili.com##.index-promote
 ccav5.com##a[href*=".sinaimg."]
+ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'li[class*="brwrvr__item-card"]' 'li[class*="brwrvr__item-card"] span[class="su-sponsored-label__sep"] > span[class="su-sponsored-label__sep--rev"] > span[aria-hidden="true"]'
 bbs.my0511.com##embed[width="970"][height="70"]
 @@||straight-world.de/js/ads.js$script
 2345.com###m_banner_2
@@ -13541,6 +13542,7 @@ manwa.me##.ad-area > a
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="/pimpu?"]
 shejiben.com##.bottom_zb_box
 ||445nan.com/ad/
+sourceforge.net,winfuture.de#$#override-property-read String.prototype.charCodeAt noopFunc; override-property-read Blob noopFunc;
 v.163.com###v_shapeLeft_divId
 m.baidu.com##a[href*="m.lecai.com"]
 t.cj.sina.com.cn##.yyy-wrap-2021
@@ -17134,7 +17136,6 @@ playwire.com#@#.adspot
 hackhw.com##.d336
 lfg.co,leasticoulddo.com#@#.pub_300x250
 pan666.cn##.footer > .containerNarrow
-sourceforge.net,winfuture.de#$#override-property-read Array.prototype.map noopFunc; override-property-read Blob noopFunc;
 jianshu.com##.header-download
 ||asp300.*/2017js/
 pingwest.com##article[class*="item bd"]
