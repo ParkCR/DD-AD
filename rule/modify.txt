@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-04-11 00:24:14
+! Last Modified: 2025-04-11 09:26:25
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -4089,6 +4089,7 @@ clubedohardware.com.br#@#.ipsAd
 dianping.com##.button_bao-jia
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 @@||d2jqs2kfmi9hwf.cloudfront.net/ad-image.png=$image
+allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]/ancestor::div[contains(@data-analytics-tags,"content-advertising")]'
 /adblock-notify-by-bweb/*
 ###duilian_right
 66se2.com##.f_f
@@ -7274,7 +7275,6 @@ damon624.pixnet.net##.article-content-inner > p:has(> span > a[href] > ins.adsby
 ##body > DIV[style*='height: 33px'][style*='132px !important;']
 159i.com##div[id^="sidebar"] > :not(form)
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
-allegro.*#$#hide-if-matches-xpath './/span[text()="Sponsorowane" or text()="Спонсороване" or text()="Sponsored" or text()="Sponzorované" or text()="Szponzorált"]/ancestor::div[@data-box-name="allegro.advertising.adspremium"]';
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz#?#div:-abp-has(>[class$="selfpromo"])
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=usafaucet.tk
 baidu.com##.result-op[tpl="game-page-right-openservice"]
@@ -10485,6 +10485,7 @@ hao.360.cn##.hot-word
 tiscali.cz,osobnosti.cz,karaoketexty.cz##a[target="_blank"]>img[class*="-click-"]
 nunuyy3.org#%#//scriptlet("abort-current-inline-script", "$", "infoid")
 quora.com##.answer_auto_expanded_comments + div > div.feed_expand
+sourceforge.net,winfuture.de#$#override-property-read Node.prototype.appendChild noopFunc; override-property-read Blob noopFunc;
 ||alicdn.com/kf/Hd62261f1a7964c50824ac5982b1aa1bfk.gif
 sgcn.com##.oyad2.cl
 maxthon.cn###festival-rain-wrapper
@@ -13544,7 +13545,6 @@ manwa.me##.ad-area > a
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="/pimpu?"]
 shejiben.com##.bottom_zb_box
 ||445nan.com/ad/
-sourceforge.net,winfuture.de#$#override-property-read String.prototype.charCodeAt noopFunc; override-property-read Blob noopFunc;
 v.163.com###v_shapeLeft_divId
 m.baidu.com##a[href*="m.lecai.com"]
 t.cj.sina.com.cn##.yyy-wrap-2021
@@ -20729,7 +20729,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dy2018.com/jsdd/
 ||ishowx.com/www/2015/js/top.js
 ||jia.com/js/common/article_home_adv.js
-||sina.cn/interface/*_game_wap_home_mid_list_in.
 ||ruten.com.tw/js/gads_
 ||easyliao.com^$third-party
 ||r3sub.com/images/aaa^
@@ -21720,7 +21719,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||pierrebotton.com/global/
 ||frogtray.com^$third-party
 ||qq.com/vfpage/visual_focus_page.
-||sina.cn/cm/sinaads_
 ||imgs.cc^$domain=fun1shot.com
 ||by4d.com/dh/
 ||sd124.com/statics/mystyle/js/1699.js
@@ -21968,7 +21966,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||jinhua.com.cn/ad_pic/
 ||cndzys.com/huanlian/
 ||realizerecess.com^$third-party
-||sina.cn/check?
 ||edu-30130.sz.gfp.tencent-cloud.com^*.gif
 ||gome.com.cn/flight?
 ||gravitykick.com^$third-party
@@ -24123,6 +24120,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||skillfuldrop.com^$third-party
 ||stopstomach.com^$third-party
 ||wirypaste.com^$third-party
+||sina.cn/cm/sinaads_
 ||sobt8.org/Public/static/js/common.js
 ||tranquilplume.com^$third-party
 ||xbiqu5.com/12345678.
@@ -24428,10 +24426,12 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||z4a.net^$domain=9xav.cc
 ||static.dragcave.net/cache/js/a/$script
 ||sohu.com/adgtr/
+||sina.cn/interface/*_game_wap_home_mid_list_in.
 ||zatnawqy.net/Webservices/jsParseLinks.aspx$script,third-party
 ||somberscarecrow.com^$third-party
 ||zongheng.com/upload/hzds/
 ||wandouys.com/slade.js
+||sina.cn/check?
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
 ||xanimu.com/*.php$domain=xanimu.com
 ||xchina.*/plugins/jquery.modal/
