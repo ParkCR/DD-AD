@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-05-05 00:21:48
+! Last Modified: 2025-05-05 09:40:55
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,6 +19,8 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api.jietuhb.com
 :: fundingchoicesmessages.google.com
@@ -263,8 +265,6 @@
 :: xlviirdr.com
 :: g.dtv.cn.miaozhen.com
 :: tnc3-bjlgy.toutiaoapi.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -2341,7 +2341,6 @@ dhaomu.com##.sidebar > .slide
 duba.com##.car_ads
 baidu.com##.top-ad-cont
 ###propagandaInsert[style="display: flex;"]
-/\.[a-z]+[\:\/]/$~image,third-party,domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com
 @@||shopeemobile.com/shopee/*/modules/ads/
 ##.chat-top-ad
 dytt5.net##.detail-body > .fly-panel
@@ -4511,6 +4510,7 @@ azov-sea.info##[valign="middle"]
 /addon/indexad.php
 @@||f*.baidu.com/it/u=*,*&fm=$domain=baidu.com
 dz-android.com#@##adsense
+$csp=script-src 'self' * 'unsafe-inline',domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com
 @@||auroravid.to/banner.php$script
 @@||wancaibb.com/share/js/share.min.js
 @@||5qidgde.com^$generichide
@@ -6113,7 +6113,6 @@ elhow.ru###b-info-wrapper
 /1skwwd.
 .com/m-2594|$script,third-party
 ##A[href^='https://k.izret.com']
-$csp=script-src 'self' * 'unsafe-inline',domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com
 :8891/v*/$script,third-party
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=btcfaucetlist.net
 /adtmp/*
@@ -6155,6 +6154,7 @@ ebay.com##div[class^="HO98 _5oqq"]
 ##.t5[style="border:1px solid #a6cbe7;"] + .t[style="margin-top:8px"]
 ##a[href*="/122.51.121.126:"]
 @@||58.com/adJump?adType=
+/\.[a-z]+[\:\/]/$~image,third-party,domain=candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com
 csdn.net##.toolbar-subMenu
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##div[style*="_banner_branding_cnc_"]
 ebay.com#$#hide-if-matches-xpath './/div[@class]/h2[contains(.,"Sponsored")]//ancestor::div[@data-viewdtls][@data-pushed-view="true"]'
