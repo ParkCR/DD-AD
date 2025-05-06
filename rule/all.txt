@@ -1,7 +1,22 @@
 [ADFS Adblock List]
 ! Title: all.txt
-! Last Modified: 2025-05-06 16:26:25
+! Last Modified: 2025-05-07 00:22:51
 ! Homepage: https://github.com/ParkCR/DD-AD
+! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
+||*-ad.wtzw.com^
+||api2.coolapk.com/v6/page/dataList$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;apkImageCard&quot;.*?\\u0022}&quot;}\,/ /
+||api2.coolapk.com/v6/feed/detail$replace=/\,&quot;detailSponsorCard&quot;:{.*}/}}/
+/pangolin-sdk-toutiao.*/
+/pangolin-sdk-toutiao1.*/
+/pglstatp-toutiao.*/
+||api2.coolapk.com/v6/feed/detail$replace=/&quot;include_goods_ids&quot;:\[.*?]\,&quot;include_goods&quot;:\[.*?]\,/ /
+||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
+||*-ad.adukwai.com^
+||*-ad.adbkwai.com^
+||api2.coolapk.com/v6/main/init$replace=/{&quot;id&quot;:1170.*?}\,/ /
+||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
+/pangolin-sdk.*/
+||*-ad.gskwai.com^
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||ads*-normal-hl.amemv.com^
 ||ad-*file.myqcloud.com^
@@ -25,21 +40,6 @@
 ||ads*-normal-lq.amemv.com^
 ||ads*-normal-lq.zijieapi.com.queniuiq.com^
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
-! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
-||*-ad.wtzw.com^
-||api2.coolapk.com/v6/page/dataList$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;apkImageCard&quot;.*?\\u0022}&quot;}\,/ /
-||api2.coolapk.com/v6/feed/detail$replace=/\,&quot;detailSponsorCard&quot;:{.*}/}}/
-/pangolin-sdk-toutiao.*/
-/pangolin-sdk-toutiao1.*/
-/pglstatp-toutiao.*/
-||api2.coolapk.com/v6/feed/detail$replace=/&quot;include_goods_ids&quot;:\[.*?]\,&quot;include_goods&quot;:\[.*?]\,/ /
-||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
-||*-ad.adukwai.com^
-||*-ad.adbkwai.com^
-||api2.coolapk.com/v6/main/init$replace=/{&quot;id&quot;:1170.*?}\,/ /
-||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
-/pangolin-sdk.*/
-||*-ad.gskwai.com^
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||localads.chengzijianzhan.cn^
 ||ad.99jiasu.com^
@@ -369,8 +369,6 @@
 ||adserver.html.it^
 ||mobads.baidu.com^
 ||a0.app.xiaomi.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 127.0.0.1 c.sayhi.360.cn
 127.0.0.1 ggs.myzaker.com
@@ -1213,6 +1211,7 @@
 127.0.0.1 adsrich.qq.com
 127.0.0.1 uvu.nojmlxq.cn
 127.0.0.1 sdk.cferw.com
+127.0.0.1 hpd.baidu.com
 127.0.0.1 ads.wapx.cn
 127.0.0.1 rpt.gdt.qq.com
 127.0.0.1 app.starschina.com
@@ -1932,6 +1931,8 @@
 127.0.0.1 vstat.v.blog.sohu.com
 127.0.0.1 msg.ptqy.gitv.tv
 127.0.0.1 ads-go.adroi.com.cn
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: 1024网站及澳门皇家赌场及恶意广告主机列表 (https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts)
 127.0.0.1 www.chemdraw.com.cn
 127.0.0.1 exoclick.com
@@ -4356,7 +4357,6 @@
 127.0.0.1 glean.pop6.com
 127.0.0.1 www.55588a.com
 127.0.0.1 www.v8940m.com
-127.0.0.1 hpd.baidu.com
 127.0.0.1 onclkds.com
 127.0.0.1 t.teads.tv
 127.0.0.1 genieedmp.com
@@ -5076,250 +5076,6 @@
 127.0.0.1 tzjs.ksylx.com
 127.0.0.1 huodong.mobilem.360.cn
 127.0.0.1 pt.trafficjunky.net
-! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
-:: api.jietuhb.com
-:: fundingchoicesmessages.google.com
-:: search5-search-hl.ixigua.com
-:: adservice.google.com
-:: uranus.jd.com
-:: ii.gdt.qq.com
-:: ads.servebom.com
-:: advertising.yandex.ru
-:: adstudio-assets.scdn.co
-:: ads5-normal-lq.zijieapi.com
-:: appcfg.v.qq.com
-:: res1.applovin.com
-:: hwpub-s01-drcn.cloud.dbankcloud.cn
-:: m.ad.zhangyue.com
-:: data.mistat.rus.xiaomi.com
-:: ks-p2p.pull.yximgs.com
-:: audid-api.taobao.com
-:: weather-community-drcn.weather.dbankcloud.cn
-:: adexp.chinaliftoff.io
-:: ads3-normal-hl.zijieapi.com
-:: huichuan.sm.cn
-:: tangram.e.qq.com
-:: tencent-dtv.m.cn.miaozhen.com
-:: offerwall.yandex.net
-:: pms.mb.qq.com
-:: tpc.googlesyndication-cn.com
-:: wxsnsdy.tc.qq.com
-:: ads3-normal-lq.zijieapi.com
-:: c2.gdt.qq.com
-:: aegis.qq.com
-:: metrics.icloud.com
-:: c.sayhi.360.cn
-:: rpt.gdt.qq.com
-:: lf6-ad-union-sdk.pglstatp-toutiao.com
-:: ad.qq.com
-:: rt.applovin.com
-:: v2.gdt.qq.com
-:: data.mistat.india.xiaomi.com
-:: mssdk.volces.com
-:: snowflake.qq.com
-:: tmfsdk.m.qq.com
-:: p1-lm.adkwai.com
-:: tx-p2p-v2.pull.yximgs.com
-:: lf3-ad-union-sdk.pglstatp-toutiao.com
-:: heads-ak.spotify.com.edgesuite.net
-:: ad.cctv.com
-:: ads5-normal-hl.zijieapi.com
-:: firebaselogging-pa.googleapis.com
-:: tmead.y.qq.com
-:: ad.12306.cn
-:: ks.ferlytc.com
-:: lh3.googleadsserving.cn
-:: win.gdt.qq.com
-:: ad.zijieapi.com
-:: securepubads.g.doubleclick.net
-:: 1500022744.vodplayer.wxamedia.com
-:: cj.qidian.com
-:: ms.applovin.com
-:: hw-ot-ad.a.yximgs.com
-:: ad.qingting.fm
-:: ads3-normal.zijieapi.com
-:: adsp.xunlei.com
-:: pcm-img.zhls.qq.com
-:: tmeadcomm.y.qq.com
-:: ogads-pa.clients6.google.com
-:: adexpo.tencentmusic.com
-:: log.stat.kugou.com
-:: cdn.ynuf.aliapp.org
-:: errlog.umeng.com
-:: rt.applvn.com
-:: webstat.qiumibao.com
-:: an.facebook.com
-:: wxa.wxs.qq.com
-:: review.gdtimg.com
-:: log.snssdk.com
-:: ads-video-qc.xhscdn.com
-:: 1500020991.vodplayer.wxamedia.com
-:: ifs.tanx.com
-:: beacons.gvt2.com
-:: search3-search.ixigua.com
-:: proxy.advp.apple.com
-:: cnlogs.umengcloud.com
-:: monitor.music.qq.com
-:: oss.cdn.aiclk.com
-:: ad.v3mh.com
-:: cdn.aiclk.com
-:: ks-p2p-v2.pull.yximgs.com
-:: aaid.umeng.com
-:: log.fc.yahoo.com
-:: adstats.tencentmusic.com
-:: app-measurement.com
-:: analytics.pointdrive.linkedin.com
-:: errnewlog.umeng.com
-:: graph.facebook.com
-:: adtech.yahooinc.com
-:: v2mi.gdt.qq.com
-:: p.s.360.cn
-:: pagead2.googlesyndication.com
-:: vlive.qqvideo.tc.qq.com
-:: xc.gdt.qq.com
-:: webview.unityads.unity3d.com
-:: tnc3-bjlgy.zijieapi.com
-:: ads5-normal.zijieapi.com
-:: hw-p2p.pull.yximgs.com
-:: mobaliyun.res.mgtv.com
-:: update.avlyun.sec.miui.com
-:: heads-fa.spotify.com
-:: optimus-ads.amap.com
-:: ccs.umeng.com
-:: ads.linkedin.com
-:: ads5-normal-lf.zijieapi.com
-:: api.kingdata.ksyun.com
-:: googletagservices-cn.com
-:: adexp.liftoff.io
-:: cfg.imtt.qq.com
-:: iadsdk.apple.com
-:: qn-cdnfile1pcdn.msstatic.com
-:: m.atm.youku.com
-:: tdc.qq.com
-:: ads.google.cn
-:: adsebs.ximalaya.com
-:: dm.toutiao.com
-:: log.zijieapi.com
-:: v1-ad.video.yximgs.com
-:: wxsnsdythumb.wxs.qq.com
-:: ads-img-qc.xhscdn.com
-:: resolve.umeng.com
-:: beacon-api.aliyuncs.com
-:: ef-dongfeng.tanx.com
-:: udc.yahoo.com
-:: googleads.g.doubleclick-cn.net
-:: metrika.yandex.ru
-:: qzs.gdtimg.com
-:: ad.api.3g.youku.com
-:: beaconcdn.qq.com
-:: xlviiirdr.com
-:: click.chinaliftoff.io
-:: recommend-drcn.hms.dbankcloud.cn
-:: m1.ad.10010.com
-:: smartad.10010.com
-:: tytx.m.cn.miaozhen.com
-:: android.bugly.qq.com
-:: mon.zijieapi.com
-:: zhihu-web-analytics.zhihu.com
-:: outlookads.live.com
-:: ads3-normal-lf.zijieapi.com
-:: doubleclick-cn.net
-:: wxsnsdy.wxs.qq.com
-:: hc-ssp.sm.cn
-:: img-c.heytapimage.com
-:: livewebbs2pcdn.msstatic.com
-:: tracelog-debug.aiclk.com
-:: uedas.qidian.com
-:: tnc3-aliec2.bytedance.com
-:: v3-ad.video.yximgs.com
-:: mmgame.qpic.cn
-:: googleads.g.doubleclick.net
-:: ks.pull.yximgs.com
-:: houyi.kkmh.com
-:: analytics.query.yahoo.com
-:: logtj.kugou.com
-:: plbslog.umeng.com
-:: tracelog-debug.qquanquan.com
-:: p3-lm.adkwai.com
-:: image-ad.sm.cn
-:: v3.gdt.qq.com
-:: applog.zijieapi.com
-:: t-dsp.pinduoduo.com
-:: aspect-upush.umeng.com
-:: log.ad.xiaomi.com
-:: p.l.qq.com
-:: search.ixigua.com
-:: ads-video-al.xhscdn.com
-:: metrics.data.hicloud.com
-:: vali-ugc.cp31.ott.cibntv.net
-:: 1500026601.vodplayer.wxamedia.com
-:: logrcv.aiclk.com
-:: api.fu.xcultur.com
-:: click.googleanalytics.com
-:: dxp.baidu.com
-:: file.daihuo.qq.com
-:: ads.v3mh.com
-:: google-analytics.com
-:: p6-be-pack-sign.pglstatp-toutiao.com
-:: tnc3-alisc1.bytedance.com
-:: mazu.m.qq.com
-:: search5-search.ixigua.com
-:: tnc3-bjlgy.bytedance.com
-:: crashlyticsreports-pa.googleapis.com
-:: slb-p2p.vcloud.ks-live.com
-:: log.web.kugou.com
-:: public.gdtimg.com
-:: adstudio.spotify.com
-:: jswebcollects.kugou.com
-:: log.kuwo.cn
-:: badjs.weixinbridge.com
-:: tmfmazu.m.qq.com
-:: advertising.yahoo.com
-:: adfstat.yandex.ru
-:: adfilter.imtt.qq.com
-:: bes-mtj.baidu.com
-:: udcm.yahoo.com
-:: drcn-weather.cloud.huawei.com
-:: ad.tencentmusic.com
-:: tx-p2p-pull.live-voip.com
-:: ads.youtube.com
-:: h.trace.qq.com
-:: umini.shujupie.com
-:: masdkv6.3g.qq.com
-:: g2.ganjing.world
-:: qqdata.ab.qq.com
-:: sdk.e.qq.com
-:: log-report.com
-:: ap.dongqiudi.com
-:: metrics.mzstatic.com
-:: ads-sdk-api.ranfenghd.com
-:: log.tbs.qq.com
-:: adsense.google.cn
-:: monsetting.toutiao.com
-:: ads.95516.com
-:: log1.cmpassport.com
-:: rms-drcn.platform.dbankcloud.cn
-:: audid.umeng.com
-:: kde.qq.com
-:: analytics.google.com
-:: tx-ad.a.yximgs.com
-:: d.applovin.com
-:: geo.yahoo.com
-:: vd6.l.qq.com
-:: tnc3-aliec2.toutiaoapi.com
-:: api5-normal-quic-lf.ixigua.com
-:: s8t.teads.tv
-:: api.ad.xiaomi.com
-:: googleadservices-cn.com
-:: tnc3-alisc1.zijieapi.com
-:: adclick.tencentmusic.com
-:: click.liftoff.io
-:: hw-p2p-pull.video-voip.com
-:: tpc.googlesyndication.com
-:: mi.gdt.qq.com
-:: xlviirdr.com
-:: g.dtv.cn.miaozhen.com
-:: tnc3-bjlgy.toutiaoapi.com
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 0.0.0.0 launcherimg.smart-tv.cn
 0.0.0.0 advertising.yahoo.com
@@ -6095,8 +5851,250 @@
 0.0.0.0 heads-fa.spotify.com
 0.0.0.0 usr-api.aiclk.com
 0.0.0.0 analyze.lemurbrowser.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
+! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
+:: api.jietuhb.com
+:: fundingchoicesmessages.google.com
+:: search5-search-hl.ixigua.com
+:: adservice.google.com
+:: uranus.jd.com
+:: ii.gdt.qq.com
+:: ads.servebom.com
+:: advertising.yandex.ru
+:: adstudio-assets.scdn.co
+:: ads5-normal-lq.zijieapi.com
+:: appcfg.v.qq.com
+:: res1.applovin.com
+:: hwpub-s01-drcn.cloud.dbankcloud.cn
+:: m.ad.zhangyue.com
+:: data.mistat.rus.xiaomi.com
+:: ks-p2p.pull.yximgs.com
+:: audid-api.taobao.com
+:: weather-community-drcn.weather.dbankcloud.cn
+:: adexp.chinaliftoff.io
+:: ads3-normal-hl.zijieapi.com
+:: huichuan.sm.cn
+:: tangram.e.qq.com
+:: tencent-dtv.m.cn.miaozhen.com
+:: offerwall.yandex.net
+:: pms.mb.qq.com
+:: tpc.googlesyndication-cn.com
+:: wxsnsdy.tc.qq.com
+:: ads3-normal-lq.zijieapi.com
+:: c2.gdt.qq.com
+:: aegis.qq.com
+:: metrics.icloud.com
+:: c.sayhi.360.cn
+:: rpt.gdt.qq.com
+:: lf6-ad-union-sdk.pglstatp-toutiao.com
+:: ad.qq.com
+:: rt.applovin.com
+:: v2.gdt.qq.com
+:: data.mistat.india.xiaomi.com
+:: mssdk.volces.com
+:: snowflake.qq.com
+:: tmfsdk.m.qq.com
+:: p1-lm.adkwai.com
+:: tx-p2p-v2.pull.yximgs.com
+:: lf3-ad-union-sdk.pglstatp-toutiao.com
+:: heads-ak.spotify.com.edgesuite.net
+:: ad.cctv.com
+:: ads5-normal-hl.zijieapi.com
+:: firebaselogging-pa.googleapis.com
+:: tmead.y.qq.com
+:: ad.12306.cn
+:: ks.ferlytc.com
+:: lh3.googleadsserving.cn
+:: win.gdt.qq.com
+:: ad.zijieapi.com
+:: securepubads.g.doubleclick.net
+:: 1500022744.vodplayer.wxamedia.com
+:: cj.qidian.com
+:: ms.applovin.com
+:: hw-ot-ad.a.yximgs.com
+:: ad.qingting.fm
+:: ads3-normal.zijieapi.com
+:: adsp.xunlei.com
+:: pcm-img.zhls.qq.com
+:: tmeadcomm.y.qq.com
+:: ogads-pa.clients6.google.com
+:: adexpo.tencentmusic.com
+:: log.stat.kugou.com
+:: cdn.ynuf.aliapp.org
+:: errlog.umeng.com
+:: rt.applvn.com
+:: webstat.qiumibao.com
+:: an.facebook.com
+:: wxa.wxs.qq.com
+:: review.gdtimg.com
+:: log.snssdk.com
+:: ads-video-qc.xhscdn.com
+:: 1500020991.vodplayer.wxamedia.com
+:: ifs.tanx.com
+:: beacons.gvt2.com
+:: search3-search.ixigua.com
+:: proxy.advp.apple.com
+:: cnlogs.umengcloud.com
+:: monitor.music.qq.com
+:: oss.cdn.aiclk.com
+:: ad.v3mh.com
+:: cdn.aiclk.com
+:: ks-p2p-v2.pull.yximgs.com
+:: aaid.umeng.com
+:: log.fc.yahoo.com
+:: adstats.tencentmusic.com
+:: app-measurement.com
+:: analytics.pointdrive.linkedin.com
+:: errnewlog.umeng.com
+:: graph.facebook.com
+:: adtech.yahooinc.com
+:: v2mi.gdt.qq.com
+:: p.s.360.cn
+:: pagead2.googlesyndication.com
+:: vlive.qqvideo.tc.qq.com
+:: xc.gdt.qq.com
+:: webview.unityads.unity3d.com
+:: tnc3-bjlgy.zijieapi.com
+:: ads5-normal.zijieapi.com
+:: hw-p2p.pull.yximgs.com
+:: mobaliyun.res.mgtv.com
+:: update.avlyun.sec.miui.com
+:: heads-fa.spotify.com
+:: optimus-ads.amap.com
+:: ccs.umeng.com
+:: ads.linkedin.com
+:: ads5-normal-lf.zijieapi.com
+:: api.kingdata.ksyun.com
+:: googletagservices-cn.com
+:: adexp.liftoff.io
+:: cfg.imtt.qq.com
+:: iadsdk.apple.com
+:: qn-cdnfile1pcdn.msstatic.com
+:: m.atm.youku.com
+:: tdc.qq.com
+:: ads.google.cn
+:: adsebs.ximalaya.com
+:: dm.toutiao.com
+:: log.zijieapi.com
+:: v1-ad.video.yximgs.com
+:: wxsnsdythumb.wxs.qq.com
+:: ads-img-qc.xhscdn.com
+:: resolve.umeng.com
+:: beacon-api.aliyuncs.com
+:: ef-dongfeng.tanx.com
+:: udc.yahoo.com
+:: googleads.g.doubleclick-cn.net
+:: metrika.yandex.ru
+:: qzs.gdtimg.com
+:: ad.api.3g.youku.com
+:: beaconcdn.qq.com
+:: xlviiirdr.com
+:: click.chinaliftoff.io
+:: recommend-drcn.hms.dbankcloud.cn
+:: m1.ad.10010.com
+:: smartad.10010.com
+:: tytx.m.cn.miaozhen.com
+:: android.bugly.qq.com
+:: mon.zijieapi.com
+:: zhihu-web-analytics.zhihu.com
+:: outlookads.live.com
+:: ads3-normal-lf.zijieapi.com
+:: doubleclick-cn.net
+:: wxsnsdy.wxs.qq.com
+:: hc-ssp.sm.cn
+:: img-c.heytapimage.com
+:: livewebbs2pcdn.msstatic.com
+:: tracelog-debug.aiclk.com
+:: uedas.qidian.com
+:: tnc3-aliec2.bytedance.com
+:: v3-ad.video.yximgs.com
+:: mmgame.qpic.cn
+:: googleads.g.doubleclick.net
+:: ks.pull.yximgs.com
+:: houyi.kkmh.com
+:: analytics.query.yahoo.com
+:: logtj.kugou.com
+:: plbslog.umeng.com
+:: tracelog-debug.qquanquan.com
+:: p3-lm.adkwai.com
+:: image-ad.sm.cn
+:: v3.gdt.qq.com
+:: applog.zijieapi.com
+:: t-dsp.pinduoduo.com
+:: aspect-upush.umeng.com
+:: log.ad.xiaomi.com
+:: p.l.qq.com
+:: search.ixigua.com
+:: ads-video-al.xhscdn.com
+:: metrics.data.hicloud.com
+:: vali-ugc.cp31.ott.cibntv.net
+:: 1500026601.vodplayer.wxamedia.com
+:: logrcv.aiclk.com
+:: api.fu.xcultur.com
+:: click.googleanalytics.com
+:: dxp.baidu.com
+:: file.daihuo.qq.com
+:: ads.v3mh.com
+:: google-analytics.com
+:: p6-be-pack-sign.pglstatp-toutiao.com
+:: tnc3-alisc1.bytedance.com
+:: mazu.m.qq.com
+:: search5-search.ixigua.com
+:: tnc3-bjlgy.bytedance.com
+:: crashlyticsreports-pa.googleapis.com
+:: slb-p2p.vcloud.ks-live.com
+:: log.web.kugou.com
+:: public.gdtimg.com
+:: adstudio.spotify.com
+:: jswebcollects.kugou.com
+:: log.kuwo.cn
+:: badjs.weixinbridge.com
+:: tmfmazu.m.qq.com
+:: advertising.yahoo.com
+:: adfstat.yandex.ru
+:: adfilter.imtt.qq.com
+:: bes-mtj.baidu.com
+:: udcm.yahoo.com
+:: drcn-weather.cloud.huawei.com
+:: ad.tencentmusic.com
+:: tx-p2p-pull.live-voip.com
+:: ads.youtube.com
+:: h.trace.qq.com
+:: umini.shujupie.com
+:: masdkv6.3g.qq.com
+:: g2.ganjing.world
+:: qqdata.ab.qq.com
+:: sdk.e.qq.com
+:: log-report.com
+:: ap.dongqiudi.com
+:: metrics.mzstatic.com
+:: ads-sdk-api.ranfenghd.com
+:: log.tbs.qq.com
+:: adsense.google.cn
+:: monsetting.toutiao.com
+:: ads.95516.com
+:: log1.cmpassport.com
+:: rms-drcn.platform.dbankcloud.cn
+:: audid.umeng.com
+:: kde.qq.com
+:: analytics.google.com
+:: tx-ad.a.yximgs.com
+:: d.applovin.com
+:: geo.yahoo.com
+:: vd6.l.qq.com
+:: tnc3-aliec2.toutiaoapi.com
+:: api5-normal-quic-lf.ixigua.com
+:: s8t.teads.tv
+:: api.ad.xiaomi.com
+:: googleadservices-cn.com
+:: tnc3-alisc1.zijieapi.com
+:: adclick.tencentmusic.com
+:: click.liftoff.io
+:: hw-p2p-pull.video-voip.com
+:: tpc.googlesyndication.com
+:: mi.gdt.qq.com
+:: xlviirdr.com
+:: g.dtv.cn.miaozhen.com
+:: tnc3-bjlgy.toutiaoapi.com
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 0.0.0.0 omhoa.com
 0.0.0.0 zhanzhang.net
@@ -10360,9 +10358,8 @@
 0.0.0.0 fc.zuixinchao.com
 0.0.0.0 fuvbbjl.xyz
 0.0.0.0 stgowan.com
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-@@||cdn-msp*.18comic*.*^
-@@||cdn-msp*.18comic.*^
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -14519,6 +14516,7 @@ btbtt.me###wrapper2 > .width
 ##[src*='zdmbl.xyz']
 ###MyMoveAd
 chinagwy.org##.ewm0610
+.qsko0*mas.com/$script,third-party
 @@||cdncontent.wakanim.tv/scripts/dist/ads.js$script,xmlhttprequest,~third-party
 ###content_adblock_message
 @@||adhexa.com^$image,subdocument,domain=bitzfree.com
@@ -15576,7 +15574,6 @@ baike.baidu.com##div[style="height: 57px;"]
 @@||wenxuecity.com^$generichide
 0xxx.ws,sxyprn.*#$#abort-current-inline-script decodeURI decodeURIComponent
 @@||51zxw.net/shipmingko.asp?$domain=51zxw.net
-ftlwiki.com###top-banner-advert
 china.com.cn###gggg
 /adblock_alerter.
 @@||lowcygier.pl/wp-content/themes/graphene/js/ads.js$script
@@ -20347,6 +20344,9 @@ c.m.163.com##.commentBar
 7654.com##div[class^="sidebarimg"]
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+@@||cdn-msp*.18comic*.*^
+@@||cdn-msp*.18comic.*^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||sobot.com^
 @@||captcha.su.baidu.com^
 @@||ad.abchina.com^
@@ -20364,24 +20364,6 @@ c.m.163.com##.commentBar
 @@||al-aqsanews.com
 @@||img.ads.tvb.com^
 @@||ad.ourgame.com^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||38.33.15.*.gif
-||67.21.92.*.gif
-||adi*.cnool.net^
-||ads*-normal*.zijieapi.com^
-||a*.chajiaotong.com^
-||ac*.faxingchina.com^
-||ac*.786ip.com^
-||163487*.qmgmw.com^
-||ad*.on.cc^
-||121.204.246.*.gif
-||acookie.*.gif?
-||107.167.16.*.gif
-outlook.live.com._6tqjFb_HmyQup_NPe6dhC
-||ac*.pingguolv.com^
-||107.167.22.*.gif
-||asd8900.oss-*.aliyuncs.com^
-||at*.doubanio.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||365xuet.com/assets/web/js/main.jsr_
 hinet.net###media_ad_popup_overlay
@@ -20474,6 +20456,7 @@ xxxdownloadsfree.blogspot.com##DIV[style*="position:fixed;width:100%;top:0px;hei
 udn.com###ad_curtain
 weibo.com#?#.card-content > ul > li:-abp-has(> p > .icon-txt-recommend)
 leechyscripts.com##div[class^="chp_ads_block_modal"]
+ww2awards.com#$#abort-on-property-read adsRedirectPopups
 ghxi.com###respond + div
 hl.cn###xf_right
 m.youtube.com,music.youtube.com#$#override-property-read playerResponse.adSlots undefined
@@ -20947,7 +20930,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="ga
 jd.com##.gl-warp > li[data-spu=""]
 sina.com.cn###left_focus_ad
 ||373nn.com/java/
-xoilacsg.cc#$#abort-on-property-read adsRedirectPopups
 poczta.o2.pl##dd-holder[slot^="DOUBLE_BILLBOARD"]
 weiyun001.com##.agency-list
 localking.com.tw###adbannerurl
@@ -21708,7 +21690,6 @@ skykiwi.com##div[style^="width:1200px;height:"]
 www.iosviet.com#$#override-property-read timer 0
 ||80s.so/html/
 mm-cg.com##.UT_thread
-||avxwcuaagfcdn.net^$domain=dagens.dk
 jq22.com##.fdad
 ||analyzecorona.com^$third-party
 ||aitaotu.com/style/js/aitaotu
@@ -22186,6 +22167,7 @@ turkdown.com###duyuru
 pchome.net###pchome_970_90_a
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||239300.net/template/*_mh_gg
+xxooo.cf###overlay
 pythonthree.com##.sidebar-main
 pxedt.net##.pf_dw
 sdamgia.ru#$#abort-on-property-read Object.prototype.getRenderToElement
@@ -22501,7 +22483,6 @@ hepuwang.com##.n5_dbhfad > .wapper
 rrys2019.com###globalNav1
 iqiyi.com##.kwltp-rightgg
 ye120.com##.fixed_bottom
-truyenqqtet.com,xemviet69.com#$#abort-current-inline-script Promise break;case
 vidhub1.cc,vidhub.me,vidhub.tv##.promotelink
 tangdoucdn.com#%#//scriptlet("set-constant", "Object.prototype.ad_switch", "0")
 m.ithome.com##.hot-app
@@ -23098,6 +23079,7 @@ gameapp.qq.com##.act-tips
 info.cz,lupa.cz,hnonline.sk#$#abort-current-inline-script Math.random adb
 stat-nba.com###ad_video
 ifeng.com##.slideImg-lGG7Uta-
+nodejs.cn#%#//scriptlet('set-constant', 'adsbygoogle', 'emptyObj')
 zhidao.baidu.com##.doodle-container
 ||affyun.com/wp-content/uploads/2018/10/file.gif
 imagefap.com#$#abort-on-property-read popCookie
@@ -23232,6 +23214,7 @@ m.toutiao.com##.m-bottom-container
 manga18fx.com#$#abort-on-property-read Math.floor
 ||1x6666.com/img/
 gdot.me,sc115.com##script + a
+truyenqqtto.com,xemviet69.com#$#abort-current-inline-script Promise break;case
 ||69adu.com/bootstrap.
 silver.org.cn##.logo_dsaas
 huya.com##.sidebar-banner
@@ -24823,6 +24806,7 @@ unfair.co###awesomemessage
 www.wp.pl#$#hide-if-matches-xpath './/div[@id][@data-st-area]/div[1]/div/parent::div[@class]'
 wenku.baidu.com##.vip-activity-wrap
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
+ftlwiki.com###top-banner-advert
 mcar.cc##.showhide > video + div[style="background-color:#FC0;margin-top:1px; width:500px; height:90px;"]
 spieletipps.de##a[href^="http://www.spieletipps.de/sp/"]
 image.baidu.com##.wrapper_dot_box.dot_black
@@ -25753,7 +25737,6 @@ lolshipin.com##.box2
 koyi.pub#%#//scriptlet("set-constant", "fuzqingAdPlus", "emptyObj")
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sina.com.cn###AD_Background_Wall_BG
-||avspda.xyz^$third-party
 ||1u0oqad.diqx.namemc.com^$domain=namemc.com
 ||avivid.likr.tw^$third-party
 taoguba.com.cn##.wz_ad
@@ -29278,6 +29261,24 @@ view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 maoken.com###siderAd01
 mathportal.org/temp/blocked/blockedCounter.php
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||38.33.15.*.gif
+||67.21.92.*.gif
+||adi*.cnool.net^
+||ads*-normal*.zijieapi.com^
+||a*.chajiaotong.com^
+||ac*.faxingchina.com^
+||ac*.786ip.com^
+||163487*.qmgmw.com^
+||ad*.on.cc^
+||121.204.246.*.gif
+||acookie.*.gif?
+||107.167.16.*.gif
+outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+||ac*.pingguolv.com^
+||107.167.22.*.gif
+||asd8900.oss-*.aliyuncs.com^
+||at*.doubanio.com^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||918000.xyz^
 ||1buo.icu^
 ||7299tu75.cc^
@@ -29532,7 +29533,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||aqc.gucheng.com^
 ||4kfv18.cn^
 ||assp.sohu.com^
-||avxonsp.icu^
 ||88lm15.com^
 ||ams.fx678.com^
 ||4gu.fun^
@@ -30369,36 +30369,6 @@ ubmcmm.baidustatic.com
 ||8feichai.com^
 ||adroition.net^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||bdcpro*.techweb.com.cn^
-||sax*.sina.
-||js.*2023*.live^
-||res*.pinpai8.cn^
-||impservice*.youdao.com^
-||d*.ruiwen.com^
-||fanpingbi*.gaokao.com^
-||dn*.ixinwei.com^
-||molpmh.xyz|
-||bdlm*.hc360.com^
-||sd.yhzzzs*.com^
-||bjkedv*.xyz^
-||d*.xinshipu.com^
-||fpb*.51edu.com^
-||p26.gejulm*.com^
-||ja*.gamersky.com^
-||gtlpa*.com^
-||dm*.yxlady.com^
-||same*.stockstar.com^
-||gcw*.2liang.cn^
-||impservice*.yodao.com^
-||js.*2023*.xyz^
-||fpb1.chinacar.
-||opnked*.xyz^
-||ax.*.ifeng.com^
-||js*.abolezi.com^
-||sam*.baby-kingdom.com^
-||qpb*.sohu.com^
-||ky891.oss-*.aliyuncs.com^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
 ||img588.net/images/*.gif
@@ -31181,6 +31151,7 @@ ubmcmm.baidustatic.com
 ||renwai.ren/cdn/pic/ad
 ||csdn.net/ggmm/
 ||lagou.com/js/cooperation/
+||cdn.wwads.cn/js/makemoney.js$script,redirect=noopjs,domain=nodejs.cn,important
 ||hkmte.com/seo.js
 ||gtimg.com/newsapp_ls/0/13971120264/0
 ||llj22.com/1.gif
@@ -31458,6 +31429,7 @@ ubmcmm.baidustatic.com
 ||dajiadu8.com/17mb/script/gg.
 ||g.jinti.com/f/a/a
 ||g.koowo.com^$app=cn.kuwo.player
+||avspda.xyz^$third-party
 ||kiees.com^$image,subdocument,third-party
 ||cjyun.org/assets/js/analytics.js
 ||baidu.com/feproxy/ad/list?
@@ -31870,6 +31842,7 @@ ubmcmm.baidustatic.com
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=ani.gamer.com.tw
 ||boylove.cc/static/js/yymh.js
 ||mitbbs.*/servicedata/static_ad.php
+||avxwcuaagfcdn.net^$domain=dagens.dk
 ||carpentercomparison.com^$third-party
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||oh100.com/js/pubuliu.
@@ -32980,7 +32953,6 @@ ubmcmm.baidustatic.com
 ||iiikefu.com/wp-content/plugins/halfdata-green-popups/js/lepopup.js
 ||fast8.cc/skin/default/images/630652.png
 ||losslace.com^$third-party
-||sihbb.com/yang/
 ||nebulacrescent.com^$third-party
 ||peer-stream.com/api/AdvertisementPlugin$object-subrequest,domain=schoener-fernsehen.com
 ||chengzijianzhan.cc^$subdocument,third-party
@@ -35129,6 +35101,36 @@ ubmcmm.baidustatic.com
 ||lelekan.com/sp/fmt.js
 ||compiledoctor.com^$third-party
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||bdcpro*.techweb.com.cn^
+||sax*.sina.
+||js.*2023*.live^
+||res*.pinpai8.cn^
+||impservice*.youdao.com^
+||d*.ruiwen.com^
+||fanpingbi*.gaokao.com^
+||dn*.ixinwei.com^
+||molpmh.xyz|
+||bdlm*.hc360.com^
+||sd.yhzzzs*.com^
+||bjkedv*.xyz^
+||d*.xinshipu.com^
+||fpb*.51edu.com^
+||p26.gejulm*.com^
+||ja*.gamersky.com^
+||gtlpa*.com^
+||dm*.yxlady.com^
+||same*.stockstar.com^
+||gcw*.2liang.cn^
+||impservice*.yodao.com^
+||js.*2023*.xyz^
+||fpb1.chinacar.
+||opnked*.xyz^
+||ax.*.ifeng.com^
+||js*.abolezi.com^
+||sam*.baby-kingdom.com^
+||qpb*.sohu.com^
+||ky891.oss-*.aliyuncs.com^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||kszvmqo.cn^
 ||hwilmiu.top^
 ||img.911787.com^
@@ -35969,7 +35971,6 @@ ubmcmm.baidustatic.com
 ||cclimif.top^
 ||oweisik.top^
 ||eaqgsw.xyz^
-||sikapo.top^
 ||qacdf511.cn^
 ||sachaits.com^
 ||jcfbgdbd.top^
@@ -35977,7 +35978,6 @@ ubmcmm.baidustatic.com
 ||nhjn788.fun^
 ||bnhorn.xyz^
 ||erebor.douban.com^
-||siconoi.com^
 ||bavotr.xyz^
 ||destc8.icu^
 ||dm.cnbanbao.com^
@@ -36658,6 +36658,7 @@ ubmcmm.baidustatic.com
 ||qmbdta.cn^
 ||k1.wanwenwan.cn^
 ||cxs.mibaoge.com^
+||qsko05061mas.com^
 ||rqroytj33.fun^
 ||jcokamia.top^
 ||djv99sxoqpv11.cloudfront.net^
@@ -36754,6 +36755,7 @@ ubmcmm.baidustatic.com
 ||dadwu.cn^
 ||kaiyuan308.vip^
 ||lhotajl.icu^
+||avxonsp.icu^
 ||eblnzoq.cn^
 ||mjik.cn^
 ||lopqrx.xyz^
@@ -38664,7 +38666,6 @@ ubmcmm.baidustatic.com
 ||cwaterf.top^
 ||shbznkj.cn^
 ||brownfox.top^
-||sifyeldb.top^
 ||itheatmoran.com^
 ||ixoe.cn^
 ||g4y7uuk.com^
@@ -40181,7 +40182,6 @@ ubmcmm.baidustatic.com
 ||bdmjs.xywy.com^
 ||gwg51.com^
 ||polkmnhytgb.com^
-||sifa.aak7.cn^
 ||lkancklanklcav.com^
 ||getui.com^
 ||fagrirtn.com^
@@ -40373,29 +40373,6 @@ ubmcmm.baidustatic.com
 ||cdrhjt.com^
 ||kruraits.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||zazgiyoh*.world^
-||zcchyr*.xyz^
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||tupian888.*.bcebos.com^
-||uc*.atobo.com^
-||zabdybod*.club^
-||yhsfsdv*.com^
-||thezbpe5*.xyz^
-||zaqlovh*.xyz^
-||zazgiyoh*.xyz^
-||zcchyw*.xyz^
-||zazgbqg*.xyz^
-||zbc6hye*.xyz^
-||www.xxmh*.com^
-||ya*.dwstatic.com^
-||zahrvfbd*.xyz^
-||zbc6hy*.live^
-||static*.365inews.com^
-||union*.365inews.com^
-||zbb.bbb.*.pics^
-||vns86.oss-*.aliyuncs.com^
-||ysdm*.ys137.com.cn^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||xywy.com/zhixing/
 ||totheglory.im/pic/ttg-
 ||ysm.ezprice.net^$third-party
@@ -40537,6 +40514,7 @@ ubmcmm.baidustatic.com
 ||uuoozz.com/L7QQ.js
 ||thisav.com/js/bioep.
 ||taobaocdn.com^$image,domain=cnblogs.com
+||sihbb.com/yang/
 ||szonline.net/static/js/ads.js
 ||yigujin.cn/img/abc/
 ||sohu.com/mdevp/*-advert/
@@ -41939,6 +41917,29 @@ ubmcmm.baidustatic.com
 ||super.cz/*&*=$subdocument,domain=super.cz
 ||xuehi.cn/reward/reward
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||zazgiyoh*.world^
+||zcchyr*.xyz^
+||zhizhizhizhi.oss-*.aliyuncs.com^
+||tupian888.*.bcebos.com^
+||uc*.atobo.com^
+||zabdybod*.club^
+||yhsfsdv*.com^
+||thezbpe5*.xyz^
+||zaqlovh*.xyz^
+||zazgiyoh*.xyz^
+||zcchyw*.xyz^
+||zazgbqg*.xyz^
+||zbc6hye*.xyz^
+||www.xxmh*.com^
+||ya*.dwstatic.com^
+||zahrvfbd*.xyz^
+||zbc6hy*.live^
+||static*.365inews.com^
+||union*.365inews.com^
+||zbb.bbb.*.pics^
+||vns86.oss-*.aliyuncs.com^
+||ysdm*.ys137.com.cn^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||tencent.xn--io0a7i^
 ||www.youzonggw.com^
 ||unwuamt.top^
@@ -42657,6 +42658,7 @@ ubmcmm.baidustatic.com
 ||swimg2.tsderen.cn^
 ||skogsborg.net^
 ||wyq3rum.icu^
+||sikapo.top^
 ||zhijiangweidu.top^
 ||ujmz.cn^
 ||vfzfrx.xyz^
@@ -42665,6 +42667,7 @@ ubmcmm.baidustatic.com
 ||xn--zw0autp42d.cn^
 ||sodhef.com^
 ||uaqdgrfr.icu^
+||siconoi.com^
 ||ynslvyou.com^
 ||un1.lawyernet.cn^
 ||yqgzaewe.cn^
@@ -42734,6 +42737,7 @@ ubmcmm.baidustatic.com
 ||xiaoqurong.com^
 ||tciqgx.xyz^
 ||www5.oss-cn-hangzhou.aliyuncs.com^
+||sifyeldb.top^
 ||sjluuom.icu^
 ||vhhvldyuhm.xyz^
 ||yxrmbjw.icu^
@@ -44015,6 +44019,7 @@ ubmcmm.baidustatic.com
 ||vegaingi.com^
 ||starredvs.com^
 ||u7em6.xyz^
+||sifa.aak7.cn^
 ||tupian88888.com^
 ||vvfgjzwa.icu^
 ||yonsandileer.com^
