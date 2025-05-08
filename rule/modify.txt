@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-05-08 16:26:31
+! Last Modified: 2025-05-09 00:25:30
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -7670,7 +7670,6 @@ d1net.com##div[style="width:1000px;height:90px;margin:15px auto 15px auto;"]
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 ##.textadlist
 aii.life###index-left-bn
-fstore.biz#@##adblockinfo
 ##[style='top: 24.6vw; display: block;']
 /template/*/ads/*
 ##a[href="/iwagbwfiwehaeyh"]
@@ -8504,6 +8503,7 @@ doudoudm.site,ezdmw.com##.public_ad
 bingfeng.tw#%#//scriptlet('abort-current-inline-script', 'setTimeout', 'COOKIE_NAME')
 @@playtv.fr$object-subrequest,domain=play.tv|playtv.fr
 cnfol.com###CjAdvBt
+.uuso0*qhs.xyz/$script,third-party
 324324.cn##.gg_sidebar
 baijiahao.baidu.com##.contentPadding.bottomTTSStruct
 114la.com##.s11bg
@@ -10425,6 +10425,7 @@ hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 1
 hortonanderfarom.blogspot.com#$#override-property-read setTimeout noopFunc
 httpcn.com##a[href^="http://www.okbmf.com/"] > img
 qciss.net##div[style^="border-style:solid;"][style*="border-width:2px;"][style*="width: 80%;"]
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][style] > img[onclick^="window.open"]
 yiche.com##.h-gd-box
 pcauto.com.cn###PcPoPmarket
 sogou.com###right
@@ -12366,7 +12367,6 @@ hepuwang.com##.n5_dbhfad > .wapper
 rrys2019.com###globalNav1
 iqiyi.com##.kwltp-rightgg
 ye120.com##.fixed_bottom
-vidhub1.cc,vidhub.me,vidhub.tv##.promotelink
 tangdoucdn.com#%#//scriptlet("set-constant", "Object.prototype.ad_switch", "0")
 m.ithome.com##.hot-app
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
@@ -13723,7 +13723,6 @@ ifeng.com##.box_list_pic > a[href^="http://dol.deliver."]
 youku.com##div[data-adext]
 ifanr.com##.popup,.popup-top
 tieba.baidu.com##DIV[id^='mediago-tb-frs-list']
-vidhub1.cc,vidhub.me,vidhub.tv##div[class^="ad"]:has(> div[class^="prom"][style] > img[onclick^="window.open"])
 hkgolden.com##.hkg-ad
 tiscali.cz##.bs-hp
 raenonx.cc##div[style="display: flex; justify-content: center; align-items: center; position: relative;"] > iframe
@@ -15623,7 +15622,6 @@ koyi.pub#%#//scriptlet("set-constant", "fuzqingAdPlus", "emptyObj")
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sina.com.cn###AD_Background_Wall_BG
 ||1u0oqad.diqx.namemc.com^$domain=namemc.com
-||avivid.likr.tw^$third-party
 taoguba.com.cn##.wz_ad
 tangdoucdn.com#@#.video-ad
 ||autohome.com.cn/api/platformData/getFinanceBanner
@@ -16810,6 +16808,7 @@ idreamx.com#?##threadlisttableid > tbody:not([id]):has(> tr > td > a[target="_bl
 huaban.com#@#img[width="240px"][height="400px"]
 ||973.com/static/js/pccom.js
 sblunwen.com###popupService
+fstore.biz#@##adblockinfo
 hybase.com##.widget_c_white
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="right_qunar_hotel"]
 hz66.com##div[style="width: 300px; height: 250px; float: left; position: relative;"]
@@ -16920,6 +16919,7 @@ wk.baidu.com##.bottom-bar-guid-to-univer.bottom-bar-global
 sina.cn##.zhidi
 morningpost.com.cn##.gg-2
 movieclassic.net##.modal-backdrop
+vidhub1.cc,vidhub.me,vidhub.tv##div:is([class^="ad"], [class*="pwc"]):has(> div[class^="prom"][style] > img[onclick^="window.open"])
 ||abbao.cn^*adblock
 ||autofan.com.cn/UploadFiles/images/bAdImg.jpg
 jyacht.com##.hot_reoc_adve
@@ -17621,6 +17621,7 @@ le.com##.Ad
 m.bilibili.com##div[class*="openapp"]
 tgfcer.com##div[id^="ad_thread"]
 ||alicdn.com^$domain=1avlang.com|2334n.com|51dll.com|52kpop.com|5xx44.com|5xx77.com|63ef.com|69t41.com|7mav2.com|99a21.com|acglover.me|aotu101.com|ccxx99.com|dytt.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|lady3.xyz|magnet2048.com|qingmanyong.com|qyl00.com|qyl222.com|spqi.xyz|supfree.net|that2.info|thztv.cc|ttww22.com|viidii.info|wenkuxiazai.com|xiaomingming.org|yuese46.com|yzz12.com
+vidhub1.cc,vidhub.me,vidhub.tv##div[class^="prom"][class*="nk"][style]
 mtrend.cn##.new_right > .morecontent_next
 pixiv.net##.multi-ads-area
 oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/thumbnail/']
@@ -18453,7 +18454,6 @@ m.hupu.com##A[href^='https://mobile.yangkeduo.com/duo_transfer_channel.html']
 mypianku.net##div[style*="background:url"]
 workercn.cn#@#.ad_main
 topwwnews.com#$#abort-on-property-read localStorage
-vidhub1.cc,vidhub.me,vidhub.tv##.promolnk
 mail.pchome.com.tw##.mnav
 ||163.com*/special/*_ad_
 iguarras.com,iputitas.net,ytanime.tv#$#abort-on-property-read afScript
@@ -20204,6 +20204,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||avspda.xyz^$third-party
 ||kiees.com^$image,subdocument,third-party
 ||cjyun.org/assets/js/analytics.js
+||avivid.likr.tw^$third-party
 ||baidu.com/feproxy/ad/list?
 ||illustriousoatmeal.com^$third-party
 ||lianyexiuchang.cc/js/
@@ -23746,7 +23747,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||pites.cc/js/top.php
 ||rjsos.com/channel/laomo_dibu.png
 ||mwrf.net/images/js/*mrf.js
-||showguide.cn/templets/*/qqcenter.js
 ||developpez.com/template/*.jpg$xmlhttprequest
 ||cdn.upthinking.cn^$third-party
 ||img.vim-cn.com^$domain=522dy.com
@@ -25361,6 +25361,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||soufunimg.com/common_m/m_public/js/wa
 ||zpiyi.com/public/js/global.js
 ||tt1069.com/bbs/page20_top.php
+||showguide.cn/templets/*/qqcenter.js
 ||soothingglade.com^$third-party
 ||variflight.com/carnoc/ad/
 ||whichav.*/qq/qq.js
