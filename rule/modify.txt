@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-05-09 09:38:12
+! Last Modified: 2025-05-09 16:26:13
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -4084,6 +4084,7 @@ c4dm.live###text-21
 bol.com#?#ul[class][data-test="products"] li:-abp-has(span:-abp-contains(/Gesponsord|Sponsorisé/))
 @@||liliputing.com^$generichide
 ez3c.tw##.ypa-custom2
+$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 @@/jquery/*$domain=sobooks.cc
 cnplugins.com##.pushbox1
 beephone.com.tw##a[href^="http://www.beephone.com.tw/adlink.php?id="]
@@ -7668,7 +7669,6 @@ d1net.com##div[style="width:1000px;height:90px;margin:15px auto 15px auto;"]
 csdn.net#?##feedlist_id > li:has(> div[id^="kp_box_"])
 ##.textadlist
 aii.life###index-left-bn
-fstore.biz#@##adblockinfo
 ##[style='top: 24.6vw; display: block;']
 /template/*/ads/*
 ##a[href="/iwagbwfiwehaeyh"]
@@ -11441,7 +11441,6 @@ www.ksksy.com##[style$='vw;background:#000;opacity:0.01;']
 jd.com###J_mobile > DIV.mobile_static:nth-child(2)
 scantrad.net##.adbon
 tiscali.cz###desktop-square-top, #desktop-leader-top, .desktop-square-top, .desktop-leader-top
-||avitya.ru^$domain=pronpic.org
 kingkong.com.tw##.public-activity
 v2rayssr.com###gg-box
 taoguba.com.cn###tbgzInstallBG
@@ -15548,6 +15547,7 @@ in-trend.biz##body > [id][style^="z-index"]
 ruanyifeng.com##a[href*=".100offer.com"]
 tyenews.com##div[id^="custom_html-"]
 novinky.cz,kupi.cz,sport.cz,super.cz##.oktagram_image
+smsonline.cloud##.css-17anw56
 smzdm.com##a[class^="fixed-logo"]
 ||163disk.com/static/images/51
 ks.js.cn##.height80
@@ -15619,7 +15619,6 @@ koyi.pub#%#//scriptlet("set-constant", "fuzqingAdPlus", "emptyObj")
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sina.com.cn###AD_Background_Wall_BG
 ||1u0oqad.diqx.namemc.com^$domain=namemc.com
-||avivid.likr.tw^$third-party
 taoguba.com.cn##.wz_ad
 tangdoucdn.com#@#.video-ad
 ||autohome.com.cn/api/platformData/getFinanceBanner
@@ -16808,6 +16807,7 @@ idreamx.com#?##threadlisttableid > tbody:not([id]):has(> tr > td > a[target="_bl
 huaban.com#@#img[width="240px"][height="400px"]
 ||973.com/static/js/pccom.js
 sblunwen.com###popupService
+fstore.biz#@##adblockinfo
 hybase.com##.widget_c_white
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl^="right_qunar_hotel"]
 hz66.com##div[style="width: 300px; height: 250px; float: left; position: relative;"]
@@ -20204,6 +20204,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||avspda.xyz^$third-party
 ||kiees.com^$image,subdocument,third-party
 ||cjyun.org/assets/js/analytics.js
+||avivid.likr.tw^$third-party
 ||baidu.com/feproxy/ad/list?
 ||illustriousoatmeal.com^$third-party
 ||lianyexiuchang.cc/js/
@@ -20480,6 +20481,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||oschina.net/uploads/cooperation/
 ||qqc.co/visitScript/$script,third-party
 ||deeptack.com^$third-party
+||avitya.ru^$domain=pronpic.org
 ||executeknowledge.com^$third-party
 ||liisex.com/images/banners/
 ||fapoff.com/visitScript/$script,third-party
