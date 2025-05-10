@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-05-10 16:22:16
+! Last Modified: 2025-05-11 00:21:39
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -18448,7 +18448,6 @@ www.xvideos.com###ad-footer
 shaiba.kz#$#abort-current-inline-script $ 1xbet
 xbiquwx.la##.box_con > div[style="margin:10px auto;width: 930px;height: 250px;"]
 ||07073.com/api/getKfList?
-www.youtube.com,youtube-nocookie.com#$#array-override push '/./' '' 'value.adBreakLengthSeconds'
 rebooo.com###gong
 www.zhihu.com##A.MHotFeedAd,.MRelateFeedAd,.WeiboAd-wrap,.AdvertImg.AdvertImg--isLoaded.MBannerAd-image,.Banner-adTag,[href='https://maimai.cn/']
 m.hupu.com##A[href^='https://mobile.yangkeduo.com/duo_transfer_channel.html']
@@ -18788,6 +18787,7 @@ image.baidu.com###plz-head-banner
 tube8.com##.gridBanner_
 fx168.com##.jy_fx168_home_default_Mcontent1
 pconline.com.cn##.fixLeftQRcode
+www.youtube.com,youtube-nocookie.com#$#array-override forEach 'AD_PLACEMENT_' '' 'value.kind';
 sci-hub.org.cn##.gs_red[style="color:#EB7F00"]
 ||0597ok.com/ilike/597/
 xgan.cn##.bottom_fixed
@@ -23565,7 +23565,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||debilizator.tv/static/ab.min.js$script
 ||flash.mycar168.com/data/js/
 ||dadatuwz.com^$third-party
-||shouji.com.cn/static/v1/js/appinfo.js
 ||bruisebaseball.com^$third-party
 ||bc.vc/js/bcvc_in.js$script,third-party
 ||baidu.com/4.gif?
@@ -25239,6 +25238,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||suning.com/getCpcDatas?
 ||tvfree2.me/ads_*.js$script
 ||tianyaui.com/cms_fragments/res/*/bbs_include_mod.js
+||shouji.com.cn/static/v1/js/appinfo.js
 ||yun.baidu.com/act/api/activityentry?
 ||ytelc.com^$third-party
 ||woaidu.org/images/20180802/3.jpg
