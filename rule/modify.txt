@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-05-22 00:25:52
+! Last Modified: 2025-05-22 09:39:12
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -7257,7 +7257,6 @@ flyzy2005.com##.baidu_ad
 _vwnrsbjs?
 @@||icantw.com/platform/cover_ad/cover_ad.js
 bilibili.com##.activity-slider[style="width: 1220px;"]
-allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno" or .="Szponzorált"]//ancestor::div[contains(@data-analytics-groups,"ads")]/ancestor::div[contains(@class, "opbox-sheet") and @data-item]/parent::div[@*[starts-with(name(), "data-")] and count(@*[starts-with(name(), "data-")]) = 1]'
 atoolbox.net###ad-coupon-search
 @@||netflav.com^$generichide
 .okpp0*.xyz/$script,xmlhttprequest,third-party
@@ -9095,6 +9094,7 @@ anny3805201314.pixnet.net##.header_web_to_app__container
 @@||udnplay.com/js/momo/adsbygoogle.js
 131458.com##.ulfooter_top
 .com/rs/in/*?n=$script,third-party
+allegro.*#$#hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno" or .="Szponzorált"]//ancestor::div[contains(@data-analytics-groups,"ads")]/ancestor::div[contains(@class, "opbox-sheet") and @data-item]/parent::div[@*[starts-with(name(), "data-")] and count(@*[starts-with(name(), "data-")]) = 1]'; hide-if-matches-xpath './/h2[text()][@data-role="replaceable-title"]/following::span[.="Sponsorowane" or .="Sponsored" or .="Спонсоровано" or .="Sponzorováno" or .="Szponzorált"]/ancestor::div[contains(@class, "opbox-sheet") and @data-item]/parent::div[@*[starts-with(name(), "data-")] and count(@*[starts-with(name(), "data-")]) = 1]';
 ###toperAd2
 @@||tmall.com/go/*/banner.php
 fotoshop-online.org##section > .col-full + script + center[class]
@@ -15300,6 +15300,7 @@ shahid4u.club#@#.adsBox
 so.com##.spread
 xiaohongshu.com##.section.related-notes
 wiki.mbalib.com##.app-ad
+www.youtube.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adSlots emptyArray; override-property-read ytInitialPlayerResponse.adPlacements emptyArray;override-property-read ytInitialPlayerResponse.playerAds emptyArray;
 newxue.com##.left336280
 hackintosh.computer###googleads
 toolfk.com##.geekgay
@@ -16173,7 +16174,6 @@ yahoo.com###module-tabadsw
 wenxuecity.com###marquee
 kinobox.cz##.box.banner_300, #b300_fixbox
 hianime.to#$#hide-if-matches-xpath './/a[contains(@href,"1flix.to")]/img[@alt="1flix"][@style]/ancestor::div[@style]'
-youtube.com#$#override-property-read Object.prototype.ab_sa_ef undefined
 qq.com##.father-ad
 videotools.12pings.net###chucknorris
 zhihu.com#@#.FollowButton
@@ -17102,6 +17102,7 @@ gamme.com.tw##.fullad_ad
 miercn.com###foot_return_foot
 ltn.com.tw##.list > li[id^="newest-native"]
 muzhi.baidu.com##.quick-ask-2 + .android + div
+www.youtube.com#$#override-property-read Object.prototype.renderingContent.instreamVideoAdRenderer undefined;
 webkaka.com##.pTopTextAd
 ifirstrow.eu###adblockplus
 game.eroge.xyz##a[href^="https://ffab.rqatmd.com/"]
@@ -17391,6 +17392,7 @@ zhuna.cn##a[href*="quchuchai."]
 zen.yandex.ru##div[class*="is-parent-size_undefined"]
 ||alicdn.com/tps/*-950-90.
 m.jiemian.com##.open
+www.youtube.com#$#override-property-read Object.prototype.adPlacementConfig undefined;
 lvmama.com###centerDialog
 tpbay.link#$#abort-on-property-read _wm_settings
 u7u9.com##.xw-right-ad
@@ -20426,7 +20428,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||jia.com/js/tuku/footBanner_
 ||sciencenet.cn/html/js/n
 ||blogspot.com^*/s1600/drug.gif
-||scrubswim.com^$third-party
 ||fivesidedsquare.com^$third-party
 ||hexun.com^*/appDplus
 ||kuaileco.com/weishou/
@@ -24913,6 +24914,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||w3cschool.cn/index/*Advert
 ||soft.mumayi.net/images/download.gif
 ||tutudao.net/js/gg*.js
+||scrubswim.com^$third-party
 ||www.ykjyyy.com/8888/
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||zol-img.com.cn/ad/
