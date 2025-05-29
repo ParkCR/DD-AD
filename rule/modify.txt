@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-05-29 00:24:09
+! Last Modified: 2025-05-29 09:40:12
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -4949,6 +4949,7 @@ douyu.com##.PrivilegeGiftModalDialog
 backchina.com##.eis_subnav_area
 ##.pggb > .ng-star-inserted
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
+fiverr.com#$#hide-if-contains-visible-text /Ad\ by/ 'div.gig-card-layout' 'span>span'
 bbs.wps.cn##.topic-recommend-top
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 ##.my-cat.my-cat-header
@@ -5012,7 +5013,6 @@ dzfoot.com##.messageB
 @@||images.voyageforum.com^$image
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
 @@/blockadblock.js$script,domain=vtele.ca
-fiverr.com#$#hide-if-matches-xpath './/div[contains(@class, "gig-card-layout")]//span/div[@class="_5dtjre1" and string-length(@class) = 8]/ancestor-or-self::div[@class="gig-card-layout"][1]'
 423down.com##.entry > p[style^="color:red"]
 baidu.com##.sf-wrap > .c-back + div[id]:last-child
 aqicn.org#$#abort-on-property-read alert
@@ -14384,7 +14384,6 @@ jbtalks.cc##.threadad
 smzdm.com##.new-zone
 haiwai.com##.container + .fixed-bottom[style^="box-shadow:"]
 ifeng.com##div[class^="qrCode"]
-staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]'
 target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'p[data-test="sponsoredText"]'
 gdrc.com#@#.midAd
 laogu.cc##.rowIvy
@@ -17936,6 +17935,7 @@ jd.com##div[id^="miaozhen"]
 sonkwo.hk##.store-ad-waist
 hao.rising.cn##.baidu-banner
 toolfk.com##wavy + div[style]
+staples.com#$#hide-if-matches-xpath './/img[@alt="Sponsored Products"]/parent::picture/ancestor::div[@class][string-length(@class) < 16][1]/ancestor::div[.//div[@role="listitem"]][1]'
 ||360.cn/apis/qss/soweb/ad_proxy/internal/
 tongxiang.net##.x15sdv.display_3_3
 ||163.com/special/*/ted_vad.
@@ -18416,7 +18416,6 @@ onscreens.me#$#abort-on-property-read localStorage; abort-on-property-read asgPo
 houdao.com###header-ban
 pttweb.cc##.e7-min-ad-height
 kaitao.cn##a[href*="/a.php?id="]
-tripadvisor.com#$#hide-if-matches-xpath './/div[count(.//div) >= 5]//div[not(*[not(self::span)] or count(span) > 1)]/span[text()="Sponsored"]/ancestor::div[count(.//a[@target]) >= 1 and count(.//a[@href]) >= 2 and string-length(@class) > 10][1]'
 ||aoji.cn/static/js/yiliao/ad_common.js
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 sohu.com##.phone-scan
