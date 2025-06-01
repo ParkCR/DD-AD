@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-06-01 16:24:11
+! Last Modified: 2025-06-02 00:22:42
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -843,8 +845,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -2050,7 +2050,6 @@ dxqck.com##.myadswiper
 ##.add-gg
 /skin/iymbl-$domain=iimanhua.cc|iimh.net
 /kill-adblock//js/function.js$script
-$csp=script-src 'self' * 'unsafe-inline',domain=zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jubiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|2dsk.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 club.6parkbbs.com##.body_center:has(> div.adv-6park)
 ##div[id^="em"] > a[onclick^="em"][max-width]
 /socket?platform=*&href=$third-party,websocket
@@ -9755,6 +9754,7 @@ affyun.com##.text
 /cdn-cgi/pe/bag2?*.adm.cnzz.
 cdn.tiv.pw###Advertisement1
 baike.com###newsfix-on
+$csp=script-src 'self' * 'unsafe-inline',domain=haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jubiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|2dsk.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 dyttw.com.cn##td[align="center"][valign="middle"][bgcolor="#FFFFFF"] > table[width="1210"] > tbody > tr > td[height="55"]
 @@||edgesuite.net^*/ad.css?
 aniwatch.*#$#abort-current-inline-script XMLHttpRequest
@@ -21892,7 +21892,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ruthlessmilk.com^$third-party
 ||gaoqing.la/wp-content/uploads/*980x
 ||mdfsbn.com^$third-party
-||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||intelligentscissors.com^$third-party
 ||jrzj.com/img_index/guanggao
 ||milimili.tv/js/loadjs/jquery10.7.js
@@ -23222,7 +23221,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||giantsvessel.com^$third-party
 ||pengwei168.com/addons/321.gif
 ||hybase.com/images/hysq99.png
-||s2tu.com/images/*.gif
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||pjcn.org^$third-party
 ||quyuancn.com^$third-party
@@ -25276,6 +25274,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||yesky.com/s?z=
 ||soaspx.com/images/js/dropdown.js
+||s2tu.com/images/*.gif
 ||zk789.cn/Res/Scripts/Show/NetSys/Show.ashx
 ||seek68.cn/img/*.gif
 ||yy18.info^*thanks$popup
@@ -25982,6 +25981,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tq.cn/floatcard?
 ||showsport-tv.com/js/detect.css$stylesheet
 ||tiexue.net/pic/tx_1220.jpg
+||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||t.cn^$domain=28kys.com|92kvip.com
 ||vipyearha.com/uploads/20*.gif
 ||uploadhouse.com^*.gif$domain=wishct.com
