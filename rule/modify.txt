@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-06-11 00:26:12
+! Last Modified: 2025-06-11 09:42:29
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -2064,7 +2064,6 @@ cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 douban.com##.channel_promo
 chinabidding.com.cn##.innovate + .layer
-ftchinese.com#@#.AdsBox
 ##body.fed-min-width.website-read > [style='bottom: 132px;']
 bing.com#?#.b_algo:-abp-has(.b_ads1line)
 ://m.*.cn/*.xmtl?$third-party
@@ -4873,6 +4872,7 @@ animixplay.*#$#abort-current-inline-script String.fromCharCode
 firefoxchina.cn##.feed-pmt
 @@||game735.com^$generichide
 ###bottom_qr_code
+@@||lecrabeinfo.net^$generichide
 auto.cz,autorevue.cz,blesk.cz,dama.cz,e15.cz,expres.cz,karaoketexty.cz,maminka.cz,mojezdravi.cz,osobnosti.cz,reflex.cz,tiscali.cz,zeny.cz,zive.cz##div[id$="horiz"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=opitz-online.com
 bitauto.com###bitAd_background
@@ -11785,6 +11785,7 @@ gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
 oschina.net##.soft_detai_above_ad
 ||11img.com/ad/
 msn.cn#%#//scriptlet('json-prune', '*', 'list.*.link.ad list.*.link.kicker')
+ftchinese.com#@#.AdsBox
 megacloud.*#$#hide-if-matches-xpath './/div[@id="megacloud-player"]//a[@id="closeBanner"][@style]'
 lostfilm.tv##div[class^="alarm"]
 tiscali.cz,osobnosti.cz,karaoketexty.cz##[class$=" sticky"]
@@ -14629,7 +14630,6 @@ hao.360.com###pushbar-festival
 ||alicdn.com/img/ibank/*_1533190909.
 ||a.cnki.net/a/
 qq.com##a[href^="http://www.10100000.com/"]
-www.youtube.com#$#override-property-read Object.prototype.QI emptyArray
 m.douban.com###comment-list > div > .show-all
 histock.tw##.bottom-right
 pptv.com##.mod_960x90
