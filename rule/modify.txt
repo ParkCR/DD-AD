@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-06-21 00:24:42
+! Last Modified: 2025-06-21 09:40:13
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -848,6 +848,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -10831,8 +10833,6 @@ c.m.163.com##.commentBar
 cloudflareinsights.com$third-party
 7654.com##div[class^="sidebarimg"]
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||365xuet.com/assets/web/js/main.jsr_
 hinet.net###media_ad_popup_overlay
@@ -11330,7 +11330,6 @@ wk.baidu.com##.lure.btn-download
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(/商|上新|好物/))
 xkeba.com###diy90
 fx168.com###ImgText_01
-instacart.*#$#hide-if-matches-xpath './/span[@style="display: inline-block;"][contains(text(),"sored")]/preceding::div[text()="Top picks from other aisles"]/ancestor-or-self::h2/ancestor-or-self::div[@class="e-1yrpusx"]'
 shuba.life##.md\:u-block
 ifeng.com##.mr_top_box
 tmall.com###J_smartloader
@@ -17789,6 +17788,7 @@ newxue.com##.dashuggtop
 sou.com###ad_wrapper_cpc_conversation-comment-right
 meltoday.com,sydneytoday.com##.mtgad
 speedtest.cn##.shade
+instacart.*#$#hide-if-matches-xpath './/span[@style="display: inline-block;"][text()]/preceding::div[text()="Top picks from other aisles"]/ancestor-or-self::h2/ancestor-or-self::div[@class="e-1yrpusx"]'
 touzi.com##.pop720-box
 ||api2.coolapk.com/v6/feed/detail$replace=/"_ids":\[.*?]\,"":\[.*?]\,/ /
 smashboards.com###noticeMain
@@ -22319,7 +22319,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||cpnn.com.cn/cpnn2015g/neiyegg.gif
 ||live.prismamediadigital.com/ops/TRA/ab_ban/$image,domain=voici.fr
 ||ldmnq.com^$third-party,badfilter
-||sablesong.com^$third-party
 ||game.eroge.xyz/*.gif
 ||oafishobservation.com^$third-party
 ||guojitv.com/m/js/ad_
@@ -22854,7 +22853,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||attractionbanana.com^$third-party
 ||hdcast.info/adcompany.php$subdocument
 ||qiyipic.com/common/*/255x205
-||sablesmile.com^$third-party
 ||iptv444.com/ad-
 ||gp123.cc/20*ad/
 ||dbw.cn/eap/js/hl/hlj_ad
@@ -24527,6 +24525,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sinaimg.cn/finance/qihuofarm/
 ||taobao.com^$popup,domain=dlkoo.cc
 ||soduso.com/js/4
+||sablesong.com^$third-party
 ~allthingsopen.org##a[href*=".com?aff="]
 ||vip.ludu319.com^$third-party
 ||scint-x.com/js/
@@ -24934,6 +24933,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sombersquirrel.com^$third-party
 ||zhulang.com/zlpv.php
 ||yemancomic.com/static/maoshuang.js
+||sablesmile.com^$third-party
 ||temptteam.com^$third-party
 ||tlula507.com/Public/js/float
 ||yefu365.com/rebo/function.js
