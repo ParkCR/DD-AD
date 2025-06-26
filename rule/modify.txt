@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-06-26 00:26:45
+! Last Modified: 2025-06-26 09:42:12
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -249,7 +251,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -3542,7 +3543,6 @@ duelmeta.com##.single-top-html
 ##[style^='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: '][style*='; top: 0px; left: 0px;']
 .m.d8qu.com^
 =Ad_ZPlusGoods&
-ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|C*o*m*m*a*n*d*i*t*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'div[data-viewport]' 'div[data-viewport] div[class="Hbar"]'
 firefoxchina.cn##a[track_key="sites_saoma"]
 ###ads.row
 /template/conch/asset/js/hlhtml.
@@ -5939,6 +5939,7 @@ embed.media,fembed.com,fmovies.*,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,
 .me/gg.js
 :800*/d/*n=$script,third-party
 csdn.net##li[data-type="ad"]
+ebay.*#$#hide-if-contains-visible-text /(S*p*o*n*s*o*r*e*d|A*n*z*e*i*g*e|S*p*o*n*s*o*r*i*s*é|C*o*m*m*a*n*d*i*t*é|P*a*t*r*o*c*i*n*a*d*o|S*p*o*n*s*o*r*i*z*z*a*t*o)/ 'div[data-viewport]' 'div[class="gcuK"]'
 163.com###js-ep3rdRank
 clanky.seznam.cz,search.seznam.cz#?#:-abp-has(> .Result--organic .Result-title-link:not([class="Result-title-link"]))
 /wxh_asy.js
@@ -18189,7 +18190,6 @@ m.v.qq.com##.pull-app-btns
 ke.com##.app_daoliu_layer
 nxflv.com##div[style="position: absolute; width: 100%; height: 133px; bottom: 0px;"]
 vuukle.com##a[href*="news.vuukle.com/u/"]
-||asp300.com/2017images/kefu.js
 pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 mobanwang.com##.g960
 ntm.gov.tw#@#.ad-left
@@ -21839,7 +21839,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||pupudy.com/images/wxrj.gif
 ||axutongxue.net/js/ik474n.js
 ||m.daomutxt.cc/dist/common.js
-||ruthlessmilk.com^$third-party
 ||gaoqing.la/wp-content/uploads/*980x
 ||mdfsbn.com^$third-party
 ||intelligentscissors.com^$third-party
@@ -22768,6 +22767,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||reconditeprison.com^$third-party
 ||rfidworld.com.cn/js/RFIDExec.js
+||asp300.com/2017images/kefu.js
 ||qiming360.com/mingJs/xmKu_
 ||lensdump.com/i/*.gif$badfilter
 ||fastadmin.net/uploads/store/aliyun
@@ -25904,6 +25904,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tq.cn/floatcard?
 ||showsport-tv.com/js/detect.css$stylesheet
 ||tiexue.net/pic/tx_1220.jpg
+||ruthlessmilk.com^$third-party
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||t.cn^$domain=28kys.com|92kvip.com
 ||vipyearha.com/uploads/20*.gif
