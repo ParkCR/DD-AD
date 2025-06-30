@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-06-30 16:28:15
+! Last Modified: 2025-07-01 00:26:10
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -4434,6 +4434,7 @@ fox-saying.com#?##sidebar__inner > #links-row-1 > .box.folder:has(> h4:contains(
 baidu.com##.c-result[data-tpl="adv_wenku_fc"]
 daohang.qq.com,hao.qq.com,sogou.com##div[id^="AD_"]
 freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com#$#override-property-read open noopFunc
+bab.la,pons.com,loawa.com,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#abort-on-iframe-property-write src;
 expres.cz#$#json-override ads ''
 /789syy/*
 baidu.com##.drag-wrap
@@ -6448,7 +6449,6 @@ auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,
 bioon.com###ad_tb
 /grooptoo/index/getGrooptooAd/|
 123.com.cn##.img-banner
-bab.la,pons.com,loawa.com,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#abort-on-iframe-property-write src; abort-on-iframe-property-write window.googletag.pubads;
 @@||cdn.theguardian.tv/ad/*.m3u8$domain=theguardian.com
 @@||panjiachen.github.io^$generichide
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz,osobnosti.cz,tiscali.cz,karaoketexty.cz##[id*="Adform"]
@@ -12553,7 +12553,6 @@ noon.com#$#hide-if-matches-xpath './/span[@class][contains(text(),"Sponsored")]/
 ipcfun.com###sidebar > ul > div[style]
 mirrormedia.mg##.micro-ad
 wacowla.com###home-top-narrow
-novinky.cz#$#hide-if-matches-xpath '//span[text()]/ancestor::a[contains(@href,"ad-info")][@target]/ancestor-or-self::article/parent::div[1]'
 ||4399.com/loadimg/iframe_
 ifeng.com##div[class^="layout-"] > div#subNav + div
 jia360.com##.hjadv
@@ -16571,6 +16570,7 @@ ifeng.com##.ad1000_box
 soft-down.net##.box-top-xiazai
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 sunnylife.tw##.Zi_ad_a_H
+sourceforge.net,dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 wiseway.com.cn##.float-kefu
 wcjbb.com###frame37boCx
 itavcn.com##.advzone
@@ -18440,7 +18440,6 @@ volynpost.com#$#abort-on-property-read trek_shownow
 y.qq.com###js_mod_dialog
 quora.com##.q-box.qu-borderTop>[class^="Box-"] .q-box.qu-pt--medium.qu-pb--tiny
 youporn.com,redtube.com#$#abort-on-property-write rAb
-sourceforge.net,dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable; override-property-read frameElement undefined;
 zhihu.com##OpenInAppButton OpenInApp is-shown
 wenku.baidu.com##div[id^="html-reader-banner-"]
 kinobox.cz,nasepenize.cz###stickyBanner
@@ -18756,6 +18755,7 @@ nhentai.net#$#override-property-read _n_app.popunder null;
 zybang.com##body.m-question > a[href^="https://www.kuaiduizuoye.com/"][target="_blank"] > img
 m.toutiao.com##.banner-top
 m.youku.com##.cmt-more
+novinky.cz#$#hide-if-matches-xpath '//span[text()]/ancestor::a[contains(@href,"ad-info")][@target]/ancestor-or-self::article[not(@role)]/parent::div[1]'
 zuoye.baidu.com,zybang.com###aside
 ipatriot.com##div[class^="textwidget"] > div[class^="pi_"]
 ||9669.com^$script,third-party
