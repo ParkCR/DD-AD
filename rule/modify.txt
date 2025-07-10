@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-07-10 00:25:11
+! Last Modified: 2025-07-10 09:45:07
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -5419,7 +5419,6 @@ cosplay-porn.one#$#abort-on-property-read biads
 applealmond.com##div[id^="applealmond_inread_"]
 ##a[href="http://jyvip2041.net"]
 codejie.net##.gg_banner
-dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,huffpost.com,collinsdictionary.com#$#blob-override '/.*/' ''
 /api/apiFetchAdsData
 .xyz/z/*/code.js$script,third-party
 dpp.org.tw#@##ad_small
@@ -10763,6 +10762,7 @@ androidhellas.com##IMG[src="http://androidhellas.com/wp-content/uploads/2013/08/
 4399.com###ads1_1
 dan-teng.top##.nav
 @@|http://$xmlhttprequest,image,domain=cbsnews.com
+fiverr.com##div[data-impression-collected="true"]:has(a[href*="ad_key="])
 163.com##.topnav_ad
 baidu.com##.school-promotion-pop-wrap
 360doc.com##div[style^="height: 90px; padding-top: 13px;"]
@@ -10841,6 +10841,7 @@ mail.qq.com###plp_ad_container
 w3cschool.cn##.abox-content
 ||0kkbb.com/js/i.js
 jav777.xyz#%#//scriptlet("prevent-eval-if", "ADS_BLOCKED")
+sankei.com,timesofindia.indiatimes.com,dictionary.cambridge.org,sourceforge.net,bab.la,pons.com,loawa.com,gazetaprawna.pl,malaymail.com,tz.de,winfuture.de,gutefrage.net,huffpost.com,collinsdictionary.com#$#blob-override '/.*/' ''
 tinsoikeo.live#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
 topflix.fm#$#abort-current-inline-script String.fromCharCode XMLHttpRequest
 nfuwow.com##a[href*="myyj.net"]
@@ -11746,6 +11747,7 @@ iprima.cz##[class$="_fcid"], [data-mashiatus]
 ishare.ifeng.com##.callUpBox
 manhuadb.com#?#.comicbook-index:-abp-has(>a[href^="http"])
 mail.sina.com.cn##.rightbottom
+timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read googletag emptyObj; event-override message disable /^r_/; prevent-listener message /postMessage|error-report|adb/; abort-on-iframe-property-write Object.prototype.toString;
 qq.com##.code-content
 ||3k8.com/d/js/m/thea
 ||115img.com/static/115tj.js
@@ -12575,7 +12577,6 @@ zrblog.net##.ad_h
 globes.co.il###grayLayer
 ptbus.com##.weixin_ad
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
-||arrivegrowth.com^$third-party
 iqiyi.com##div[style^="z-index: 4200; position: absolute; left:"]
 olevod.com##.ad1
 yocast.tv###notice
@@ -14830,7 +14831,6 @@ nasyun.com##img[width="970"]
 house365.com###ft-login
 jijidy.com###box
 m.163.com##.floatMenu-backflow
-||artthevoid.com^$third-party
 tube8.com#$#abort-on-property-write AdDelivery
 jpsub.com##.floatbar_div
 jdbbs.com###portal_block_2826
@@ -15637,6 +15637,7 @@ kinopoisk.ru#$#hide-if-contains-visible-text /./ 'div[id][class]>div[id][class]'
 tieba.baidu.com##.post_client_down
 ||akuziti.com/tu/*.js
 gdmm.com##a[href="http://www.gdmm.com/appdown/"]
+timesofindia.indiatimes.com#$#debug; abort-on-iframe-property-read localStorage;  override-property-read window.confirm noopFunc; override-property-read pbjs emptyObj; abort-on-iframe-property-read sessionStorage; override-property-read dataLayer emptyArray; abort-on-iframe-property-read caches;
 newtalk.tw###_popIn_recommend
 verdirectotv.com##div[id^="closeX"]
 sina.cn##.btn_follow.j_article_wbreco
@@ -19822,7 +19823,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ps886.us/js/*.js
 ||qishula.com/css/ding.js
 ||msn.cn/resolver/api/resolve/$jsonprune=\$.configs['GalleryPage/ntpmsn'].properties.fullScreenSlideshowSettings.interstitialNativeAds
-||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|collinsdictionary.com
 ||captivatingcanyon.com^$third-party
 ||dyguo.com/pc/*0.js
 ||china.com/media/mm/
@@ -20108,6 +20108,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mistyhorizon.com^$third-party
 ||go.kbnmnl.com/api/models/vast
 ||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
+||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
 ||linkwan.com/gb/broadmeter/speed/cp.js
 ||docer.org/static/utils/jquery.min.js
 ||fabuye.vip/zhuanfa/
@@ -20797,7 +20798,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dftoutiao.com/ssp/
 ||gsjdzx.com^$third-party
 ||iqilu.com/static_files/multiads/
-||right.com.cn/forum/static/image/common/logo
 ||bikinginspire.com^$third-party
 ||cnwnews.com/templets/images/jccf
 ||dongchedi.com/motor/ad/
@@ -21244,7 +21244,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||faucetfoot.com^$third-party
 ||es3984.review/02_cn_ad/
 ||inhe.*/Uploadfiles/adpublish
-||rigengjihua.cn/banner/
 ||qq.com/Index/getAdsAndHotspot
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noopframe,domain=rjno1.com,important
 ||channelcamp.com^$third-party
@@ -21542,6 +21541,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||itbulu.com/banner/
 ||hexun.*/hxpage/index.html
+||arrivegrowth.com^$third-party
 ||elysiantraverse.com^$third-party
 ||cumbersomecarpenter.com^$third-party
 ||record.xl.pt/pub/
@@ -22770,6 +22770,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gtimg.com/ent/final2009/dp_tebu_logo.png
 ||grtimed.com/material/*_960x110_
 ||ifengimg.com/a/*/yemei
+||html-load.com^$script,xmlhttprequest,domain=convertcase.net|manta.com|wfmz.com|golf-live.at|eurointegration.com.ua|sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
 ||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
 ||bf99.com/User*/Ad_
 ||m.mianbao99.com/js/detail.js
@@ -23935,6 +23936,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||bruisebaseball.com^$third-party
 ||bc.vc/js/bcvc_in.js$script,third-party
 ||baidu.com/4.gif?
+||artthevoid.com^$third-party
 ||bjsxt.com/statics/js/bjsxt/js.js
 ||cidianwang.com/js/left
 ||gmbbku.com/jj/
@@ -23951,7 +23953,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||calculatingcircle.com^$third-party
 ||cosmosjackson.com^$third-party
 ||chinaxinge.com/html/index_pf3.js
-||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com
 ||laod.cn/wp-content/uploads/*/ad-
 ||pkvs.com/public/300/
 ||furryhorses.com^$third-party
@@ -25140,6 +25141,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||stockstar.com/info/1200x90/
 ||xizi.com/js/rotator.js
 ||zoukankan.com^$csp=script-src 'self' * 'unsafe-eval'
+||right.com.cn/forum/static/image/common/logo
 ||yahoo.com/embed/tv?site=buzzhand&
 ||snzfj.net^$third-party
 ||tptoon.com/skin/js/tjtjkk.
@@ -25475,6 +25477,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||videojj.com/api/v1/plat_tags?
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||ringsrecord.com^$third-party
+||rigengjihua.cn/banner/
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ||zhongyi.ifeng.com/a/zt.js
 ||sogou.com/ask?id=
