@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-07-17 16:29:18
+! Last Modified: 2025-07-18 00:27:19
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -254,6 +252,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -3559,6 +3558,7 @@ am730.com.hk##.adbox
 expres.cz,tiscali.cz,osobnosti.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 creaders.net###guanggao2
 ##body[onload*="u()"] > #x
+1lou.me,1lou.one,1lou.pro###advert > :not(.card)
 firefoxchina.cn##.theme-adv + .bottom
 ###taotaole
 @@||l.qq.com/lview?$domain=888.sports.qq.com
@@ -4215,7 +4215,6 @@ ali213.net##.detailAlertBox > a[style]
 123.chinaso.com##.right-list6
 cntronics.com##.cnt-ads90
 /iframe/baidu_*.html
-freelivesport.eu,cv55.eu,nowwatchtvlive.me,nowwatchtvlive.co,liguendirect.com,beinsports24.com,dabstrap.com,tous-sports.tv,hdcast.org,coolsport.se,hdfree.tv##[id^="bannerfloat"]
 .com/dibudaohang/dibudaohang.js
 :2048/b.js
 eastmoney.com###search > .ads
@@ -13654,6 +13653,7 @@ zcool.com.cn,php.cn,v2ex.com,233tw.com##.wwads-cn
 ||52rd.com/Pic/Click/
 fullmatchesandshows.com#@#.adsense
 www.idnes.cz#$#abort-on-property-write window.Ads
+freelivesport.eu,cv55.eu,nowwatchtvlive.me,nowwatchtvlive.co,liguendirect.com,beinsports24.com,dabstrap.com,tous-sports.tv,hdcast.org,coolsport.se,hdfree.tv##[id^="bannerfloat"]
 xhamster2.com,xhamster.one#$#abort-current-inline-script document.createElement initTabUnder
 oeeee.com##.homeAD
 jsjiami.com##.asd > li > a.shaky
@@ -14914,6 +14914,7 @@ renren.com###videoAd12
 ||2cq.com/third/tieba/sidebar
 solarmovie.*#$#abort-current-inline-script Math zfgloaded
 sportowefakty.wp.pl#$#hide-if-matches-xpath './/a[@href][@class][@*]/img[@class][@src][not(@alt)]/parent::a/ancestor::div[not(contains(@class,"layout"))][string-length(@class)>=5][contains(normalize-space(), "")][3]'; hide-if-matches-xpath './/*[@class]//a[@target][contains(@href,"adblock")]/parent::div//ancestor::div[not(contains(@class,"npp-container")) and not(string-length(@class)=41) and not(string-length(@class)=7) and not(contains(@*,"layout")) and not(contains(@class,"column"))][5]/div[@class]'; hide-if-matches-xpath './/img[string-length(@src)>155]/following::span/a[string-length(@href)>1000]/ancestor::li[@class]';
+v.qq.com#%#//scriptlet('json-prune', 'data.CardList.[].children_list.ad_list data.CardList.[-].params.advertiser_name')
 ||4jnzhl0d0.com^$third-party
 lfg.co,leasticoulddo.com#@#.adsbygoogle
 subhd.com#%#//scriptlet('set-session-storage-item', 'hassession', '1')
@@ -15535,7 +15536,6 @@ nettruyenrr.com#$#abort-on-property-read links
 haianw.com###comiis_haianw01
 wenxuecity.com##label[style*="darkgrey"]
 ||99mst.com/upfiles/adv/main02.jpg
-||aquaticowl.com^$third-party
 ||9129666tp.com^$domain=9xav.cc
 money.pl#$#hide-if-matches-xpath '//div[@id]/following::a[@class]/img[string-length(@src) < 130]/ancestor::div[1]'
 ||acgnz.cn/static/b.js
@@ -16238,6 +16238,7 @@ newxue.com##.bd500
 league-funny.com##.more2ad_bb
 yaociyuan.bid##.board a[target="_blank"] > img
 so.com##.tg-wrap-async
+v.qq.com##.video-card-wrap[element-params*="ad_creative_id"]
 line.me##.midAdModule-root
 jandan.net###sidebar > div#box
 japscan.*#$#abort-on-property-read atob; abort-current-inline-script document.createElement String.fromCharCode; abort-current-inline-script Object.defineProperty XMLHttpRequest
@@ -16728,7 +16729,6 @@ my0511.com###forumtextad
 psahz.com#@#.ad_960
 ssnn.net###float_picr
 times.zt.ua,f1comp.ru,tagaev.com#$#abort-on-property-read PUM.getPopup
-||aqlife.com/data/attachment/portal/
 ||58cdn.com.cn/ds/tgbrand/*.js
 goodcast.co.uk##[style="position: absolute; top: 100px; left: 160px; z-index: 1000;"]
 sm.cn###download-uc-v2
@@ -20068,6 +20068,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=mcappx.com
 ||i322.com/ad_avshow/
 ||lsntzzy3.com/Runtime/js/psData.js
+||aquaticowl.com^$third-party
 ||meizhou.com/images/topbanner
 ||featherstage.com^$third-party
 ||pcauto.com.cn/forum/autobbs/clubtl/
@@ -21199,6 +21200,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||meadowlullaby.com^$third-party
 ||baofeng.com/images/yiqi
 ||porn87.com/static/stream_ads/
+||aqlife.com/data/attachment/portal/
 ||nfmovies.com/pic/tu/*_banner
 ||bcebos.com/59x360x528.gif
 ||kiwi8.top/media/plugins/jquery_confirm/
@@ -22457,7 +22459,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hao123img.com/static/common/js/cpc_
 ||jinhua.com.cn/ad_pic/
 ||cndzys.com/huanlian/
-||realizerecess.com^$third-party
 ||edu-30130.sz.gfp.tencent-cloud.com^*.gif
 ||gome.com.cn/flight?
 ||gravitykick.com^$third-party
@@ -24622,6 +24623,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||z4a.net^$domain=9xav.cc
 ||static.dragcave.net/cache/js/a/$script
 ||zongheng.com/upload/hzds/
+||realizerecess.com^$third-party
 ||sina.cn/check?
 ||xchina.*/plugins/jquery.modal/
 ||showhaotu.$domain=18board.com|18p2p.com
@@ -24932,6 +24934,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zztongyun.com/static/js/sh.
 ||scintillatingscissors.com^$third-party
 ||stretchsneeze.com^$third-party
+||video.qq.com/trpc.vector_layout.page_view.PageService/getPage$jsonprune=\$.data.CardList[?(has "\$.params.advertiser_name")]
 ||uc129.com/images/top_hjsj.jpg
 ||wuyunks.com/1.
 ||sinaimg.cn/cj/finance/forex/res/searchCallup.js
@@ -25580,6 +25583,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||scratchsofa.com^$third-party
 ||uiqatnpooq.com/0f8b73d477b554394e23077935e1fff4.js$script,domain=extratorrent.cc
 ||touimg.com/u/20200419/18431854.gif
+||video.qq.com/trpc.vector_layout.page_view.PageService/getPage$jsonprune=\$.data.CardList..children_list.ad_list
 ||sd1v.yitongwl.cn/site/
 ||unecne.com/wp-content/uploads/*ad-
 ||verdantanswer.com^$third-party
