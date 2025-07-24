@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-07-24 00:27:55
+! Last Modified: 2025-07-24 09:49:08
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,10 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -858,10 +862,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -11597,6 +11597,7 @@ qq.com##.mod_float_banner
 hk.on.cc##div[id^="google_div_"]
 xbgame.net#$#.download .content-area > div[class] { background-image: none !important; }
 ||3158.cn/min/webim.
+olx.com.br#$#hide-if-matches-xpath '//div[@id="advertising-home-banner-anchor"]/ancestor-or-self::div[contains(@class,"AdvertisingSlotAnchor_advertising-anchor__content__")]/parent::div[1]'
 zk001.cc##section[class^="ch"]
 sina.com.cn##.m-p1-lb1-ad
 proplanta.de#@##adDiv
@@ -13904,7 +13905,6 @@ ifeng.com##.pic300
 redian.news##.bottom-0.fixed
 jkptgbf.xyz,mfulbvu.xyz,91porna.com#%#//scriptlet('remove-attr', 'data-ads_url', '[data-ads_url]')
 theage.com.au,smh.com.au#@#div[id^="_"] > iframe[scrolling="no"][src^="http"][width][height][frameborder="0"]
-lxmanga.blog#$#abort-current-inline-script $ PopUnder
 spieletipps.de##[src^="http://www.spieletipps.de/sp/"]
 image.so.com##.commerce
 ||aboardlevel.com^$third-party
@@ -13990,6 +13990,7 @@ m.tv.sohu.com##.js-app-topbanner.actv-banner
 ||3dmgame.com/templets/common/show_js/show_js.js
 ||9ya.net/con/ad
 ||17173cdn.com^*/js/task/src/task/live/greenhand/
+lxmanga.my#$#abort-current-inline-script $ PopUnder
 ifeng.com#?#div[class^="index_yaowen_center"] div[class^="index_news_list_"]:has(a[target="_blank"] + img[src^="https://x0.ifengimg.com/feprod/"])
 libaclub.com##.merchant-link
 tieba.baidu.com##.img-open-app
@@ -14564,6 +14565,7 @@ zhujiwiki.com##.ssrtop
 howdyho.net,howdyho.pro#@#:not(my-obnaruzhili-adblock)
 huarenjie.com###cftoutiao
 hoteastday.com##.watermarh_ul
+samsclub.com#$#race start; hide-if-contains-visible-text /(Sponsored)/ 'div > div[io-id]' 'div[data-testid^="variant-"] > div > div'; hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]'; race stop;
 ruyo.net##.textwidget a > img
 ||51xuediannao.com/uploads/un/
 gzmama.com###zone_banner_1_new
@@ -17426,7 +17428,6 @@ storm.mg###dablewidget_KoEeAWoB
 xcar.com.cn###show_car
 www.idnes.cz#$#hide-if-matches-xpath '//div[@*[starts-with(name(), "data-") and .="ad"]]/self::div[1]'
 tingfm.com#%#//scriptlet('set-constant', 'can_run_ads', 'true')
-samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"promo-static")]/ancestor-or-self::li[1]'
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
 wenku.baidu.com##.area[href*="/adclick?aid="]
