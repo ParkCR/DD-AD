@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-08-05 09:54:10
+! Last Modified: 2025-08-05 16:30:28
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -255,7 +257,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -12958,7 +12959,6 @@ readmoo.com#@#.navbar-social
 gz0668.com###closexguide
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + script + script + div[id]
 xyj321.com##.foot_alert_wrap
-||aem.three.com.hk/content/three/sosim/app/tc/api/promotion/rotation-start-ads/
 ifeng.com##.top-tg
 kuke99.com##.index-dialog-mask
 laozuo.org##.widget_ui_orbui
@@ -13442,6 +13442,7 @@ jb51.net##p[style$="text-align: center; padding: 0px; margin: 20px 0px;"]
 so.com##.res-mediav-right
 youdao.com#@#.share-text
 mobilemagazinehk.com##.adv2
+||aem.three.com.hk/content/three/sosim/app/tc/*/promo-
 silkengirl.net#$#hide-if-matches-xpath './/a[@target][contains(@href,"playboy.com")]/img[@alt="playboy.com"]/ancestor-or-self::div[@class="block_row"][1]'
 jiegeng.com##.picBt
 huanqiu.com##.adindexList
@@ -15598,7 +15599,6 @@ recruit.com.hk##div[id^="banner"]
 huaban.com#$#.wrapper > div[data-content-source] > .modalOpenWidth[style*="top:"] { top: 80px !important; }
 sohu.com##.adv_960
 metruyenchu.com#$#abort-on-property-write window.onclick
-||api2.coolapk.com/v6/feed/detail$replace=/\,"":{.*}/}}/
 py91.net##.widget_textads
 ysgc.fun,ysgc.tv##.swiper-slide > a[target="_blank"]
 hao.360.cn##.festival_snatch
@@ -19263,6 +19263,7 @@ jingyan.baidu.com##.wgt-cms-banner
 ||alu.cn/alutg/
 www.67tool.com##.footer-banner
 sm.cn##.oab-ball-wrap
+||aem.three.com.hk/content/three/sosim/app/tc/*/promotion/
 ||akamaihd.net^*/gsd.html?d=
 novinky.cz,kupi.cz,sport.cz,super.cz##._ad_branding_container
 ||akabebe.com/jgg/*.gif
@@ -20106,6 +20107,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||cifnews.com/ajax/adrequest/
 ||cbsi.com.cn/js/mlt.js
 ||mistyhorizon.com^$third-party
+||api2.coolapk.com/v6/feed/detail$replace=/\,"":{.*}/}}/
 ||go.kbnmnl.com/api/models/vast
 ||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com
