@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-08-07 00:28:44
+! Last Modified: 2025-08-07 09:53:09
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,10 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -259,6 +255,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -860,6 +857,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1584,6 +1583,7 @@ discuss.com.hk##iframe[src="/fb_page_plugin.php?interface=web"]
 ettoday.net###ticker_3
 ##style + .a-loading
 ###bottom_ads.hl_bottom_ads
+ebay.*#$#hide-if-contains-image '/(53706f6e736f726564|416e7a65696765|53706f6e736f726973c3a9|436f6d6d616e646974c3a9|53706f6e736f726f77616e65|476573706f6e736f7264|506174726f63696e61646f|53706f6e736f72697a7a61746f|e8b48ae58aa9)/' 'ul > li' 'ul > li div[aria-labelledby]'
 ##.video-holder > a[target="_blank"] > img[src*=".360buyimg.com"]
 @@||cnsexy.top/wp-content/plugins/dh-anti-adblocker/assets/js/showads.js
 btmulu.com#?#.item:-abp-has(> a[target="_blank"])
@@ -7112,7 +7112,6 @@ boylove1.mobi##.fuafxnfq
 animewld.club##.header-img
 apple.com.cn#$#html #globalnav { top: 0 !important; }
 eyny.com##span[id^="ads_ads_"]
-freejavbt.com##div[data-selector*="ai-insert-"]
 /A-Tian/Tian-*-good.js
 /alljs/allhead.js
 @@||cdnads.com^$image,subdocument,domain=bitzfree.com
@@ -14082,6 +14081,7 @@ skyscanner.*,tianxun.com#$#hide-if-matches-xpath './/button[contains(@class,"Spo
 kuai8.com###left_Ad
 m.v.qq.com##.mod_more
 ||4gamers.com.tw/ads-
+sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 popeoftheplayers.eu###mask1
 goodav17.com###sticky_ads
 javfreestreaming.com##.notes
@@ -15751,7 +15751,6 @@ hao.360.cn###festival_baijian
 lenovo.com.cn##.adsense-wrap
 macdaxue.com##.content > div.asb
 linovelib.com#$#:is(#volume-list, #TextContent) { display: block !important; }
-timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined; override-property-read document.cookie '';
 gate.baidu.com,m.baidu.com###container
 qq.com,sogou.com##div[pbflag="bt_newsb_ad"]
 fx678.com##.img_tips
@@ -16286,6 +16285,7 @@ sogou.com###vl
 wenxuecity.com##.rightbannerw
 krolik.biz#$#abort-current-inline-script document.createElement
 www.idnes.cz#$#abort-on-property-write Storage.data.eviladTimestamp
+freejavbt.com##div[data-selector*="ai-insert-"]
 reaff.com,yangmaodang.org##.entry-content > p[style="text-indent:0"]
 ||52movieba.com/img/ad
 xw.qq.com##.btn-ok
@@ -16599,7 +16599,6 @@ ifeng.com##.ad1000_box
 soft-down.net##.box-top-xiazai
 pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 sunnylife.tw##.Zi_ad_a_H
-sourceforge.net,dictionary.cambridge.org,bab.la,pons.com,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 wiseway.com.cn##.float-kefu
 wcjbb.com###frame37boCx
 itavcn.com##.advzone
@@ -18716,7 +18715,6 @@ iqiyi.com##.video-ad_right
 rjno1.com#%#//scriptlet("prevent-addEventListener", "error", "event.target.tagName")
 twinsyang.net#@#.Zi_ad_a_H
 m.v.qq.com##.swiper-container-android.swiper-container-horizontal.mod_source_box_fixed.mod_source_box
-sameday.costco.com##li:has([aria-label="Product"] *[data-dfp-eligible])
 gry.pl##.adblock
 ||alicdn.com/kf/H2f43d53d17c74471a2a9e00bc10c5c99j.jpg
 proplanta.de#@##bottom_ad
@@ -19594,6 +19592,7 @@ xxxsm.vip##.ad280x165
 ||anluyg.net/static/js/channel*.js
 m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData', 'emptyObj')
 zetorrents.com##A[href^="http://acces.directionplaisir.com/a.php?"]
+timesofindia.indiatimes.com,sankei.com,sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined; override-property-read ResizeObserver undefined;
 zhujiwiki.com##.sidebar > .widget:first-child
 ||99danji.com/kchtml/
 jianshu.com##.border.item
