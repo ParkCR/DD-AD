@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-08-07 09:53:09
+! Last Modified: 2025-08-07 16:30:28
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -255,7 +257,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -3578,7 +3579,6 @@ china.com.cn##img[width="665"]
 boce.com##div[class^="money"]
 .net/vh1/1*$third-party
 ddrk.me##a[onclick^="ClickobayST();"]
-ebay.*#$#hide-if-has-and-matches-style * li 'li span.s-item__sep > div[aria-labelledby]' /./ '/transform: matrix3d\\([-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, [-\\.\\d]+, 1/'
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
 baidu.com##.result-op[tpl="pc-education-fs"]
 1314gl.com##a[href*=".apkpackagesys.com/"]
@@ -7112,6 +7112,7 @@ boylove1.mobi##.fuafxnfq
 animewld.club##.header-img
 apple.com.cn#$#html #globalnav { top: 0 !important; }
 eyny.com##span[id^="ads_ads_"]
+freejavbt.com##div[data-selector*="ai-insert-"]
 /A-Tian/Tian-*-good.js
 /alljs/allhead.js
 @@||cdnads.com^$image,subdocument,domain=bitzfree.com
@@ -8359,7 +8360,6 @@ da-fan-shu.cn#@#.ad-s
 @@||ad.filmweb.pl/adbanner/reklamy/adx.js$script
 @@||gmads.net^$object-subrequest,domain=sat1.de|sat1.ch
 @@||hdnumerique.com/tpl/jscript/advert.js
-ebay.*#$#hide-if-matches-xpath './/span[contains(@class,"items-carousel")][contains(.,"Sponsored") or contains(.,"Anzeigen") or contains(.,"Sponsorisés") or contains(.,"Commandités") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzati") or contains(.,"贊助")]/ancestor::div[@data-hscroll]/parent::li[1]'
 :8007/*/*?is_not=
 chem99.com###div_main_ta
 @@||51img1.com/??*/adsys.
@@ -8855,6 +8855,7 @@ douyu.com##.adcontainer
 .st/ads/
 /pic/ad/*
 briian.com###post-wrapper div[style^="width:"][style*="height: auto; background"]
+ebay.*#$#hide-if-matches-xpath './/span[contains(.,"Sponsored") or contains(.,"Anzeigen") or contains(.,"Sponsorisés") or contains(.,"Commandités") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzati") or contains(.,"贊助")]/ancestor::div[@data-hscroll]/parent::li[contains(@class,"ITEMS_CAROUSEL")][1]'
 bilibili.com##.bili-video-card.is-rcmd:has(> div.bili-video-card__wrap .bili-video-card__stats--icon > path[d*="M16.9122 1.50323C17.4366 1.48358 17.99745 1.54938 18.4701 1.8207C18.9423 2.09168 19.28085"])
 baidu.com##.wgt-bottom-ask
 ##[href^='http://jg.awaliwa.com/']
@@ -16285,7 +16286,6 @@ sogou.com###vl
 wenxuecity.com##.rightbannerw
 krolik.biz#$#abort-current-inline-script document.createElement
 www.idnes.cz#$#abort-on-property-write Storage.data.eviladTimestamp
-freejavbt.com##div[data-selector*="ai-insert-"]
 reaff.com,yangmaodang.org##.entry-content > p[style="text-indent:0"]
 ||52movieba.com/img/ad
 xw.qq.com##.btn-ok
@@ -17138,6 +17138,7 @@ www.idnes.cz#$#override-property-read Object.prototype.bbmedia 5
 idnes.cz##div[style*="width: 480px; height: 300px"]
 hotabis.com#$#override-property-read td_ad_background_click_link undefined
 huya.com#$##banner > a ~ .banner-close { display: none !important; }
+||api.wudizuqiu.com/bocai.js
 myqqjd.com##.adsbygoogl
 yahoo.com##.stream-responsive-ad-item
 jianshu.com##.top
@@ -21584,7 +21585,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mydyxs.com/mpc/
 ||energeticexample.com^$third-party
 ||gambar123.com/semprotsejati/xyz-$image,domain=64.237.43.94|46.166.167.16|semprot.com
-||api.wudizuqiu.com/bocai.js
 ||puffypaste.com^$third-party
 ||chinaz.com/zt/hanyi/images/sanji.jpg
 ||avjj26.com/api/?d=pc&c=advert&
