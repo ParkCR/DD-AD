@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-08-12 16:27:55
+! Last Modified: 2025-08-13 00:26:55
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,6 +19,8 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -858,8 +860,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -16625,7 +16625,6 @@ youku.com#$?#.newswiper_big_swiper_container > div.swiper-container-horizontal >
 ifenpaidy.com##.btn-copy + .btn
 healthylives.tw###contentBox > div[style^="width:336px;height: 280px;"]
 toon69.com#$#abort-on-property-read adConfig
-motchillk.fm#$#abort-on-property-read sessionStorage
 mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好  物))
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div .ng-star-inserted wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
 ||addthis.com/live/
@@ -17419,6 +17418,7 @@ u7u9.com##.xw-right-ad
 oschina.net##.blog-left-ad
 mefcl.com##article:has(span.sticky-icon)
 rising.cn###left50
+motchillk.to#$#abort-on-property-read sessionStorage
 muzhi.baidu.com##.wgt-container
 www.youtube.com##ytlr-banner-cta-renderer
 muchong.com##.bg > .wrapper:nth-child(14) > .forum_Post_index
