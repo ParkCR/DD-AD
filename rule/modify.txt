@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-08-13 09:43:30
+! Last Modified: 2025-08-13 16:28:24
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -856,8 +858,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -2050,7 +2050,6 @@ dstar.pzk.pl#@#.adsbygoogle
 animehay.sbs#$#abort-current-inline-script document.addEventListener window.open
 /blxn_*_*_*?*$third-party
 cnool.net##.third-banner
-fr.hujiang.com###uzt-mask
 /yunfile/offline_banner/*
 finance.sina.com.cn###ny-link-r
 $image,third-party,domain=lady1.top
@@ -5253,6 +5252,7 @@ careonline.com.tw##.wrapper > script + a[href][onclick]
 ##img[onclick^="window.open"][src*=".360buyimg.com"]
 @@||jupako.uk/ads.php$subdocument
 ###ad_headerbanner
+/youziks\.com\/[0-9]+\.js/$domain=youziks.com,script
 abmedia.io###block-12
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
 .net/js/ads/
@@ -11799,6 +11799,7 @@ marketrealist.com##iframe[data-kiosked-adframe]
 komikdewasa.me#$#abort-on-property-write adsbyjuicy; override-property-read R undefined; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor::div[starts-with(@class,"blox")]'; hide-if-matches-xpath '//a[@target="_blank"]/img[contains(@class,"align")]/ancestor-or-self::a[@href][1]'
 weather.com.cn###ytc
 ||affyun.com/wp-content/uploads/*-ad.
+fr.hujiang.com###uzt-mask
 ifeng.com##.adpubpic
 hy5.com.cn##.toplogoad
 suning.com##.touch-href.mb-suning.ng-bar-node
@@ -19937,7 +19938,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dandydune.com^$third-party
 ||itxueyuan.com/advPicture/
 ||ifengimg.com/29daa33abbbc4bbc/2015/7/titad.gif
-||qq.com/bbs/bbs_topgg.htm
 ||baidu-taobao-av.com/js/
 ||gasaq.com/public/flash/
 ||jingdianlaoge.com/static/js/360-displaywindow-advert.js
@@ -21230,7 +21230,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||faucetfoot.com^$third-party
 ||es3984.review/02_cn_ad/
 ||inhe.*/Uploadfiles/adpublish
-||qq.com/Index/getAdsAndHotspot
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noopframe,domain=rjno1.com,important
 ||channelcamp.com^$third-party
 ||dustydime.com^$third-party
@@ -21841,6 +21840,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kelatv.com/ad/
 ||cdn.shdsp.net/ad
 ||ciliyinqing.top^$third-party
+||gl.ali213.net/images/jsq_gl.jpg
 ||pconline.com.cn/download/*/intf*.js
 ||eastday.com/jrdftt/static/javascript/ad/configDouble11.
 ||ntimg.cn/original/images/www_ads.jpg
@@ -21886,7 +21886,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||oa.hinews.cn/work/img/
 ||autohome.com.cn/news/$script
 ||it610.com/views/front/js/special/
-||qq.com/PL_adT.htm
 ||jingyanlib.com/home/data/getAdOnlineList?
 ||inoreader.com/adv/$domain=inoreader.com
 ||eatablesquare.com^$third-party
@@ -21964,7 +21963,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kt51.com/images/kt51.gif
 ||h6295.com^$popup
 ||ipeen.com.tw/photo/ad/
-||qq.com/coral/ADS
 ||nrsfh.com/neirong/
 ||midifan.com/aaa/
 ||imgdb.cn/item/66a73333d9c307b7e9dbb6ef.jpg
@@ -24165,6 +24163,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zokjds.com/js/xiao.js
 ||share.dmhy.org^*.*?$image
 ||topthink.com/uploads/assistant/$image,domain=doc.thinkphp.cn
+||qq.com/coral/ADS
 ||yiparts.com/Chance.php?aid=
 ||web8.net^$third-party
 ||yxdm.*/js/ddetector.js
@@ -24386,6 +24385,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||wenku8.net/js/
 ||theseblogs.com/visitScript/$script,third-party
 ||rfidworld.com.cn/js/a.js
+||qq.com/bbs/bbs_topgg.htm
 ||tdzvm.pw^$third-party
 ||sass.hk/images/hengfu.jpg
 ||squeakzinc.com^$third-party
@@ -25520,6 +25520,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ringsrecord.com^$third-party
 ||rigengjihua.cn/banner/
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
+||qq.com/Index/getAdsAndHotspot
 ||zhongyi.ifeng.com/a/zt.js
 ||sogou.com/ask?id=
 ||widgets.outbrain.com/outbrain.js
@@ -26041,6 +26042,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||skullmagnets.com^$third-party
 ||siteunder.unclejeans.com^$popup,domain=referencemega.com
 ||yezi.cn/_ad/
+||qq.com/PL_adT.htm
 ||slinksuggestion.com^$third-party
 ||xaogi.com^$domain=pronpic.org
 ||ruten.com.tw/search/imp_ad_
