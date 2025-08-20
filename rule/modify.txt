@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-08-20 09:37:08
+! Last Modified: 2025-08-20 16:26:37
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -861,6 +863,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -2210,7 +2214,6 @@ bohe.cn##.ml-30
 ##DIV.index_adpic
 baidu.com##.invoke-app-floating-tips
 .hgo0*uyi.com/$script,xmlhttprequest,third-party
-1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,manhuafen.com,world68.com##.ad
 @@||kfcclub.com.tw/web/*/ad
 firefoxchina.cn###tab-mod-tehui
 @@||ailde.biz/a.sponsorads.js$domain=cbs.com,script
@@ -7579,6 +7582,7 @@ dav01.com##.adwraper
 fantuan.tv##.app-guide
 163.com##.mod_ad_toutu
 fapiao.bangnimang.net#%#(function(){window._czc={push:function(){}}})();
+fox.com.tr#@#.pub_300x250m
 .top/*_*_vw*sbjs?$third-party
 dl.pconline.com.cn##.box-push
 easylife.tw,ez3c.tw,softwarebrother.com##.popup_bottom_block
@@ -11943,6 +11947,7 @@ setn.com##.rightFloat
 webkaka.com##a[href*="/click/a_d_"]
 hyperallergic.com#@#.ad-above-footer
 ||360buyimg.com^$domain=chdbits.co|qianggou5.com
+instacart.*##li:has([aria-label="Product"] [data-dfp-eligible])
 jheberg.net##.jadb
 hitime5.com###gg250
 soundofhope.org###itb_ads_catfish
@@ -13327,6 +13332,7 @@ pconline.com.cn###JBestRecomm
 ||3344ex.com/js/1playerad.js
 ||3dmgame.com/tools/gamead?
 ganji.com##div[class*="-recommend"]
+knews.com.tw,1905.com,news.ltn.com.tw,commonhealth.com.tw,health.tvbs.com.tw,idreamx.com,xchina.co,manhuafen.com,world68.com##.ad
 mydrivers.com##.drivers_right > div[style="padding-top: 10px;"]
 papergeek.fr##[id^="padb_widget_"]
 yes-news.com##.new-index-ad300
@@ -16753,7 +16759,6 @@ tripadvisor.com##[data-sponsored]
 onperiscope.com#@#.adsbygoogle
 hamibook.com.tw##.custom-banners-cycle-slideshow
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//*[name()="use" and substring(@*,2)=//*[name()="svg"]/*[name()="text"][text()[.="Anzeige" or .="Sponsored" or .="Sponsorlu" or .="Gesponsert" or .="Patrocinado" or .="Sponsorisé" or .="Commandité" or .="Gesponsord" or .="Sponsorowane" or .="Publicidad" or .="Sponsrad" or .="Sponsoreret" or .="Sponsoroitu" or .="Sponsa" or .="Sponset" or .="Sponsorizat" or .="Bersponsor" or .="Ditaja" or .="Sponsorizzato" or .="May Sponsor" or .="Hirdetés" or .="Sponsitud" or .="Sponzorováno" or .="Реклама" or .="贊助" or .="赞助内容" or .="ได้รับการสนับสนุน" or .="Được tài trợ" or .="प्रायोजित" or .="دارای پشتیبانی مالی" or .="تمويل شوي" or .="সৌজন্যে" or .="مُموَّل" or .="سپانسرڈ" or .="ממומן"]]/@id]/ancestor::div[@aria-labelledby and @aria-describedby]'
-fox.com.tr#@#.pub_300x250m
 my0511.com###forumtextad
 psahz.com#@#.ad_960
 ssnn.net###float_picr
@@ -20318,7 +20323,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||news.ssp.qq.com/app
 ||psychedelicarithmetic.com^$third-party
 ||douyucdn.cn/butterfly-java/*?width=1200&height=100&
-||qnsb.com/news/index.php?m=poster&
 ||china.com.cn/statics/js/js_vag/
 ||pchome.com.tw/js/fancybox/
 ||avjd014.com/*ad^
@@ -23635,7 +23639,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mycodes.net/js/*.js
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
 ||m.ddyueshu.cc/*/$script
-||qncye.com/ads/
 ||moedao.com/js/top.js
 ||coldbalance.com^$third-party
 ||nb.zol.com.cn/detail_*.html
@@ -24739,6 +24742,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||videos-fms.jwpsrv.com/*/content/conversions/*.mp4|$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 ||rusnext.ru/advar.js$script
 ||voc.com.cn/adsClick/
+||qnsb.com/news/index.php?m=poster&
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||shulihua.net/js/gzlishi468google.js
 ||trafficstars.com$third-party
@@ -25654,6 +25658,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sinaimg.cn/finance/*/hqMainTopBanner.js
 ||tvsou.com/js/360ad.js
 ||rainpat.com/Scripts/jquery.SuperSlide.
+||qncye.com/ads/
 ||s.69vj.com/assets/DIY.$image,media
 ||wei2008.com/skin/js/top.js
 ||shilian168.cn^$third-party
@@ -26124,6 +26129,3 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||super.cz/*&*=$subdocument,domain=super.cz
 ||shitouxs.com/static/042417.js
 ||xuehi.cn/reward/reward
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-::1 localhost
-## hosts does not support wildcard
