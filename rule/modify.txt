@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-08-21 00:24:53
+! Last Modified: 2025-08-21 09:36:28
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -864,6 +862,7 @@
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+::1 localhost
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
@@ -11947,7 +11946,6 @@ setn.com##.rightFloat
 webkaka.com##a[href*="/click/a_d_"]
 hyperallergic.com#@#.ad-above-footer
 ||360buyimg.com^$domain=chdbits.co|qianggou5.com
-instacart.*##li:has([aria-label="Product"] [data-dfp-eligible])
 jheberg.net##.jadb
 hitime5.com###gg250
 soundofhope.org###itb_ads_catfish
@@ -17326,6 +17324,7 @@ moxing.net##a[marked][href*=".taobao.com"]
 h5.17k.com#$#body { overflow: visible!important; }
 m.jd.com###imk2FixedSideText
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
+igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"ffernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"eefernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"uffer") or contains(@href,"/gameadult/")]/parent::p[@style][1]'; hide-if-matches-xpath './/a[contains(@href,"ernf?") or contains(@href,"/gameadult/")]/parent::p[1]'; race stop;
 pixnet.net#%#//scriptlet('abort-current-inline-script', 'window.leave')
 reflex.cz###gl-nat
 sex-studentki.gold,seks-studentki.pro#$#prevent-listener DOMContentLoaded click_time
@@ -18875,7 +18874,6 @@ mojevideo.sk#@##video_ad
 ||50bang.org^$third-party
 titlovi.com#@#.pub_300x250
 zx.sina.cn##.hotRank_icon.fl_suspension_template
-igg-games.com,pcgamestorrents.com,pcgamestorrents.org#$#race start; hide-if-matches-xpath './/img[@alt][starts-with(@src,"/wp-content/uploads/")]/ancestor-or-self::a[starts-with(@href,"/offernf?")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"affernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"ffernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"eefernf?") or contains(@href,"/gameadult/")]/parent::div[1]'; hide-if-matches-xpath './/a[contains(@href,"uffer") or contains(@href,"/gameadult/")]/parent::p[@style][1]'; hide-if-matches-xpath './/a[contains(@href,"uafernf?") or contains(@href,"/gameadult/")]/parent::p[1]'; race stop;
 zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/parent::div[@style]/ancestor::div[@class="content-top-sidebar-wrap"]'
 gamme.com.tw##.list > li.ad
 xingkbjm.com##.d_textbanner
