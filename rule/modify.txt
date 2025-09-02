@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-09-02 16:26:37
+! Last Modified: 2025-09-03 00:24:05
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -863,6 +861,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -1396,7 +1396,6 @@ filmxy.one##.promo-contents
 automobile-propre.com##div[data-ref="halfpage-ad"]
 ##.remove-adblock-msg
 ###menu + script + #topBox
-fembed.com,survey-smiles.com,viettoons.tv,vinaurl.net,anime11.site,anh.moe,maclife.io,xemphimjav.us,hoctot.hocmai.vn,keysmatterinc.com,samtruyentranh.com,player.phimapi.com,noitu.site#$#abort-on-property-read open
 /images/*.gif$domain=2c2.website|2p8.space|adultgao.com|caopop.com|caoporn.com|caouoo.com|caox.cc|h3e.pw|h3y.pw|k88.club|me88.pw|p5p.space|se88.space|t2p.space|tb001.xyz|te88.pw|vwan.xyz|xhao1.com
 ##.mylist > a > img[width^="9"][height="80"]
 cinemablend.com#@#.text-ad-links
@@ -1591,7 +1590,6 @@ e15.cz##.mys-wrapper
 /statics/js/hth1111.html
 @@||scyts.com^$generichide
 camerabay.tv##.popupad
-forum.pac-rom.com#@#.banner_ads
 /indexpc.html?agent=$popup,third-party
 ##.tg-m.tg-site
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##a[href*="branding"]
@@ -4351,6 +4349,7 @@ cloud.jasaku.net##.adblock
 /dygg_
 /keyword*/area=$xmlhttprequest,domain=iprima.cz
 2dfan.com,galge.fun###popadv-container
+##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 2dway.com##a[href="https://www.2dway.com/5244/"]
 8muses.com#@#[style*="background: transparent url(\"data:image/gif;base64,"]
 /xxgg/goodad.js
@@ -7109,6 +7108,7 @@ flowus.cn##footer .swiper
 bookrb.com##a[href="/rmtj.html"]
 51dll.com###aa
 boylove1.mobi##.fuafxnfq
+fembed.com,survey-smiles.com,viettoons.tv,vinaurl.net,anime11.site,anh.moe,maclife.io,xemphimjav.us,hoctot.hocmai.vn,keysmatterinc.com,samtruyentranh.com,player.phimapi.com,noitu.site,sachmoi.net#$#abort-on-property-read open
 @@/BTVQRA6OS11SO6ARQVTB/*.php$script,domain=up2stream.com
 /Runtime/js/fumeiti.
 @@/html/images/blank.png$image,domain=mocospace.com
@@ -11059,6 +11059,7 @@ tmall.com##.app-download-popup
 tw.yahoo.com###util-top-promotion
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + div[id]
 ||163.com/special/*/bobo.html
+iqiyi.com#%#//scriptlet('json-prune', 'data.[-].ad.adScene items.*.video.*.data.[-].ad.adScene data.template.tabs.*.blocks.*.data.data.*.videos.feature_ad data.template.tabs.*.blocks.*.data.data.videos.*.ad')
 meizhou.com##.top + .w1000
 fund.eastmoney.com##div[data-url^="//same.eastmoney.com/"]
 oibdgtxw.com#?#.xqbj-list-rows:-abp-has(img[z-image-loader-url*=".gif"])
@@ -11428,6 +11429,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="ga
 jd.com##.gl-warp > li[data-spu=""]
 sina.com.cn###left_focus_ad
 ||373nn.com/java/
+forum.pac-rom.com#@#.banner_ads
 poczta.o2.pl##dd-holder[slot^="DOUBLE_BILLBOARD"]
 weiyun001.com##.agency-list
 localking.com.tw###adbannerurl
@@ -14221,6 +14223,7 @@ hc360.com##a[href^="http://e.cn.miaozhen.com/"]
 kajoog.org#$#abort-on-property-read adsRedirectPopups
 jiangjunzy.com##img[style="height:75px;width: 100%"]
 heiguang.com##.pbAddPic
+xx.knit.bid##.clickadu-container
 yizhibo.com###J_reg_guide
 ||139xiaoshuo.com/css/js/tools.
 linux.cn##.linuxcnad
@@ -14454,7 +14457,6 @@ m.lianjia.com##.contact_agent.fixed_bar
 novinky.cz,super.cz,sport.cz##.barMan
 ithome.com##.con-recom
 ||120askimages.com/ask/js/askfrom.js
-iqiyi.com#%#//scriptlet('json-prune', 'items.*.video.*.data.[-].ad.adScene data.template.tabs.*.blocks.*.data.data.*.videos.feature_ad data.template.tabs.*.blocks.*.data.data.videos.*.ad')
 ipcelou.com##.MODBanana
 izaiwen.cn##.item-box
 soyunpan.com###qblad
@@ -16235,6 +16237,7 @@ silkengirl.net##a[href*="jaxofuna.com"]
 ||3dmgame.com/img/a/640-
 yahoo.com###module-tabadsw
 wenxuecity.com###marquee
+www.sieutamphim.me#$#abort-on-property-read _$_75bd
 kinobox.cz##.box.banner_300, #b300_fixbox
 hianime.to#$#hide-if-matches-xpath './/a[contains(@href,"1flix.to")]/img[@alt="1flix"][@style]/ancestor::div[@style]'
 qq.com##.father-ad
@@ -16329,7 +16332,6 @@ hao123.com###yixing-siye
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[data-oblohakava]
 jiligame.com##img[onerror="zhurl($(this))"]
 onlinedown.net##.m-safedown-center
-||anoneko.com^*.*?$image
 gamer.com.tw###flySalve
 mrtzcmp3.net###hstp_interstitial
 ||17house.com/zt/style/*_banner*.js
@@ -18414,7 +18416,6 @@ teepr.com##body .ucfad_async
 www.jianshu.com##[aria-label='lwa-ad-one']
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
 pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
-www.sieutamphim.me#$#abort-on-property-read _$_97df
 rvlev.com,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+180):-abp-contains(/赌|娱|澳/)) > :nth-child(-n+188)
 ||adamantsnail.com^$third-party
 gamefront.com#$#abort-current-inline-script $ AdBlock
@@ -20803,6 +20804,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mobatory.com^$domain=rapid8.com
 ||chinaacc.com/upload/*_mjy_
 ||cnc.cdn.dopc.cz^*?format=js$script,domain=ahaonline.cz|info.cz|onetv.cz
+||anoneko.com^*.*?$image
 ||gdmm.com/api.php?mod=js&bid=2188
 ||dig.chouti.com/advert
 ||anqu.com/b.js
