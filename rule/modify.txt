@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-09-03 00:24:05
+! Last Modified: 2025-09-03 09:22:13
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -258,6 +258,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -861,8 +862,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -1590,6 +1589,7 @@ e15.cz##.mys-wrapper
 /statics/js/hth1111.html
 @@||scyts.com^$generichide
 camerabay.tv##.popupad
+forum.pac-rom.com#@#.banner_ads
 /indexpc.html?agent=$popup,third-party
 ##.tg-m.tg-site
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##a[href*="branding"]
@@ -6821,7 +6821,6 @@ footfetishvid.com,manga21plus.com,povaddict.com#$#abort-on-property-read a3klsam
 ##[class][onclick^="window.location.href"][onclick*="%AF%B4.apk"]
 allegro.*#$#hide-if-contains-visible-text /Sponsorowane|Sponsored|Спонсороване|Sponzorované|Szponzorált/ 'article' 'div[class]>div ^^sh^^ div>*';
 /moneymaker/js/fkpp.js
-beforeitsnews.com,canadafreepress.com,conservativefiringline.com,designbump.com,naturalblaze.com,patriotnationpress.com,rightwingnews.com,toptenz.net##div[class] > div[id] > main[class][id]
 /js/gg123/*
 /qiuyi-gg-wrapper-
 /sid*$domain=kickassanime.io
@@ -10947,7 +10946,6 @@ freedom-ip.com#@#.pub_vertical ins
 fox.com.tr#@#.text-ads
 hl.cn###xf_right
 m.youtube.com,music.youtube.com#$#override-property-read playerResponse.adSlots undefined
-procoinnews.com#$#override-property-read setTimeout noopFunc; abort-on-property-read document.body.innerHTML; override-property-read Object.defineProperty undefined; hide-if-matches-xpath '//main[@class][@role][@id]/parent::div[1]/ancestor-or-self::div[@class][1]';
 v.shensgo.com##brde[id][style*="height"]
 ||02wq.com/script/
 ||17173cdn.com/a/oms/oms-data.
@@ -11429,7 +11427,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##.result-op[tpl="ga
 jd.com##.gl-warp > li[data-spu=""]
 sina.com.cn###left_focus_ad
 ||373nn.com/java/
-forum.pac-rom.com#@#.banner_ads
 poczta.o2.pl##dd-holder[slot^="DOUBLE_BILLBOARD"]
 weiyun001.com##.agency-list
 localking.com.tw###adbannerurl
@@ -16332,11 +16329,13 @@ hao123.com###yixing-siye
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[data-oblohakava]
 jiligame.com##img[onerror="zhurl($(this))"]
 onlinedown.net##.m-safedown-center
+||anoneko.com^*.*?$image
 gamer.com.tw###flySalve
 mrtzcmp3.net###hstp_interstitial
 ||17house.com/zt/style/*_banner*.js
 m.mydrivers.com###content > .bb
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
+||anqu.com/b.js
 fx112.com##div[class*="floatap"]
 justjared.com,pockettactics.com#$#abort-on-property-read PerformanceLongTaskTiming
 qixin.com##.web-diversion-container
@@ -17843,7 +17842,6 @@ www.youtube.com,m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie
 gdmm.com##img[width="1200"]
 linkdecode.com#@#.adsbygoogle
 pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:contains(打开APP)
-procoinnews.com##div[id^="adcovery-"]
 huya.com,av1868.com,edc1014070.pixnet.net###banner
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="_leaderboard"]
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
@@ -18129,6 +18127,7 @@ sblunwen.com##.c11
 tvcook.ru##.cat
 newtalk.tw##div[id^="ATS_"]
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http"]:not([href*=".wenxuecity."])
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][contains(@attributionsrc,"/privacy_sandbox/comet/register/source/?eid")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'
 javdove.com##.ad-body
 onemanhua.com##div[id^="rn_ad_native"]
 m.dongchedi.com##.open-app
@@ -18496,7 +18495,6 @@ qinzhou360.com##.Txtadv-show
 hao123.com##.adMainMiddle-box
 iqiyi.com##.m-iqylink-diversion
 jable.tv##div[class^="root-"]
-rightwingnews.com##.z-ad-inline
 tieba.baidu.com##.nav-bar-bottom
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [id*="00"]:not(.result):not(.result-op) > ul
 marketwatch.com#$#hide-if-matches-xpath './/img/following-sibling::span[contains(text(),"Ad Block")]/ancestor::div/ancestor::div[string-length(@class) >26]'; hide-if-matches-xpath './/div[@style][@class][@data-dianomi-context-id]//img[@style]/following::iframe[@style][contains(@title,"Dianomi ad")]/ancestor::div[string-length(@class) >26][1]';
@@ -19435,7 +19433,6 @@ unpkg.com/aladug/*.js
 udn.com###sidebar_fix > .area.mag_topic > .nomurafunds > a[href^="https://p.udn.com.tw/upf/2016_sales/nomura/nomurafunds_2.html?"]
 ||1ppt.com/ad$image
 meituan.com##.component-downtip
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][contains(@attributionsrc,"/privacy_sandbox/comet/register/source/?eid")][@rel="nofollow noreferrer"]/ancestor-or-self::div[@class="x1n2onr6"][2]/parent::div[@class][1]'
 ||6park.com^$subdocument,badfilter
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[id^="outstream_container_"]
 ignboards.com#$#abort-current-inline-script JSON.stringify
@@ -20804,10 +20801,8 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mobatory.com^$domain=rapid8.com
 ||chinaacc.com/upload/*_mjy_
 ||cnc.cdn.dopc.cz^*?format=js$script,domain=ahaonline.cz|info.cz|onetv.cz
-||anoneko.com^*.*?$image
 ||gdmm.com/api.php?mod=js&bid=2188
 ||dig.chouti.com/advert
-||anqu.com/b.js
 ||lsjxs.cc/js/html
 ||firsttexture.com^$third-party
 ||nimg.jp/nicoad/instream/video/*.mp4$media,domain=nicovideo.jp
@@ -23960,7 +23955,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||flimsythought.com^$third-party
 ||nodethisweek.com^$third-party
 ||china.com.cn/statics/js/henan/ad/
-||purple-hit.com^$third-party,script,domain=patriotnationpress.com
 ||lovelydrum.com^$third-party
 ||jz5u.com/public/new/
 ||dns.chuzushijian.cn^$third-party
