@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-09-10 09:23:02
+! Last Modified: 2025-09-10 16:25:26
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -863,6 +861,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -6780,6 +6780,7 @@ baidu.com##DIV[class='qrcode call']
 /js/statistics/user_ad.js
 ##.room-ad-top
 bmlink.com##.fixedBg
+*$denyallow=123dua.com,domain=123dua.com,script,xmlhttprequest
 @@||uiadmin.net^$generichide
 acfun.cn###goniudan
 .xyz/vh1/$script,third-party
@@ -9626,7 +9627,6 @@ cnbeta.com.tw##.cb-help
 @@||dizhi99.com^$generichide
 115cdn.com##a[href="https://vip.115.com/"] > img
 /images//ads/*
-forum.hkgolden.com#?#body > div[class^="jss"]:has(> div[class][style^="transform"]:only-child > div[class] > div[data-role="ad"])
 6park.com##table[width][align="center"] > tbody > tr > td[bgcolor="#FFFFEE"]:has(> div.adv-6park)
 cbox.ws##[href="http://fixolas.net/"] > IMG
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
@@ -10272,7 +10272,6 @@ ctinews.com###taboola-slot
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_button_wrapper
 @@||adultkino.org/ads/banner.jpg$image
 .xyz/jque*.js?$third-party
-@@||bdimg.com/libs/$domain=yebiquge.com|taobiquge.com|piaotianxiaoshuo.com|bqduo.cc|biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.vip|b520.cc|b5200.net|biqiuge8.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqg999.net|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
 dongmanhuayuan.myheartsite.com##.card-body
 baidu.com##.chunwan-wrapper
 duplichecker.com,searchenginereports.net,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com#$#abort-on-property-write $img_html; override-property-read ads_function undefined; override-property-read adpushup noopFunc; abort-on-property-read FITS.Config; strip-fetch-query-parameter /firebase-messaging.js/; abort-current-inline-script $ g_amamarly_model; abort-current-inline-script $ ga_rammarly-popup;
@@ -10327,6 +10326,7 @@ bilinovel.com#%#//scriptlet('abort-current-inline-script', 'document.createEleme
 @@||down.cc/down/js/ad.js
 angelweb.cn##table[height="250"]
 .hur0*kns.com/$script,xmlhttprequest,third-party
+@@||bdimg.com/libs/$domain=yebiquge.com|taobiquge.com|piaotianxiaoshuo.com|bqduo.cc|biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.vip|b520.cc|b5200.net|biqiuge8.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqq999.cc|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
 clubedohardware.com.br#@##banner
 chineseinla.com##.text-ads-col
 clanky.seznam.cz,search.seznam.cz#?#.Result:-abp-has(.Result--organic [class^="Result-contentContainer _"])
@@ -11103,7 +11103,6 @@ tieba.baidu.com##.hot-recommend-title.recommend-title
 ||airav.cc/static/js/*_ad.js
 world.huanqiu.com#@#.ad_all
 pconline.com.cn##.ivy > a
-msn.cn##.consumption-page > above-river-block
 tuwan.com##.Player-zan
 |http://ad.$domain=~ad.cnr.cn|~ckckk.com|~jxnews.com.cn
 ||ahuys.net/Runtime/js/
@@ -13599,6 +13598,7 @@ imagefap.com#$#abort-on-property-read popCookie
 jianshu.com##._27yofX
 right.com.cn#@##sitefocus.focus
 supertaste.tvbs.com.tw##.ad_m_block
+msn.cn##[ad]
 ||angelweb.cn/Inc/AngelG.js
 iqiyi.com##div[class^="ad-piclist-"]
 videopremium.tv#@#.text-ads
@@ -14454,7 +14454,6 @@ noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ad")]/ancestor::div[cont
 malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /error-report.com/
 smzdm.com##.feed-stuff
 m.sohu.com##.topbox.comment-reply__bar.comment-reply__box
-||anywlan.com/link/*.gif
 nownews.com##a[href^="https://goo.gl/"]
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 hupu.com##.m-app-info
@@ -18655,6 +18654,7 @@ weishangshijie.cn##.w_bzb_1
 so.douyin.com##[class*='h5-ad-']
 gotrip.hk##.oath-lrec-player
 so.com##.windisplayCell
+forum.hkgolden.com#?#body > div[class^="jss"]:has(> div[class][style^="transform"]:only-child > div[class] > div[data-role="ad"])
 inforesist.org#$#abort-on-property-read alert
 streaminporn.com,gaypornmasters.com#@##adsense
 xueqiu.com##div[class$="__ad"]
@@ -21196,6 +21196,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||imgme.me/images/*.gif
 ||perceivequarter.com^$third-party
 ||jsdelivr.net/gh/diyibanzhu/
+||mumu66666.com/js/html*.js$script
 ||faxingw.cn/js/*ad
 ||fastenfather.com^$third-party
 ||jd.com/exsites?spread_type=
@@ -22068,6 +22069,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||qq.com/playgame/videoweb/
 ||brainybasin.com^$third-party
 ||jubilantcascade.com^$third-party
+||mumu66666.com/js/cdn.js
 ||p.pstatp.com/origin/$domain=pianba.tv|pianba.net
 ||httpcn.com^*-120
 ||m.yhdm.so/bar/yfgg.js
@@ -23623,6 +23625,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||picbucks.com/visitScript/$script,third-party
 ||qqcf.com/js/Content_Get.js
 ||blissfullagoon.com^$third-party
+||anywlan.com/link/*.gif
 ||chinairn.com/images3/*ads
 ||daymodern.com^$third-party
 ||gd.ct10000.com^*/push/$popup,third-party
