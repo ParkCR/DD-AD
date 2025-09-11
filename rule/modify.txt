@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-09-11 16:24:50
+! Last Modified: 2025-09-12 00:23:16
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1259,7 +1259,6 @@ duba.com###searchRight
 2kmoviehd.to,hdtodayz.*##div[style*="position: fixed; inset: 0px; pointer-events: auto;"]
 blog.163.com###r_mlofteriframe2
 ##.video-item-ads
-aboutyou.*#$#hide-if-matches-xpath './/a[@data-product-tile-gallery-mode-hover]/following::button/span[@class][@style]/ancestor::li[contains(@data-testid,"productTileTracker")]/parent::ul[@data-testid]/ancestor::section[@style]'
 @@-social-bar.$domain=mobi.yahoo.com
 ##.module-adslist
 buzzorange.com##.adGeek-grey-ad-container
@@ -7858,6 +7857,7 @@ cunghocvui.com#$#abort-current-inline-script document.addEventListener opened_wi
 autokult.pl,kardiolo.pl,autocentrum.pl,horoskop.wp.pl#$#abort-on-property-write rekid
 cheshi.com##.ad_980105
 ##.pause-ad
+aboutyou.*#$#hide-if-matches-xpath './/span[@data-testid][contains(text(),"Sponsored") or contains(text(),"Gesponsert") or contains(text(),"Gesponsord") or contains(text(),"Спонсорирано") or contains(text(),"Sponsoreret") or contains(text(),"Sponsoreeritud") or contains(text(),"Χορηγούμενο") or contains(text(),"Patrocinado") or contains(text(),"Sponzorirano") or contains(text(),"Sponsoroitu") or contains(text(),"Szponzorált") or contains(text(),"Sponsorisé") or contains(text(),"Sponsorizzato") or contains(text(),"Sponsorēts") or contains(text(),"Remiama") or contains(text(),"Sponsorowane") or contains(text(),"Sponzorováno") or contains(text(),"Sponzorované") or contains(text(),"Sponsorizat")]/ancestor::section[@style][@data-testid][1]'
 @@||advert.com/advert$image,domain=mupvl.us
 baidu.com##.lianmeng-pause
 @@||dnsgom.net/public/$domain=jingwubook.com|xwdsc.com
@@ -12601,7 +12601,6 @@ ifeng.com##div[class^="layout-"] > div#subNav + div
 jia360.com##.hjadv
 gamer.com.tw###flyRightBox
 m.yicai.com##.m-float-appopen
-noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Sponsored")]/ancestor::div[contains(@id,"adProductsListBanner-")][@style]/parent::div/parent::div[@id="noon-modules"]'
 ||114la.com/static/js/egg.js
 m.thepaper.cn##.btn_app
 mydrivers.com##.jdong11bg
@@ -17813,6 +17812,7 @@ wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 xdf.cn##.middleadv
 ||ad-survey.com^$third-party
 oschina.net###project_ad_banner
+noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Ad")]/parent::div[contains(@class,"adWrapper")]/ancestor::div[contains(@class,"ProductDetailsDesktop_maxWrapper")][1]'
 ishare.ifeng.com##section[class^="relateVideo"]
 novinky.cz,kupi.cz,sport.cz,super.cz##.superPrclanek
 sohu.com#?#.sidebar.right:has(> div.extend-mod:first-child)
@@ -22544,7 +22544,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||piaodown.com/xtm/
 ||choujue.net/one/down.js
 ||hjfile.cn/lib/uzhi/uzt.
-||raresummer.com^$third-party
 ||no1.168abc.net/upload/
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||lp3tdqle.com^$third-party
@@ -24751,6 +24750,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sports.ru^$script,header=x-robots-tag
 ||xinyi.com/Public/config/Couplet/Index40.js
 ||xwbxsw.com/js/app_wap.
+||raresummer.com^$third-party
 ||tianqi*.com/static/banner/data_tuiguang.js
 ||riju.com/pr/$domain=jpfans.com|jpseek.com
 ||sfnmt.com/dq/
