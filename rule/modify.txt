@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-09-22 16:26:52
+! Last Modified: 2025-09-23 00:24:57
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -258,7 +260,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -1380,6 +1381,7 @@ ettoday.net##.etvideo_collect_1
 52asus.com###AsusMall-contain
 @@||bdstatic.com/static/common/widget/ui/admanager/
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
+booking.com#$#hide-if-matches-xpath './/span[@color][contains(@class,"PromoText")]/parent::div[@data-autobot-element-id]/ancestor::div[contains(@class,"ListingCardWrapper")]'
 123pan.com##.baidu-banner-container
 .gif|$domain=/87[0-9]{2}ck\.cc/
 @@||ad.sevenads.net/layer.php?p=$script,domain=uploaded-premium.ru
@@ -1769,7 +1771,6 @@ cgown.com##.banner-gg
 @@||zeberka.pl/js/ads.js$script,domain=zeberka.pl
 .cyou/xling_*_$third-party
 @@||oneplay.tv/embed/darkuzdev_ads.js$script
-coflix.*,fmovies.*,swatchseries.is,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
 ###vpnModal.nordvpn-popup
 dpp.org.tw,shuaijiao.com#@##ad_big
 /downloads/nmgg.mp4
@@ -3422,6 +3423,7 @@ azulyblanco.co###vlay
 ###cpro_container
 /static/js/aall.js
 bigwarp.*,mangakakalot.gg,savefiles.com,vide0.net,jilliandescribecompany.com#$#abort-current-inline-script WebAssembly atob;
+coflix.*,dhtpre.com,fmovies.*,swatchseries.is,vidhidepro.com,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 @@||mvcat.com^$generichide
 docin.com###docindex_ad
@@ -5593,7 +5595,6 @@ chinanews.com##.add3
 /[a-z0-9]+\.[a-z0-9]+\//$denyallow=cidetxt.cc,domain=cidetxt.cc,subdocument,script
 @@||shopback.com.tw^$generichide
 acmemarkets.com,albertsons.com,andronicos.com,balduccis.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#race start; hide-if-matches-xpath './/div[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/parent::div/ancestor::div[contains(@class,"slick-product")][1]'; race stop;
-forum.flprog.ru###phpbb_announcement
 0439.com###kanfang
 findretros.com##.fuck-adblock
 /960x60.
@@ -6170,6 +6171,7 @@ delfi.lv##.notification-widget
 6parknews.com##.ad-view
 @@/Advertisement.css$stylesheet,domain=openload.co|openload.io|openload.tv
 8727ck.cc,8726ck.cc##.stui-vodlist > li:has(> div.stui-vodlist__box > a[href][target="_blank"])
+filecrypt.*#$#override-property-read isAdblock false; abort-current-inline-script EventTarget.prototype.addEventListener /key/; abort-on-property-read aclib; abort-on-property-read Adcash; override-property-read isAdblock2 false;
 djwma.com###logo
 fanqiangzhe.com###mobile-bottom-ads
 18avtube.com,mm-cg.com##.CN_qmvtoy
@@ -8142,7 +8144,6 @@ caoporn.com##.jw-icon-replay-contain > div[style^="display: block; position: abs
 @@/adbar/*$domain=outlook.live.com
 apple.com.cn#$#html { margin-top: 0 !important; }
 ##center > a > IMG[alt$='到期']
-filecrypt.*#$#override-property-read isAdblock false; abort-current-inline-script EventTarget.prototype.addEventListener /key/;
 /getGG.php?key=
 /gg/gg.js
 /^https:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/[a-z](?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,27}\/[A-Za-z]{5}$/$match-case,script,third-party,domain=cineby.app
@@ -14881,6 +14882,7 @@ jijidy.com###box
 m.163.com##.floatMenu-backflow
 tube8.com#$#abort-on-property-write AdDelivery
 jpsub.com##.floatbar_div
+forum.flprog.ru###phpbb_announcement
 jdbbs.com###portal_block_2826
 jianshu.com##.download
 kinobox.cz###stickyWrap
@@ -18574,6 +18576,7 @@ vansky.com##.scol-banner
 ||22588888.com^$popup
 gogoanimes.*,rarbg.to,rarbg2019.org,rarbgaccess.org,rarbgdata.org,rarbgget.org,rarbggo.org,rarbgmirror.com,rarbgmirror.org,rarbgmirrored.org,rarbgproxy.org,rarbgprx.org,rarbgto.org,rarbgunblock.com#$#abort-on-property-read LieDetector
 ifeng.com###a_code
+subtaboo.com#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1769px; height: 1010px; z-index: 2147483647;"]/ancestor-or-self::div[1]';
 hdmovie14.net#@#.text-ads
 quora.com##.dom_annotate_multifeed_bundle_AdBundle
 wantgoo.com##.fab-ad
@@ -21585,6 +21588,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||futuristicfairies.com^$third-party
 ||jsdelivr.net/gh/vip888vip/*960x80
 ||livku.com/g1000/
+||qudao.com/common/minisite.js
 ||jmcomic.asia/iframe_*&idzone=
 ||niugupan.com/js/tj.js
 ||d2t7a3zbo166a9.cloudfront.net^$script,image
@@ -25847,7 +25851,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||wowfan.net/static/js/index.
 ||yigujin.cn/wp-content/themes/Three/js/cebian
 ||uc129.com/m/
-||qudao.com/common/minisite.js
 ||rychlost.cz/_pub/jquery/scripts.js$script
 ||tw.jav321.com^$popup,domain=ucptt.com
 ||so.com/index/advertise
