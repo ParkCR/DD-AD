@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-09-26 00:24:15
+! Last Modified: 2025-09-26 09:24:22
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -260,6 +258,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -4644,7 +4643,6 @@ baike.baidu.com##.squareAni.square.super-layer-promote
 /ntes-ad-cloud.
 /^https?:\/\/[a-z0-9]{5,15}\.[a-z]{2,3}\/5\/\d{6,7}(?:\?_=\d+|\/\??)?$/$third-party,script,xmlhttprequest,domain=bokepindoh.*
 bilibili.com#?#.is-rcmd:-abp-has(>div:not(div:-abp-has(div)))
-fortress.com.hk,youdao.com#@#.share-icon
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=freemulticoins.com
 .niusnews.com/upload/banners/
 /gamedog_mobile_
@@ -6381,6 +6379,7 @@ bkjia.com##.art_rightad1
 editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
 .com/vodad.js
 5ewin.com##.jjb-slide
+ebay.*#$#hide-if-contains-visible-text /(Sponsored)|(Anzeige)|(Sponsorisé)|(Commandité)|(Patrocinado)|(Sponsorizzato)/ 'ul > li' 'ul > li span[aria-labelledby]'
 7junshi.com##div[style="position: fixed; right: 0px; bottom: 0;z-index:999;width: 300px;height: 250px;"]
 cibaipuki.com##[href*=":"]
 cloud.189.cn#@#.ad-container
@@ -14044,6 +14043,7 @@ tiscali.cz,osobnosti.cz,karaoketexty.cz##.sticky[stickystop]
 seedpeer.me###body > #pageTop + * + #headerbox + TABLE[width="100%"]
 novipnoad.com##img[src*="/bd/"] + span
 kaoyan1v1.com###showAD
+fortress.com.hk,youdao.com#@#.share-icon
 onemanga.me#@#.adblock
 sm.cn###sc + .article.ali_row
 ||alicdn.com/img/ibank/*_1591187313.
@@ -17644,6 +17644,7 @@ pinshan.com##.b_taobao
 zol.com.cn###downBoxGaosu + a
 xiaohongshu.com##.bottom-button-box
 taobao.com##.show.J_TWeiTaoPopup.weitao-popup
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][@attributionsrc="blank"][@target="_blank"]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'
 yahoo.co.jp##div[class*="SideMenuAd"]
 telepolis.pl##DIV[style="width:750px; height:200px; background-color:black; color:white; text-align: center; font: bold 30px Helvetica, Arial, sans-serif;"]
 kafeteria.pl,medycyna24.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl,echirurgia.pl,dobreprogramy.pl,o2.pl,autokult.pl,pudelek.pl,money.pl,wp.pl#$#hide-if-matches-xpath '//div[@*]/p[contains(normalize-space(), " ")][@*]/preceding-sibling::label[1][@class]/ancestor::div[2]'
@@ -18152,7 +18153,6 @@ sblunwen.com##.c11
 tvcook.ru##.cat
 newtalk.tw##div[id^="ATS_"]
 www.wenxuecity.com##.col > ul:not([id]) > li > a[href^="http"]:not([href*=".wenxuecity."])
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][contains(@attributionsrc,"/privacy_sandbox/comet/register/source/?eid")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'
 javdove.com##.ad-body
 onemanhua.com##div[id^="rn_ad_native"]
 m.dongchedi.com##.open-app
