@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-09-29 16:28:18
+! Last Modified: 2025-09-30 00:19:39
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -258,7 +260,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -12441,6 +12442,7 @@ qciss.net##.container-fluid > #lightbox
 hanime1.me#@#[class*="juicyads"]
 walla.co.il,sheee.co.il##[data-google-av-flags]
 game2.cn###rb
+motchillk.so#$#abort-on-property-read sessionStorage
 tut.by#@#.text-ads
 lzacg.one##.sidebar .zib-widget > .textwidget > a[target="blank"]
 urlchecker.org###adchecker
@@ -15460,7 +15462,6 @@ oschina.net##.index-ad-wrap
 landiannews.com##.content-gg
 yahoo.com###ACT_takeover2
 yx.kimg.cn##ul#feedList > li.feed-list-ad
-lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'; prevent-listener click 'pop'
 ||9669.cn/jsam/play_
 sameday.costco.*#$#hide-if-matches-xpath './/div[@style]/following::span[text()]/preceding::div[@aria-hidden="true"]/preceding::img[contains(@alt,"Sponsored") or contains(@alt,"Advertisement")]/ancestor-or-self::div[@id][@class][1]'
 ithome.com##.rm-modal1-body
@@ -16280,6 +16281,7 @@ koyi.pub#%#//scriptlet("set-constant", "fuzqingAdPlus", "emptyObj")
 pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort-on-property-write PopCookieTimeout; abort-on-property-read PopURL
 sina.com.cn###AD_Background_Wall_BG
 ||1u0oqad.diqx.namemc.com^$domain=namemc.com
+lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'; prevent-listener click 'pop'; prevent-listener /click|mousedown/ setClickedUrl;
 tangdoucdn.com#@#.video-ad
 wnacg.com#@#.hlol_ad
 pconline.com.cn###JrightSideFocus
@@ -17216,7 +17218,6 @@ huya.com###J_adBnM
 pastenow.ru###google-block
 qiyeku.com##div[style*="height:90px;"]
 thepaper.cn###QRcode
-motchillx.fm#$#abort-on-property-read sessionStorage
 house.yahoo.com.tw##.content_r > .rbox:first-child
 v.qq.com##.nav_link[href^="http"]:not([href*=".qq."])
 ph4.ru##table[width][height="90"][style]
