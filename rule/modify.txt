@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-10-05 00:20:37
+! Last Modified: 2025-10-05 09:38:58
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -258,7 +260,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -3685,6 +3686,7 @@ baidu.com,bdimg.com,tieba.com##.fengchao-wrap
 bigear.cn##.adpicright
 /js/mts66.js
 1905.com##.mobile_ad_promote
+$csp=script-src 'self' * 'unsafe-inline',domain=ternity.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 evrimagaci.org#$#hide-if-matches-xpath './/div[@class="empower-ad"]/parent::div[contains(@class, "ads-")]'
 :6607/qy/$script,third-party
 dm5.com,dm5.hk##.cl760
@@ -8552,7 +8554,6 @@ app.n26.com#@#.bl > .gg
 chusixs.com/5ygsh/
 duba.com###oneone
 bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
-$csp=script-src 'self' * 'unsafe-inline',domain=shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|yebiquge.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.chenkuan.com|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com
 aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
 @@||1gr.cz/js/ad/reklama/banner.js$script,domain=idnes.cz
 @@||bdimg.com/static/wkcore/widget/adControl/adControl_
@@ -11738,6 +11739,7 @@ plus28.com##div[style="margin: auto;width: 960px;margin-bottom: 10px;"]
 iciba.com##.footer_baidu
 image.baidu.com##.recom
 news.pchome.com.tw###head-area > div[align="center"]
+ternity.net##div[style^="position: fixed;"]
 xuite.net###single-ad-300-250
 ifeng.com##a[href^="http://ids.deliver.ifeng.com/"]
 newegg.*#$#hide-if-matches-xpath './/div[@class="row-body-inner"]//div[contains(@class,"menu-box")]/span[contains(text(),"Sponsored")]/ancestor::div[@class][2]/parent::div[not(@class="list-wrap")]';
@@ -20526,7 +20528,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||guojitv.com/m/ad/
 ||icws.jb51.net/good/arc2019.js
 ||lianyexiuchang.cc/img/2f2372e9bf205df0.png
-||qiuyi.cn/Baojian/
 ||jijidown.com/static/img/right_bottom.
 ||configchain.com^$third-party
 ||mifengtd.cn/ad-
@@ -23112,7 +23113,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hao.rising.cn/catalog/bottom.html
 ||hebei.com.cn/eap/
 ||baidu.com/xpage/interface/structrec?
-||qixin007.com/webbanner/
 ||hongyingbbs.com/jj/
 ||colorfulafterthought.com^$third-party
 ||kuaizitech.com^$third-party
@@ -23492,7 +23492,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||atyun.com/wp-content/themes/xmag/js/ad.js
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||ludicrousarch.com^$third-party
-||qixingquan.com/api.php?mod=ad&adid=
 ||fairytaleflame.com^$third-party
 ||cdn.xiuting.cc/js/go016.js
 ||dy2018.com/js/tj.js
@@ -24965,6 +24964,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||suiyishop.cn/zhuangxiu_
 ||stupendoussnow.com^$third-party
 ||wendellyu.com/banner/
+||qiuyi.cn/Baojian/
 ||sinaimg.cn^$domain=04stream.tv|11luba.com|18board.com|18p2p.com|46bk.com|500xxxx.com|522dy.com|63ef.com|7mav2.com|7mshipin.org|94xxmm.com|99a21.com|abminbuy.com|acglover.me|aotu101.com|aotu103.com|blz105.com|blz20.com|blz24.com|caibaojian.com|cangjige.net|ccxx99.com|cnmysoft.com|ems183.cn|fdzone.org|kccdk.com|kiees.cn|kisssub.org|lifan.moe|llj22.com|pianyuan.org|rarbt.cc|sbme.me|se533.com|supfree.net|thztv.cc|tiantianzhibo.com|viidii.info|vx666.com|yaoshe1.com
 ||scw98.com/ADMM.
 ||yunsennet.com^$popup
@@ -25250,6 +25250,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zdcj.net^*/ad
 ||tenhourweek.com^$third-party
 ||xbqg6.com/*.php
+||qixin007.com/webbanner/
 ||wuhaolin.cn/c/ls
 ||tingchina.com/js/760
 ||titan007.com/ad/
@@ -25566,6 +25567,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||stats.chinaz.com/tool_img/
 ||stockingsleet.com^$third-party
 ||taobao.com^$popup,domain=dlkoo.com
+||qixingquan.com/api.php?mod=ad&adid=
 ||static.jfrft.com/js/main_list.js^$script,redirect=noopjs,domain=dilidili.wang,important
 ||ruiwen.com/js/p.js
 ||yaojingweiba.com/inc/
