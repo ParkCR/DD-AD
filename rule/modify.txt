@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-10-16 16:27:42
+! Last Modified: 2025-10-17 00:25:33
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -5645,7 +5645,6 @@ baidu.com##.w-question-list[data-sign]
 bilibili.com##.ad-e1
 china.cn##.lianmeng_search
 ##A[href*='com:'] > IMG[src],A[href*='cc:'] > IMG[src]
-embed.media,fembed.com,fmovies.*,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,myyouporn.com,solarmovie.*,vaplayer.xyz,vizcloud.*,xstreamcdn.com#$#abort-on-property-read AaDetector
 .xyz:*?x=$script,third-party
 examw.com##.activeBottomBox
 ###play[style="padding: 10px;"] > a[href*=".xmcdn.com"]
@@ -9064,6 +9063,7 @@ cdiscount.com#$#race start; hide-if-matches-xpath './/input[contains(@name,"Spon
 douyin.com#?##douyin-right-container > div[class] > div[class]:has(> ul[class] > li[class] > a[href][target="_blank"] + div:contains(广告))
 ://dmhy.org^*.*?$image
 ###mv_ad_dom
+embed.media,fembed.com,fmovies.*,flashx.tv,gaobook.review,hxfile.co,mavplay.xyz,myyouporn.com,streamm4u.com.co,solarmovie.*,vaplayer.xyz,vizcloud.*,xstreamcdn.com#$#abort-on-property-read AaDetector
 @@||ads.tiktok.com^$~third-party
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
 @@||seselah.com^$generichide
@@ -11041,7 +11041,6 @@ pcauto.com.cn###PcPoPmarket
 sogou.com###right
 house365.com##.home-new-user
 gucheng.com##.title_ad_time
-||alpineactor.com^$third-party
 ifeng.com##[class^='index_fixSlideBox']
 taobao.com##.recomand-item
 huaren.live##.action-ad
@@ -14021,6 +14020,7 @@ sinolub.com##.gg_cen
 so.com###js-mod-fixed-float
 walla.co.il,sheee.co.il##iframe[id]:not([src])[frameborder="0"][scrolling="no"]:not(#rufous-sandbox)
 ||adgarden.market^$domain=factfeed.com|mdrntoday.com|travelroo.com
+novinky.cz,seznam.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/; cookie-remover qusnyQusny;
 sohu.com##.hot-article > div.pic-txt[data-spm-content*="_saletype="]
 ||91danji.com/js/lmt.js
 ||51bczx.com/images1/
@@ -14308,6 +14308,7 @@ pythonthree.com##.astra-advanced-hook-7063
 image.baidu.com##div[id^="relecom"]
 myday.com.tw##.myday_ad_right
 taizhou.com.cn##.duilian2
+streamm4u.com.co#$#prevent-listener beforeunload (); abort-on-property-write _g_sb_click
 m.v.qq.com##.recommend-long__open.open-app
 gs.chinanews.com.cn##.div1000_2 + .div980
 juxia.com##.index_bttg
@@ -14844,6 +14845,7 @@ sina.cn##div[data-adid]
 web.netmovies.*#$#hide-if-matches-xpath './/iframe[@style="width: 100% !important; height: 100% !important; margin: 0px; padding: 0px; border: none; outline: none; box-sizing: border-box; position: fixed; color-scheme: none; inset: 0px; overflow: hidden; z-index: 2147483646; display: block !important;"]/ancestor-or-self::iframe[1]'
 luogu.me##.propaganda
 netbardh.com###bg_left
+instacart.*##div[id][class]:has(> a > img):has(ul li:first-of-type a div[style*="display:"] span)
 ||333uu.org/config/
 freedidi.com#@#.adsBanner
 supportdap.online##.td-post-content > a[rel="nofollow"] > img
@@ -16492,6 +16494,7 @@ m.baidu.com##.ec_wise_ad
 xchina.co##div:has(> div:only-child > .media img[src*="/ad/"])
 fullmatchesandshows.com#@#.text-ad-links
 grifthost.com#@#.ad468
+truyensieuhay.com,quangcaoyenbai.com,phimmoi.ing,phimchill.life,thuvienhd.biz,tv.tvhayhd.org,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,sexhihiz.mx,anime47.best,teamlanhlung8.shop,forum.timfshare.com,ungtycomicsha.com,honghotduongpho.vn,chich69.blog#$#abort-on-property-read document.cookie
 slashlook.com###AdvertismentInline
 speedtest.cn##.index-advertising
 ||174.123.15.43:8080
@@ -18554,7 +18557,6 @@ gas.goodlife.tw###widgets
 goha.ru#@#.goha_ads
 vpser.net##.ab_cpb
 tieba.baidu.com###diversBanner
-instacart.*##div[id][class]:has(> a img[alt="Advertisement"]):has(li:first-of-type a div[style*="display:"] span)
 ||39.net/test/k.js
 so.com##.js-business-list
 spanishdict.com##.whitelist
@@ -18958,7 +18960,6 @@ wpjam.com###wpjam_blog_300x250_1
 ||alicdn.com/img/ibank/*_1165462224.
 huanqiu.com##.r-hqFashion
 qq.com##.ad-long-pic
-truyensieuhay.com,quangcaoyenbai.com,phimmoi.ing,phimchill.life,thuvienhd.biz,tv.tvhayhd.org,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,sexhihiz.mx,anime47.best,teamlanhlung8.shop,forum.timfshare.com,ungtycomicshot.com,honghotduongpho.vn,chich69.blog#$#abort-on-property-read document.cookie
 ||160.com/statics/statics/js/code_15.js
 m.qidian.com##A.catalog-download
 news.hf365.com##.main-r > div:first-child
@@ -19957,6 +19958,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||beareyes.com.cn/2/cat/js/*_centerl
 ||distributionneck.com^$third-party
 ||nz04com.com/aabdd/
+||alpineactor.com^$third-party
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
 ||mydrivers.com/images/*_1100_90.
 ||placeframe.com^$third-party
@@ -20393,7 +20395,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||news.ssp.qq.com/app
 ||psychedelicarithmetic.com^$third-party
 ||douyucdn.cn/butterfly-java/*?width=1200&height=100&
-||qnsb.com/news/index.php?m=poster&
 ||anime4fun.com/js/newanime.js$script
 ||china.com.cn/statics/js/js_vag/
 ||pchome.com.tw/js/fancybox/
@@ -24876,6 +24877,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||videos-fms.jwpsrv.com/*/content/conversions/*.mp4|$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 ||rusnext.ru/advar.js$script
 ||voc.com.cn/adsClick/
+||qnsb.com/news/index.php?m=poster&
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||shulihua.net/js/gzlishi468google.js
 ||trafficstars.com$third-party
