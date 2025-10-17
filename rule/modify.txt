@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-10-17 09:25:58
+! Last Modified: 2025-10-17 16:26:51
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -9218,7 +9218,6 @@ cnr.cn###gtop00
 eastmoney.com##div[style^="position: fixed; z-index:"]
 4pda.to#$#hide-if-matches-xpath './/a[@target="_blank"]/img[@alt="" and @title=""]/parent::a/ancestor::*[@id and @class][1]'; hide-if-matches-xpath './/a[@href][@title][@target="_blank"]/img[@itemprop]/parent::a[@href]'; hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@title and @border]/ancestor::*[2]'; hide-if-matches-xpath './/*[@id and @class]/article[@class="post" and @itemscope]/ancestor-or-self::*[1]';
 @@||dnbus.com.tw/AD/tab_route.html
-##a[href="/AllRes/Vlog2.html"]
 ##div#main.main.read_page [id^="set_adds"]
 /\.(cc|com|top|xyz)\/i\/v$/$third-party,xmlhttprequest
 @@||static-videostar2.4vod.tv/assets/js/adcheck.min.js$script,domain=videostar.pl
@@ -10198,6 +10197,7 @@ dict.cn###tjcd
 @@||qq.com/bossweb/jifen/
 ###my_dp_a
 edrawsoft.cn##.activity-banner
+##p > a[href^="/AllRes/Vlog"]
 /Runtime/js/banner_
 ##.player-news > .news-list
 blog.163.com##.postadlayer
