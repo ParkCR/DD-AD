@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-10-22 16:28:28
+! Last Modified: 2025-10-23 00:26:46
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -3229,6 +3229,7 @@ fanfiktion.de###ad-leaderboard-inner
 @@||scorecardresearch.com/beacon.js$domain=hktvmall.com
 djljz.cn###djl_hdhb
 /content/clyscontent.js
+babelzilla.org#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
 @@||sportsplays.com/ads/ad.html$subdocument
 afzhan.com##.newsRightAdv
@@ -4585,7 +4586,6 @@ eroacg.com##.weimg1
 asmag.com.cn##.adAsMainLeft
 animefenix.com#$#abort-on-property-read p18
 /alljs/allwzwfoot.js
-flyblog.cc###links > div[id] > div.hslice:not(#search):not(#counter):not(#category):not(#calendar):not([id*="-article"]):not(#latest-comment)
 1616.net###stool
 /naChotina=$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 @@||yimuhe.com/n_js/advertiser.js
@@ -6166,6 +6166,7 @@ cctime.com,doyo.cn###top_banner
 crsky.com##.adowGright
 /xxgg/dj*.js
 @@||morosedog.gitlab.io^$generichide
+babelzilla.org#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 delfi.lv##.notification-widget
 6parknews.com##.ad-view
 @@/Advertisement.css$stylesheet,domain=openload.co|openload.io|openload.tv
@@ -7097,7 +7098,6 @@ fanyi.baidu.com###app-read
 @@||limitsizamca.org/reklam.js$script,~third-party
 bing.com,cn.bing.net##a[h$=",Ads"]
 ahaonline.czinfo.cz,onetv.cz##.inserted_rtb
-flowus.cn##footer .swiper
 bookrb.com##a[href="/rmtj.html"]
 51dll.com###aa
 boylove1.mobi##.fuafxnfq
@@ -10966,7 +10966,6 @@ zhibo8.cc###m_adv
 forum.pcastuces.com##div > [src] + [id] + [class][style^="display: block;"]
 ||168gamer.*/list-
 tw.news.yahoo.com###sda-LDRB-iframe
-skinfive.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 ishangman.com#@#.bottom_ad
 taobao.com##.mask.animated.swing
 juejin.im##.banner-section
@@ -14016,6 +14015,7 @@ so.com###rt-interest-list
 jandan.net##a[href*="/money.php?"]
 taiwan.cn##div[style*="height:250px;padding:5px 17px 5px 18px;"]
 jingangjing.com##.free
+flyblog.cc###links > div[id] > div.hslice:not(#search):not(#counter):not(#category):not(#calendar):not([id*="-article"]):not(#latest-comment)
 ||3987.com/statics/tow_skin/new_img/20
 zab.ru#$#abort-on-property-read document.body.style
 sinolub.com##.gg_cen
@@ -16345,6 +16345,7 @@ yiyouliao.com##.yyl-ads-swiper
 ||aiyuke.com/position_js*_*_
 xnxx-sexfilme.com#$#hide-if-matches-xpath './/span[contains(text(),"Advertisement")]/parent::div[@class][1]'; hide-if-matches-xpath './/div[contains(@class,"logo")]/ancestor::div[@data-ga_action="join"]/ancestor::aside[@id][1]';
 hk01.com##.min-h-\[250px\].mb-3
+flowus.cn##footer .swiper
 le.com###a_title_11628
 sogou.com###vl
 wenxuecity.com##.rightbannerw
@@ -17080,7 +17081,6 @@ itheat.com##.hot_ad
 nowcoder.com##.mini-banner
 wk.baidu.com##.sf-edu-gonglve-id-rec-adv-second.rec-adv-second
 gfan.com##.downs
-viet69.nu,dualeotruyenev.com,yurineko.my,haysexvl.net,cliphot69.shop,doctruyen3qui15.com,ihentai.cloud,animehay.life,hentaivc.com,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.love,phimsexhayvn38.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,xem.sexnung3x.com,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.net,damconuong.co,truyenqqgo.com,clipsexsub3x.net,sayhentaii.art,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net#$#abort-current-inline-script WebAssembly instantiate
 ||90mh.com/mip/qdbao
 wap.yushuwu.cloud#%#//scriptlet('prevent-eval-if', 'WebSocket')
 wybg666.com##.container div[id$="ad"] > a[target="_blank"]:only-child > img
@@ -18485,6 +18485,7 @@ th7.cn###PcPoPmarket
 petrochina.com.cn#@#.ggbox
 life.tw##div[style="width:630px;height:700px;"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > style[id^="s-"] + style + div[id]
+viet69.nu,dualeotruyenev.com,yurineko.my,haysexvl.net,cliphot69.shop,doctruyen3qui15.com,ihentai.cloud,animehay.life,hentaivc.com,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.love,phimsexhayvn38.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,xem.sexnung3x.com,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.net,damconuong.co,truyenqqgo.com,clipsexsub3x.net,sayhentaii.ink,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net#$#abort-current-inline-script WebAssembly instantiate
 ||aem.three.com.hk/content/three/sosim/app/*/promotion/
 hao.360.com#?#.cube-container div.cube-mod:has(span.adMark)
 sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
@@ -18579,7 +18580,6 @@ gdekluet.ru##body > div[class^="stop-block"]
 le.com##.lay_title[style^="width:490px;height:60px;"]
 xhtml?$domain=kanshu8.net
 iprima.cz#@#.bannerAd
-skinfive.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 netbardh.com###bg_right
 oilchem.net##.LzAdv
 sohu.com##.cbd-plate-bill.common-ad
@@ -21638,6 +21638,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||newspage.xilu.com/model/visitlog.js
 ||duo*.top/Runtime/js/psData.js
 ||handsomelyhealth.com^$third-party
+||qinbing.cn/data/upload/ueditor/
 ||fearfulmint.com^$third-party
 ||hexun.com/js/att_count.js
 ||huyaimg.msstatic.com/cdnimage/roomad/
@@ -25958,7 +25959,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ta.trs.cn^$third-party
 ||suddensoda.com^$third-party
 ||qq.com/tencentvideo_v1/script/module/propeffect/prop.effect.
-||qinbing.cn/data/upload/ueditor/
 ||static.olelive.com/upload/site/*/*.gif
 ||xbiquge99.cc/js/dj
 ||sitv.com.cn/cookiead.php
