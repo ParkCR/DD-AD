@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-11-01 09:41:06
+! Last Modified: 2025-11-01 16:23:05
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -260,7 +262,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -1781,7 +1782,6 @@ asmag.com.cn###adRightFix
 baidu.com##.bds-list-ads
 cztv.com##.ad_003
 /antiadblock.
-fitacg.com##a[href*="ifift.com"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt
 /ggdata1.
 @@?adType=$domain=taotaosou.com
@@ -3383,6 +3383,7 @@ chipinfo.pro###content-container > div[style^="position: fixed;"]
 @@||baidu.com/share/count?
 ###doyoo_mon_mask
 fastadmin.net##a[href^="https://www.fastadmin.net/go/"]
+##.slick-slider.slick-initialized[dir='ltr']
 62422.cn##td[width="760"][height="75"]
 bilibili.com#$?#.feed-card:has(> div.bili-feed-card > div.shortcut-bg:empty ~ div.bili-video-card[style*="display: none !important;"]) { remove: true; }
 etextlib.ru##.partners
@@ -11606,6 +11607,7 @@ nicotv.me##.container > div.slide[style="padding-bottom:0px"]
 jxdbg.com##.indexmv
 sohu.com##.x-adv-pause-nonlinear-panel
 m.lianjia.com##.fadeDown.download_topfixed.mod_download
+fitacg.com##a[href*="ifift.com"]
 thepaper.cn###head_ask_app_down
 home.firefoxchina.cn##a[title][track_key="sites_saoma"]
 sportshubtv.com###ad_tekst
@@ -14053,7 +14055,6 @@ kaoyan1v1.com###showAD
 fortress.com.hk,youdao.com#@#.share-icon
 onemanga.me#@#.adblock
 sm.cn###sc + .article.ali_row
-||alicdn.com/img/ibank/*_1591187313.
 ||9191.site/ad.js
 youtube.com##AD-SLOT-RENDERER
 lenovo.com.cn##.ad-calender
@@ -14487,7 +14488,6 @@ weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 gaara-fr.com###ga-skin-right
 ifeng.com###js_videopause_container
 portablesoft.org##.rightside > :nth-child(n+2)
-||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 nfuwow.com##.adtopnewnewbox
 ||520z-2.com/uploadfile/sucai/
 ||5imx.com/image/image/
@@ -14810,7 +14810,6 @@ huya.com##.j_posterItem[href^="http"]:not([href*=".huya."])
 ||141.105.69.88/eticilbup/$image,subdocument,script
 mzh.moegirl.org.cn#?#.n-button__content:contains(在App内打开)
 tianqi.com##.xcx_erweima
-||alicdn.com/img/ibank/*_1623489831.
 huanqiu.com##.aa_250
 suning.com##.c2c-recommend
 proxywiky.com###overlay-holder
@@ -15484,6 +15483,7 @@ qiuquan.cc##.sidebar .aligncenter
 qdmm.com,qidian.com##.qdRead_client
 zh.moegirl.org.cn##.moe-dropdown.moe-downloadapp
 pconline.com.cn##.ivy > .ivy-wrap
+udn.com##.ec-section
 ||ali213.net/js/common/zpro/zprotxtpicurl.js
 ||airav.cc/Ucenter/*_Ad
 novinky.cz,kupi.cz,sport.cz,super.cz###sf0
@@ -17983,7 +17983,6 @@ pan.baidu.com##div.content DIV.photo-banner
 ||adventurousamount.com^$third-party
 godt.no##.adblock-info
 jijidown.com##div[style="height: 462px;"]
-||alicdn.com/img/ibank/*_1545027917.
 ||alicdn.com/img/ibank/*_1230538058.
 supercloudsms.com##a[style="display: block;"]
 mercadolibre.*#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
@@ -18452,7 +18451,6 @@ vestivrn.ru#$#abort-on-property-read video.preroll
 ||0722fc.com/index/tools/js.php
 new.qq.com##.godown.qqcom_fb-item
 vizer.tv#@#.adsbox
-zt5.com##.gg_1
 osobnosti.cz##.hide-screenbot
 v-wb.youku.com#%#//scriptlet('set-constant', 'Object.prototype.adData', 'emptyObj')
 ||5fz.cc/t/aimg/tao
@@ -22495,6 +22493,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||easou.com/online/banner/
 ||cndns.com/incs/js/website_mobile.js
 ||ifooday.cn/index.php?m=poster&
+||alicdn.com/img/ibank/*_1545027917.
 ||degreechariot.com^$third-party
 ||guildalpha.com^$third-party
 ||pushpad.xyz^$third-party,domain=xnxx-sexfilme.com
@@ -23154,6 +23153,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||eagereden.com^$third-party
 ||chinatimes.com/Scripts/bennerad.
 ||jd.com/ddimg/$domain=bimiacg.net
+||alicdn.com/img/ibank/*_1591187313.
 ||hao123img.com/v4/MB/xU/jy/VY/YX/MBxUjyVYYX.js
 ||google-analytics.com$third-party
 ||kb-render.alicdn.com/html/*.html
@@ -23601,6 +23601,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||baihuwang.com^$third-party
 ||gliacloud.com/player/adgeek_teep
 ||mtime.cn/tg/
+||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||gaglxx.com/5_
 ||mydrivers.com^*728_90.
 ||chinacloudsites.cn/api/promotion?
@@ -23923,6 +23924,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ax1x.com^$domain=caibaojian.com|hktvyb.com|zzvips.com
 ||lyd.com.cn^*950-90.
 ||ithome.com/images/productgif/pcmaster.gif
+||alicdn.com/img/ibank/*_1623489831.
 ||onesignal.com^$third-party
 ||daughterstone.com^$third-party
 ||damai.cn/phpstat/
@@ -24667,6 +24669,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||toolfk.com/common/zfb.jpg
 ||wpdaxue.com/img/*/txy-
 ||static.huaren.live/ads/
+||uniicreative.com^$third-party
 ||uugtv.com/x/app/videoSpread?
 ||userscontent.com^$image,domain=auto.cz|autorevue.cz|blesk.cz|dama.cz|e15.cz|expres.cz|karaoketexty.cz|kinobox.cz|kupi.cz|lidovky.cz|maminka.cz|mojezdravi.cz|nasepenize.cz|novinky.cz|osobnosti.cz|reflex.cz|sport.cz|super.cz|tiscali.cz|zeny.cz|zive.cz
 ||tristoshink.online/libs/check.js
@@ -25662,6 +25665,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zztongyun.com/static/js/sh.min.js
 ||zhushou.360.cn/script/plugin_tiper.js
 ~aircn.org,~steamcn.com,~x3cn.com##.wp.a_t
+||shipin188.com/66
 ||wan.liebao.cn/zt/
 ||stockingsneeze.com^$third-party
 ||shuakongbao.com/resource/images/banner/
