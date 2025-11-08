@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: all.txt
-! Last Modified: 2025-11-08 16:23:38
+! Last Modified: 2025-11-09 00:21:56
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||localads.chengzijianzhan.cn^
@@ -332,6 +332,21 @@
 ||mobads.baidu.com^
 ||a0.app.xiaomi.com^
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
+||*-ad.wtzw.com^
+||api2.coolapk.com/v6/page/dataList$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;apkImageCard&quot;.*?\\u0022}&quot;}\,/ /
+||api2.coolapk.com/v6/feed/detail$replace=/\,&quot;detailSponsorCard&quot;:{.*}/}}/
+/pangolin-sdk-toutiao.*/
+/pangolin-sdk-toutiao1.*/
+/pglstatp-toutiao.*/
+||api2.coolapk.com/v6/feed/detail$replace=/&quot;include_goods_ids&quot;:\[.*?]\,&quot;include_goods&quot;:\[.*?]\,/ /
+||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
+||*-ad.adukwai.com^
+||*-ad.adbkwai.com^
+||api2.coolapk.com/v6/main/init$replace=/{&quot;id&quot;:1170.*?}\,/ /
+||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
+/pangolin-sdk.*/
+||*-ad.gskwai.com^
+! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||ads*-normal-hl.amemv.com^
 ||ad-*file.myqcloud.com^
 ||p*-ad.byteimg.com^
@@ -354,21 +369,6 @@
 ||ads*-normal-lq.amemv.com^
 ||ads*-normal-lq.zijieapi.com.queniuiq.com^
 ||ads*-normal-lq.zijieapi.com.w.cdngslb.com^
-! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
-||*-ad.wtzw.com^
-||api2.coolapk.com/v6/page/dataList$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;apkImageCard&quot;.*?\\u0022}&quot;}\,/ /
-||api2.coolapk.com/v6/feed/detail$replace=/\,&quot;detailSponsorCard&quot;:{.*}/}}/
-/pangolin-sdk-toutiao.*/
-/pangolin-sdk-toutiao1.*/
-/pglstatp-toutiao.*/
-||api2.coolapk.com/v6/feed/detail$replace=/&quot;include_goods_ids&quot;:\[.*?]\,&quot;include_goods&quot;:\[.*?]\,/ /
-||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^、
-||*-ad.adukwai.com^
-||*-ad.adbkwai.com^
-||api2.coolapk.com/v6/main/init$replace=/{&quot;id&quot;:1170.*?}\,/ /
-||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
-/pangolin-sdk.*/
-||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 127.0.0.1 c.sayhi.360.cn
 127.0.0.1 ggs.myzaker.com
@@ -428,6 +428,7 @@
 127.0.0.1 config.mobisage.cn
 127.0.0.1 adshmmsg.qq.com
 127.0.0.1 www.adview.cn
+127.0.0.1 q14.cnzz.com
 127.0.0.1 zs8.cnzz.com
 127.0.0.1 adserviceretry.kugou.com
 127.0.0.1 amdcopen.m.taobao.com
@@ -550,6 +551,7 @@
 127.0.0.1 bid.adview.cn
 127.0.0.1 localhost
 127.0.0.1 paopao2.qiyipic.com
+127.0.0.1 dup.baidustatic.com
 127.0.0.1 v2.log.mgtv.com
 127.0.0.1 d3oltyb66oj2v8.cloudfront.net
 127.0.0.1 a.applovin.com
@@ -1143,6 +1145,7 @@
 127.0.0.1 8b6dfa.v.admaster.com.cn
 127.0.0.1 ads.privacy.qq.com
 127.0.0.1 t4.a.market.xiaomi.com
+127.0.0.1 pcookie.cnzz.com
 127.0.0.1 mcfg.sandai.net
 127.0.0.1 norma-external-collect.meizu.com
 127.0.0.1 ap.cpatrk.net
@@ -1334,6 +1337,7 @@
 127.0.0.1 material-ssl.mediav.com
 127.0.0.1 www.pflexads.com
 127.0.0.1 c.bing.com
+127.0.0.1 hdj.baidu.com
 127.0.0.1 aa0.pub.funshion.com
 127.0.0.1 analytics3.dopool.com
 127.0.0.1 s.amazon-adsystem.com
@@ -1422,6 +1426,7 @@
 127.0.0.1 adstrategy.biz.weibo.com
 127.0.0.1 s.ads.sohu.com
 127.0.0.1 ad.winrar.com.cn
+127.0.0.1 doubleclick.ctfile.com
 127.0.0.1 cloudpush.iqiyi.com
 127.0.0.1 d3g.qq.com
 127.0.0.1 r.pixgold.com
@@ -1500,6 +1505,7 @@
 127.0.0.1 g1xd.mediav.com
 127.0.0.1 adcs-ap.myappsget.com
 127.0.0.1 b.appjiagu.com
+127.0.0.1 entry.baidu.com
 127.0.0.1 h-adashx4yt.ut.taobao.com
 127.0.0.1 wxa.wxs.qq.com
 127.0.0.1 ww13.smartadserver.com
@@ -1522,6 +1528,7 @@
 127.0.0.1 adpro.pro.cn
 127.0.0.1 ppvabs.pplive.com
 127.0.0.1 dns.m.sm.cn
+127.0.0.1 eiv.baidu.com
 127.0.0.1 livep.l.aiseet.atianqi.com
 127.0.0.1 lives.l.cp81.ott.cibntv.net
 127.0.0.1 cm.adkmob.com
@@ -1700,6 +1707,7 @@
 127.0.0.1 c-gi.getui.com
 127.0.0.1 img.ads.mobilefuse.net
 127.0.0.1 z3.cnzz.com
+127.0.0.1 eclick.baidu.com
 127.0.0.1 qapm.baidu.com
 127.0.0.1 oth.eve.mdt.qq.com
 127.0.0.1 imasdk.googleapis.com
@@ -1774,6 +1782,7 @@
 127.0.0.1 corebug.adsame.com
 127.0.0.1 paopao.iqiyi.com
 127.0.0.1 t.gdt.qq.com
+127.0.0.1 hm.baidu.com
 127.0.0.1 ad.mail.sohu.com
 127.0.0.1 jupiter2.appads.com
 127.0.0.1 ecma.bdimg.com
@@ -2686,7 +2695,6 @@
 127.0.0.1 www.ili100.cn
 127.0.0.1 addthis.com
 127.0.0.1 count40.51yes.com
-127.0.0.1 pcookie.cnzz.com
 127.0.0.1 stats.guess.tf.360.cn
 127.0.0.1 www.hg89078.com
 127.0.0.1 prwidgets.com
@@ -2874,7 +2882,6 @@
 127.0.0.1 p.adsymptotic.com
 127.0.0.1 tui1999.com
 127.0.0.1 vfzfi.voluumtrk.com
-127.0.0.1 hdj.baidu.com
 127.0.0.1 pc.5151gj.com
 127.0.0.1 ts.youzu.com
 127.0.0.1 ps.eyeota.net
@@ -2969,7 +2976,6 @@
 127.0.0.1 count23.51yes.com
 127.0.0.1 myarab-me.j8inn1zektoe.com
 127.0.0.1 push.wps.cn
-127.0.0.1 doubleclick.ctfile.com
 127.0.0.1 ll88y.com
 127.0.0.1 buyu9911.com
 127.0.0.1 fzz.cloud.1234507.com
@@ -3054,7 +3060,6 @@
 127.0.0.1 ggxpj5.com
 127.0.0.1 toutoucao7.com
 127.0.0.1 csktv98.com
-127.0.0.1 entry.baidu.com
 127.0.0.1 www.kc75.com
 127.0.0.1 anquan.baidu.com
 127.0.0.1 bs.serving-sys.com
@@ -3075,7 +3080,6 @@
 127.0.0.1 www.muvflix.com
 127.0.0.1 us1.xvika.com
 127.0.0.1 jf71qh5v14.com
-127.0.0.1 eiv.baidu.com
 127.0.0.1 keyshot.cc
 127.0.0.1 release.baidu.com
 127.0.0.1 ia.51.la
@@ -3295,7 +3299,6 @@
 127.0.0.1 yieldmo.com
 127.0.0.1 ak.staticimgfarm.com
 127.0.0.1 down.houxingfu.com
-127.0.0.1 eclick.baidu.com
 127.0.0.1 ereg.adobe.com
 127.0.0.1 rocktraff.com
 127.0.0.1 doublepimpads.com
@@ -3363,7 +3366,6 @@
 127.0.0.1 g2.symcb.com
 127.0.0.1 www.30006z.com
 127.0.0.1 adscdn.baidu.com
-127.0.0.1 hm.baidu.com
 127.0.0.1 momode.net
 127.0.0.1 s114.cnzz.com
 127.0.0.1 ie8eamus.com
@@ -3571,7 +3573,6 @@
 127.0.0.1 count36.51yes.com
 127.0.0.1 vip.xiehuizhi.com
 127.0.0.1 www.377yyy.com
-127.0.0.1 q14.cnzz.com
 127.0.0.1 qihoo.cn
 127.0.0.1 sale.aliexpress.com
 127.0.0.1 xpjylc9977.com
@@ -3674,7 +3675,6 @@
 127.0.0.1 members.amaland.com
 127.0.0.1 use.teutorigos-phi.com
 127.0.0.1 js.start1999.com
-127.0.0.1 dup.baidustatic.com
 127.0.0.1 www.adultfriendfinder.com
 127.0.0.1 www.adsrvmedia.adk2x.com
 127.0.0.1 ads.scorecardresearch.com
@@ -5076,6 +5076,7 @@
 127.0.0.1 pt.trafficjunky.net
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 0.0.0.0 launcherimg.smart-tv.cn
+0.0.0.0 advertising.yahoo.com
 0.0.0.0 adapi.yynetwk.com
 0.0.0.0 imdns.hpplay.cn
 0.0.0.0 data.ads.oppomobile.com
@@ -5105,10 +5106,12 @@
 0.0.0.0 v.110route.cn
 0.0.0.0 litchiads.com
 0.0.0.0 adsmind.gdtimg.com
+0.0.0.0 adstats.tencentmusic.com
 0.0.0.0 adcolony.com
 0.0.0.0 cpc-service-square.aiclk.com
 0.0.0.0 rt.applvn.com
 0.0.0.0 api.hzsanjiaomao.com
+0.0.0.0 adtech.yahooinc.com
 0.0.0.0 vd6.l.qq.com
 0.0.0.0 analytics.woozooo.com
 0.0.0.0 adsmart.konka.com
@@ -5125,6 +5128,7 @@
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 sngmta.qq.com
 0.0.0.0 log.stat.kugou.com
+0.0.0.0 api-htp.beizi.biz
 0.0.0.0 union-mlog.bigda.com
 0.0.0.0 frontend-perf-service.e.kuaishou.com
 0.0.0.0 ad.bwton.com
@@ -5143,6 +5147,7 @@
 0.0.0.0 w1.gskwai.com
 0.0.0.0 cctv.adsunion.com
 0.0.0.0 ad-splash.hktvmall.com
+0.0.0.0 api.installer.xiaomi.com
 0.0.0.0 adsp.xunlei.com
 0.0.0.0 jiguang.cn
 0.0.0.0 review.gdtimg.com
@@ -5162,6 +5167,7 @@
 0.0.0.0 qn-cdnfile1pcdn.msstatic.com
 0.0.0.0 o-sdk.mediation.unity3d.com
 0.0.0.0 report.tv.kohesport.qq.com
+0.0.0.0 applog.uc.cn
 0.0.0.0 logtj.kugou.com
 0.0.0.0 adeng.hpplay.cn
 0.0.0.0 volc.bj.ad.track.66mobi.com
@@ -5177,6 +5183,7 @@
 0.0.0.0 p3-be-pack-sign.pglstatp-toutiao.com
 0.0.0.0 adse.wsa.ximalaya.com
 0.0.0.0 rpt.gdt.qq.com
+0.0.0.0 api-adservices.apple.com
 0.0.0.0 1500022744.vodplayer.wxamedia.com
 0.0.0.0 tmfsdk.m.qq.com
 0.0.0.0 tnc3-bjlgy.bytedance.com
@@ -5209,6 +5216,7 @@
 0.0.0.0 cnlogs.umeng.com
 0.0.0.0 umengacs.m.taobao.com
 0.0.0.0 api.kingdata.ksyun.com
+0.0.0.0 analytics.s3.amazonaws.com
 0.0.0.0 adexp.liftoff.io
 0.0.0.0 orbit.jd.com
 0.0.0.0 rms-drcn.platform.dbankcloud.cn
@@ -5216,6 +5224,7 @@
 0.0.0.0 advertising-api-fe.amazon.com
 0.0.0.0 p2plive-ali.douyucdn.cn
 0.0.0.0 api.jietuhb.com
+0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 janapi.jd.com
 0.0.0.0 notify.sec.miui.com
 0.0.0.0 cdn-ads.oss-cn-shanghai.aliyuncs.com
@@ -5334,6 +5343,7 @@
 0.0.0.0 entry.baidu.com
 0.0.0.0 policy.video.ptqy.gitv.tv
 0.0.0.0 api.anythinktech.com
+0.0.0.0 afs.googlesyndication.com
 0.0.0.0 statics.woozooo.com
 0.0.0.0 uedas.qidian.com
 0.0.0.0 adservice.google.cn
@@ -5347,6 +5357,7 @@
 0.0.0.0 p2pchunk-table.douyucdn.cn
 0.0.0.0 analytics.rayjump.com
 0.0.0.0 cdn-ad.wtzw.com
+0.0.0.0 an.facebook.com
 0.0.0.0 ads5-normal-lq.zijieapi.com
 0.0.0.0 ads.icloseli.cn
 0.0.0.0 omgmta.play.aiseet.atianqi.com
@@ -5373,7 +5384,9 @@
 0.0.0.0 ad-cdn.qingting.fm
 0.0.0.0 adapi.izuiyou.com
 0.0.0.0 ulogjs.gifshow.com
+0.0.0.0 analytics.tiktok.com
 0.0.0.0 tr-asia.adsmoloco.com
+0.0.0.0 analytics.pointdrive.linkedin.com
 0.0.0.0 hc-ssp.sm.cn
 0.0.0.0 wildcard.moatads.com.edgekey.net
 0.0.0.0 umini.shujupie.com
@@ -5393,6 +5406,7 @@
 0.0.0.0 appcfg.v.qq.com
 0.0.0.0 lf6-ad-union-sdk.pglstatp-toutiao.com
 0.0.0.0 mapi.m.jd.com
+0.0.0.0 adservice.google.com
 0.0.0.0 search5-search.ixigua.com
 0.0.0.0 p1-be-pack-sign.pglstatp-toutiao.com
 0.0.0.0 tmeadcomm.y.qq.com
@@ -5452,6 +5466,7 @@
 0.0.0.0 aiseet.aa.atianqi.com
 0.0.0.0 adsfile.qq.com
 0.0.0.0 googleads.g.doubleclick.com
+0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 h5.hpplay.com.cn
 0.0.0.0 nadvideo2.baidu.com
 0.0.0.0 b1-data.ads.heytapmobi.com
@@ -5461,6 +5476,7 @@
 0.0.0.0 rt.applovin.com
 0.0.0.0 wxsnsad.tc.qq.com
 0.0.0.0 c.gj.qq.com
+0.0.0.0 adsfs.oppomobile.com
 0.0.0.0 test.e.ad.xiaomi.com
 0.0.0.0 mobads.baidu.com
 0.0.0.0 tnc3-bjlgy.zijieapi.com
@@ -5473,6 +5489,7 @@
 0.0.0.0 hpplay.cdn.cibn.cc
 0.0.0.0 p2pupdate.gamedl.qq.com
 0.0.0.0 wxsnsdy.wxs.qq.com
+0.0.0.0 advice-ads.s3.amazonaws.com
 0.0.0.0 events-drcn.op.dbankcloud.cn
 0.0.0.0 business-api.tiktok.com
 0.0.0.0 g.dtv.cn.miaozhen.com
@@ -5516,7 +5533,9 @@
 0.0.0.0 g-adnet.hiaiabc.com
 0.0.0.0 beacons.gvt2.com
 0.0.0.0 p6-be-pack-sign.pglstatp-toutiao.com
+0.0.0.0 applog.zijieapi.com
 0.0.0.0 virusinfo-cloudscan-cn.heytapmobi.com
+0.0.0.0 advertising-api-eu.amazon.com
 0.0.0.0 cpro.baidustatic.com
 0.0.0.0 adstudio.spotify.com
 0.0.0.0 mi.gdt.qq.com
@@ -5540,6 +5559,7 @@
 0.0.0.0 uranus.jd.com
 0.0.0.0 t7z.cupid.iqiyi.com
 0.0.0.0 ads-sg.tiktok.com
+0.0.0.0 advertising.yandex.ru
 0.0.0.0 cdn.ynuf.aliapp.org
 0.0.0.0 getui.com
 0.0.0.0 tnc3-bjlgy.toutiaoapi.com
@@ -5555,31 +5575,38 @@
 0.0.0.0 cws-cctv.conviva.com
 0.0.0.0 webview.unityads.unity3d.com
 0.0.0.0 adv.sec.miui.com
+0.0.0.0 auction.unityads.unity3d.com
 0.0.0.0 chat1.jd.com
 0.0.0.0 a0.app.xiaomi.com
 0.0.0.0 sdkauth.hpplay.cn
 0.0.0.0 cbjs.baidu.com
 0.0.0.0 livep.l.aiseet.atianqi.com
+0.0.0.0 api-access.pangolin-sdk-toutiao1.com
 0.0.0.0 beacon-api.aliyuncs.com
 0.0.0.0 adsdk.vivo.com.cn
 0.0.0.0 ad.v3mh.com
 0.0.0.0 ads3-normal-hl.zijieapi.com
 0.0.0.0 stat.dongqiudi.com
 0.0.0.0 datacollection.uve.weibo.com
+0.0.0.0 audid-api.taobao.com
 0.0.0.0 errnewlog.umeng.com
+0.0.0.0 als.baidu.com
 0.0.0.0 log.fc.yahoo.com
 0.0.0.0 union.baidu.cn
+0.0.0.0 advertising.apple.com
 0.0.0.0 ad.qingting.fm
 0.0.0.0 cdn-plugin-sync-upgrade-juui.hismarttv.com
 0.0.0.0 mtj.baidu.com
 0.0.0.0 apd-pcdnwxnat.teg.tencent-cloud.net
 0.0.0.0 crash2.zhihu.com
+0.0.0.0 app-measurement.com
 0.0.0.0 beaconcdn.qq.com
 0.0.0.0 rlog.popin.cc
 0.0.0.0 beacon.qq.com
 0.0.0.0 gslb.hpplay.cn
 0.0.0.0 tytx.m.cn.miaozhen.com
 0.0.0.0 pcm-img.zhls.qq.com
+0.0.0.0 adstat.izuiyou.com
 0.0.0.0 metrics.data.hicloud.com
 0.0.0.0 knicks.jd.com
 0.0.0.0 pagead2.googleadservices.com
@@ -5587,6 +5614,7 @@
 0.0.0.0 getui.cn
 0.0.0.0 bdapi.ads.oppomobile.com
 0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 tmfsdktcpv4.m.qq.com
 0.0.0.0 aem.dentsuchina.cn
 0.0.0.0 api.htp.hubcloud.com.cn
@@ -5614,6 +5642,7 @@
 0.0.0.0 ggx03.miguvideo.com
 0.0.0.0 metrics2.data.hicloud.com
 0.0.0.0 rp.hpplay.cn
+0.0.0.0 adx-open-service.youku.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 8rn1y79f02-1.algolianet.com
 0.0.0.0 skdisplay.jd.com
@@ -5625,6 +5654,7 @@
 0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 tnc3-alisc1.zijieapi.com
 0.0.0.0 ms.applvn.com
+0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 log.pinterest.com
 0.0.0.0 pgdt.ugdtimg.com
 0.0.0.0 youku-acs.m.taobao.com
@@ -5632,6 +5662,7 @@
 0.0.0.0 h-adashx.ut.taobao.com
 0.0.0.0 hw-p2p-pull.video-voip.com
 0.0.0.0 w1.askwai.com
+0.0.0.0 alog.umeng.com
 0.0.0.0 sdkconf.avlyun.com
 0.0.0.0 jpush.io
 0.0.0.0 adxserver.ad.cmvideo.cn
@@ -5671,12 +5702,14 @@
 0.0.0.0 mlog.bigda.com
 0.0.0.0 p2-lm.adkwai.com
 0.0.0.0 union.baidu.com
+0.0.0.0 adsmind.ugdtimg.com
 0.0.0.0 trace.qq.com
 0.0.0.0 log.ad.xiaomi.com
 0.0.0.0 sdownload.stargame.com
 0.0.0.0 otheve.play.aiseet.atianqi.com
 0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 abtest-ch.snssdk.com
+0.0.0.0 analytics-api.samsunghealthcn.com
 0.0.0.0 open.e.kuaishou.com
 0.0.0.0 slb-p2p.vcloud.ks-live.com
 0.0.0.0 data.mistat.india.xiaomi.com
@@ -5733,6 +5766,7 @@
 0.0.0.0 rtb.voiceads.cn
 0.0.0.0 agn.aty.sohu.com
 0.0.0.0 ogads-pa.clients6.google.com
+0.0.0.0 analytics.pinterest.com
 0.0.0.0 googletagservices-cn.com
 0.0.0.0 p4-be-pack-sign.pglstatp-toutiao.com
 0.0.0.0 telemetry.sdk.inmobi.com
@@ -5780,6 +5814,7 @@
 0.0.0.0 iot-eu-logser.realme.com
 0.0.0.0 cj.qidian.com
 0.0.0.0 log-sdk.ksapisrv.com
+0.0.0.0 api-access.pangolin-sdk-toutiao.com
 0.0.0.0 advertising-api.amazon.com
 0.0.0.0 sdk.mobads.adwangmai.com
 0.0.0.0 sl.hpplay.cn
@@ -5860,6 +5895,7 @@
 0.0.0.0 tangram.e.qq.com
 0.0.0.0 wxsnsdythumb.wxs.qq.com
 0.0.0.0 heads-ak.spotify.com.edgesuite.net
+0.0.0.0 adx.ads.oppomobile.com
 0.0.0.0 adx.sogaha.cn
 0.0.0.0 api-access.pangolin-sdk-toutiao3.com
 0.0.0.0 open.kwaizt.com
@@ -6768,7 +6804,6 @@
 0.0.0.0 eqghuu.com
 0.0.0.0 1iuybpo.com
 0.0.0.0 activity.hnhnmg.com
-0.0.0.0 adstats.tencentmusic.com
 0.0.0.0 availablesshaother.com
 0.0.0.0 zcczrvsaqw.world
 0.0.0.0 okqwidvnsk.net
@@ -6826,7 +6861,6 @@
 0.0.0.0 ssacher.com
 0.0.0.0 botnrr.xyz
 0.0.0.0 rbioclv.cn
-0.0.0.0 applog.uc.cn
 0.0.0.0 n3xpjc.xyz
 0.0.0.0 dieka888.com
 0.0.0.0 richshredinger.com
@@ -6853,7 +6887,6 @@
 0.0.0.0 lpocne.top
 0.0.0.0 daddq.cn
 0.0.0.0 oqyiapj.cn
-0.0.0.0 api-adservices.apple.com
 0.0.0.0 weizhenwx.com
 0.0.0.0 nzrovf.xyz
 0.0.0.0 xfgctg.com
@@ -6903,7 +6936,6 @@
 0.0.0.0 adtng.com
 0.0.0.0 pansclub.xyz
 0.0.0.0 vfsdgjrr.xyz
-0.0.0.0 analytics.s3.amazonaws.com
 0.0.0.0 hzhabei.cn
 0.0.0.0 vktztp.xyz
 0.0.0.0 fuliwang.cc
@@ -6920,7 +6952,6 @@
 0.0.0.0 beap.gemini.yahoo.com
 0.0.0.0 guangzhengtwentynine.top
 0.0.0.0 tbl258ym4.cc
-0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 cmspapp84.com
 0.0.0.0 sdvsv.com
 0.0.0.0 seordl.cn
@@ -7061,7 +7092,6 @@
 0.0.0.0 rzsgxmm.cn
 0.0.0.0 schedfi.com
 0.0.0.0 wn68din.cn
-0.0.0.0 an.facebook.com
 0.0.0.0 pr-bh.ybp.yahoo.com
 0.0.0.0 svvbrkk.cn
 0.0.0.0 dbnwlp.xyz
@@ -7097,7 +7127,6 @@
 0.0.0.0 api.qvpublish.com
 0.0.0.0 jd2ujc.cn
 0.0.0.0 lezbrja.cn
-0.0.0.0 analytics.pointdrive.linkedin.com
 0.0.0.0 uuzwvqc.cn
 0.0.0.0 udash.umengcloud.com
 0.0.0.0 rndhaunteran.com
@@ -7315,7 +7344,6 @@
 0.0.0.0 fgetmzx.icu
 0.0.0.0 jssav4hk.xyz
 0.0.0.0 bpztsxx.com
-0.0.0.0 api-access.pangolin-sdk-toutiao1.com
 0.0.0.0 upoll.umengcloud.com
 0.0.0.0 ronbbf.xyz
 0.0.0.0 hdfdsdaw.com
@@ -7347,7 +7375,6 @@
 0.0.0.0 mh616.org
 0.0.0.0 jgsajfggv.xyz
 0.0.0.0 svvev3.com
-0.0.0.0 app-measurement.com
 0.0.0.0 gl.zle.com
 0.0.0.0 ptfxh.com
 0.0.0.0 ldxinb.xyz
@@ -7367,7 +7394,6 @@
 0.0.0.0 dadzz.cn
 0.0.0.0 fhsmtrnsfnt.com
 0.0.0.0 poqjnkdsou.net
-0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 zeatse.buzz
 0.0.0.0 nourcomip.fun
 0.0.0.0 eccki.cn
@@ -7425,7 +7451,6 @@
 0.0.0.0 lm865.com
 0.0.0.0 jpvrbt.xyz
 0.0.0.0 uttlinediv.top
-0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 jjdk33.com
 0.0.0.0 esanciw.top
 0.0.0.0 qqqwww987.space
@@ -7486,7 +7511,6 @@
 0.0.0.0 hnxxt.net
 0.0.0.0 bzqqftz.icu
 0.0.0.0 zzgxqlzh.com
-0.0.0.0 adsmind.ugdtimg.com
 0.0.0.0 krr894.top
 0.0.0.0 axz650.com
 0.0.0.0 hmjhnkas.com
@@ -7850,7 +7874,6 @@
 0.0.0.0 wwgqqq.com
 0.0.0.0 flagshipism.com
 0.0.0.0 srmdz.vip
-0.0.0.0 api.installer.xiaomi.com
 0.0.0.0 bofnhn.com
 0.0.0.0 gghmef7.com
 0.0.0.0 simi1234.com
@@ -8276,7 +8299,6 @@
 0.0.0.0 svdpgmt.cn
 0.0.0.0 uckgqa.xyz
 0.0.0.0 xtpwfb.xyz
-0.0.0.0 api.ad.xiaomi.com
 0.0.0.0 zdcoes.live
 0.0.0.0 ifewo.xyz
 0.0.0.0 fg.yilianqing.com
@@ -8285,7 +8307,6 @@
 0.0.0.0 mt4v4.com
 0.0.0.0 qnfvojfkw.xyz
 0.0.0.0 caaie.xyz
-0.0.0.0 adsfs.oppomobile.com
 0.0.0.0 okbd2ou.icu
 0.0.0.0 vkjsnvk.com
 0.0.0.0 wangyq.ltd
@@ -8303,7 +8324,6 @@
 0.0.0.0 nieae.xyz
 0.0.0.0 saviourketonic.com
 0.0.0.0 websitequan.com
-0.0.0.0 advice-ads.s3.amazonaws.com
 0.0.0.0 s1.ssl.qhres.com
 0.0.0.0 xerhibx.cn
 0.0.0.0 bfugui.com
@@ -8347,7 +8367,6 @@
 0.0.0.0 fwlrv.cn
 0.0.0.0 twww.sbs
 0.0.0.0 zewfbw.buzz
-0.0.0.0 applog.zijieapi.com
 0.0.0.0 bhcnmrn.icu
 0.0.0.0 hegk06a.top
 0.0.0.0 jmr.nnxiant.cn
@@ -8373,7 +8392,6 @@
 0.0.0.0 5ggj5cp.com
 0.0.0.0 cmbkgmx.cn
 0.0.0.0 kpsabnm.xyz
-0.0.0.0 advertising.yandex.ru
 0.0.0.0 bnds3.site
 0.0.0.0 nmkghh.com
 0.0.0.0 e49.xyz
@@ -8383,7 +8401,6 @@
 0.0.0.0 zuixinyiqi.com
 0.0.0.0 owlinggnomist.com
 0.0.0.0 mngjrn.cn
-0.0.0.0 auction.unityads.unity3d.com
 0.0.0.0 tetiao9.com
 0.0.0.0 hfk7j.top
 0.0.0.0 hzrghx.xyz
@@ -8408,11 +8425,9 @@
 0.0.0.0 canser8.top
 0.0.0.0 ionksfefe.xyz
 0.0.0.0 ssl.linyiccic.com
-0.0.0.0 audid-api.taobao.com
 0.0.0.0 pfqwbqs.cn
 0.0.0.0 yaomuzhubao.com
 0.0.0.0 idawziv.cn
-0.0.0.0 als.baidu.com
 0.0.0.0 kgeshe.site
 0.0.0.0 5mgrgsc.cn
 0.0.0.0 yziwujuzq.live
@@ -8420,7 +8435,6 @@
 0.0.0.0 liates.top
 0.0.0.0 eiykmtb.cn
 0.0.0.0 gzsjym.xyz
-0.0.0.0 advertising.apple.com
 0.0.0.0 77nnv9.xyz
 0.0.0.0 smfjfgie.xyz
 0.0.0.0 ssp.qq.com
@@ -9258,7 +9272,6 @@
 0.0.0.0 ecudsc.cn
 0.0.0.0 036e.cn
 0.0.0.0 pohpll.xyz
-0.0.0.0 afs.googlesyndication.com
 0.0.0.0 pgcciax.icu
 0.0.0.0 vkjqbb.xyz
 0.0.0.0 37bhof.com
@@ -9337,7 +9350,6 @@
 0.0.0.0 www.bl2030.com
 0.0.0.0 oyysbc.xyz
 0.0.0.0 wbvfj.xyz
-0.0.0.0 adservice.google.com
 0.0.0.0 techain.baidu.com
 0.0.0.0 ads.superad.cc
 0.0.0.0 zdx30.site
@@ -9520,7 +9532,6 @@
 0.0.0.0 pirxzl.xyz
 0.0.0.0 prokyrn.icu
 0.0.0.0 yahekby.cn
-0.0.0.0 advertising-api-eu.amazon.com
 0.0.0.0 jkzbjv.xyz
 0.0.0.0 xckyqq.com
 0.0.0.0 fsnpbh.xyz
@@ -9626,7 +9637,6 @@
 0.0.0.0 open.oneplus.net
 0.0.0.0 knmwrkw.xyz
 0.0.0.0 tuplzt.xyz
-0.0.0.0 adx-open-service.youku.com
 0.0.0.0 aj4j.icu
 0.0.0.0 yuehesh.com
 0.0.0.0 tahltanboutell.com
@@ -9841,7 +9851,6 @@
 0.0.0.0 rssxsjh.icu
 0.0.0.0 yegziyf.cn
 0.0.0.0 ert.pengwenli.top
-0.0.0.0 api-access.pangolin-sdk-toutiao.com
 0.0.0.0 counter.tianjimedia.com
 0.0.0.0 idynbff.cn
 0.0.0.0 vghnnh.xyz
@@ -9952,7 +9961,6 @@
 0.0.0.0 oxj8hcfg.xyz
 0.0.0.0 brfvyrrp.com
 0.0.0.0 inowe.xyz
-0.0.0.0 adx.ads.oppomobile.com
 0.0.0.0 bhulgot.com
 0.0.0.0 statis1.mama.cn
 0.0.0.0 02asdf.com
@@ -9987,7 +9995,6 @@
 0.0.0.0 51jqq.top
 0.0.0.0 rmzbfum.cn
 0.0.0.0 zblz.me
-0.0.0.0 advertising.yahoo.com
 0.0.0.0 dxzky.love
 0.0.0.0 qw2v.taoxiehui.cn
 0.0.0.0 allykitchen.com
@@ -10022,7 +10029,6 @@
 0.0.0.0 cdn.vue-js.cyou
 0.0.0.0 www.ibgdd67.top
 0.0.0.0 yh20230625tu.com
-0.0.0.0 adtech.yahooinc.com
 0.0.0.0 zdftqc.xyz
 0.0.0.0 b59.xyz
 0.0.0.0 haejkmm.cn
@@ -10041,7 +10047,6 @@
 0.0.0.0 yuvdqnpo.com
 0.0.0.0 sc-gov-cn.website
 0.0.0.0 bkhblj.xyz
-0.0.0.0 api-htp.beizi.biz
 0.0.0.0 ddbuwo.cn
 0.0.0.0 wlhcb.cn
 0.0.0.0 afxncq.com
@@ -10388,7 +10393,6 @@
 0.0.0.0 govxinjiang.cn
 0.0.0.0 nefbjp.xyz
 0.0.0.0 cmspapp83.com
-0.0.0.0 analytics.tiktok.com
 0.0.0.0 huicpu.com
 0.0.0.0 www.dahe6f.com
 0.0.0.0 51gongxiao.com
@@ -10628,7 +10632,6 @@
 0.0.0.0 lsancil.top
 0.0.0.0 inpage-push.com
 0.0.0.0 legdeh.fun
-0.0.0.0 adstat.izuiyou.com
 0.0.0.0 cuioxbqi.com
 0.0.0.0 awiudbyqbpo.com
 0.0.0.0 ja.yushuha.com
@@ -10706,7 +10709,6 @@
 0.0.0.0 lhdlbp.xyz
 0.0.0.0 ltienll.top
 0.0.0.0 xnzetb.xyz
-0.0.0.0 alog.umeng.com
 0.0.0.0 qjxys.cn
 0.0.0.0 piqtpbxo.icu
 0.0.0.0 lganilgll.cyou
@@ -10777,7 +10779,6 @@
 0.0.0.0 mcdwfed.cn
 0.0.0.0 fdhvczd.cn
 0.0.0.0 smartmuchang.com
-0.0.0.0 analytics-api.samsunghealthcn.com
 0.0.0.0 nithisp.cn
 0.0.0.0 bmyrihf.icu
 0.0.0.0 restorationbowelsunflower.com
@@ -10841,7 +10842,6 @@
 0.0.0.0 ivqtrjt.cn
 0.0.0.0 count.pcauto.com.cn
 0.0.0.0 jssav6hk.club
-0.0.0.0 analytics.pinterest.com
 0.0.0.0 hohmaryt.com
 0.0.0.0 pirubcfy.xyz
 0.0.0.0 lccfjszp.cn
@@ -10865,7 +10865,6 @@
 0.0.0.0 oiuqwppcsdf.com
 0.0.0.0 lnaevr.fun
 0.0.0.0 oewtuho.cn
-0.0.0.0 adserver.unityads.unity3d.com
 0.0.0.0 wenjinsai.top
 0.0.0.0 creepingbrings.com
 0.0.0.0 cdn3.mancdn88.com
@@ -11064,9 +11063,6 @@
 @@||img.ads.tvb.com^
 @@||ad.ourgame.com^
 @@||x2.ifengimg.com^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-@@||cdn-msp*.18comic*.*^
-@@||cdn-msp*.18comic.*^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -21050,6 +21046,9 @@ cloudflareinsights.com$third-party
 7654.com##div[class^="sidebarimg"]
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+@@||cdn-msp*.18comic*.*^
+@@||cdn-msp*.18comic.*^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||6cjdya3djn.com^
 ||918000.xyz^
 ||1buo.icu^
@@ -22113,22 +22112,6 @@ ubmcmm.baidustatic.com
 ||8feichai.com^
 ||9clasfdc3.com^
 ||adroition.net^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||38.33.15.*.gif
-||67.21.92.*.gif
-||adi*.cnool.net^
-||ads*-normal*.zijieapi.com^
-||a*.chajiaotong.com^
-||ac*.faxingchina.com^
-||ac*.786ip.com^
-||163487*.qmgmw.com^
-||ad*.on.cc^
-||121.204.246.*.gif
-||acookie.*.gif?
-||107.167.16.*.gif
-outlook.live.com._6tqjFb_HmyQup_NPe6dhC
-||ac*.pingguolv.com^
-||107.167.22.*.gif
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||365xuet.com/assets/web/js/main.jsr_
 fox.com.tr#@#.text-ad
@@ -31054,6 +31037,22 @@ view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 maoken.com###siderAd01
 mathportal.org/temp/blocked/blockedCounter.php
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||38.33.15.*.gif
+||67.21.92.*.gif
+||adi*.cnool.net^
+||ads*-normal*.zijieapi.com^
+||a*.chajiaotong.com^
+||ac*.faxingchina.com^
+||ac*.786ip.com^
+||163487*.qmgmw.com^
+||ad*.on.cc^
+||121.204.246.*.gif
+||acookie.*.gif?
+||107.167.16.*.gif
+outlook.live.com._6tqjFb_HmyQup_NPe6dhC
+||ac*.pingguolv.com^
+||107.167.22.*.gif
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||kszvmqo.cn^
 ||hwilmiu.top^
 ||img.911787.com^
@@ -31908,6 +31907,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||bgdizsay.icu^
 ||papaneecorche.com^
 ||calyxesdefames.com^
+||lls11081ko.com^
 ||diouy9cvtx.xyz^
 ||ds1.kaijia.com^
 ||d1.5h.com^
@@ -33207,7 +33207,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||eheb8.cn^
 ||bebx.cn^
 ||img16.diyifanwen.com^
-||qf1d.top^
 ||fillhr.xyz^
 ||heatherssb.com^
 ||iridialachkan.com^
@@ -34405,7 +34404,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lamkghx.icu^
 ||druqodrly.com^
 ||cmgjqqu.cn^
-||qezpjlp.cn^
 ||l23jhjfasd.xyz^
 ||jnjslk.top^
 ||mq54k4yxpt.com^
@@ -36092,6 +36090,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||counter.pcauto.com.cn^
 ||hnwucnu.top^
 ||hkk456.cc^
+||dtroldad.com^
 ||ooksq.top^
 ||poyc.cn^
 ||faamhel.com^
@@ -36498,32 +36497,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ccav.website^
 ||cdrhjt.com^
 ||kruraits.com^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||bdcpro*.techweb.com.cn^
-||js.*2023*.live^
-||impservice*.youdao.com^
-||d*.ruiwen.com^
-||fanpingbi*.gaokao.com^
-||dn*.ixinwei.com^
-||molpmh.xyz|
-||bdlm*.hc360.com^
-||bjkedv*.xyz^
-||d*.xinshipu.com^
-||fpb*.51edu.com^
-||p26.gejulm*.com^
-||ja*.gamersky.com^
-||gtlpa*.com^
-||at*.doubanio.com^
-||dm*.yxlady.com^
-||gcw*.2liang.cn^
-||impservice*.yodao.com^
-||js.*2023*.xyz^
-||fpb1.chinacar.
-||opnked*.xyz^
-||ax.*.ifeng.com^
-||js*.abolezi.com^
-||asd8900.oss-*.aliyuncs.com^
-||ky891.oss-*.aliyuncs.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
 ||img588.net/images/*.gif
@@ -41058,6 +41031,32 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lelekan.com/sp/fmt.js
 ||compiledoctor.com^$third-party
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||bdcpro*.techweb.com.cn^
+||js.*2023*.live^
+||impservice*.youdao.com^
+||d*.ruiwen.com^
+||fanpingbi*.gaokao.com^
+||dn*.ixinwei.com^
+||molpmh.xyz|
+||bdlm*.hc360.com^
+||bjkedv*.xyz^
+||d*.xinshipu.com^
+||fpb*.51edu.com^
+||p26.gejulm*.com^
+||ja*.gamersky.com^
+||gtlpa*.com^
+||at*.doubanio.com^
+||dm*.yxlady.com^
+||gcw*.2liang.cn^
+||impservice*.yodao.com^
+||js.*2023*.xyz^
+||fpb1.chinacar.
+||opnked*.xyz^
+||ax.*.ifeng.com^
+||js*.abolezi.com^
+||asd8900.oss-*.aliyuncs.com^
+||ky891.oss-*.aliyuncs.com^
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||tencent.xn--io0a7i^
 ||thricroiw.com^
 ||www.youzonggw.com^
@@ -42323,6 +42322,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||worlderva.com^
 ||uhityllhn.com^
 ||www.xiewje.com^
+||qf1d.top^
 ||www.dahe6f.com^
 ||ubmcvideo.baidustatic.com^
 ||zaeqrath.com^
@@ -42573,6 +42573,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tucnwti.top^
 ||rtborp.xyz^
 ||u7em6.xyz^
+||sd0ycgs3n0.com^
 ||vvfgjzwa.icu^
 ||wliksa.icu^
 ||yonsandileer.com^
@@ -43041,6 +43042,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||yawnfulharpa.com^
 ||stats.766.com^
 ||telecome.cn^
+||qezpjlp.cn^
 ||qwcwnjk.com^
 ||qweizay.top^
 ||rtjmln.xyz^
@@ -43352,6 +43354,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zno9qw80o.com^
 ||umbrellaomendear.com^
 ||r3nvrr4uzh.com^
+||t2q0gv7zjg.com^
 ||xls.go.sohu.com^
 ||uoqc.cn^
 ||xu6.icu^
@@ -43977,6 +43980,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||stamenbs4.com^
 ||xhzmjs.com^
 ||ztlkngyj.icu^
+||svrj.cn^
 ||t0pan.top^
 ||yijiuningyia.gushiwen.org^
 ||u55011.com^
@@ -44281,36 +44285,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||scinmab.top^
 ||whwxxny.com^
 ||wizoevljj.com^
-! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
-||sax*.sina.
-||zcchyr*.xyz^
-||uc*.atobo.com^
-||res*.pinpai8.cn^
-||zaqlovh*.xyz^
-||zazgiyoh*.xyz^
-||zcchyw*.xyz^
-||sd.yhzzzs*.com^
-||ya*.dwstatic.com^
-||static*.365inews.com^
-||ysdm*.ys137.com.cn^
-||tw-726620180914.*.run.app^
-||zazgiyoh*.world^
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||same*.stockstar.com^
-||tupian888.*.bcebos.com^
-||zabdybod*.club^
-||yhsfsdv*.com^
-||thezbpe5*.xyz^
-||zazgbqg*.xyz^
-||zbc6hye*.xyz^
-||www.xxmh*.com^
-||sam*.baby-kingdom.com^
-||zahrvfbd*.xyz^
-||zbc6hy*.live^
-||qpb*.sohu.com^
-||union*.365inews.com^
-||zbb.bbb.*.pics^
-||vns86.oss-*.aliyuncs.com^
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
 ||xywy.com/zhixing/
@@ -46342,3 +46316,33 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||super.cz/*&*=$subdocument,domain=super.cz
 ||shitouxs.com/static/042417.js
 ||xuehi.cn/reward/reward
+! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
+||sax*.sina.
+||zcchyr*.xyz^
+||uc*.atobo.com^
+||res*.pinpai8.cn^
+||zaqlovh*.xyz^
+||zazgiyoh*.xyz^
+||zcchyw*.xyz^
+||sd.yhzzzs*.com^
+||ya*.dwstatic.com^
+||static*.365inews.com^
+||ysdm*.ys137.com.cn^
+||tw-726620180914.*.run.app^
+||zazgiyoh*.world^
+||zhizhizhizhi.oss-*.aliyuncs.com^
+||same*.stockstar.com^
+||tupian888.*.bcebos.com^
+||zabdybod*.club^
+||yhsfsdv*.com^
+||thezbpe5*.xyz^
+||zazgbqg*.xyz^
+||zbc6hye*.xyz^
+||www.xxmh*.com^
+||sam*.baby-kingdom.com^
+||zahrvfbd*.xyz^
+||zbc6hy*.live^
+||qpb*.sohu.com^
+||union*.365inews.com^
+||zbb.bbb.*.pics^
+||vns86.oss-*.aliyuncs.com^
