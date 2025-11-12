@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-11-12 16:28:12
+! Last Modified: 2025-11-13 00:27:55
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -862,8 +864,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -1286,6 +1286,7 @@ cinemablend.com#@#.pub_300x250
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato)/ 'div[data-viewport]' 'div[data-viewport] div[role="text"]'
 @@||dlkoo.com^$generichide
 @@||sports.ru^*/adfox.$xmlhttprequest
+allegro.*#$#hide-if-matches-xpath '//div[@data-box-name="structure-container"][@data-analytics-category="layout.container"][.//span[text()="Sponsorowane"] or .//span[text()="Szponzorált"]]' '' complete
 ##[href*='anrvl.com']
 centrum.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"ReklamnyBox_")]'
 ##a[href*="/137.220.194.105:"]
@@ -4154,7 +4155,6 @@ baidu.com##a[class*="fengchaoContainer"]
 cinemablend.com#@#.pub_728x90
 6park.com##a[href*="jdoqocy."]
 @@||haoweichi.com/Public/js/ads.js
-allegro.pl#$#hide-if-matches-xpath '//div[@data-box-name="structure-container"][@data-analytics-category="layout.container"][.//span[text()="Sponsorowane"]]' '' complete
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 ##.postmessage > #googleFirst
 :8080/js/v1.js$third-party
@@ -4721,7 +4721,6 @@ boniu123.cc##.td_item
 babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
 /img/bbsad/*
 @@||mhxk.com^*/main/entry.common.$script
-cliphubs.com#$#abort-current-inline-script document.addEventListener pop
 animixplay.*,aniwatch.*,moviesjoy.*,movieshdwatch.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 cool18.com###d_right_ad
 auto.ifeng.com##.acquire_1
@@ -6523,6 +6522,7 @@ faayoo.com###footer_fd
 edrawsoft.cn###bottom-banner-activity-md
 cnbeta.com.tw,thinkphp.cn##.cooperation
 ##a[onclick^="_czc.push(['_trackEvent', '广告"]
+cliphubs.com,greengatewills.co.uk#$#abort-current-inline-script document.addEventListener pop
 .com/dm/banner.js
 cvs.com#$#hide-if-contains-visible-text /(Sponsored)/ 'div[style^="width:"]' 'div[dir^="auto"]'
 -bobo_recommend_
@@ -14486,7 +14486,6 @@ weibo.com##div[class^="HotTopic_doticon_"] + div[class^="HotTopic_tit_"]
 gaara-fr.com###ga-skin-right
 ifeng.com###js_videopause_container
 portablesoft.org##.rightside > :nth-child(n+2)
-||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 nfuwow.com##.adtopnewnewbox
 ||520z-2.com/uploadfile/sucai/
 ||5imx.com/image/image/
@@ -22023,6 +22022,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||bbs.hotavxxx.com/images/201*.gif
 ||bosw.net/js/bos/*960
 ||huanqiu.com/resource/js/base
+||nodejs.cn/_static/js/common.js
 ||poeticpackage.com^$third-party
 ||ambientlagoon.com^$third-party
 ||cdncg.com^*/Aepku
@@ -23217,7 +23217,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kyliane.fr/pub.php
 ||nondescriptnote.com^$third-party
 ||pfkgl.top/images/*.gif
-||qchannel03.cn$third-party
 ||bbsbaba.com/js/1.js
 ||lancdn.com/public/images/view/Tencent-
 ||crafthenry.com^$third-party
@@ -23607,6 +23606,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||baihuwang.com^$third-party
 ||gliacloud.com/player/adgeek_teep
 ||mtime.cn/tg/
+||alicdn.com/img/ibank/*_1746120392.$domain=~rmdown.com
 ||gaglxx.com/5_
 ||mydrivers.com^*728_90.
 ||chinacloudsites.cn/api/promotion?
@@ -25401,6 +25401,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||s1-a1.dnvodcdn.me^*.mp4
 ||securepubads.g.doubleclick.net/static/topics/topics_frame.html$subdocument,document,domain=golfgalaxy.com|dickssportinggoods.com
 ||sinaimg.cn^*/pushDiversion*.js
+||qchannel03.cn$third-party
 ||ruguoapp.com^$domain=aixiaoju.com
 ||ys630.com^$third-party
 ||unwieldyplastic.com^$third-party
