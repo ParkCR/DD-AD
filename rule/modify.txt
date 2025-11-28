@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-11-28 00:25:50
+! Last Modified: 2025-11-28 09:38:09
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -879,8 +881,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -1491,6 +1491,7 @@ economic45882.shop,cdn4.tiptoe34x1.fun#$#abort-current-inline-script $ arrDirect
 animehay.life#$#abort-current-inline-script Number ;break;case
 ###adblockinfo
 @@||10010.com/mall/common/js/fa.js?referer=
+axiang.cc###achang-related-adsense
 @@||kaitao.cn/public/wenda/ad/css/ds-un-detail.css
 1point3acres.com###portal_block_479
 ettoday.net###mobileweb_inread
@@ -4313,7 +4314,6 @@ atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.c
 @@||dayanzai.me/image/ad/$image
 @@||tv3sport.dk/ad.banner.adview.html
 @@||static.game-state.com/js/adblock.js$script
-axiang.cc###photo-sliders + .widget_text
 blog.iportable.in##body > b[style="z-index: 10000;"]
 ##body > DIV[style='display: block; width: 100%; height: 133px;']
 -banner-iklan-
@@ -20406,7 +20406,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||meremark.com^$third-party
 ||letvcdn.com/lc02_live/201803/18/23/40/1521387641261new.
 ||ickd.cn/mobile/js/touch
-||ptfish.com/*/ad$image,object
 ||bbs.south-plus.org/images/masha5-1.gif
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=gamer.com.tw,important
 ||leeleo.top^$third-party
@@ -24967,6 +24966,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||qbox.me/FlnVIdUeIo_LrXyGiOL0OFw0Gpa7
 ||readymoon.com^$third-party
 ||szhongzi.com/js/
+||ptfish.com/*/ad$image,object
 ||suibiankan.co/Runtime/Js/
 ||thcdy.co/baidu2/index_top.js
 ||videos-fms.jwpsrv.com/*/content/conversions/*.mp4|$media,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
@@ -25467,6 +25467,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tnc*.zijieapi.com^$app
 ||tubesafari.com/*/new_popunder.js$domain=tubesafari.com
 ||stakingshock.com^$third-party
+||workers.dev^$domain=axiang.cc
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||tz659.com/js/html*.js
 ||zmk.pw/zfb.png
