@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-12-03 16:29:52
+! Last Modified: 2025-12-04 00:30:17
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,8 +19,6 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: fundingchoicesmessages.google.com
@@ -910,6 +908,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1968,7 +1968,6 @@ downkr.com#@#.address-left > ul:nth-child(2)
 @@||jswenhui.com^*/ad/
 cnys.tv#@#.player-news > .news-list
 amap.com##.app_download_box
-ebay.*#$#json-prune 'modules.{}.containers.[].cardContainers ADS_AND_MERCH_LIST_V2'
 @@||ynet.co.il/common/javascript/ads.js$script,~third-party
 egame.qq.com##.widget-box
 ##a[href*="/33hth.cn"]
@@ -2119,6 +2118,7 @@ cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][
 ##body[ontouchstart] > div[id^="content_"][style="display: block;"]
 douban.com##.channel_promo
 chinabidding.com.cn##.innovate + .layer
+ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato/ 'ul>li' 'ul> li span[aria-labelledby]' '-ignore-padding:true' 'color: rgba(0, 1, 0, 0)' '-disable-bg-color-check: true'
 ##body.fed-min-width.website-read > [style='bottom: 132px;']
 ://m.*.cn/*.xmtl?$third-party
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
@@ -4871,7 +4871,6 @@ ctfile.com##a[href*=".henghost.com"]
 @@||nceea.cn/Content/images/ad/
 biz.ifeng.com##.riodel
 ##.player-rm-float
-agronews.ua,agroreview.com,agroweek.com#$#prevent-listener DOMContentLoaded 'adId'
 ##.gg_canvas
 e0575.cn##div[id^="tid_"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.activity_iframe_container
@@ -9614,6 +9613,7 @@ cztv.com##.drop_down_ad
 @@||cash4links.co/intermission/loadTargetUrl$xmlhttprequest
 bilibili.com##.ad-report
 :8888/mb1/wap_
+agronews.ua,agroreview.com,agroweek.com#$#prevent-listener DOMContentLoaded 'adId'; prevent-listener click 'track_ad_click'; abort-on-property-write localStorage
 baytorrent.eu.org,europixhd.com,europixhd.net,file-up.org,force-download.com,force-download.es,force-download.net,gledajonline.net,hdeuropix.io,loadsubs.net,novom.ru,pirateproxy.earth,pirateproxy.live,thehiddenbay.com,thepiratebay.org,thepiratebay.vip,thepiratebay10.org,topeuropix.net,tpb.party,uploadproper.com,uploadproper.net#$#abort-on-property-read atob
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=setn.com
 3g.163.com##.js-new-relative-doc.new_relative_doc
@@ -10283,7 +10283,6 @@ ahaonline.czinfo.cz,onetv.cz##[data-google-container-id], .is_stuck
 acfun.cn###prompt-box
 95ziyuan.cn##.jiuwu
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=hentenaar.com
-agroreview.com#$#abort-current-inline-script encodeURIComponent rcBuf; abort-current-inline-script Object.defineProperty rcBuf; prevent-listener DOMContentLoaded 'adId'
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=facebookproxy.info
 ##body#read.read DIV[style$=' width: 100vw; position: relative;']
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###baiduweishiDown
@@ -10309,6 +10308,7 @@ ctinews.com###taboola-slot
 @@||adultkino.org/ads/banner.jpg$image
 .xyz/jque*.js?$third-party
 dongmanhuayuan.myheartsite.com##.card-body
+ebay.*#$#json-prune 'modules.{}.containers.[].cardContainers ADS_AND_MERCH_LIST_V2'; hide-if-matches-xpath '//div[starts-with(@class, "vim vim-ds6")]//div[@data-viewport][position() > 1]';
 baidu.com##.chunwan-wrapper
 duplichecker.com,searchenginereports.net,plagiarismchecker.co,plagiarismdetector.net,smallseotools.com#$#abort-on-property-write $img_html; override-property-read ads_function undefined; override-property-read adpushup noopFunc; abort-on-property-read FITS.Config; strip-fetch-query-parameter /firebase-messaging.js/; abort-current-inline-script $ g_amamarly_model; abort-current-inline-script $ ga_rammarly-popup;
 /js/showgg.js
@@ -15119,6 +15119,7 @@ weibo.com#?#tr:has(> .td-03 > .icon-txt-recommend)
 ||28hse.com/adsman/www/images/
 jiaodong.net###leftBanner
 mobile01.com###show-play-ad
+viet69.nu,dualeotruyenjd.com,yurineko.my,lonmup.net,cliphot69.shop,doctruyen3qui19.com,ihentai.network,animehay.life,hentaivc.pro,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn70.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,3xnungsex.com,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.onl,truyenqqno.com,clipsexsub3x.net,sayhentai.live,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net,newtruyenhot.pro,www.sieutamphim.pro,vevocloud.com#$#abort-current-inline-script WebAssembly instantiate
 live.bilibili.com#?#div.pointer:contains(下载客户端)
 loldk.com##a[href^="http://www.esportsclub.cn/home/"]
 novinky.cz##div[class*="banner-ad"]
@@ -19235,7 +19236,6 @@ mercadolivre.com.br#$#hide-if-matches-xpath './/a[@class="poly-component__ads-pr
 ifeng.com##.adR01
 wjx.cn###ctl01_ContentPlaceHolder1_divProMsg
 zhicheng.com##.mad_top
-viet69.nu,dualeotruyenjd.com,yurineko.my,xemlaphe.com,cliphot69.shop,doctruyen3qui19.com,ihentai.network,animehay.life,hentaivc.pro,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn69.com,phim18hdxx.com,vn5.sexviet88.xyz,demo.14412882.com,3xnungsex.com,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.onl,truyenqqno.com,clipsexsub3x.net,sayhentai.live,motphim.pokemonviet.com,lxmanga.my,phimlongtieng.net,newtruyenhot.pro,www.sieutamphim.pro,vevocloud.com#$#abort-current-inline-script WebAssembly instantiate
 weibo.com#?#.card-content > ul > li:has(>a[action-type="realtimehot_ad"])
 jmcomic-zzz.org,18comic.org,18comic.vip#%#//scriptlet('abort-current-inline-script', 'document.dispatchEvent', '/getexoloader/')
 manhuagui.com##.gg_728
