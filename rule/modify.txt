@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-12-12 00:31:38
+! Last Modified: 2025-12-12 09:44:45
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,10 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -275,7 +279,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -905,8 +908,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -13466,7 +13467,6 @@ moe-acg.com##a[href*=".x8o.de"]
 ||4567.org^$third-party
 hupu.com##.banner-item[data-ad-params*=":"]
 pptjia.com##.alert2_wrap
-game3rb.com,kissjav.*#$#abort-on-property-read open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 www.gvnvh18z.com#$#abort-current-inline-script Math
 helloyishi.com.tw##.article-desktop-ad-wrapper
 iqiyi.com##.cupid-panel + div
@@ -16170,6 +16170,7 @@ playno1.com###frame8I822E
 ||18183.com/common/js/side.js
 ifeng.com##div[class^="pplive"]
 hujiang.com##.login-modal-wrapper
+game3rb.com,kissjav.*,myvidplay.com#$#abort-on-property-read open; abort-current-inline-script WebAssembly Promise; abort-current-inline-script WebAssembly atob;
 xanimu.com##div[id^="special-block"]
 pianba.net###jiedoubanban
 jingyingjiajiao.com##DIV[style="width:auto;border: 1px solid #aaaaaa; position:fixed; bottom:1px; right:1px;z-index:2000"]
@@ -17837,6 +17838,7 @@ weather.com.cn##A[href*=".tmall.com"]
 mydisc.net#@#.ad_2
 taoguba.com.cn##.ct_app
 noon.com##img[src^="ad-tag"]
+upns.*,rpmvip.com,playerp2p.*,callistanise.com#$#hide-if-matches-xpath './/div[contains(translate(@style, " ", ""), "position:fixed;inset:0px;z-index:2147483647")]/self::div'
 novinky.cz,super.cz,sport.cz,kupi.cz##.Rggheysn
 ||99496.com/static/
 makepolo.com##div[class*="_ad"]
