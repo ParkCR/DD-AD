@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-12-26 00:27:01
+! Last Modified: 2025-12-26 09:45:27
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -4607,6 +4607,7 @@ dailymail.co.uk##.billboard
 @@||poedb.tw^$generichide
 cnlinfo.net##.guanggao-right
 @@||gaus.ee^$generichide
+douyu.com#?#div[class^="body__"] > div[class^="card__"] > span > span[class^="card__"]:has(span[class^="cardTypeLabel"]:contains(广告))
 cidetxt.cc#%#//scriptlet('prevent-setTimeout', 'try{e()}catch(e){if(t[e.message])return;')
 85wp.com##.top-ad-img
 bcbay.com##.ad_txt_box
@@ -10734,7 +10735,6 @@ dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidde
 /images/sgcrwj*.gif
 360kuai.com##.article__content__yyconfig
 @@||icbc.com.cn/icbc/include/AD_
-finfront.ru##div[class^="swal2"]
 360doc.com##.ggwz
 2345.com##.dzc-hn-cmoe
 baidu.com###page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
@@ -19801,6 +19801,7 @@ hexieshe.cn###media_image-3
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 parenting.pl,echirurgia.pl,dobreprogramy.pl,abczdrowie.pl,wp.pl#$#override-property-read rekid 0
 otzovik.com#$#abort-on-property-read Object.prototype.RtbBlockCreateWrapper
+finfront.ru##div[class^="swal2"]
 player.fm#$#hide-if-contains-visible-text /SPONSORED|SPONSORERET|GESPENSERT|PATROCINADO|SPONSORISÉ|DISPONSORI|DITAJA|SPONSOR|SPONSORIZZATO|SZPONZORÁLT|SPONSOROWANY|SPONSORIZAT|ΕΠΙΧΟΡΗΓΟΎΜΕΝΟ|РЕКЛАМА|РЕКЛАМА/ 'div[data-style]' 'div.sponsored-content p.subtitle'
 jiaodong.net###rightBanner
 m.sohu.com###artLifeService
@@ -23775,6 +23776,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=adExt
 ||deqixs.com/config/v7.js
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
+||douyucdn.cn/adxdsp/
 ||jijidy.com/640x200down.
 ||alicdn.com^$domain=99re.com
 ||csdn.net/msg.popup.js
