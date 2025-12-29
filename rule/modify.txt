@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2025-12-29 09:54:23
+! Last Modified: 2025-12-29 16:32:44
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -277,6 +275,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -13722,6 +13721,7 @@ qq.com,sogou.com##.banner-vda
 ||*/loader.min.js|$script,domain=kreuzwortraetsel.de
 mamecn.com##.njjGsxzRight
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="/bimbu?"]
+fnc.ebc.net.tw##.dfp_ad
 template/m1938pc/ads/*.js
 haosou.com###so_feb
 ltn.com.tw##.ad_w300
@@ -17955,7 +17955,6 @@ vipthz.com###fwin_content_imc_attachad [style="WIDTH: 100%; padding-left:10px;"]
 muchong.com##p[onclick="view_ok();"]
 mydrivers.com##div[style*="/ad/"]
 xdf.cn##.middleadv
-||ad-survey.com^$third-party
 oschina.net###project_ad_banner
 noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Ad")]/parent::div[contains(@class,"adWrapper")]/ancestor::div[contains(@class,"ProductDetailsDesktop_maxWrapper")][1]'
 ishare.ifeng.com##section[class^="relateVideo"]
@@ -22396,6 +22395,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||cifnews.com/common/js/d/d/tea.js
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||eastday.com/static/js/ad
+||ad-survey.com^$third-party
 ||di2y21.top/jian/jiansshu.js
 ||kan98.com/images/*.gif
 ||nfmovies.com/pic/tu/banner
