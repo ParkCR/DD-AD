@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-01-13 16:32:14
+! Last Modified: 2026-01-14 00:33:05
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -9591,6 +9591,7 @@ chongbuluo.com##.search > div[style="width: 607px;margin-top:30px;"]
 banma.com##div[id^="disapper"]
 filegaga.com##A[href^="/ot/fast.php"]
 1010jiajiao.com###daan_recommend + .xiti
+###interstitial_fade[style^="display: block"]
 /pic/tgad/*
 @@||mediav.com/js/reward_video_pc.min.js$domain=baiten.cn
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###game_cover_head_wrapper
@@ -10668,7 +10669,6 @@ downza.cn###priDownBtn + a[href*="?module="]
 /js/tj.js
 cw.com.tw#?#.adActive > .list-link:has(> ul > li > div[id^="div-gpt-ad"])
 alu.cn##.Tg_390x60
-finance.sina.com.cn##.downLink
 diyifanwen.com###Hzh2
 diyifanwen.com###Hzh1
 516qq.cn##.w1100
@@ -11681,6 +11681,7 @@ hk.on.cc##div[id^="google_div_"]
 xbgame.net#$#.download .content-area > div[class] { background-image: none !important; }
 ||3158.cn/min/webim.
 olx.com.br#$#hide-if-matches-xpath '//div[@id="advertising-home-banner-anchor"]/ancestor-or-self::div[contains(@class,"AdvertisingSlotAnchor_advertising-anchor__content__")]/parent::div[1]'
+xoilaczzizz.tv#$#abort-current-inline-script jQuery open
 zk001.cc##section[class^="ch"]
 sina.com.cn##.m-p1-lb1-ad
 proplanta.de#@##adDiv
@@ -15814,7 +15815,6 @@ newtalk.tw###_popIn_recommend
 verdirectotv.com##div[id^="closeX"]
 sina.cn##.btn_follow.j_article_wbreco
 nobugin.com##.td-a-rec
-xoilac86a.tv#$#abort-on-property-read adsRedirectPopups
 toolfk.com##.top > div[style="font-size: 12px;text-align: center;margin-top:6px;"]
 tvdez.com,casadossegredos.tv,estadiofutebol.com,televisaofutebol.com#@##pubfooter
 now.com#%#//scriptlet('set-constant', 'preBid.displayAd', 'noopFunc')
@@ -15968,7 +15968,6 @@ ziqiangxuetang.com##a[href="/j/coding/"]
 wk.baidu.com##.fc-ad-wrap
 xc6b.com##.activity-box
 ixueshu.com##a[href^="https://adapi."]
-phimmoii.ac,motchillie.io#$#prevent-listener click ads
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
 m.ke.com##div.lj-track:nth-of-type(14)
 videopremium.tv#@#.pub_300x250
@@ -16085,6 +16084,7 @@ zetorrents.com##A[href^="http://www.insta-cash.net/tds/?"]
 ||775mz.com/js/jquery.js
 flightradar24.com##.noads
 hitomi.la#$#abort-on-property-read AdProvider
+xoilaczzizz.tv#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 itdoesnttastelikechicken.com#$#cookie-remover /adblocker/ true
 ishuati.com###adsh
 nextapple.com###lrec01
@@ -16339,7 +16339,6 @@ manhuapica.com##a[href^="/ad/"]
 tieba.baidu.com##.operate-btn
 ghxi.com#$#.wpcom_ad_wrap { position: absolute !important; left: -3000px !important; }
 tuchkatv.ru##.adb_m
-xoilaczzmzz.tv#$#abort-current-inline-script jQuery open
 ||acgbase.com^$third-party
 huaban.com#$#div[data-content-source="导航栏"] > a.modalOpenWidth { display: none !important; }
 vip.diaoyu18.com##.huadong > div[style="text-align: center;margin-bottom: 10px;"]
@@ -17052,7 +17051,6 @@ pan.baidu.com###share_ad_info_panl
 gezila.com##.tishi + dl
 m.douban.com##.TalionNav-static > .info
 live.bilibili.com##.container-wrapper[style="height:180px;min-width:1280px"]
-xoilaczzmzz.tv#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 megagames.com#$#abort-on-property-write $jscomp
 sosg.net###postlist + .cc
 pc6.com##.Advbox
@@ -17496,7 +17494,6 @@ reflex.cz###gl-nat
 sex-studentki.gold,seks-studentki.pro#$#prevent-listener DOMContentLoaded click_time
 www.sina.com.cn###SI_EDU_AD
 ||17ok.com/focus/3j_right_jdt.shtml
-xoilaczzmzz.tv#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 tsubasa.im#%#//scriptlet('prevent-setTimeout', '/home/?adblock=')
 yicai.com##.gg_loadpage
 ||*.6ec7e42994.com/*.js^$script,domain=lscomic.com
@@ -18657,6 +18654,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [i
 marketwatch.com#$#hide-if-matches-xpath './/img/following-sibling::span[contains(text(),"Ad Block")]/ancestor::div/ancestor::div[string-length(@class) >26]'; hide-if-matches-xpath './/div[@style][@class][@data-dianomi-context-id]//img[@style]/following::iframe[@style][contains(@title,"Dianomi ad")]/ancestor::div[string-length(@class) >26][1]';
 l-a-w.ru,mhelp.kz##.swal2-container
 ||9938.net/video/tvg/hot.js
+phimmoii.cx,motchillb.io#$#prevent-listener click ads
 volynpost.com#$#abort-on-property-read trek_shownow
 y.qq.com###js_mod_dialog
 quora.com##.q-box.qu-borderTop>[class^="Box-"] .q-box.qu-pt--medium.qu-pb--tiny
@@ -19577,6 +19575,7 @@ yaofangwang.com##.bad
 yasem5.com##a[href*="yasem5.com/go"][target="_blank"]
 www.facebook.com,web.facebook.com#$#race start; hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][contains(@attributionsrc,"/privacy_sandbox/comet/register/source/?eid")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][@attributionsrc="blank"][@target="_blank"]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][contains(@attributionsrc,"/privacy_sandbox/comet/register/source/?eid")]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'; hide-if-matches-xpath '//div[@role="complementary"]//following::a[@aria-labelledby][@attributionsrc="unknown"][@target="_blank"]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[@class][1]'; race stop;
 karaoketexty.cz###sky_right_col
+xoilaczzizz.tv#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 ithome.com##.rm-modal1-bg
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 wezhicms.com#?#.card-main:has(.waimai-item-img)
@@ -19732,6 +19731,8 @@ rising.cn###pageflip
 tv.sohu.com##.actv-banner.js-app-topbanner,.banner_yunying,.js-oper-pos,IMG.vrs-banner-act-img
 nfuwow.com##.midbgdbox
 sina.cn##.sw_c0.fix_top
+finance.sina.com.cn##.downLink
+xoilac86aa.tv#$#abort-on-property-read adsRedirectPopups
 moonbbs.com##.dm-header-ad
 ||2345.com/guess/v1/adList
 m.jd.com###pannelSeat
