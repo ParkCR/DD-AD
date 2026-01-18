@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-01-18 09:56:17
+! Last Modified: 2026-01-18 16:28:02
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -276,6 +274,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -4168,6 +4167,7 @@ biggestplayer.me##.soret
 /iscar.svc/getadvert?
 ###adblockpopup
 bdimg.com,tieba.baidu.com,tieba.com#?#.tl_shadow:has(> .ti_item > .ti_infos > .label_text_tag:contains(广告))
+##DIV.floating-ad
 17173.com##.slide-list > li[style]:has(> a[href*="&ad_code="])
 @@||ez3c.tw^$generichide
 ###micast_ads
@@ -7263,7 +7263,6 @@ allegro.*##div[data-box-name^="car0usels.base"][data-analytics-groups*="sponsore
 en8848.com.cn##.list_adv
 ###wrapper > .topad
 @@||sinaimg.cn^*/deco/*/sinaObj.js
-finance.sina.com.cn##.appendQr_wrap.clearfix
 66law.cn##.consult-bottom-fixed
 ##div#xinxi
 ?client=ca-pub-$script,domain=karaoketexty.cz
@@ -16566,6 +16565,7 @@ m.huya.com###template
 skyarea.cn#@#.post-share
 neoseeker.com##div[id][style^="min-height: 255px"]
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
+finance.sina.com.cn##.appendQr_wrap.clearfix
 kalvin.cn##.fell_advertisement_box
 londynek.net###abp
 firefoxchina.cn,hao123.com,muzhi.baidu.com##.bottom-banner
