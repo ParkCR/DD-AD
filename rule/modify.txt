@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-01-29 16:40:18
+! Last Modified: 2026-01-30 00:44:47
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1478,7 +1478,6 @@ marketwatch.com,wsj.com#$#abort-on-property-write window.__buildAd;
 fox.com.tr#@#.textAd
 tokopedia.com#$#hide-if-contains /^Ad$/ 'div[class$="carousel"]>div[class][style]' 'a[class][data-theme] span'
 forumdz.com###breadcrumb + center > [color="red"] > b
-snltheexhibition.com#$#abort-current-inline-script jQuery open
 ahaonline.czinfo.cz,onetv.cz##.ad-skycrapper
 ||anime4fun.com/js/newanime.js$script
 fox.com.tr#@#.text_ad
@@ -2665,6 +2664,7 @@ taobao.com##.banner.row
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
 udn.com###ec
 /js/check.js$domain=pro-zik.ws|pro-tect.ws|pro-ddl.ws|pro-sport.ws
+mamby.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 taobao.com##.clearfix.qr-bd
 ###upprev_box
 eurointegration.com.ua,pravda.com.ua#$#abort-on-property-read as_retry
@@ -3642,7 +3642,6 @@ opvid.co,opvid.net,opvid.org#$#abort-on-property-read setInterval; abort-on-prop
 ||camconnections.live^$xmlhttprequest,domain=gayporntube.com
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="/bimbu?"]
-phimmoic.org,motchillie.org#$#prevent-listener click ads
 template/m1938pc/ads/*.js
 haosou.com###so_feb
 ###ad-header-mobile-contener
@@ -4033,6 +4032,7 @@ baike.baidu.com##.squareAni.square.super-layer-promote
 bilibili.com#?#.is-rcmd:-abp-has(>div:not(div:-abp-has(div)))
 onemanga.me#@#.adblock
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=freemulticoins.com
+baidu.com##[data-log-view*='swan-ad-fc-ad-item']
 /^https?:\/\/[a-z]{8,15}\.xyz\/$/$xmlhttprequest,third-party
 youtube.com##AD-SLOT-RENDERER
 @@||loxtk.com/gTemplate.php?GID=$subdocument,third-party
@@ -4131,7 +4131,6 @@ m.you.163.com##.w-button
 hao123.com##.tvtip
 pluska.sk#$#hide-if-matches-xpath '//span[contains(@class,"basic-article-sponsored-text")][text()="Sponzorované"]/ancestor-or-self::a[contains(@class,"article-tabs_link")]/parent::li[1]'
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
-snltheexhibition.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 pxstream.tv###ImpedeTela
 =Busroll-$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 ||emptyescort.com^$third-party
@@ -6276,7 +6275,6 @@ so.com###so-activity-entry
 ||ali213.net/js/3g/newsdetail.js
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
 m.v.qq.com##.at-app-banner
-snltheexhibition.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 @@||yyv.co/intermission/loadTargetUrl$xmlhttprequest
 mercadolivre.*,mercadolibre.*#$#hide-if-matches-xpath './/span[@class="ui-billboard-ad__title"]/ancestor::div[@id="ui-billboard-ad"]'
 torrentkitty.tv#$#abort-on-property-read _fupfgk;abort-on-property-read _nyjdy
@@ -6998,6 +6996,7 @@ auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,
 blog.abit.vn#$#simulate-mouse-event '#ads_popup .close$continue,delay=500'
 m.jd.com###imk2FixedSideText
 woolworths.com.au#$#hide-if-contains-visible-text /\s*Promoted\s*/ 'div>wc-product-tile' 'wc-product-tile ^^sh^^ div.sponsored-text'
+phimmoii.to,motchillie.org#$#prevent-listener click ads
 ###fnAdblockingOverlay
 ##div.bf_qy DIV.copy_div_btn
 @@||haxnode.net^$generichide
@@ -7865,6 +7864,7 @@ vuukle.com##a[href*="news.vuukle.com/u/"]
 pelisplushd.*,soap2day.*#$#abort-on-property-read window.open
 ##div.callApp_fl_btn.an
 convertcase.net,manta.com,wfmz.com,golf-live.at,eurointegration.com.ua#$#abort-current-inline-script Symbol error-report.com
+mamby.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner-")]/parent::span/ancestor::div/parent::div[contains(@class,"Banner")]';
 /vh2/*$third-party
 cool-style.com.tw#$#abort-on-property-write window.alert
@@ -9051,6 +9051,7 @@ fileshut.biz##.download_item2
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.net
 ifeng.com##div[class^="h"] > div[class$="-main"]
 ###adBlockDetect
+mamby.com#$#abort-current-inline-script jQuery open
 ##[alt='西瓜社']
 ||futuristicframe.com^$third-party
 ##[ad_dot_url]
