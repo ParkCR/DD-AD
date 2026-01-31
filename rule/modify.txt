@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-01-31 00:39:49
+! Last Modified: 2026-01-31 10:01:39
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -2123,7 +2123,6 @@ bilibili.com###openAppBtn
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#$#hide-if-contains Sponsored 'div[class^="slick-slide"] meals-card[style]' 'span>span'
 .top/*q=*form=*&*url=http*$third-party
 vk.com,vk.ru#$#abort-on-property-read vk__adsLight.adsShowed
-sameday.costco.*#$#hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spon")] and descendant::span[contains(text(),"ored")]]/ancestor::li[1]'
 ##DIV[style^='box-sizing: border-box; position: relative; left: 0px; z-index: 214748']
 ##[style='width: 100%;height:660px;z-index:2147483647;position:fixed;display:block;bottom:0px;']
 jianshu.com##.index_call-app-btn
@@ -2936,7 +2935,6 @@ micast.tv##.adv
 @@||nadajemy.pl/*/adsense/ad/banner/adv.js$script
 zhihu.com##.ViewAllInappButton
 ifeng.com##.fhsd
-sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; race stop;
 ahaonline.czinfo.cz,onetv.cz##a[href*="Banner"]
 pogocheats.net#@#.adsbygoogle
 @@||sweclockers.com/js/ad.js$script
@@ -3340,6 +3338,7 @@ getsurl.com,gslink.co,gsurl.in,g5u.pw#$#abort-on-property-write Fingerprint2
 protonvideo.to#$#abort-on-property-read PlayerjsEvents
 eztv.re,pstream.net#$#abort-on-property-write adcashMacros
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nested/pressable"]/a[@role="link"]/span[contains("|Sponsoreret|Sponsrad|Patrocinado|Sponsa|Bersponsor|Commandité|Ditaja|Gesponsert|Gesponsord|Publicidad|Sponset|Sponsored|Sponsorisé|Sponsorizat|Sponsorizzato|Sponsorlu|Sponsorowane|Реклама|ממומן|تمويل شوي|دارای پشتیبانی مالی|سپانسرڈ|مُموَّل|प्रायोजित|সৌজন্যে|ได้รับการสนับสนุน|内容|贊助|Sponsoroitu|May Sponsor|Được tài trợ|", concat("|", text(), "|"))]/ancestor::span[2]'
+/f59d610a61063c7ef3ccdc1fd40d2ae6.js?_^$domain=cloudnestra.com
 mmminigames.mail.ru#$#abort-current-inline-script addEventListener advRefreshInterval
 tram3d.info#$#abort-current-inline-script setTimeout appendChild
 cuttlefish.baidu.com##.link-pc-client
@@ -4046,6 +4045,7 @@ xhamster.com##div[class*="live-red"]
 sohu.com##.feedback
 ||enviousthread.com^$third-party
 .buzz/*0*0*0*==$third-party
+sameday.costco.*#$#race start; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spon")] and descendant::span[contains(text(),"ored")]]/ancestor::li[1]'; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spo")] and descendant::span[contains(text(),"ored")]]/ancestor::li[1]'; race stop;
 ##[href^='https://luodi.aitaokeji.top/']
 m.dongchedi.com##div[style="width: 84px; height: 38px; background: rgb(255, 204, 50);"]
 @@||liliputing.com^$generichide
@@ -4287,6 +4287,7 @@ burze.dzis.net#@#.adsbygoogle
 1afav.net,1film.to,279kzq8a4lqa0ddt7sfp825b0epdl922oqu6.fun,7us7m00f.fun,andyday-tv.lol,andydayz.*,animeheaven.*,bf0skv.org,boosterx.stream,camcaps.*,desi-porn.tube,dinisglows.com,dsvplay.com,emturbovid.com,extratorrent.st,fc2stream.*,flaswish.com,flemmix.*,fmovies.*,fmovies24-to.com,fmovies-co.net,hqq.*,hyhd.org,jilliandescribecompany.com,jkanime.*,kaliscan.*,kaotic.com,lukesitturn.com,mdfx9dc8n.net,mixdrop.*,movearnpre.*,oneupload.*,putlocker.vip,spankbang.com,supervideo.cc,supjav.com,supremejav.com,tipfly.xyz,toflix.*,turbovidhls.com,ups2up.*,videasy.net,vidello.*,vidsrc-embed.ru,vidply.com,vixcloud.*,web.netmovies.*,voe.sx,walterprettytheir.com,xatovjatsosg.com,xprime.*,zgdpo8nr.fun#$#abort-on-property-write window.open
 douyu.com##.PrivilegeGiftModalDialog
 howdyho.net,howdyho.pro#@#html[lang="ru"] :not(my-obnaruzhili-adbl)
+movies7to.net#$#hide-if-matches-xpath '//body/div[(contains(@class, "banner-ngang") and contains(@class, "banner_wrapper") and contains(@class, "ngang-pc") and contains(@class, "banner-top")) or (contains(@class, "banner-sidebar") and contains(@class, "banner_wrapper") and contains(@class, "banner-right"))]/button'
 dota2.ru#$#abort-on-property-read helpUsImproveSite
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##[href*="Seznam_"][href*="adb"]
 redtube.com###as_131
@@ -4308,7 +4309,6 @@ igo.cn###NewigoBox
 pikabu.ru#$#replace-xhr-response 'processCallbacks'
 ifanr.com##.popup,.popup-top
 tieba.baidu.com##DIV[id^='mediago-tb-frs-list']
-||goneviral.com/visitScript/$script,third-party
 @@||hornywood.tv/intermission/loadTargetUrl$xmlhttprequest
 ##[href*='.xacg.info/']
 &ifr=0|$script,domain=www.ahaonline.cz|info.cz|onetv.cz|iprima.cz
@@ -6699,6 +6699,7 @@ jrj.com.cn##.wbyy
 5ykj.com##.ls-b-large-margin
 tmall.com##.mui-mbar-tab-logo-qrcode.mui-mbar-tab-logo
 hax.co.id#@#.ad-wrapper
+sameday.costco.*#$#race start; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(@style, "inline-")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spons")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; hide-if-matches-xpath '//div[@id]/a//div[descendant::span[contains(text(), "Spo")] and descendant::span[contains(text(), "ored")]]/ancestor::div[3]'; race stop;
 ||folha.uol.com.br/paywall/js/$script
 iplark.com##body > #capture-area ~ div[class]:empty
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=rocketfaucet.co.in
@@ -8338,7 +8339,6 @@ zhibo8.cc###popautoapp
 @@||ads.abusinessforsellingyouthingsthatareniceandyoulikethem.info^$domain=eventhubs.com
 advertape.*,adblockeronstreamtape.*,adblockplustape.com,adblockstreamtape.*,noblocktape.com,shavetape.cash,stapadblockuser.xyz,stapewithadblock.monster,strcloud.*,streamadblocker.xyz,streamadblockplus.com,streamadblockplus.xyz,streamtape.*,streamtapeadblock.art,strtape.*,tapewithadblock.org#$#abort-current-inline-script JSON.parse Promise; abort-current-inline-script document.createElement adblock;
 yad2.co.il###sLightbox_overlay
-seeflix.*,stellarthread.com#$#abort-on-property-read aclib
 www.ghxi.com##DIV[style^='padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index: ']
 @@||yellowbridge.com^$elemhide
 .com:8005/*&n=$third-party
@@ -8526,6 +8526,7 @@ malekal.com##.topad
 techonthenet.com###sabl
 ||breadbalance.com^$third-party
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=telephoneannuaire.fr
+cloudnestra.com,seeflix.*,stellarthread.com#$#abort-on-property-read aclib
 xvideos.com##div[id^="video-ad"]+div[class]
 so.com###msocomBottomBanner
 @@||adm.fwmrm.net/p/MTG_Live/Video2AdRenderer.swf$domain=play.novatv.bg,object-subrequest
@@ -9668,6 +9669,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||savoryorange.com^$third-party
 ||thehiveworks.com^$script,domain=egscomics.com
 ||warmquiver.com^$third-party
+||goneviral.com/visitScript/$script,third-party
 ||tizru.com^$domain=pronpic.org
 ||hallowedinvention.com^$third-party
 ||kizu.org/adv-$popup
