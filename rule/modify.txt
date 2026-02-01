@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-02-01 16:33:51
+! Last Modified: 2026-02-02 00:31:12
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -6035,7 +6035,6 @@ pornproxy.*#$#abort-current-inline-script document.createElement /script/; abort
 ##[href*="/?channelCode="] > [referrerpolicy='no-referrer']
 lrepacks.net#$#abort-current-inline-script document.createElement 'delete window'; prevent-listener click 'pop'; prevent-listener /click|mousedown/ setClickedUrl;
 ||decisiveducks.com^$third-party
-||gondolagnome.com^$third-party
 ##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 100bt.com##.aolasidebar__ad1
 duba.net###login_alert
@@ -8125,6 +8124,7 @@ dangdang.com##.code2s
 gov.cn###ZhiXuwFloatWindow
 cp-g.net###adblock_layer
 gdekluet.ru##body > div[class^="stop-block"]
+##DIV#ad-float.kyty
 iprima.cz#@#.bannerAd
 ahaonline.czinfo.cz,onetv.cz##[href*="&token="][target="_blank"]
 sohu.com##.cbd-plate-bill.common-ad
@@ -10548,6 +10548,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||msn.ynet.com/c/tj_comm.js
 ||tpc.googlesyndication.com/sodar/$domain=golfgalaxy.com|dickssportinggoods.com
 ||wbiao.co/src2/js/expand/fudong/
+||gondolagnome.com^$third-party
 ||wateryvan.com^$third-party
 ||qunar.com/js/ga.min.js
 ||pointdigestion.com^$third-party
