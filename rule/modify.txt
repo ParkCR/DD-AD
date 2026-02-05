@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-02-05 16:43:04
+! Last Modified: 2026-02-06 00:50:57
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1101,7 +1101,6 @@ baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
 ##body > DIV.ad3
 retinaboys.com###screen_block
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
-||glisteningsign.com^$third-party
 wn01.uk##IMG[alt][style='width: 100%; height: 100%;']
 anjuke.com###xajk_down_new
 cafef.vn,gamek.vn,genk.vn,kenh14.vn,soha.vn,tuoitre.vn,afamily.vn,thanhnien.vn#$#override-property-read ADMStorageFileCDN noopFunc
@@ -2714,6 +2713,7 @@ ponlatv.com###divPanel
 ||forex.com.cn/index.php/Invoking/tanchukuang
 ||g.163.com/*&affiliate=
 fenopy.se##[rel="nofollow external"][href^="/ddl/"]
+kriminal.net.ua#$#abort-on-property-read screen.width
 ||billowybead.com^$third-party
 tugastream.com###closediv
 @@||l2topzone.com/ads.png$image,~third-party
@@ -3029,6 +3029,7 @@ ye120.com##.fixed_bottom
 aternos.org###atblck
 clicknupload.co,clicknupload.link,clicknupload.org,clicknupload.to#$#abort-current-inline-script String.fromCharCode shift
 ##[style='top: 16.4vw; display: block;']
+www.facebook.com,web.facebook.com#$#json-prune 'require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node require.0.3.0.__bbox.require.[-].3.1.__bbox.result.data.node.th_dat_spo'
 epubee.com##.reader-to-vip
 m.ithome.com##.hot-app
 allegro.*##div[data-box-name^="ads"]
@@ -3173,6 +3174,7 @@ urlchecker.net###adchecker_btn
 embedupload.com#@#.text-ad-links
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=grajkownia.com
 zhihu.com##.MobileAppHeader-downloadLink
+ebay.com#$#hide-if-matches-xpath3 '//li[@data-marko-key][.//h2][.//span[contains(@class,"subtitle")]//span[contains(replace(text(),"[\u2066-\u2069]",""),"Sponsored")]]'
 m.taobao.com##.install-app
 soft98.ir##.shad2
 zuuk.org###fl10
@@ -3290,7 +3292,6 @@ animeflv.cc#$#abort-current-inline-script JSON.parse
 yhdm*.com/js/wap2-jm-ms.js?ver=
 ahaonline.czinfo.cz,onetv.cz##[class^="stickyContentBottom_"]
 ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
-||glitteringbrook.com^$third-party
 /js/mts66.js
 tw.yahoo.com###tabTemplate
 evrimagaci.org#$#hide-if-matches-xpath './/div[@class="empower-ad"]/parent::div[contains(@class, "ads-")]'
@@ -6219,6 +6220,7 @@ m.baidu.com##.ec_wise_ad
 fullmatchesandshows.com#@#.text-ad-links
 grifthost.com#@#.ad468
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
+www.facebook.com,web.facebook.com#$#override-property-read Env.nxghljssj false; override-property-read GHLDetectionUtilsPreludeSafe.isJSONParseShimmedImpl falseFunc;
 ##[href*='3400.org']
 ||feignedfaucet.com^$third-party
 51cto.com##.upopbg
@@ -7297,6 +7299,7 @@ qianzhan.com##.kfonline2
 ||fvedio.kuwo.cn^$app=cn.kuwo.player
 gebi1.com##.offical-account
 yahoo.com##.crazyad
+ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado)/ 'ul > li' 'ul > li *[aria-hidden]'
 /blockadblock.min.js$script
 m.jd.com##DIV.modal__mask
 jingyan.baidu.com###wrapper > .exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
@@ -8242,7 +8245,6 @@ videoproxy.in###overlay-holder
 ||*.e437040a9a.com/api/senddata?^$xmlhttprequest,domain=porntrex.com
 ##body.page.player > div.popup.popup-tips.popup-icon.open
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=articlerewritertool.com
-www.rophim.la#$#prevent-listener click isSwapping
 @@||apk.tw^$generichide
 ||baidu.com/smalllog/
 notre-planete.info###abp1
@@ -9517,6 +9519,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||pointlessrifle.com^$third-party
 ||userscontent.com^$image,domain=ahaonline.cz|info.cz|iprima.cz|kinobox.cz|kupi.cz|lidovky.cz|nasepenize.cz|novinky.cz|onetv.cz|sport.cz|super.cz
 ||seriousdeals.net/Webservices/jsParseLinks.aspx$script,third-party
+||glisteningsign.com^$third-party
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
 ||pianba.tv/api/web_htmls.js
 ||marketspiders.com^$third-party
@@ -9610,6 +9613,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zhhbqg.com/xxgg/*.js
 ||gtimg.com/finance/js/st/p/quotpage/maxcard_
 ||qqc.co/Webservices/jsParseLinks.aspx$script,third-party
+||glitteringbrook.com^$third-party
 ||mat1.gtimg.com/rain/bailing20/*.*.png$image
 ||pinyuege.net/template/pinygm/public/js/
 ||rigidveil.com^$third-party
