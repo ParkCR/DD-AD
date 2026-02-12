@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-02-12 16:49:25
+! Last Modified: 2026-02-13 00:59:39
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -1457,7 +1459,6 @@ photolessons.org###modal-adbmon-div
 @@||darkbtc.info/banner.gif$image
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
 pcauto.com.cn###bgbao
-kaotic.com#$#abort-current-inline-script SNSPAdManager config; abort-on-property-write snspAdManager2; abort-current-inline-script jQuery /config\.pop/; override-property-read __ads true; cookie-remover /___trx/;
 novinky.cz##a[href*=";CREFURL="]
 cinestrenostv.tv##[id^="capa"]
 simply-hentai.com#$#hide-if-matches-xpath './/div[contains(@style,"pointer")]/parent::div[@style]/ancestor::div[@id][1]/ancestor::div[contains(@class,"text-center")][1]'; hide-if-matches-xpath './/a[contains(@href,"chaturbate")]/parent::*[@class]/ancestor::div[contains(@class,"col")][1]';
@@ -1931,6 +1932,7 @@ minigames.mail.ru#$#abort-on-property-read MG_CONFIG.adv.fit_mimic
 soft98.ir##.shad
 m.douban.com##.write-review
 ##[at*='尼斯人注册送']
+exokit.org,openib.org,onflix.me#$#prevent-listener click ads
 sendspace.com#$#abort-on-property-read runad false
 163.com##.js-open-app
 ##.ayx[style="position: fixed;bottom: -10px;right:0;z-index:999;width:250px"]
@@ -2837,7 +2839,6 @@ fullmatchesandshows.com#@#.pub_300x250
 xemphim.site,animet.org,motchillzz.site#$#override-property-read maxAds 0
 factorio.su##body > div[id][class][style*="background"][style*="visible"]
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adblock"]
-||givevacation.com^$third-party
 163.com##.m-slider-footer
 hax.co.id#@#.ad-box
 readms.com###reader-sky
@@ -3253,6 +3254,7 @@ knuspr.de#$#hide-if-matches-xpath '//span[contains(., "Sponsored") or contains(.
 #@##banner_ad
 novinky.cz,kupi.cz,sport.cz,super.cz,horoskopy.cz##a[href*="adfibeg="]
 piratia.su###block-warning
+kaotic.com#$#abort-current-inline-script SNSPAdManager config; abort-on-property-write snspAdManager2; abort-current-inline-script jQuery /config\.pop/; override-property-read __ads true; cookie-remover /___trx/; abort-current-inline-script document.getElementById innerHTML;
 baidu.com##.rmb-carsousel-position-bottom
 senmanga.com##P[class="no"]
 ifeng.com##[class^='index_pageBottomBrand']
@@ -4151,6 +4153,7 @@ tuliu.com###vFloat
 ||cdn.adf.ly/js/display.js$script,third-party
 /adbl_dtct1.
 filmibeat.com#$#hide-if-matches-xpath './/div[@class="rightArtImg"]/img[contains(@src,"boldsky.com") or contains(@src,"gizbot.com") or contains(@src,"oneindia.com") or contains(@src,"nativeplanet.com") or contains(@src,"goodreturns.in") or contains(@src,"drivespark.com") or contains(@src,"careerindia.com") or contains(@src,"mykhel.com")]/ancestor::div[@class="rightArt"][@data-content_id]'
+tomatomtl.com#$#hide-if-matches-xpath './/h3[contains (., "Advertisement")]/parent::div[1]'
 163.com###floatLayer
 /static/js/miniyyrtv-config.js
 zhidao.baidu.com###main-content > div[class]:first-child > a
@@ -4566,7 +4569,6 @@ csfd.cz#$#hide-if-matches-xpath '//span[@class="ads-title"][text()="Reklama"]/an
 36kr.com##.phone
 opposhop.cn##.oc-hairline--bottom.welcome-wrapper
 ||annoyingclover.com^$third-party
-vuetips.com,openib.org,onflix.me#$#prevent-listener click ads
 ||2005net.net^$third-party
 la-cosa.it#@#div[id^="div-gpt-ad"]
 xw.qq.com#?#.wrap:contains(去种树)
@@ -6593,6 +6595,7 @@ sports4u.tv,sports4u.live#@##adblock
 3g.163.com#?#article.card-type-news.news-card:contains(打开APP)
 iplark.com##div.search-container > [style='display: block;']
 qq.com##.app-qrcode
+journaldugeek.com#$#hide-if-matches-xpath './/div[contains(@class,"bg-neutral-100")]/following::div[contains(@id,"adslot")][@style]/ancestor::div[contains(@class,"text-center")]'
 ||easyliao.com^$third-party
 taobao.com#?#button:contains(打开手机淘宝)
 novinky.cz,kupi.cz,sport.cz,super.cz##iframe[data-cx-loaded]
@@ -8594,6 +8597,7 @@ softonic.com,softonic.jp,softonic.nl,softonic.pl,softonic.com.br#?#div[class^="h
 gome.com.cn###gome-phone
 ##DIV[style^='display: block; aspect-ratio: 728 / 90; background-image: url("/static/resources/lp.php']
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=proxywiky.com
+flipkart.com#$#hide-if-contains Sponsored 'div[style*="position: absolute"][style*="transform"]' 'div[dir="auto"]'
 ithome.com##.con_2 > .img_listbox
 novinky.cz,super.cz,sport.cz,seznamzpravy.cz,horoskopy.cz#$#abort-on-property-write sssp
 ||fjsen.com:81/mysql/count/
@@ -10472,6 +10476,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||iqiyi.com/etx?
 ||profusesupport.com^$third-party
 ||secretturtle.com^$third-party
+||givevacation.com^$third-party
 ||guozh.net/wp-content/plugins/eazy-ad-unblocker/
 ||prepareplanes.com^$third-party
 ||shaggytank.com^$third-party
@@ -10720,5 +10725,3 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||killcovid2021.com/*.mp4
 ||inputicicle.com^$third-party
 ||sicksmash.com^$third-party
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
