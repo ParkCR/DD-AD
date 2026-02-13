@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-02-13 10:24:41
+! Last Modified: 2026-02-13 16:42:52
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,8 +19,6 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -915,6 +913,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1046,6 +1046,7 @@ phimhdplus.com#$#json-prune ads;abort-current-inline-script setTimeout click_tim
 zhidao.baidu.com##[class$='-ecom-ads']
 nowwatchtvlive.me##DIV[style="padding-top:5px;float:left;width:100%;font-size:13px;line-height:26px;height:31px;top: 12px;z-index:9999;text-align:left"]
 yun.cn##div[class*="ad-block"]
+savethislife.com#$#abort-current-inline-script jQuery open
 quora.com##.q-box.qu-borderAll>.q-box>div>div[class^="Box-sc-"]>div:not([class])
 ifeng.com##div[class^="hot_box"]
 huya.com##.jump-to-phone
@@ -2286,7 +2287,6 @@ qianlima.com###float_mask
 ruten.com.tw##.act-promo
 softpedia.com#@#.ad
 @@||static-videostar2.4vod.tv/assets/js/adcheck.js$script,domain=videostar.pl
-riverrunbookstore.com#$#abort-current-inline-script jQuery open
 163.com,zybang.com##.top-banner
 cibaipuki.com##IMG[border='0'][width='100%']
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
@@ -2515,7 +2515,6 @@ sporttery.cn###newDiv
 kinobox.cz,nasepenize.cz##[class$=" sticky"]
 zhihu.com##.MHotFeedAd
 ||combcattle.com^$third-party
-riverrunbookstore.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 transkarpatia.net#$#abort-current-inline-script document.createElement redtram
 jpwind.com###asideNav
 androiding.how##.jsXY6yjBmGN4
@@ -4011,6 +4010,7 @@ btime.com##.top-bar
 seznamzpravy.cz#$#override-property-read Object.prototype.aabPagePostMessageType false
 m.tv.sohu.com##.js-app-topbanner.actv-banner
 ||colorfulafterthought.com^$third-party
+savethislife.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 @@||teknogods.com/advert.js$script
 ||17173cdn.com^*/js/task/src/task/live/greenhand/
 163.com##.rg_ad
@@ -4741,7 +4741,6 @@ ahaonline.czinfo.cz,onetv.cz##div[style*="background-image"][style*="branding"]
 ||cupfox*.com/statics/js/ing.js
 ||*/loader.min.js|$script,domain=text-compare.com
 sina.cn##.j_sax sina_tj_banner
-riverrunbookstore.com#$#hide-if-matches-xpath './/div[@id or @class]/p/a[@title]/ancestor-or-self::div[1]'
 ###detectadblock
 mail.ru#$#hide-if-contains-visible-text /Реклама/ 'div.tgb-wrapper' span
 tripadvisor.com#$#hide-if-matches-xpath './/h2[@class][contains(text(),"Sponsored by")]/preceding::div[@data-vjs-player]/parent::div[not(@class)]'
@@ -8053,6 +8052,7 @@ gamefront.com#$#abort-current-inline-script $ AdBlock
 newkaliningrad.ru##body > .soclinks + script + div[class]:not([id])
 vestivrn.ru#$#abort-on-property-read video.preroll
 ||fairfeeling.com^$third-party
+savethislife.com#$#override-property-read adsPlayer '';override-property-read adsTvcs ''
 new.qq.com##.godown.qqcom_fb-item
 vizer.tv#@#.adsbox
 osobnosti.cz##.hide-screenbot
