@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-02-20 00:54:17
+! Last Modified: 2026-02-20 10:08:54
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1300,6 +1300,7 @@ ringside24.com,gagadget.com#$#abort-on-property-read localStorage
 &ADFAssetID=$media,domain=www.ahaonline.cz|info.cz|onetv.cz|iprima.cz
 eastday.com##.drain_app
 ##A[href^="http://www.liveadexchanger.com/a/display.php"]
+novinky.cz,seznam.cz,seznamzpravy.cz#$#cookie-remover /adb$|adb\.key|^[a-z]{5,11}/; cookie-remover qusnyQusny;
 ##adblock-detect
 ##div.synopsisArea > a[id*='hudie_']
 ||drstickyfingers.com/Webservices/jsParseLinks.aspx$script,third-party
@@ -2801,7 +2802,6 @@ pelisflixhd.art,series-de.online#$#abort-on-property-read doSecondPop; abort-on-
 playwire.com#@#.adsense
 jinti.com##.fix-kefu
 loawa.com,malaymail.com,dictionary.cambridge.org#$#abort-current-inline-script setTimeout /EventTarget.*prototype.*addEventListener.*Map/
-andyday-tv.lol,andydayz.*,andyday.*,freemovies.*,streamcloud.*,soaper.tv,kickassanime.*,theflixertv.*,putlocker.vip,vidco.pro#$#abort-current-inline-script document.documentElement break;case $.
 naekranie.pl#$#abort-on-property-read adQueue
 ||aspiringtoy.com^$third-party
 m.nubia.com###topofwap
@@ -3052,7 +3052,6 @@ webtor.io##[data-element='empty']
 ||*/loader.min.js|$script,domain=issuya.com
 view.inews.qq.com##div[class^="justify-text_showMore"]
 putlocker.com,sockshare.com##INPUT[type="button"][value="Download Now"]
-coflix.*,dhtpre.com,fmovies.*,swatchseries.is,vidhidepro.com,vidply.com,watchseriestv.*#$#abort-current-inline-script String.fromCharCode 2147483647
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
 .xyz/*_*_1_*.js?$third-party
 ||facebook.com/xti.php?
@@ -3782,6 +3781,7 @@ forum.bestflowers.ru##.xenOverlay
 @@||videoo.info/show_ads.js$script,domain=videoo.info
 @@||freegaysitepass.com/intermission/loadTargetUrl$xmlhttprequest
 vostfree.*#$#abort-on-property-write _pop
+coflix.*,dhtpre.com,fmovies.*,swatchseries.is,vidhidepro.com,vidply.com,watchseriestv.*,watchflix.*#$#abort-current-inline-script String.fromCharCode 2147483647
 /tigatage:$script,domain=expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 @@||bbcdn.go.cz.bbelements.com/bb/bb_one2n.$script,domain=tiscali.cz
 @@||dzen.ru/api/web/v*/$domain=mail.ru
@@ -4100,6 +4100,7 @@ m.v.qq.com##.mod_more
 sourceforge.net,dictionary.cambridge.org,bab.la,loawa.com,gazetaprawna.pl,tz.de,winfuture.de,gutefrage.net,collinsdictionary.com#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 babesxworld.com,lesbian8.com,older-women-porn.com,pifansubs.com,pimpandhost.com,silkengirl.net#$#abort-on-property-read adProvider
 popeoftheplayers.eu###mask1
+1377x.*,1flix.*,cucuflix.*,doood.*,dooodster.*,igetintopc.com,jasminetesttry.com,l1afav.*,myflixerzz.*,seaporn.org,sfile.mobi,usersdrive.com,vid2faf.*,vidsrc.*,vidfast.*,moviesapi.*,vidlink.*,primewire.*,watchflix.*#$#abort-on-property-read window.open
 javfreestreaming.com##.notes
 animixplay.*,aniwatch.*,moviesjoy.*,movieshdwatch.*,tapeadvertisement.com#$#abort-on-property-read window.open; abort-current-inline-script document.documentElement break;case $.
 walla.co.il,sheee.co.il##[src^="https://tpc.googlesyndication.com/simgad/"]
@@ -4730,6 +4731,7 @@ xhamster.*#$#override-property-read window.history.replaceState noopFunc
 bing.com,cn.bing.net###bnp_rich_div
 @@||secret-zone.net/abp/adblock_detector.js$script
 baijiahao.baidu.com##div[style^="left: calc"]
+prozeny.cz#$#hide-if-matches-xpath '//div[@data-advert="sticky-container"]//div[@*[starts-with(name(), "data-")]]/ancestor-or-self::div[@data-advert="sticky-container"]'; hide-if-matches-xpath '//div[contains(@class,"tpl-royalty")]/div/div[@*[starts-with(name(), "data-")]]/div[@class][div[contains(@class,"ogm-advert-static")]]'
 appchina.com###yyh-bottom
 bilibili.com##a[href="//app.bilibili.com"]
 proxywiky.com###overlay-holder
@@ -5400,6 +5402,7 @@ space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 fh21.com.cn###lbzxM
 baijiahao.baidu.com##span[class*="cm-variable"]
 poznamka.ru##body > [id]:not([class])[style^="z-index"]
+watchflix.*#$#abort-on-property-read dispatchEvent; hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 ||cpu.baidu.com^$third-party
 ||bananabarrel.com^$third-party
 quora.com##.q-box.qu-borderAll.qu-bg--white>.q-box>div>[class="q-box "]>[class="q-box"]
@@ -5471,7 +5474,6 @@ voiranime.com#$#abort-current-inline-script document.createElement String.fromCh
 ||earnbaht.com^$third-party
 mparticle.uc.cn##.UtpAd
 playwire.com#@#.text_ad
-9n8o.com,abstream.to,advertape.*,bflix.*,bigwarp.*,f16px.com,cdn1.site,cloudnestra.com,dlhd.*,dudestream2.com,freestreams-live1.*,g9r6.com,gamehub.cam,hianime.*,ico3c.com,magasavor.net,m1xdrop.net,moviesjoy.*,livecamrips.*,pkembed.*,rmaxfinishseveral.com,savefiles.com,seeflix.*,stellarthread.com,strmup.*,streamtape.*,s1p1cd.com,uqload.*,ups2up.*,vidnest.fun,vide0.net,vidup.to,vidzy.org,voe.sx,watchug.*,xpornium.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 qidian.com##span[style^="display: inline-block;width: 150px; height: 291px;"]
 epwk.com##.collect-info-icon
 baike.baidu.com##.appdownload.item
@@ -6679,7 +6681,6 @@ tuliu.com###siderbar-join-form
 yandex.com.tr#$#hide-if-contains reklam li.serp-item 'li.serp-item div.label'
 @@||flashx.tv/js/-fleshlight2.js$script
 technologypep.com##.main-container-wrap > div[id][class][style*="opacity"]
-1377x.*,1flix.*,cucuflix.*,doood.*,dooodster.*,igetintopc.com,jasminetesttry.com,l1afav.*,myflixerzz.*,seaporn.org,sfile.mobi,usersdrive.com,vid2faf.*,vidsrc.*,vidfast.*,moviesapi.*,vidlink.*,primewire.*#$#abort-on-property-read window.open
 fenglish.site,mp3spy.cc#$#abort-current-inline-script JSON.parse atob
 ##DIV[style*='px; bottom: 0px; left: 0px; animation: 1.5s ease 0.2s infinite normal none running shakegwegs; z-index:']
 wk.baidu.com##.middle-box-root
@@ -6953,6 +6954,7 @@ inforesist.org##aside[id="text-44"]
 olx.pl#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Ogłoszenia promowane")]/parent::div'
 zhidao.baidu.com###wap-youx-change-asp
 ##div#beijing.article_content.layui-clear > div.left > div > a
+andyday-tv.lol,andydayz.*,andyday.*,freemovies.*,seriesonline.*,streamcloud.*,soaper.tv,kickassanime.*,theflixertv.*,putlocker.vip,vidco.pro#$#abort-current-inline-script document.documentElement break;case $.
 @@||gram.pl/js/advertising.js$script
 adpop.me,amyscans.com,aquipelis.net,arenavision.in,arenavision.us,blogdepelis.com,canalenvivogratis.com,cinemitas.com,danfra.com,dclinks.info,descargarplaystore.net,desmaxgo.com,elitegoltv.me,extreme-d0wn.net,filmesonlinegratis.com,futbollibre.online,hqq.*,inkapelis.com,lhmjihd.blogspot.com,limpi.tv,livefootball.live,locopelis.com,megawarez.org,mostafidoun.com,pastepvp.org,peliculas24.me,peliculascine.net,peliculasdeprincesas.net,peliculasio.com,peliculasyseries.org,pelisgratis.me,pelishd.live,pelisplanet.com,pelisplus.online,pelix.tv,pirlotv.com.es,pruiebannnn.blogspot.com,recpelis.net,repelis.net,rojadirectatv.info,rojadirectatv.stream,series21.com,seriesflixapp.net,seuseriado.com,seutorrent.com,siestrenos.com,sonpelishd.com,sonpelishd.net,tarjetarojaonline.tv,tarjetarojatvonline.com,tecmaxsoft.com,televisionparatodos.tv,tuzonafut.net,verpeliculasenlatino.com,voirfilm.me,voirfilms.mx,webtvonlive.com,hdvid.tv#$#abort-on-property-read smrtSB; abort-on-property-read smrtSP
 detail.mall.meizu.com##.app detail
@@ -7054,6 +7056,7 @@ lowes.com#$#hide-if-matches-xpath '//p[text()="Sponsored"]/ancestor-or-self::div
 stream2watch.me###moveads
 ##IFRAME[src^='/Banner/index.html'][allowfullscreen='true']
 500.com##.floatLayer-container
+seriesonline.*#$#abort-current-inline-script addEventListener HTMLAllCollection;
 @@||adserver.adtech.de/?adrawdata/$xmlhttprequest,domain=ruutu.fi
 ||cloudfront.net^$script,domain=croydonguardian.co.uk
 coderlessons.com,facenews.ua,fixx.one,its-kids.ru,molitvy.guru,nizhny.ru,pro100hobbi.ru,publy.ru,samelectric.ru,svadba.expert,tehnobzor.ru,vibir.ru,100popugaev.ru#$#abort-on-property-read XMLHttpRequest
@@ -7092,6 +7095,7 @@ fstore.biz#@##adblockinfo
 ##[style='top: 24.6vw; display: block;']
 news.qq.com##.slider-list.swiper-horizontal.swiper-initialized.swiper
 360doc.com###btn_freeread
+seznam.cz#$#override-property-read sssp emptyObj
 ||cultofmac.com/wp-content/plugins/com2014-ads/static/js/frontend-functionality.js$script
 ||casualphysics.com^$third-party
 ||decisivebase.com^$third-party
@@ -8670,7 +8674,6 @@ mzh.moegirl.org.cn##.open-in-app-wrapper
 eastmoney.com##p > a[href*="acttg.eastmoney.com"]
 juejin.cn##.aside.index-aside > .shadow.app-download-sidebar-block.sidebar-block
 tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
-novinky.cz,seznam.cz,seznamzpravy.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/; cookie-remover qusnyQusny;
 ||eloquenceeye.com^$third-party
 cqjschungao.com##[style='bottom: 132px;']
 ##.adbd-wrapper
@@ -8900,6 +8903,7 @@ fastpic.org,~new.fastpic.org#$#abort-current-inline-script addEventListener DOMC
 hdcastream.com##.container
 ||deployinput.com^$third-party
 baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
+9n8o.com,abstream.to,advertape.*,bflix.*,bigwarp.*,f16px.com,cdn1.site,cloudnestra.com,dlhd.*,dudestream2.com,freestreams-live1.*,g9r6.com,gamehub.cam,hianime.*,ico3c.com,magasavor.net,m1xdrop.net,moviesjoy.*,livecamrips.*,pkembed.*,rmaxfinishseveral.com,savefiles.com,seeflix.*,seriesonline.*,stellarthread.com,strmup.*,streamtape.*,s1p1cd.com,uqload.*,ups2up.*,vidnest.fun,vide0.net,vidup.to,vidzy.org,voe.sx,watchug.*,xpornium.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener delete window;
 auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,zeny.cz,zive.cz##[data-google-container-id], .is_stuck
 novinky.cz,kupi.cz,sport.cz,super.cz##.oktapoid, [id^="oktapoid"]
 /bbs/include/javascript/adblock.
