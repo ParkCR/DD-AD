@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-02-25 01:06:21
+! Last Modified: 2026-02-25 10:12:00
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -2390,6 +2390,7 @@ drive2.ru#$#hide-if-shadow-contains 'iframe'; hide-if-shadow-contains 'style'
 tpbay.*#$#abort-on-property-read _wm_settings
 ##A[onclick$='()'][target='_top'][style*='.gif) no-repeat;background-size:100% 100%;']
 aliyun.com###yq-a-r-bottom
+cj.sina.cn##.module-footer
 ||enigmaprint.com^$third-party
 @@||adbuck.cc/player/
 @@||politiken.dk/*ad$script
@@ -2406,6 +2407,7 @@ azrotv.com##.adbn-wrap
 sharefreeall.com#@##adsense
 ebay.*#$#hide-if-contains-visible-text /(S.{0,30}p.{0,30}o.{0,30}n.{0,30}s.{0,30}o.{0,30}r|A.{0,30}n.{0,30}z.{0,30}e.{0,30}i.{0,30}g|C.{0,30}o.{0,30}m.{0,30}m.{0,30}a.{0,30}n.{0,30}d|P.{0,30}a.{0,30}t.{0,30}r.{0,30}o.{0,30}c.{0,30}i.{0,30}n|S.{0,30}p.{0,30}o.{0,30}n.{0,30}s.{0,30}o.{0,30}r.{0,30}i.{0,30}z.{0,30}z)/ 'div[data-slot*="PLACEMENT_"]' 'div[data-slot*="PLACEMENT_"] > div[id*="placement"] > div > div > div > div > div > div > div > div > div > div > div > div'; hide-if-contains-visible-text /(S.{0,30}p.{0,30}o.{0,30}n.{0,30}s.{0,30}o.{0,30}r|A.{0,30}n.{0,30}z.{0,30}e.{0,30}i.{0,30}g|C.{0,30}o.{0,30}m.{0,30}m.{0,30}a.{0,30}n.{0,30}d|P.{0,30}a.{0,30}t.{0,30}r.{0,30}o.{0,30}c.{0,30}i.{0,30}n|S.{0,30}p.{0,30}o.{0,30}n.{0,30}s.{0,30}o.{0,30}r.{0,30}i.{0,30}z.{0,30}z)/ 'div[data-slot*="PLACEMENT_"]' 'div[data-slot*="PLACEMENT_"] div.BbQd';
 ebay.*#$#hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"]' 'div ^^sh^^ *[role^="text"]'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"] ^^sh^^ > div' 'div ^^sh^^ *[role^="text"]'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助)/ 'div[class][data-testid] div[id^="placement"][style] ^^sh^^ *' 'div ^^sh^^ *';
+cj.sina.cn##.u-article-video-title4
 ||baitbaseball.com^$third-party
 .com:*.js?v=17*$third-party
 rusopen.com##.classblsi.addshr
@@ -4188,6 +4190,7 @@ sina.com.cn##.blk_APP_JSr
 ||butterbulb.com^$third-party
 @@||aseanlegacy.net/adsense/ads.png
 sex.javnong.cc#$#abort-on-property-read Math.round
+cj.sina.cn##div[class^="u-article-video-title"]
 sina.com.cn##.blk_APP_JSl
 ithome.com##.open-app-banner
 novinky.cz##a[title][target="_blank"][href^="//www.novinky.cz/"]
@@ -4856,6 +4859,7 @@ www.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/d
 pencurimovie.cc###simplemodal-overlay
 douyu.com##.ClientJump
 ###adb-actived
+finance.sina.cn#?#.flag_sf:upward(div):upward(div)
 smzdm.com##.btn-open-app
 ##SPAN#VuMk2.IgpuN2
 ||aiqu2727.com/da/
@@ -5813,6 +5817,7 @@ oneplusbbs.com###bbsRegisterGuide
 =Preroll$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 tvportugalhd.org,tvportugalhd.eu##.bidv468
 pupudy.com##.sidebar
+cj.sina.cn##.module-hot.module-extend
 /inc/antiblock.
 ||cdn.shorte.st/link-converter.min.js$script,third-party
 baidu.com##DIV[class='qrcode call']
@@ -5887,6 +5892,7 @@ xanimu.com##div[id^="special-block"]
 fightnews.info##body > blockquote
 ###adblock_tooltip
 ##.detected-block-modal
+finance.sina.cn##div[class^="s-"]
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=spinbot.com
 jingyingjiajiao.com##DIV[style="width:auto;border: 1px solid #aaaaaa; position:fixed; bottom:1px; right:1px;z-index:2000"]
 @@||cpagrip.com/script_include.php?id=$domain=nation2.com
@@ -6071,6 +6077,7 @@ myanimelist.net##._unit
 eastmoney.com###rightadvert
 /app/market/*/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%8%A8.apk
 ||embermosaic.com^$third-party
+||generateoffice.com^$third-party
 dailymail.co.uk##[name^="google_ads_iframe_"]
 hotpepper.jp##div[style*="text-align: center;"] > div > a
 @@||sitenable.org/admega.php$script
@@ -6213,6 +6220,7 @@ www.seznam.cz#$#cookie-remover pubmatic
 ?client=ca-pub-$script,domain=karaoketexty.cz
 gwshare.com#@##adCol
 /gameapk/*/hongbao.apk
+finance.sina.cn##.pluse.animated
 ||bitcoin25.com/js/scroll1.js$script
 quora.com##.u-margin-top--lg+div[class="UnifiedAnswerPagedList PagedListFoo unified"][id$="_paged_list"]
 ||d1htpt0i4k7m8x.cloudfront.net^$script,image
@@ -6346,6 +6354,7 @@ fx361.com###k_s_ol_chatWin
 longzhu.com##.recommend-pop-up
 alibaba.com#$#hide-if-matches-xpath './/div[not(contains(@style,"display: none"))]/div[@style]/img[contains(@src,"/H4c09574")][contains(@style,"object-fit: contain")]/ancestor::div[@view-name]/parent::div[@class="tpl-wrapper"]'
 playwire.com#@#.pub_300x250m
+finance.sina.cn##.wap-msg-bar
 ##DIV.div_adhost
 onlystream.tv#$#abort-on-property-read BetterJsPop
 yesky.com###gfapp1
@@ -6558,6 +6567,7 @@ slickdeals.net##.displayAdContainer
 zhcw.com##.khdpc
 videojav.com,pornpapa.com,fapguru.com#$#abort-on-property-read document.querySelectorAll
 ||error-report.com^$domain=watchuseek.com
+cj.sina.cn##.unfold-words
 reuters.com##.RTVSyndicatedPlayer
 text-compare.com#$#override-property-read Element.prototype.remove noopFunc
 marketrealist.com##div[data-google-query-id]
@@ -8146,6 +8156,7 @@ kinobox.cz,nasepenize.cz###stickyBanner
 ||4shared.com/js/blockDetect/blockDetect.4min.js$script
 ||engineergrape.com^$third-party
 =window.awall.adblockwalltemplatefetchdef&
+cj.sina.cn##.wap-msg-bar
 gas.goodlife.tw###widgets
 /adblockchecker.js$script
 goha.ru#@#.goha_ads
@@ -8908,6 +8919,7 @@ auto.cz,autorevue.cz,maminka.cz,reflex.cz,blesk.cz,dama.cz,e15.cz,mojezdravi.cz,
 novinky.cz,kupi.cz,sport.cz,super.cz##.oktapoid, [id^="oktapoid"]
 /bbs/include/javascript/adblock.
 ##[href^='https://31jrx5y7.com/']
+finance.sina.cn#?#.snp-container:upward(div)
 l2top.ru#$#abort-current-inline-script $ cleanAndEval
 @@||oneplay.tv/assets/js/ads.js$script,~third-party
 bb.lv#$#abort-on-property-read adjustBackground false
@@ -10632,7 +10644,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||p.mprd.se/js/bscripts*.js$script,domain=emuparadise.me
 ||tremendousearthquake.com^$third-party
 ||wtaccesscontrol.com^$third-party
-||generateoffice.com^$third-party
 ||nostalgicneed.com^$third-party
 ||quizzicalzephyr.com^$third-party
 ||shakegoldfish.com^$third-party
