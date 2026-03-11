@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-03-11 16:42:40
+! Last Modified: 2026-03-12 00:53:22
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,6 +19,8 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -913,8 +915,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1679,7 +1679,6 @@ sportshubtv.com###ad_tekst
 poedb.tw#?#div[id]:-abp-contains(ad blocker)
 topfilmz.com#@##adsense
 ||delicatecascade.com^$third-party
-||gaudyairplane.com^$third-party
 qq.com##.mod_float_banner
 sourceforge.net#$#hide-if-matches-xpath './/a[contains(@href,"campaign=display")]/parent::div[@class][1]'
 @@||ad.sevenads.net/banner.php?$script,domain=uploaded-premium.ru
@@ -4497,7 +4496,6 @@ baidu.com##DIV[data-module='rec:undefined-undefined']
 /adblock-img.
 fossbytes.com#@##adsense
 m.kdslife.com###app.Card.DownloadGuide
-viet69.ke,dualeotruyenky.com,yurineko.my,utukuva.net,cliphot69.shop,doctruyen3qhubs.com,ihentai.network,chuyentiepanimehay.one,hentaivc.blog,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn96.com,phim18hdxx.com,vn6.sexviet88.xyz,demo.14412882.com,sexmup9x.pro,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.city,truyenqqno.com,clipsexsub3x.net,sayhentai.vc,motphim.pokemonviet.com,lxmanga.space,phimlongtieng.net,newtruyentranh7.com,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz,goctruyentranhvui19.com,viet69vn.at,misskon.com,hayqua.net#$#abort-current-inline-script WebAssembly instantiate
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 camsstream.com#$#abort-current-inline-script onload;
 ebay.*##div.Q2g2:has(div.-cKW.O4Nv > div > div.j2R0 > span.oTB_) ~ div.CSf-
@@ -5358,7 +5356,6 @@ qdmm.com,qidian.com##.qdRead_client
 zh.moegirl.org.cn##.moe-dropdown.moe-downloadapp
 baidu.com##.page-head-queryarea
 anitube.*,alphatron.*,edgedeliverynetwork.com#$#abort-current-inline-script EventTarget.prototype.addEventListener delete
-orderbbq434.com#$#abort-current-inline-script window.addEventListener Ads
 aniworld.to#$#abort-current-inline-script JSON.parse /atob|break/
 bez-smenki.ru#$#abort-current-inline-script $ showPopupextra
 @@||bit-vortex.com/js/antiadblock.js$script
@@ -5407,6 +5404,7 @@ poznamka.ru##body > [id]:not([class])[style^="z-index"]
 watchflix.*#$#abort-on-property-read dispatchEvent; hide-if-matches-xpath './/div[(@style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;") or (@class and starts-with(@style, "pointer-events: none; position: absolute; top: 0px; left: 0px; width:"))]';
 ||cpu.baidu.com^$third-party
 ||bananabarrel.com^$third-party
+sabormazatlan.com#$#abort-current-inline-script window.addEventListener Ads
 quora.com##.q-box.qu-borderAll.qu-bg--white>.q-box>div>[class="q-box "]>[class="q-box"]
 dcast.tv###hideall
 h5.m.taobao.com##[style*="top: 0rem"]
@@ -6661,6 +6659,7 @@ lofter.com##.js-promote-itm
 slashdot.org#$#abort-on-property-write EventTarget.prototype.addEventListener;
 @@||narcity.com/*/ads.advert.js$script
 inforesist.org##aside[id="execphp-24"]
+olx.*#$#hide-if-matches-xpath './/div[contains(@id,"baxter")]/parent::div[@id]'
 ||etherealripple.com^$third-party
 bachtrack.com#@##adblock3
 bachtrack.com#@##adblock4
@@ -6978,6 +6977,7 @@ inforesist.org##aside[id="text-44"]
 olx.pl#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ancestor-or-self::div[@data-testid="l-card"]/preceding::h2[contains(., "Ogłoszenia promowane")]/parent::div'
 zhidao.baidu.com###wap-youx-change-asp
 ##div#beijing.article_content.layui-clear > div.left > div > a
+olx.*#$#abort-on-property-read Baxter.targeting.ad_price; abort-on-property-read Baxter.targeting.ad_title; override-property-read Baxter.targeting emptyObj;
 @@||gram.pl/js/advertising.js$script
 saohgdasregions.fun#$#abort-current-inline-script document.createElement 'delete window';
 adpop.me,amyscans.com,aquipelis.net,arenavision.in,arenavision.us,blogdepelis.com,canalenvivogratis.com,cinemitas.com,danfra.com,dclinks.info,descargarplaystore.net,desmaxgo.com,elitegoltv.me,extreme-d0wn.net,filmesonlinegratis.com,futbollibre.online,hqq.*,inkapelis.com,lhmjihd.blogspot.com,limpi.tv,livefootball.live,locopelis.com,megawarez.org,mostafidoun.com,pastepvp.org,peliculas24.me,peliculascine.net,peliculasdeprincesas.net,peliculasio.com,peliculasyseries.org,pelisgratis.me,pelishd.live,pelisplanet.com,pelisplus.online,pelix.tv,pirlotv.com.es,pruiebannnn.blogspot.com,recpelis.net,repelis.net,rojadirectatv.info,rojadirectatv.stream,series21.com,seriesflixapp.net,seuseriado.com,seutorrent.com,siestrenos.com,sonpelishd.com,sonpelishd.net,tarjetarojaonline.tv,tarjetarojatvonline.com,tecmaxsoft.com,televisionparatodos.tv,tuzonafut.net,verpeliculasenlatino.com,voirfilm.me,voirfilms.mx,webtvonlive.com,hdvid.tv#$#abort-on-property-read smrtSB; abort-on-property-read smrtSP
@@ -7236,6 +7236,7 @@ sina.cn##.zhidi
 baixing.com##.guide-video-app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=hentenaar.com
 aniwatchtv.*,kunmanga.com#$#abort-current-inline-script document.createElement /break|case/
+viet69.ke,dualeotruyenky.com,yurineko.my,utukuva.net,cliphot69.shop,doctruyen3qhubs.com,ihentai.network,chuyentiepanimehay.one,hentaivc.blog,streamvl.top,buomtv.media,truyenvn.shop,javtiful.com,quatvn.my,phimsexhayvn96.com,phim18hdxx.com,vn6.sexviet88.xyz,demo.14412882.com,sexmup9x.pro,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenz.org,damconuong.city,truyenqqno.com,clipsexsub3x.net,sayhentai.vc,motphim.pokemonviet.com,lxmanga.space,phimlongtieng.net,newtruyentranh7.com,www.sieutamphim.pro,vevocloud.com,sex.xinh3x.me,sexviet88.xyz,goctruyentranhvui19.com,viet69vn.at,misskon.com,www.iu88.net#$#abort-current-inline-script WebAssembly instantiate
 699pic.com###landlord
 #@##sponsored-ad
 .com/qq.js$third-party
@@ -8424,6 +8425,7 @@ verkaufsoffener-sonntag.com#$#hide-if-matches-xpath './/div[contains(@class,"g "
 /adblock-detect/*
 @@||ausujet.com/skins/common/ads.js
 ||carvecakes.com^$third-party
+olx.pl#$#abort-on-property-write _gde_ingPriceImg
 tiku.baidu.com##.to-app
 @@||serve.popads.net/checkInventory.php$script,domain=jav4.me
 datanodes.to#$#hide-if-matches-xpath './/a[@rel][@target="_blank"]/img[@alt="Watch Movie"][@style]/ancestor-or-self::div[1]'
@@ -10367,6 +10369,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||smilingwaves.com^$third-party
 ||tiresomethunder.com^$third-party
 ||sowlettuce.com^$third-party
+||gaudyairplane.com^$third-party
 ||loveseashore.com^$third-party
 ||scaredsidewalk.com^$third-party
 ||knitstamp.com^$third-party
