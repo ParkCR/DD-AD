@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-03-19 01:01:07
+! Last Modified: 2026-03-19 10:23:44
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -278,6 +276,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -6711,6 +6710,7 @@ sport.cz##div[class*="ogm-advert-static"]
 baijiahao.baidu.com#?#div.layer-item:contains(打开)
 manga.bilibili.com##.app-button.download-app
 m.bilibili.com#?#.bottom-tab:contains(App)
+1377x.*,1flix.*,cucuflix.*,doood.*,dooodster.*,igetintopc.com,jasminetesttry.com,l1afav.*,miraculous.to,moviesapi.*,myflixerzz.*,primewire.*,seaporn.org,sfile.mobi,usersdrive.com,vid2faf.*,vidfast.*,vidlink.*,vidsrc.*,watchflix.*#$#abort-on-property-read window.open
 game8.jp#$#hide-if-matches-xpath './/iframe[@src]/parent::div[@style]/ancestor::div[contains(@id, "img_")][1]'
 lfg.co,leasticoulddo.com#@#.text_ad
 ##DIV.ad-content
@@ -7341,7 +7341,6 @@ lvmama.com###leftDialog
 ahaonline.czinfo.cz,onetv.cz##a[href^="//api.mgid.com/"]
 1010jiajiao.com##.fixedbox2
 qianzhan.com##.kfonline2
-||fvedio.kuwo.cn^$app=cn.kuwo.player
 gebi1.com##.offical-account
 yahoo.com##.crazyad
 bonstreams.net,cloudvideo.tv,cucuflix.*,flashx.tv,gogoanime.*,gomovies.*,keeplinks.co,movies123.xyz,openloadmovies.*,vidsrc.*,yts-official.*,yts.*#$#abort-on-property-read atob
@@ -8960,7 +8959,6 @@ www.3ppp.net##DIV.bottom_fixed
 jinti.com###mei
 ||cmath.fr/images/fondsticky.gif
 music.163.com##.u-ft
-1377x.*,1flix.*,cucuflix.*,doood.*,dooodster.*,igetintopc.com,jasminetesttry.com,l1afav.*,moviesapi.*,myflixerzz.*,primewire.*,seaporn.org,sfile.mobi,usersdrive.com,vid2faf.*,vidfast.*,vidlink.*,vidsrc.*,watchflix.*#$#abort-on-property-read window.open
 ##DIV.hidden-lg[style='position: absolute;bottom: 0px;z-index: 10;']
 ||aspiringapples.com^$third-party
 kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="__CLICKTHRU__"]
@@ -9192,6 +9190,7 @@ sina.com.cn##[id^="fake_div_"].xxl-card
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ||attendchase.com^$third-party
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/following::a[@role="button"]/ancestor::div[@class="sc-sba-modules-logo"]/parent::div[contains(@class,"sc-sba-modules")][1]'
+miraculous.to#$#prevent-listener hashchange; prevent-listener popstate
 ##.ant-modal-root > .tuia-modal-wrap
 ||dl.dropbox.com/u/50417078/gerador/LonelyHeart.mp3
 ebay.*#$#hide-if-contains-and-matches-style /Sponsored|Anzeige|Sponsorisé|Sponsorowane|Gesponsord|Patrocinado|Sponsorizzato|贊助/ li 'div.s-item__detail > span.s-item__sep > div ^^sh^^ span' /./ ' height: 20px;'
@@ -9497,6 +9496,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gracefulmilk.com^$third-party
 ||pluckyzone.com^$third-party
 ||possibleboats.com^$third-party
+||fvedio.kuwo.cn^$app=cn.kuwo.player
 ||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
 ||majesticmountainrange.com^$third-party
 ||xovq5nemr.com^$third-party
