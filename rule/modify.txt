@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-03-20 00:59:07
+! Last Modified: 2026-03-20 10:09:22
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -2896,7 +2896,6 @@ asurascanz.com#$#hide-if-matches-xpath './/a[@rel="sponsored"]/parent::div[@styl
 ||flourishinginnovation.com^$third-party
 m.v.qq.com##.mod_app_banner
 m.huxiu.com###qr_code_pc
-mercadolibre.*#$#hide-if-matches-xpath './/a[@class="poly-component__ads-promotions"][text()]/ancestor-or-self::li[@class="ui-search-layout__item"]'
 @@||imasdk.googleapis.com/flash/*.swf$domain=syndication.vmma.be,object-subrequest
 58pic.com##.activitySettings-Fixed
 vsviti.com.ua#$#abort-on-property-read tdAnimationStack.init
@@ -3418,7 +3417,6 @@ new.qq.com###Recomend
 ||bilibili.com/html/ads-index.js
 championsuefa.tv###closebutton
 @@||sasontnwc.net/intermission/loadTargetUrl$xmlhttprequest
-mercadolivre.com.br#$#hide-if-matches-xpath './/span[contains(@class,"ui-recommendations-font-color--GRAY")][text()]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 gnula.se,pelismart.com#$#abort-on-property-read localStorage
 qq.com##.ad-cell-common
 oneindia.com##div[style] > div[class="discounts-section"]
@@ -3550,7 +3548,6 @@ euroiphone.eu##.div-download-v
 baijiahao.baidu.com##div[id="bdrainrwDragButton"]
 euroiphone.eu##.div-download-h
 ||franticroof.com^$third-party
-mercadolibre.*#$#hide-if-matches-xpath './/span[contains(@class,"ui-recommendations-font-color--GRAY")][text()]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 =Paretoll$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 ##[href="https://adstub.net/judi89/"]
 money.pl#$#simulate-mouse-event 'xpath(.//div[@class]//div[contains(text(),"REKLAMA")]/following-sibling::div[contains(text(),"Przejdź teraz")])$delay=0'
@@ -3717,7 +3714,6 @@ fichier.net#@##contentAd
 thmz.com###floatdivids
 pausecafein.fr###adb-pop
 cekresi.com##.pleasehideadblkuc.popio
-mercadolibre.*#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-placements__title"][text()]/ancestor::div[@class="ui-search-sidebar-placements title-placements"]/parent::div[@class="ui-search-sidebar-placements__display"]'
 ##[src$='/dibu.adadadad']
 youth.cn###identifier-pannel
 suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
@@ -4626,7 +4622,6 @@ internet-law.ru###fab-enabled
 @@||novamov.com/banner.php$script
 forum.vip-cxema.org##body > #document_modal.modal,#some_ad_block_key_popup
 ##.adbd-background
-mercadolibre.*#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 ###adblock-honeypot
 @@||gaijin.at/ads/advertising.js$script
 ##.clearfix > a > IMG[referrerpolicy='no-referrer'][src]:not([style='display: block;'])
@@ -4809,7 +4804,6 @@ anitube.*#$#abort-on-property-write _pop
 @@||ouest-france.fr/sites/all/themes/base/js/adblock.js$script
 ||calculatingcircle.com^$third-party
 ||cosmosjackson.com^$third-party
-mercadolivre.com.br#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-placements__title"][text()]/ancestor::div[@class="ui-search-sidebar-placements title-placements"]/parent::div[@class="ui-search-sidebar-placements__display"]'
 ifeng.com##header[class*="headerIn"]
 pupudy.com##.asst-post_header
 dlneko.org##.DialogMask
@@ -5314,7 +5308,6 @@ sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
 download.cnet.com#$#hide-if-matches-xpath './/span[text()="Sponsored"]/parent::*[self::p or self::h2]/ancestor::*[self::div[@data-track-placement="hero_home"] or self::li]'
 sdamgia.ru##main > div[class*=" "]:nth-child(-n+2) > div ~ div
 2ddl.vg,dropapk.com,thevideobee.to#$#abort-on-property-write _pop
-mercadolivre.com.br#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 ##adblocker
 videopremium.tv#@#.textAd
 baidu.com##.download-app-parent
@@ -6054,6 +6047,7 @@ ahaonline.czinfo.cz,onetv.cz##.sticky-content
 neihanshequ.com###appDownload
 tgx.rs,torrentgalaxy.*#$#hide-if-matches-xpath './/img[@data-src="bin"]/preceding::a[@onmouseout="#"]/ancestor-or-self::div[@id="stopad"]'
 rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
+mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath './/span[contains(@class,"ui-recommendations-font-color--GRAY")][text()]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 */blsx_*_*_*?*$third-party
 @@/adscript.js$script,~third-party,domain=jdubuzz.com|journaldugamer.com|journaldugeek.com|pixelistes.com
 @@||static.gamergen.com/img/pubs/ads.html
@@ -7380,7 +7374,6 @@ m.youku.com##.cmt-more-cont
 romakatya.ru#$#prevent-listener load AdBlock
 baidu.com##.player-pause-code
 vipleague.is,vipleague.ws,vipleague.se,vipleague.tv,vipleague.me,vipleague.mobi,vipleague.co,vipleague.sx,vipleague.ch,vipbox.tv,vipbox.co,vipbox.biz,vipbox.sx,vipbox.eu,vipbox.so,vipbox.nu,vipboxsa.co,strikeout.co,strikeout.me,homerun.re,vipboxtv.co,vipapp.me##script + script + script + style + div[id]
-mercadolivre.com.br#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
 sexvid.*##div[class^="sp-player visible"][id^="sp-player"]
 aliexpress.*#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|Ad|Pub|Publicidad|Werbeanzeige|Rekl|ad|Reklam|Anúncio|광고|Ann|إعلان|מודעה/ 'div>div.card-out-wrapper' 'div > div > div > a[target="_blank"] + div[class]'
 ||alwaysahorse.com^$third-party
@@ -7400,6 +7393,7 @@ olx.com.br#$#hide-if-matches-xpath './/h2[contains(text(),"Você pode gostar")][
 plagiarismdetector.net#$#abort-current-inline-script $ pop_gram; abort-current-inline-script isAdBlockActive;
 ||confirmglobal.com^$third-party
 stardima.*#$#abort-current-inline-script document.createElement /break|case/
+mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath './/span[@class="ui-search-sidebar-placements__title"][text()]/ancestor::div[@class="ui-search-sidebar-placements title-placements"]/parent::div[@class="ui-search-sidebar-placements__display"]'
 taptap.com###bottomBanner
 @@||jeu-concours.biz/show_ads.js
 karaoketexty.cz#$#abort-current-inline-script  adb
@@ -7476,6 +7470,7 @@ egy.*,egybest.*,egybest2.*,iegy.*#$#abort-on-property-read open
 new.qq.com##.tuijian-bar
 @@||cash4files.com/intermission/loadTargetUrl$xmlhttprequest
 m.lianjia.com##div.mod_download:nth-of-type(1) 
+mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
 baidu.com###s-hotsearch-wrapper
 ||fancydune.com^$third-party
 /^https?:\/\/[a-z0-9]{5,15}\.(?:com|net)\/tag\.min\.js$/$third-party,script
@@ -7605,7 +7600,6 @@ godt.no##.adblock-info
 japscan.*,mavanimes.*#$#abort-current-inline-script JSON.parse;
 ##body#nr_body a[href*="/?utm_source="]
 ||error-report.com^$domain=sourceforge.net|bab.la|pons.com|loawa.com|gazetaprawna.pl|malaymail.com|tz.de|winfuture.de|gutefrage.net|dictionary.cambridge.org|huffpost.com|collinsdictionary.com|sankei.com|timesofindia.indiatimes.com|picrew.me
-mercadolibre.*#$#hide-if-matches-xpath '//h2[contains(@class,"hero__right-section-text-promoted-typography")][text()]/ancestor-or-self::div[contains(@class,"andes-card")][@id]'
 animecomplet.*,cpasbien.ch,cpasbien.si,dadyflix.co,dl-protect.*,dl-protect1.com,ed-protect.org,extreme-down.*,extreme-download.*,filmsexeporno.com,french-stream.*,hds-streaming.su,hds-streaming.tv,hdss.la,hdss.to,ianime-fr.com,japscan.*,jetanimes.*,lelscanfr.com,lelscans.net,mavanimes.*,streaming-french.*,streamingfrance.com,summarynetworks.com,toonanime.*,torrent9.*,vanime.*,vf-film.net,voirseries.*,vostanimey.net,vostanimez.tv,vostfree.*,wawacity.*,zone-annuaire.*,zone-telechargement.*#$#abort-current-inline-script document.documentElement /atob|case|JSON.parse/; abort-current-inline-script String.fromCharCode /atob|break/; abort-on-property-write JSON.parse; abort-current-inline-script Math /atob|break/;
 ||degreechariot.com^$third-party
 ||corgibeachday.com^$third-party
@@ -8256,6 +8250,7 @@ videoproxy.in###overlay-holder
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=articlerewritertool.com
 @@||apk.tw^$generichide
 ||baidu.com/smalllog/
+mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath './/a[@rel="nofollow, sponsored"]//ancestor-or-self::section[contains(@class,"ui-recommendations-carousel-wrapper-ref")][1]'
 notre-planete.info###abp1
 zhihu.com##.Card Banner
 ##DIV#wwads
@@ -8691,7 +8686,6 @@ drive2.ru#?#div[class]:-abp-has(> div[id][class] > a[href] > img[src^="https://a
 ||dk4ywix.com^$third-party
 kupi.cz,novinky.cz,sport.cz,super.cz##[id^="tetrahedron"], .tetrahedron
 @@||anidub.com/ads.js|$script,domain=anidub.com
-mercadolivre.com.br#$#hide-if-matches-xpath './/a[@class="poly-component__ads-promotions"][text()]/ancestor-or-self::li[@class="ui-search-layout__item"]'
 cibaipuki.com##.table2
 /bigREDdog.css?
 ###detection-block
@@ -9036,6 +9030,7 @@ jianshu.com##.app-open
 @@||cpalead.com/cpalock.php$script,domain=megabitload.com
 ahaonline.czinfo.cz,onetv.cz##iframe[id^="iframeWrapper-"]
 ||conditioncrush.com^$third-party
+mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath './/a[@class="poly-component__ads-promotions"][text()]/ancestor-or-self::li[@class="ui-search-layout__item"]'
 ||gamemag.ru/assets/*/js.cookie.js
 mail.ru#@#.mailru-visibility-check
 ||gammamaximum.com^$third-party
