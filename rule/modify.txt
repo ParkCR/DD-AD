@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-03-25 00:59:53
+! Last Modified: 2026-03-25 10:22:17
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -913,6 +913,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -3075,6 +3077,7 @@ mmbang.com##.footer_adver-warp
 mydrivers.com###a_showhotnews_list_dia
 www.xhfz2.com##A[href^='https://www.xhfz2.com/ad.php']
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=news.voicetv.co.th
+hqq.to###thispays {remove:true;}
 kupi.cz,novinky.cz,sport.cz,super.cz##.plachta-overall-img
 trakt.tv###huckster-desktop-bottom
 7k7k.com##.pendant
@@ -3304,6 +3307,7 @@ onetv.cz##div[style*="background-image"][style*="branding"]
 baidu.com###header > div:last-child
 @@||css.yhdmtu.xyz^$domain=iyinghua.io|yinghua8.tv
 woxikon.de#$#override-property-read window.navigator.connection.rtt 1001
+hqq.to###bigplaybutxt {remove:true;}
 stuff.co.nz#$#hide-if-matches-xpath '//div[@class="sponsored-container"]/div[@class="sponsored"]/ancestor-or-self::a[@class="cx-item"]'
 meituan.com##.banner-download
 cvs.com#$#hide-if-matches-xpath './/div[@class]/*[contains(@shelf-type,"criteo")]/ancestor::div[@class][1]'
@@ -4485,6 +4489,7 @@ mininova.org###content > #adspot-a + .maintable
 ##div.swiper-slide > A[rel='nofollow noopenner']
 btime.com##.shop-guid
 iyingshi9.tv#$#override-property-read YZM.ads.state false
+peliculaseroticasonline.*#$#abort-on-property-write _0x1dc1
 ||chinalawedu.com/js/zxkf.js
 cnbeta.com##div[id][style^="position: fixed; bottom: 0px;"]
 ||auete.pro/js/mcenter/
@@ -7306,6 +7311,7 @@ chusixs.com/5ygsh/
 theflixertv.*#$#hide-if-matches-xpath './/div[@dir][@style][attribute::*[starts-with(name(), "data-")]]/ancestor-or-self::*[1]'
 ||calculatingtoothbrush.com^$third-party
 aniwatchtv.*#$#hide-if-matches-xpath './/a[@href][@target="_blank"]/img[@alt][@style]/ancestor::div[contains(@style," text-align")]'
+hqq.to##iframe[class="ppxls_awersd"] {remove:true;}
 lscomic.com#$#abort-on-property-read window.advanced_ads_ready; abort-on-property-write window.advanced_ads_ready_queue;
 cdiscount.com#$#race start; hide-if-matches-xpath './/input[contains(@name,"Sponsored")]/ancestor::*[(self::article[contains(@class,"c-productCard")] and parent::li) or (self::form and ancestor::div[contains(@class,"prdtBlocInline")])]/ancestor::li[1]'; hide-if-contains-and-matches-style '' 'li , div.l-fp-row' 'li custom-mentions , custom-mentions ^^sh^^ canvas' /./ 'background-image: repeating';  hide-if-contains-and-matches-style '' li 'custom-mentions ^^sh^^ canvas' '' 'display: none'; hide-if-matches-xpath './/div[contains(@class,"sponsor")]/span[text()]/ancestor::article/parent::a[@rel="sponsored"]/ancestor::div[1]' ; hide-if-matches-xpath './/div[contains(@class,"sponsor")]/span[text()]/ancestor::article/parent::a[@rel="sponsored"]/parent::*[self::div or self::section][1]'; race stop;
 idnes.cz##a[target="_blank"] > img[width="480"][height="300"]
@@ -7488,6 +7494,7 @@ lfg.co,leasticoulddo.com#@#.pub_300x250
 @@||btcgratis.com/banner.gif$image
 @@||freetuts.net/*/adsense.js$script
 onetv.cz##.rollWrapper
+zbporn.com,hqq.to#$#abort-on-property-read popns
 jianshu.com##.header-download
 pingwest.com##article[class*="item bd"]
 @@||adsrv.gpm-digital.com/$object-subrequest,domain=rutube.ru
@@ -8206,7 +8213,6 @@ quora.com##.q-box.qu-bg--white > span[data-nosnippet="true"] > .q-box
 ||crowdedmass.com^$third-party
 freebitco.in,freedoge.co.in#@##main_content_ad_left
 m.guancha.cn##.g_header.go-to-app
-zbporn.com#$#abort-on-property-read popns
 /fal854heat^$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 m.toutiao.com##.m-index-tag
 onetv.cz##a[href*=";adfibeg="]
@@ -8640,7 +8646,6 @@ yocast.tv#@##adblock
 ##[href*='amu6v.com']
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=get-free-bitco.in
 ria.ru##.antiblock
-peliculaseroticasonline.tv#$#abort-on-property-write _0x1dc1
 ||aheadday.com^$third-party
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=elfqrin.com
 pingwest.com##section[class*=download-app-tip]
@@ -9278,8 +9283,6 @@ cloudflareinsights.com$third-party
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 mathportal.org/temp/blocked/blockedCounter.php
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||movemeal.com^$third-party
 ||gustocooking.com^$third-party
