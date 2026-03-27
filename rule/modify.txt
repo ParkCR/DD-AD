@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-03-27 01:02:34
+! Last Modified: 2026-03-27 10:29:46
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -278,6 +276,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -1437,6 +1436,7 @@ olx.*#$#hide-if-matches-xpath '//a[contains(@href,"promoted")]/parent::div/ances
 ##[alt='52bl']
 9hentai.*#$#prevent-listener click saveLastEvent
 4kporn.xxx,cambro.tv,mangovideo.club###kt_player > a[href][target="_blank"]
+www.facebook.com,web.facebook.com#$#override-property-read Env.xvsijlg4 false; override-property-read Env.qmzkvr8p false; override-property-read GHLDetectionUtilsPreludeSafe.isJSONParseShimmedImpl falseFunc;
 fmovies.*#$#hide-if-matches-xpath '//div[starts-with(@style, "position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01;")]';
 item.jd.com##.jdm-tbar-tab-qrcode.jdm-toolbar-tab.J-trigger
 ykt.ru##.n-banner--adblocked
@@ -6280,7 +6280,6 @@ mercadolivre.*,mercadolibre.*#$#hide-if-matches-xpath './/span[@class="ui-billbo
 fm.douban.com##.left
 series24.*,tvporinternet2.com#$#abort-on-property-read aclib.runPop
 ##[poster^='https://dingbu.bj.bcebos.com/']
-www.facebook.com,web.facebook.com#$#override-property-read Env.xvsijlg4 false; override-property-read GHLDetectionUtilsPreludeSafe.isJSONParseShimmedImpl falseFunc;
 @@||googleads.g.doubleclick.net/favicon.ico$domain=eurosolidaire.com
 cnn.com#$#strip-fetch-query-parameter caid warnermediacdn.com; strip-fetch-query-parameter afid warnermediacdn.com; strip-fetch-query-parameter conf_csid warnermediacdn.com; strip-fetch-query-parameter app_csid warnermediacdn.com
 izaiwen.cn##DIV[carousel-item]
@@ -6383,6 +6382,7 @@ pornhits.com,porntop.com#$#abort-current-inline-script ACtMan
 wiseway.com.cn##.float-kefu
 ak.sv###ignielAdBlock
 ||excitingtub.com^$third-party
+3dn.ru,a-point.info,addfiles.ru,akkordam.ru,all-for-kompa.ru,asia-tv.su,at.ua,autosimgames.ru,clan.su,db-energo.ru,devdrivers.ru,do.am,elegos.ru,elektronika56.ru,elektrosat.ru,fon-ki.com,for-gsm.ru,free-dream.ru,ftechedu.ru,fukushima-news.ru,gals.md,gloria-cedric.ru,goldformat.ru,greenflash.su,igrul-ka.ru,krasnickij.ru,krolmen.ru,megaclips.net,mow-portal.ru,moy.su,my1.ru,narod.ru,newgames.com.ua,novospasskoe-city.ru,omsimclub.ru,online-supernatural.ru,only-paper.ru,others.name,pidru4nik.com,pkrc.ru,play-force.ru,pohoronnoe-byuro.com,pokatushki-pmr.ru,pro-zakupki.ru,project-ss.ru,psxworld.ru,radiodom.org,rocketdockfree.ru,sdr-deluxe.com,soft-game.net,stalker-gsc.ru,stalker-zone.info,stalkermods.ru,svadbatomsk.ru,techmusic.ru,tes-game.ru,torfiles.ru,ucoz.club,ucoz.com,ucoz.net,ucoz.org,ucoz.ru,ucoz.ua,usite.pro,vodopads.ru,xakevsoft.ru,xn--80aeshkkbdj.xn--p1ai,zona-stalkera.ru#$#abort-on-property-read Object.prototype.clunduse; abort-on-property-read k_init; abort-on-property-read Object.prototype.u_vastplayer
 @@||nouvelle-fiat500.fr/ad-pub.js$script
 wpmienphi.com###d7b2
 @@||filehorse.com/js/ads.js$script
@@ -6576,6 +6576,7 @@ m.bilibili.com##.m-home-float-openapp
 lfg.co,leasticoulddo.com#@#.pub_300x250m
 ||1v9d7vx.cob.autojournal.fr^$script
 163.com##.ntes-nav-mobile-title
+mundoperfecto.net#$#prevent-listener click preventDefault
 ||consultantchow.com^$third-party
 apkmirror.com#@#.adsbygoogle
 sports4u.tv,sports4u.live#@##adblock
@@ -7068,6 +7069,7 @@ bro.adcast.tech,bro.adcast.site##.mask.adblock
 ###adblocker_modal_overlay
 kupi.cz,novinky.cz,sport.cz,super.cz##[class$="Flax"]
 hackintosh.computer##.adscenter
+thegatewaypundit.com#$#abort-on-property-read navigator.userAgent false; abort-current-inline-script JSON.parse /decodeURI/
 animedia.tv,vsetut.su#$#abort-on-property-read zfgformats
 sblunwen.com###popupService
 fstore.biz#@##adblockinfo
