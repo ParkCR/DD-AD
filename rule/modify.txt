@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-02 16:58:10
+! Last Modified: 2026-04-03 00:56:49
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -278,6 +276,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -913,8 +912,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1500,6 +1497,7 @@ forum.pac-rom.com#@#.banner_ads
 poczta.o2.pl##dd-holder[slot^="DOUBLE_BILLBOARD"]
 ||ambrosialsummit.com^$third-party
 infoq.cn##.widget-slide-weekly
+cap3.lol#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 sharecast.eu,sharecast.to###table1
 gagadget.com,ringside24.com,newsyou.info#$#abort-on-property-read localStorage
 huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
@@ -3095,7 +3093,6 @@ dziennikwschodni.pl#@#.adholder
 163.com##.quickmark
 dailiantong.com##.appDwn
 /site/mov*$third-party
-||fvl1f.pw^$third-party
 baike.so.com##section#business-flow.business-flow
 tech.sina.com.cn##.zc-app
 /blockAndInf.js
@@ -6116,6 +6113,7 @@ douguo.com###dlayer
 mrtzcmp3.net###hstp_interstitial
 *.lijie.*/*_*?$third-party
 painart.ru##body > div[id][style^="display: block"][style*="background: red"]
+sulasok.*,sulasokvids.*#$#abort-current-inline-script  Date.now shouldRun;
 /tencentvideo/script/webtips/*
 justjared.com,pockettactics.com#$#abort-on-property-read PerformanceLongTaskTiming
 ||firsttexture.com^$third-party
@@ -6919,7 +6917,6 @@ taptap.com##.open-app-button
 antena24.com##[id^="layer"]
 freescreens.ru,imgbase.ru,imgclick.ru,payforpic.ru,picclick.ru,picforall.ru#$#abort-current-inline-script JSON.parse
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dialogJ.umoney-promotion-dialog
-cap3.click#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 super.sina.cn##.call_up_banner
 ifeng.com##div[class*="callupBtn"]
 rrys2020.com##.corner > LI > A[href*="yyets."]
@@ -7643,6 +7640,7 @@ embedupload.com#@#.text-ad
 manga-scantrad.net,toonanime.*#$#abort-current-inline-script document.querySelectorAll popMagic
 ||exuberantedge.com^$third-party
 jingyan.baidu.com##.task-panel-entrance
+vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script String.fromCharCode 2147483647
 ||6080.tv/public/js/m/uaredirectformobile.js
 yuanbao.tencent.com#?#div.input-guide-v2-item:contains(下载)
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=get-free-bitco.in
@@ -8872,6 +8870,7 @@ sm.cn##.oab-ball-wrap
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,gutefrage.net,loawa.com,sourceforge.net,tz.de,winfuture.de#$#event-override message trusted /unfilled/; event-override visibilitychange disable;
 ||connectashelf.com^$third-party
+chichi-pui.com#$#hide-if-matches-xpath './/*[@class]/ancestor::aside[contains(@class,"advertisement")]'
 ##IMG[src*='qimanwu_wap/static/adimages/']
 bitcoins4.me##.alert.alert-block
 ##IMG[alt^='kaiybet']
@@ -9410,6 +9409,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||securepubads.g.doubleclick.net/gampad/ads?$domain=golfgalaxy.com|dickssportinggoods.com
 ||megaline.co/visitScript/$script,third-party
 ||nextinpact.com/assets/images/autopromo-adblock-1280.jpg
+||fvl1f.pw^$third-party
 ||house365.com/js/analyze.js
 ||howbuy.com/subject/js/jquery.blockUI.js
 ||ifengimg.com^*/red2018icon.
@@ -10779,3 +10779,5 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||killcovid2021.com/*.mp4
 ||inputicicle.com^$third-party
 ||sicksmash.com^$third-party
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
