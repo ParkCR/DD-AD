@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-08 00:59:41
+! Last Modified: 2026-04-08 10:31:52
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1071,6 +1071,7 @@ hltv.org#$#hide-if-matches-xpath '//img[contains(@class,"day-only") or contains(
 slobodnadalmacija.hr#$#hide-if-matches-xpath './/div[@id][contains(@class,"ad--align")]/ancestor::div[1]'
 /template/piankuwap/js/afoot.js
 billboard.com#$#prevent-element-src-loading script /loader\.min\.js/
+amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##iframe[src*=" javascript: window"]
 jianshu.com##.app-float-btn
 baidu.com##.first-card-container
@@ -3727,6 +3728,7 @@ suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
 .top/*/*.js?ts=*$third-party
 kankan.com##.tuiguang_position
 m.ke.com##.more-box
+instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section[id] > div[role="region"][aria-label="item carousel"])
 so.com##.inner_left
 maxedtech.com#@#.a160x600
 the-village.com.ua##.infoA
@@ -4387,7 +4389,6 @@ ifeng.com##div[class^="qrCode"]
 target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'p[data-test="sponsoredText"]'
 17173.com##.js-lol-pop
 dditblog.com###income_div
-sameday.costco.*#$#race start; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spon")] and descendant::span[contains(text(),"ored")]]/ancestor::li[1]'; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spo")] and descendant::span[contains(text(),"ored")]]/ancestor::li[1]'; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spo")] and descendant::span[contains(text(),"ed")]]/ancestor::li[1]'; hide-if-matches-xpath './/li//div[@style][descendant::span[contains(text(), "Spon")] and descendant::span[contains(text(),"d")]]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//sp-ads-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-ads-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-sp-tag]/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//ic-fp-tag]/ancestor::li[1]'; hide-if-matches-xpath './/ic-fp-tag/ancestor::li[1]'; race stop;
 @@||media.trafficjunky.net/js/holiday-promo.js$script,domain=youporn.com
 y.qq.com##.top_bar
 ##[rel='nofollow'][href^='/book/baidu_verify_code']
@@ -5086,6 +5087,7 @@ ville-ideale.com###antyp
 music.163.com##.m-homeft
 torrentproject.com##A[href^="//torrentproject.com/out/?"]
 .com:8010/cc/
+sameday.costco.*##div[id]:has(> div[id] > ul li[data-testid="compact-shoppable-header"])
 ||cnc.cdn.dopc.cz^*?format=js$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 streamingcommunity.*#$#abort-current-inline-script String.fromCharCode /btoa|break/
 dealerdunet.fr#@#.text_ads
@@ -5777,7 +5779,6 @@ pinayvids.com#$#abort-current-inline-script decodeURIComponent; override-propert
 m.sohu.com##.cbd-top-bar
 ||aloofmetal.com^$third-party
 csdn.net##.toolbar-subMenu
-amybakesbread.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
 /adblockbait.js$script
 bing.com#?#li[class="b_algo"]:-abp-has(>[class="ad_ml1ESLItem"])
 m.ke.com##.kem__download-app-ad
@@ -6058,6 +6059,7 @@ myanimelist.net##._unit
 eastmoney.com###rightadvert
 /app/market/*/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%8%A8.apk
 ||embermosaic.com^$third-party
+@@||*/abd.js^$domain=amybakesbread.com|budgetbytes.com|disneydining.com|disneyfoodblog.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|recipetineats.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
 dailymail.co.uk##[name^="google_ads_iframe_"]
 hotpepper.jp##div[style*="text-align: center;"] > div > a
 @@||sitenable.org/admega.php$script
@@ -6698,6 +6700,7 @@ lfg.co,leasticoulddo.com#@#.text_ad
 dayt.se#@##Ad3TextAd
 tieba.baidu.com##.feed-cut
 mumu.163.com##.pic-con
+amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
 /*/*.add.*.add
 .xyz:*/bug?*=$third-party
 ||chairsdonkey.com^$third-party
@@ -7406,7 +7409,6 @@ ianime-fr.com#$#abort-on-property-read document.createElement
 tut.by#@#.pub_300x250
 m.sohu.com##.art-sogou-hotw
 m.youku.com##.cmt-more-cont
-||funoverbored.com^$third-party
 romakatya.ru#$#prevent-listener load AdBlock
 baidu.com##.player-pause-code
 vipleague.is,vipleague.ws,vipleague.se,vipleague.tv,vipleague.me,vipleague.mobi,vipleague.co,vipleague.sx,vipleague.ch,vipbox.tv,vipbox.co,vipbox.biz,vipbox.sx,vipbox.eu,vipbox.so,vipbox.nu,vipboxsa.co,strikeout.co,strikeout.me,homerun.re,vipboxtv.co,vipapp.me##script + script + script + style + div[id]
@@ -8485,7 +8487,6 @@ play/safety=^$xmlhttprequest,domain=ahaonline.cz|info.cz|onetv.cz
 ##img[alt="澳门新葡京"]
 sogou.com##.aside-qcode
 m.douban.com##.splash-btn
-@@||*/abd.js^$domain=amybakesbread.com|disneydining.com|disneyfoodblog.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
 m.bilibili.com#?#.launch-app-btn:contains(打开APP)
 ||coolapk.com/v6/feed/detail?$replace=/extra_entities//
 mail.126.com,mail.163.com##.gWel-bottom
@@ -8920,7 +8921,6 @@ fastpic.org,~new.fastpic.org#$#abort-current-inline-script addEventListener DOMC
 hdcastream.com##.container
 mercadolivre.com.br#$#hide-if-has-and-matches-style 'div[id]>[data-component^="adn"]>*' 'div[id]>[data-component="adn"]>adn-banner-vertical-square-image ^^sh^^ a[class^="content-target"]>div[class^="adn-container-square"]'
 ||deployinput.com^$third-party
-amybakesbread.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
 baike.baidu.com##[onclick^="page.Mixedor.mixedOpen(this,"]
 /bbs/include/javascript/adblock.
 animeflv.net#$#abort-current-inline-script globalThis /break|case/; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
@@ -9590,6 +9590,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||img.labnol.org/di/support.png$image
 ||stiffstem.com^$third-party
 ||pconline.com.cn/count.php?
+||funoverbored.com^$third-party
 ||gossamerwing.com^$third-party
 ||jlwz.cn/js/xf*.js
 ||nightwound.com^$third-party
