@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-08 10:31:52
+! Last Modified: 2026-04-08 17:01:51
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -278,6 +276,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -4135,6 +4134,7 @@ m.douban.com##[href^="https://erebor.douban.com/monitor/"]
 cxem.net###antiAdBlock
 ygosu.com##iframe[src^="https://cdn.nhnace.com"]
 expres.cz##a[href*="preroll"]
+motchillbr.io,onflix.my,phimmoic.fm#$#prevent-listener click ads
 ||alikeaddition.com^$third-party
 tuliu.com###vFloat
 ||cdn.adf.ly/js/display.js$script,third-party
@@ -4468,6 +4468,7 @@ baidu.com##DIV[data-module='rec:undefined-undefined']
 /adblock-img.
 fossbytes.com#@##adsense
 m.kdslife.com###app.Card.DownloadGuide
+quykhu.com#$#abort-current-inline-script document.addEventListener atob
 @@||static.adsafeprotected.com/favicon.ico$domain=tf1info.fr
 camsstream.com#$#abort-current-inline-script onload;
 ebay.*##div.Q2g2:has(div.-cKW.O4Nv > div > div.j2R0 > span.oTB_) ~ div.CSf-
@@ -8257,7 +8258,6 @@ jigsawexplorer.com#$#cookie-remover /adblocker/ true
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vide-greniers.org
 baomoi.com#$#abort-on-property-write AdtimaRender
 titlovi.com#@#.text-ad
-ermt.net,onflix.my,phimmoic.fm#$#prevent-listener click ads
 freehat.cc#$#abort-on-property-read advFirstClickOpenNewTab
 ifeng.com##[class^='index_bottom_box']
 ||eagereden.com^$third-party
@@ -8533,7 +8533,6 @@ mob.iyingdi.com##.down-load-app-container
 mojevideo.sk#@##video_ad
 .xyz/svelte?$third-party
 titlovi.com#@#.pub_300x250
-vozer.io#$#abort-current-inline-script document.addEventListener atob
 dajie.com##.register_layer
 zx.sina.cn##.hotRank_icon.fl_suspension_template
 zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/parent::div[@style]/ancestor::div[@class="content-top-sidebar-wrap"]'
