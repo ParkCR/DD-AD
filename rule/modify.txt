@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-10 17:10:45
+! Last Modified: 2026-04-11 00:52:28
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1358,7 +1358,6 @@ m.acfun.cn##.shown.open-app-btn
 cnbeta.com##div[style^="display:block !important;"]
 testpages.eyeo.com#$#hide-if-contains 'filter not applied' p[id]
 @@||naasongs.com^$generichide
-motchillk.hot#$#abort-on-property-read sessionStorage
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-test-target="hero-gallery"][../following-sibling::div//div[contains(text(),"Sponsored by")]]/parent::div/parent::div'
 kdocs.cn##.business-list-wrap
 karaoketexty.cz#$#hide-if-matches-xpath './/a[string-length(@href) >120][@target="_blank"]/ancestor-or-self::a[@href]'
@@ -3380,6 +3379,7 @@ tous-sports.tv##IMG[src="http://www.tous-sports.tv/images/blanccloses.png"]
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 papergeek.fr##[id^="padb_widget_"]
 jiakaobaodian.com##.com-footer-flex-panel
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/"(instream_extra_config|instream_video_ad_breaks_comet|post_roll_ad_break)":\{/' '"$1":null,"__x":{'
 ##.ad-alert-message-text
 xw.qq.com##div[class*="content-more"]
 abczdrowie.pl,dobreprogramy.pl,echirurgia.pl,parenting.pl,wp.pl#$#override-property-read rekid undefined; override-property-read rekids undefined;
@@ -5098,7 +5098,6 @@ dealerdunet.fr#@#.text_ads
 gaytxxx.com,transtxxx.com,txxx.com#$#abort-on-property-read jwplayer.utils.Timer
 csdn.net##.openApp
 wk.baidu.com##.rec-text-root
-||fulitech.com.cn^*/float.js
 ##DIV.div_sticky2.hidden-lg
 sport.cz##li[class$="ogm-timeline-advert"]
 163.com##.freeVip
@@ -5282,6 +5281,7 @@ ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV
 vidmoly.*#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-on-property-read window.open;
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
 qidian.com,~game.qidian.com##A[href*="game.qidian.com"]
+buomtv.media,clipsexhot.com,chuyentiepanimehay.one,cliphot69.shop,genz3x.com,damconuong.blog,demo.14412882.com,doctruyen3qhubk.net,dualeotruyensg.com,goctruyentranhvui19.com,hentaivcc.com,hhtq5.vip,ihentai.network,javtiful.com,luottruyen4.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh9.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.vc,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.nz,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 wikihow.com###contribute_footer
 zybang.com##.navigationBar-below-banner
 crsky.com##.adowGright
@@ -6194,6 +6194,7 @@ m.huya.com###template
 ||a.streamoupload.*^$script
 neoseeker.com##div[id][style^="min-height: 255px"]
 www.booking.com#$#hide-if-contains-visible-text /Ad|Annonce|Annonse|Annons|Annuncio|Anunci|Anuncio|Anúncio|Anzeige|Iklan|Kostað|Mainos|Oglas|Promovată|Publicidad|Publicité|Quảng|Reklaam|Reklam|Reklama|Reklám|Reklāma|Διαφήμιση|[Рр]еклама|إعلان|광고|広告|付费推广|贊助|מודעה|विज्ञापन|โฆษณา/ 'div+div[data-testid^="property-card"]' 'span[tabindex] span'
+motchillk.fit#$#abort-on-property-read sessionStorage
 finance.sina.com.cn##.appendQr_wrap.clearfix
 londynek.net###abp
 66law.cn##.consult-bottom-fixed
@@ -6475,7 +6476,6 @@ cdn.tvdez.com##IFRAME[src^="http://ad.directrev.com/RealMedia/ads/"]
 iegybest.*#$#abort-on-property-read attr
 ||cctvpic.com/photoAlbum/templet/common/*/game_
 @@||adhood.com^$third-party,domain=dizi-mag.com
-buomtv.media,haysex.xyz,chuyentiepanimehay.one,cliphot69.shop,genz3x.com,damconuong.blog,demo.14412882.com,doctruyen3qhubk.net,dualeotruyensg.com,goctruyentranhvui19.com,hentaivcc.com,hhtq5.vip,ihentai.network,javtiful.com,luottruyen4.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh9.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.vc,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.nz,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 drive2.ru##a[href][target="_blank"] > img[src][style^="width: 100%; height: auto;"][style*="vertical-align: middle; max-width: 240px;"]
 empireg.ru#$#abort-current-inline-script Math zfgloaded
 @@||sparkylinux.org/images/ad/$image
@@ -6857,7 +6857,6 @@ crypto-clix.net#@#.ad-content
 alibaba.com#$#hide-if-matches-xpath './/*[text()="Ad"]/parent::div[@class]/ancestor::div[@campaignid or @data-params]'
 manga1000.top#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse; abort-on-property-read asgPopScript
 novinky.cz#$#json-prune 'responsive width height'; abort-current-inline-script customElements.define;
-crazyshit.com#$#abort-on-property-read window.cs.ads
 djljz.cn##.left_fixed_ad
 m.v.qq.com##.mod_open
 abczdrowie.pl,autocentrum.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,kardiolo.pl,komorkomania.pl,medycyna24.pl,money.pl,nerwica.com,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,~sportowefakty.wp.pl,wp.pl#$#hide-if-matches-xpath '//div[@class and @*[not(@class)]=""]/div[not(*) and not(normalize-space())][@class and @*[not(@class)]=""]/ancestor::div[@class and @*[not(@class)]=""][contains(@class," ")][contains(@*[not(@class)]," ")][string-length(@*[not(@class)]) > 25][not(starts-with(@class,"app-container") or starts-with(@class,"sticky-wrapper"))]'
@@ -7212,6 +7211,7 @@ ke.qq.com##.bottom-bar
 .xyz/hm.html?s=
 inforesist.org##aside[id="execphp-30"]
 rireetchansons.fr###popins
+||crazyshit.com^$addheader=response:set-cookie:__trx1_abp=c; path=/; max-age=21600
 @@||bild.de^$elemhide
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
 .com/17*?rid=17$third-party
@@ -7597,6 +7597,7 @@ noon.com#$#hide-if-matches-xpath './/*[local-name()="svg"][@width][@fill="none"]
 ##img#hth[onclick$="hth.html')"]
 jeja.pl#@##bottomAd
 m.dongchedi.com##.mui-dialog__no-spacing.mui-dialog
+||crazyshit.com^$addheader=response:set-cookie:__trx1_p=c; path=/; max-age=21600
 theguardian.com##.site-message--adblock-message
 ebay.*#$#hide-if-matches-xpath './/span[contains(.,"Sponsored") or contains(.,"Anzeigen") or contains(.,"Sponsorisés") or contains(.,"Commandités") or contains(.,"Promocionado") or contains(.,"Gesponsord") or contains(.,"Sponsorowane") or contains(.,"Patrocinado") or contains(.,"Sponsorizzati") or contains(.,"贊助")]/ancestor::div[@data-hscroll]/parent::li[contains(@class,"ITEMS_CAROUSEL")][1]'
 ##[href^='http://jg.awaliwa.com/']
@@ -8195,6 +8196,7 @@ acouplecooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.
 iprima.cz#@#.bannerAd
 sohu.com##.cbd-plate-bill.common-ad
 tut.by#@#.text-ad-links
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/"instream_video_ad_breaks":.[{]/' '"instream_video_ad_breaks":[],"__xb":[{'
 ###WarningCodec
 mafengwo.cn##.hotel-banner
 ||ambiguousincome.com^$third-party
@@ -8239,6 +8241,7 @@ i.ifeng.com#?#div[class^=list-]:contains(APP)
 truyensextv.com,yanhh3d.cx,z.chinav.sex#$#abort-current-inline-script document.addEventListener opup
 zhihu.com##.DownloadGuide
 lukesitturn.com,voe.sx,xatovjatsosg.com#$#abort-on-property-write window.zfgloadedinpage;
+crazyshit.com#$#abort-on-property-read window.cs.ads; abort-on-property-write snspAdManager; abort-on-property-write snspAdManager2; override-property-read __ads_ns1 true;
 @@||danslescoulisses.com/fr/min/$stylesheet
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=faucetofamerica.com
 ||eastmoney.com/public/ad.tools.
@@ -9365,6 +9368,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sinaimg.cn/sports/20214c6d/20181128/880_110.png
 ||oldfashionedoffer.com^$third-party
 ||sender.contentjs.com^$popup
+||fulitech.com.cn^*/float.js
 ||giantsvessel.com^$third-party
 ||static.bro.adca.st/ad*.html$subdocument
 ||fydisk.com/images/showvip.gif
