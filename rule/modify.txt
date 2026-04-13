@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-13 17:55:25
+! Last Modified: 2026-04-14 01:03:49
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -959,7 +959,6 @@ multiup.io##.mfp-bg, .mfp-wrap
 lumex.space#$#replace-fetch-response /endtag|pausebanner|rolls/ '.' 'ads'
 ||dahe.cn/indiboy/ads/
 rollingstone.com#$#override-property-read d3d3LnJvbGxpbmdzdG9uZS5jb21fb25sb2Fk undefined
-xnhau.hot#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 fights.cz,kinobox.cz,nasepenize.cz##[id*="tmAdVideo"], [class=" pe-banner"]
 filmehd.to##iframe[src][style]
 ##[class][style*='px; top: 0px; left: 0px; z-index'][style$='width: 100vw; position: fixed;']
@@ -1024,11 +1023,11 @@ bitchute.com###advertisement-banner
 emule-island.ru##.newsgroup
 fox.com.tr#@#.text-ads
 m.youtube.com,music.youtube.com#$#override-property-read playerResponse.adSlots undefined
-www.toptruyenssi.com#$#abort-current-inline-script Promise instance
 cap3.fit#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 ||enviousshape.com^$third-party
 @@||wp.pl^$script,image
 24video.xxx##.adt
+motchillc.sh,onflix.my,phimmoichill.so#$#prevent-listener click ads
 next-episode.net###rundown
 dictionary.cambridge.org,malaymail.com#$#abort-current-inline-script setTimeout /error-report.com/
 ||dependenttrip.com^$third-party
@@ -1079,7 +1078,6 @@ baidu.com##.first-card-container
 bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
 egame.qq.com##.left-menu-footer
 iciba.com##.cb-downmask
-thefunkyfeather.com#$#abort-current-inline-script window.addEventListener Ads
 iceporn.tv,porner.tv#$#hide-if-contains /AD/ 'div>div' 'span'; hide-if-matches-xpath './/span[text()]/parent::a[@rel][@target]'; hide-if-matches-xpath './/*[self::div[@class="title"][contains(.,"Advertisement")] or self::h6]/ancestor::div[contains(@class,"container oHidden") or contains(@class,"HideMobile") or contains(@class,"sources")]'
 zuhaowan.com##.zhw-bottom-ad
 xstud.org#$#abort-on-property-read _0xd07e
@@ -1611,7 +1609,6 @@ gnula.nu,xpaja.net#$#abort-current-inline-script String.fromCharCode /atob|btoa|
 livesport.cz#$#hide-if-matches-xpath './/span[.="AD"]/parent::div/ancestor::div[@id][@class][1]'
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
 @@||karaoketexty.cz/img/*.jpg$image,domain=karaoketexty.cz
-clipphot.vip,spiritconferencing.co.uk#$#abort-current-inline-script document.addEventListener POP
 scrolller.com#?#.popup--sticky:-abp-contains(adblock)
 ||eminentbubble.com^$third-party
 /analytics.js$domain=qunar.com
@@ -2120,6 +2117,7 @@ budport.com.ua#$#abort-current-inline-script $ append
 cocostream.org,idope.cyou,playmods.net,youtube4kdownloader.com,yts-official.*,yts2.*#$#abort-on-property-read JSON.stringify
 ##div.player-rm.rm-two.rm-list > a
 jingyu.com##.stream-app
+9n8o.com,abstream.to,aniwatchtv.*,advertape.*,asnwish.com,bflix.*,bigwarp.*,cdn1.site,cloudnestra.com,dlhd.*,dudestream2.com,f16px.com,freestreams-live1.*,g9r6.com,gamehub.cam,hianime.*,ico3c.com,livecamrips.*,m1xdrop.net,magasavor.net,movielair.cc,moviesjoy.*,myflixerz.*,pkembed.*,rmaxfinishseveral.com,s1p1cd.com,savefiles.com,seeflix.*,seriesonline.*,stellarthread.com,streamingcommunityz.*,streaming-community.*,streamtape.*,strmup.*,ups2up.*,uqload.*,vide0.net,vidnest.fun,vidup.to,vidzy.*,vixcloud.*,voe.sx,watchug.*,xpornium.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 ?adspot_
 ||confusedcart.com^$third-party
 ||drstickyfingers.com/visitScript/$script,third-party
@@ -2680,7 +2678,6 @@ yocast.tv###notice
 planetatvonlinehd.blogspot.com.ar#@#.adsantilok
 taobao.com##.banner.row
 @@||vvvvid.it/img/ad/advertisement.xml$xmlhttprequest
-www.toptruyenssi.com#$#abort-current-inline-script setTimeout open
 /api/getPos?jspath=/videos/view//*
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
 udn.com###ec
@@ -3067,6 +3064,7 @@ manwa1.me,manwa2.me,manwa.me##[style*='15px'][style*='background-color:'][style*
 tivi.fi#$#hide-if-matches-xpath '//div[contains(text(),"Kaupallinen yhteistyö")]/../../..'
 voachinese.com##.slide-in-wg
 ##.banner-container-h5 > .banner_all_wrap
+www.toptruyenzone.com#$#abort-current-inline-script Promise instance
 zhidao.baidu.com##.daily-header-download
 nnmclub.ro,nnmclub.to#$#abort-on-property-read _0x1ece false
 ifsp.tv##.video-page-right
@@ -3656,6 +3654,7 @@ instrument.com.cn###leftFlash
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
 opvid.co,opvid.net,opvid.org#$#abort-on-property-read setInterval; abort-on-property-read setTimeout; abort-on-property-read Math.random
 horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##a[href*="adcurl="]
+clipphot.vip,tennisontelly.uk#$#abort-current-inline-script document.addEventListener POP
 ||camconnections.live^$xmlhttprequest,domain=gayporntube.com
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
 netu.ac#$#abort-on-property-read BetterJsPop; abort-on-property-read PopURL; abort-on-property-write window.open; abort-current-inline-script document.createElement 'delete window'; override-property-read adblockcheck false;
@@ -4141,7 +4140,6 @@ m.douban.com##[href^="https://erebor.douban.com/monitor/"]
 cxem.net###antiAdBlock
 ygosu.com##iframe[src^="https://cdn.nhnace.com"]
 expres.cz##a[href*="preroll"]
-motchillbr.io,onflix.my,phimmoic.fm#$#prevent-listener click ads
 ||alikeaddition.com^$third-party
 tuliu.com###vFloat
 ||cdn.adf.ly/js/display.js$script,third-party
@@ -4617,6 +4615,7 @@ m.douban.com###comment-list > div > .show-all
 @@||smartadserver.com^$script,domain=bild.de
 baidu.com##.ec_resitem *
 karaoketexty.cz,osobnosti.cz,tiscali.cz###clickLayer
+andyday-tv.lol,andyday.*,andydayz.*,freemovies.*,kickassanime.*,myflixerz.*,putlocker.*,seriesonline.*,soaper.tv,streamcloud.*,theflixertv.*,vidco.pro#$#abort-current-inline-script document.documentElement /break;case \$/
 ecouter-en-direct.com##div>div[class^="ad_mobil"] {remove:true;}
 ||fortunatemark.com^$third-party
 www.xvideos.com##.thumb-ad
@@ -4654,7 +4653,6 @@ bitvid.sx###aad
 ||3158.cn/static/js/fixbtm/
 uisdc.com##.post-pm-content
 /apsti7.*.js^$script,domain=txxx.com
-/player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.hot
 fx168.com###diaochaBg
 @@||githubusercontent.com/reek/anti-adblock-killer/
 pro-ddl.ws###cboxOverlay + #colorbox + #fb-root + * + * + .fixe
@@ -4847,6 +4845,7 @@ smzdm.com##.btn-open-app
 tripadvisor.com#$#hide-if-matches-xpath './/span[text()="Sponsored"]/ancestor::div[count(child::div)=3][child::div[descendant::a[descendant::picture]]][1]/ancestor::div[1]/ancestor::div[.//a[starts-with(@href, "/Restaurant_Review-")]][1]'; hide-if-matches-xpath './/span[text()="Sponsored"][not(ancestor::section)]/ancestor::div[@data-automation="restaurantCard"]'
 examw.com##.activeBottomBox
 ||ark.tubi.video/v2/*.mp4^$domain=tubitv.com
+dualeotruyenbx.com#$#abort-current-inline-script document.addEventListener popunder
 fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="mondor_hopToSeti"]
 samsclub.com#$#hide-if-matches-xpath './/span[@class="sc-specials-label"]/parent::div/ancestor::div[contains(@class,"buy-box")]/parent::div[1]'
 m.thepaper.cn##div[class^="index_footer_banner"]
@@ -5284,7 +5283,6 @@ ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV
 vidmoly.*#$#abort-current-inline-script addEventListener DOMContentLoaded; abort-on-property-read window.open;
 ##div.close-player_pic[onclick="document.getElementById('player_pic').style.display='none'"]
 qidian.com,~game.qidian.com##A[href*="game.qidian.com"]
-buomtv.media,clipsexhot.com,chuyentiepanimehay.one,cliphot69.shop,genz3x.com,damconuong.blog,demo.14412882.com,doctruyen3qhubk.net,dualeotruyensg.com,goctruyentranhvui19.com,hentaivcc.com,hhtq5.vip,ihentai.network,javtiful.com,luottruyen4.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh9.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.vc,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.nz,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 wikihow.com###contribute_footer
 zybang.com##.navigationBar-below-banner
 crsky.com##.adowGright
@@ -5420,7 +5418,6 @@ nbc.com##.video-player__overlay.video-player__overlay--pause
 @@||siamfishing.com/_js/adsbygoogle.js$script
 haosou.com###haosou-banner-left
 eurabota.com##.abtop
-9n8o.com,abstream.to,aniwatchtv.*,advertape.*,asnwish.com,bflix.*,bigwarp.*,cdn1.site,cloudnestra.com,dlhd.*,dudestream2.com,f16px.com,freestreams-live1.*,g9r6.com,gamehub.cam,hianime.*,ico3c.com,livecamrips.*,m1xdrop.net,magasavor.net,movielair.cc,moviesjoy.*,pkembed.*,rmaxfinishseveral.com,s1p1cd.com,savefiles.com,seeflix.*,seriesonline.*,stellarthread.com,streamingcommunityz.*,streamtape.*,strmup.*,ups2up.*,uqload.*,vide0.net,vidnest.fun,vidup.to,vidzy.*,vixcloud.*,voe.sx,watchug.*,xpornium.net#$#abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 .ru/ads/
 bstudy.net#$#abort-on-property-read _0xddc4
 iciba.com##.info-product
@@ -5510,7 +5507,6 @@ mocospace.com###dialog-adblocker
 kupi.cz,novinky.cz,sport.cz,super.cz##iframe[data-cy-loaded]
 musify.club#$#abort-current-inline-script $ get_ya_browser
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
-motchilltv.taxi#$#prevent-listener click popup
 tieba.baidu.com##.comment-box
 smzdm.com##.footer-banner
 ##.BrokenAd
@@ -5727,7 +5723,6 @@ baike.baidu.com##[class="qtqy-container"],[class="yitiao-content J-yitiao-conten
 @@||puhtml.com/7c/70/ab/$script,domain=jav4.me
 sogou.com##.banner-container
 nasepenize.cz##a[target="_blank"][class="tracked-event"]>img:only-child
-/embed-1/e-1/banners|$xmlhttprequest,domain=actvid.rs|myflixerzz.tube
 ||dewdroplagoon.com^$third-party
 /fbox/fb.js$script
 sina.cn##span[class*=callApp]
@@ -5877,6 +5872,7 @@ fightnews.info##body > blockquote
 ##.detected-block-modal
 1337x.*,himovies.*,komikav.com,limetorrents.lol,manhuascan.com,moviesda1.com,moviesjoy.*,realgfporn.com,soap2day.*,strikeout.cc,sxyprn.*,theflixertv.*,thepiratebay10.xyz#$#abort-current-inline-script document.createElement script
 finance.sina.cn##div[class^="s-"]
+/player/html.php?aid=*&video_id=*&referer=https*xnhau.hot*^$domain=xnhau.fan
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=spinbot.com
 jingyingjiajiao.com##DIV[style="width:auto;border: 1px solid #aaaaaa; position:fixed; bottom:1px; right:1px;z-index:2000"]
 @@||cpagrip.com/script_include.php?id=$domain=nation2.com
@@ -5979,6 +5975,7 @@ m.xiaomiyoupin.com##.download-bar-container
 @@||lancdn.com/landian/public/js/ads.js
 ebay.*#$#hide-if-matches-xpath './/script[contains(text(),"SRP")]' '' 'load'; hide-if-contains-visible-text /(Sponsored|Anzeige|Sponsorisé|Commandité|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado)/ 'script[style]~ div.srp-main ul > li[data-viewport]' 'script[style]~ div.srp-main ul > li[data-viewport] *[aria-hidden]'
 bing.com#?#li[class="b_algo"]:-abp-has(>h2 + div[class="b_caption"] > [class^="b_attribution "])
+xnhau.fan#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 in-trend.biz##body > [id][style^="z-index"]
 baidu.com##.banner-active
 smzdm.com##a[class^="fixed-logo"]
@@ -6079,6 +6076,7 @@ mercadolibre.*,mercadolivre.com.br#$#hide-if-matches-xpath './/span[contains(@cl
 @@/adscript.js$script,~third-party,domain=jdubuzz.com|journaldugamer.com|journaldugeek.com|pixelistes.com
 @@||static.gamergen.com/img/pubs/ads.html
 baijiahao.baidu.com##.wxUnfoldText
+www.toptruyenzone.com#$#abort-current-inline-script setTimeout open
 japscan.*#$#abort-on-property-read atob; abort-current-inline-script document.createElement String.fromCharCode; abort-current-inline-script Object.defineProperty XMLHttpRequest
 v.youku.com##.laifeng
 titlovi.com#@#.pub_728x90
@@ -6106,6 +6104,7 @@ krolik.biz#$#abort-current-inline-script document.createElement
 www.idnes.cz#$#abort-on-property-write Storage.data.eviladTimestamp
 @@/BTVQRA6OS11SO6ARQVTB/*.php$script,domain=up2stream.com
 @@/html/images/blank.png$image,domain=mocospace.com
+asahichinese-fl.com#$#abort-current-inline-script window.addEventListener Ads
 ||boilingcredit.com^$third-party
 @@||cdnads.com^$image,subdocument,domain=bitzfree.com
 xw.qq.com##.btn-ok
@@ -6208,7 +6207,6 @@ www.seznam.cz#$#cookie-remover pubmatic
 gwshare.com#@##adCol
 /gameapk/*/hongbao.apk
 kupi.cz,novinky.cz,seznamzpravy.cz,sport.cz,super.cz##[data-e2e-zoneid]
-dualeotruyensg.com#$#abort-current-inline-script document.addEventListener popunder
 finance.sina.cn##.pluse.animated
 ||bitcoin25.com/js/scroll1.js$script
 quora.com##.u-margin-top--lg+div[class="UnifiedAnswerPagedList PagedListFoo unified"][id$="_paged_list"]
@@ -6723,7 +6721,6 @@ infoq.com###psa-note
 ||cushionpig.com^$third-party
 cinemablend.com#@#.text-ad
 @@||e-mete.com/js/ads*.js$script,third-party
-andyday-tv.lol,andyday.*,andydayz.*,freemovies.*,kickassanime.*,putlocker.*,seriesonline.*,soaper.tv,streamcloud.*,theflixertv.*,vidco.pro#$#abort-current-inline-script document.documentElement /break;case \$/
 dapengjiaoyu.com##.upload-app
 ||etherealbamboo.com^$third-party
 365xuet.com##.cd-items
@@ -7294,6 +7291,7 @@ super.cz##img[id^="rs-bg-img"]
 ||dwstatic.com^*/newsPopup/
 3g.163.com##.js-recommend-wrap
 cool-style.com.tw##iframe[src*="report.error-report.com/modal"]
+truyensextv.com,yanhh3d.app,z.chinav.sex#$#abort-current-inline-script document.addEventListener opup
 popeoftheplayers.eu###html4
 /jquery.adblock-detector.js|$script
 9to5google.com,9to5mac.com,9to5toys.com##iframe[data-google-container-id]
@@ -7410,6 +7408,7 @@ ianime-fr.com#$#abort-on-property-read document.createElement
 ||business-agence.eu^$domain=footstream.tv
 tut.by#@#.pub_300x250
 m.sohu.com##.art-sogou-hotw
+buomtv.media,cave9x.net,chuyentiepanimehay.one,cliphot69.shop,genz3x.com,damconuong.ceo,demo.14412882.com,doctruyen3qhubz.net,dualeotruyenbx.com,goctruyentranhvui19.com,hentaivcc.com,hhtq5.vip,ihentai.network,javtiful.com,luottruyen5.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh10.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.vc,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.mu,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 m.youku.com##.cmt-more-cont
 romakatya.ru#$#prevent-listener load AdBlock
 baidu.com##.player-pause-code
@@ -7992,6 +7991,7 @@ gnula.nu,pelisnow.to,pelispop.me,tmomanga.com#$#abort-on-property-write JSON.par
 ||error-report.com^$domain=goldderby.com
 ##.scaled-juicyads
 @@||ad.doubleclick.net/ddm/pfadx/$object-subrequest,domain=play.tv|playtv.fr
+/embed-1/e-1/banners|$xmlhttprequest,domain=actvid.rs||myflixerzz.tube|videostr.net
 bycard.by,goodfon.ru,old-games.ru,satsis.info,swordmaster.org##.adb
 smzdm.com###footer_layer
 news.qq.com##.download-banner-wrap
@@ -8238,7 +8238,6 @@ agronews.ua,agroreview.com,agroweek.com#$#prevent-listener DOMContentLoaded 'adI
 i.ifeng.com#?#div[class^=list-]:contains(APP)
 3g.163.com##.js-new-relative-doc.new_relative_doc
 @@||ge-map-overlays.appspot.com/files/js/ads.js$script
-truyensextv.com,yanhh3d.cx,z.chinav.sex#$#abort-current-inline-script document.addEventListener opup
 zhihu.com##.DownloadGuide
 lukesitturn.com,voe.sx,xatovjatsosg.com#$#abort-on-property-write window.zfgloadedinpage;
 crazyshit.com#$#abort-on-property-read window.cs.ads; abort-on-property-write snspAdManager; abort-on-property-write snspAdManager2; override-property-read __ads_ns1 true;
@@ -8337,6 +8336,7 @@ so.toutiao.com##DIV[id^='ad_']
 bilibili.com##.desktop-download-tip
 egyanime.*,egydead.*#$#abort-on-property-write _pop
 bitauto.com###advCarsumType1
+motchilltv.date#$#prevent-listener click popup
 bongda365f.com#$#override-property-read isSkipAds true
 gamestorrents.com,gamestorrents.nu#$#abort-on-property-read open
 .com:8*/mj*$third-party
