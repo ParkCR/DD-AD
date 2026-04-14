@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-14 10:38:13
+! Last Modified: 2026-04-14 17:18:58
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -4501,6 +4501,7 @@ kinobox.cz,nasepenize.cz##a[target="_blank"]>img[class*="-click-"]
 mininova.org###content > #adspot-a + .maintable
 @@||lumload.com/pop.js$script
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=videoproxy.in
+moviesapi.*,primewire.*,vidfast.*,vidlink.*#$#abort-on-property-read runPop; abort-current-inline-script TextEncoder /shown_at/;
 ##div.swiper-slide > A[rel='nofollow noopenner']
 btime.com##.shop-guid
 iyingshi9.tv#$#override-property-read YZM.ads.state false
@@ -6276,7 +6277,6 @@ bettycrocker.com,pillsbury.com#$#simulate-mouse-event 'xpath(.//div[@class="adAb
 /wp-includes/css/admin-bar.min.css^$script,domain=kiss-anime.ws|animeland.us|thewatchcartoononline.tv
 ||*/loader.min.js|$script,domain=wordhippo.com
 media.kcm.fm/*mp4/video_ads/videoplayback_5.mp4*^$domain=emess.co.il
-moviesapi.*,primewire.*,vidfast.*,vidlink.*#$#abort-on-property-read runPop;
 /cdn.sinparty.com^$script,subdocument,third-party,media,domain=kaotic.com
 dlouha-videa.cz#$#abort-on-property-read _0x4c29
 tmall.com##.mui-mbarp-qrcode
