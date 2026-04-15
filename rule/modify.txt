@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-15 01:08:38
+! Last Modified: 2026-04-15 10:36:20
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,8 +19,6 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -917,6 +915,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1120,6 +1120,7 @@ karpatnews.in.ua,kg-portal.ru#$#abort-current-inline-script document.createEleme
 ||foot.footstream.tv/js/compteur1.js$script
 tmall.com##.app-download-popup
 @@||t2e.pl/www/js/ads.js$script
+||*/loader.min.js|$script,domain=geoguessr.com
 tw.yahoo.com###util-top-promotion
 ||cifnews.com/yuguo3.0/live_dynamic/js/live_dynamic.js
 ||eastmoney.com/js/*Share.js
@@ -1327,7 +1328,6 @@ booking.com#$#hide-if-matches-xpath './/span[@color][contains(@class,"PromoText"
 ||decisivedrawer.com^$third-party
 ||ad.doubleclick.net/activity;register_conversion=$domain=golfgalaxy.com|dickssportinggoods.com
 @@||ad.sevenads.net/layer.php?p=$script,domain=uploaded-premium.ru
-||frightenedpotato.com^$third-party
 ||causecherry.com^$third-party
 factfeed.com,mdrntoday.com,travelroo.com###vidazooAd
 maiziedu.com##.msg
@@ -2525,6 +2525,7 @@ tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
 ||cdn.user-api.com^$domain=ahaonline.cz|info.cz|onetv.cz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=onvasortir.com
 sporttery.cn###newDiv
+sameday.costco.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div[role="region"][aria-label="item carousel"])
 ||39.net/PictureLib/A/f76/20160825/org_749281.png
 ##.adBlockDetectedSign
 kinobox.cz,nasepenize.cz##[class$=" sticky"]
@@ -2644,7 +2645,6 @@ tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
 ifeng.com###qrCode
 reshuent.ru,sdamgia.ru##.S29e4f5cdae
 ||51cto.com/edu/center/js/interaction_iframe.js
-||friendlyfold.com^$third-party
 pclady.com.cn##.mdxyAppEnter
 ||cash4links.co/Webservices/jsParseLinks.aspx$script,third-party
 epwk.com##.collect-info-wrap
@@ -2740,6 +2740,7 @@ turkdown.com###duyuru
 cn.bing.com##.bnp_rich_div_visible.bottom
 xxooo.cf###overlay
 ##body#wrapper A[ontouchstart='this.click();']
+acouplecooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,justonecookbook.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
 @@||whackyvidz.com/intermission/loadTargetUrl$xmlhttprequest
 fs14.lol,fss.lol#$#abort-current-inline-script String.fromCharCode 2147483647
 sdamgia.ru#$#abort-on-property-read Object.prototype.getRenderToElement
@@ -3083,7 +3084,6 @@ mmbang.com##.footer_adver-warp
 .com/55*55*55*_*c*p*v*.js$~third-party
 ||colossalcoat.com^$third-party
 mydrivers.com###a_showhotnews_list_dia
-acouplecooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
 www.xhfz2.com##A[href^='https://www.xhfz2.com/ad.php']
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=news.voicetv.co.th
 hqq.to###thispays {remove:true;}
@@ -3663,7 +3663,6 @@ template/m1938pc/ads/*.js
 haosou.com###so_feb
 ###ad-header-mobile-contener
 .com/gg.js
-||friendlycrayon.com^$third-party
 samsclub.com##div[class="analytics"][data-strategy="Sponsored products"]
 ||automaticturkey.com^$third-party
 ||28.com/public/js/w3c_float.js
@@ -4256,7 +4255,6 @@ camcaps.*,vidello.net#$#abort-on-property-write popUnder
 idnes.cz##.cookie-info
 /js/pingbi.js
 @@||jagran.com/*/ads.js$script
-||friedone.com^$third-party
 @@||ptitchef.com/js/ads.js
 ##.AdblockMessage
 @@||4shared.com/show_ad_.xml$script
@@ -4723,6 +4721,7 @@ appchina.com###yyh-bottom
 bilibili.com##a[href="//app.bilibili.com"]
 proxywiky.com###overlay-holder
 ||damai.cn/phpstat/
+@@||*/abd.js^$domain=acouplecooks.com|amazingribs.com|amybakesbread.com|budgetbytes.com|disneydining.com|disneyfoodblog.com|downshiftology.com|halfbakedharvest.com|justonecookbook.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|recipetineats.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
 ||europacash.com^$third-party,script
 bilibili.com##.index__floatOpenBtn__src-videoPage-floatOpenBtn-
 discord.com##div[class*=notice]
@@ -5182,6 +5181,7 @@ wenku.baidu.com##.vip-activity-wrap-new
 @@||adf.ly^$generichide
 xw.qq.com###recommend-modules
 ||*.com/*b8121.js^$script,domain=mult34.com
+||error-report.com^$domain=geoguessr.com
 ||circlelevel.com^$third-party
 @@||galleries.bz/intermission/loadTargetUrl$xmlhttprequest
 med66.com##.coach_pic
@@ -6172,6 +6172,7 @@ videopremium.tv#@#.text-ad
 -adblock-notice-
 egame.qq.com##.pop-widget
 ||cakesdrum.com^$third-party
+instacart.*##div[id]:has(> a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section > div[role="region"][aria-label="item carousel"])
 zhiyoo.com##.prompt
 txxx.com#$#override-property-read skpPop true; abort-on-property-read open
 ||257298.a.siteapps.com/257298.js$script,domain=listamais.com.br
@@ -6193,6 +6194,7 @@ youku.com##.callEnd_fixed_box
 fnjiasu.com##.swiper-container
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@||37.1.207.27/playlist/$subdocument,domain=adultmult.tv
+acouplecooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,justonecookbook.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#abort-on-property-read Intl.DateTimeFormat false
 fontsquirrel.com###bottom_banner_ad_container
 videowood.tv#@#.text-ads
 biggestplayer.me##.adblock + *
@@ -6624,6 +6626,7 @@ vide-greniers.org##A[class^="replacement_"]
 bilibili.com##.mobile.nav-item
 ||elusivecascade.com^$third-party
 ##A[href^='https://yongle008.com']
+sameday.costco.com#$#hide-if-matches-xpath3 './/div[matches(replace(string(.), " ", ""), "^Sponsored$")]/ancestor::li[not(@style)][1]'
 info-mage.ru###helpme[style="display: block;"]
 .xyz/$domain=pan.huang1111.cn
 @@||linuxiarze.pl/images/ad/$image
@@ -7456,7 +7459,6 @@ tieba.baidu.com##.bottom-guide-box
 redtube.com##.qb
 =miniplayer/$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 @@||radioline.co/js/advert.js$xmlhttprequest,~third-party
-||frogtray.com^$third-party
 freestore.app##.adbn2-wrap2
 hanyu.baidu.com###fengchao_els.c-container.card.fengchao-els
 gaara-fr.com###ga-skin-top! url: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
@@ -8196,7 +8198,6 @@ dangdang.com##.code2s
 gov.cn###ZhiXuwFloatWindow
 cp-g.net###adblock_layer
 gdekluet.ru##body > div[class^="stop-block"]
-acouplecooks.com,amazingribs.com,amybakesbread.com,budgetbytes.com,disneydining.com,disneyfoodblog.com,downshiftology.com,halfbakedharvest.com,krollskorner.com,natashaskitchen.com,onceuponachef.com,recipetineats.com,sallysbakingaddiction.com,simply-delicious-food.com,skinnytaste.com,spendwithpennies.com,tastesbetterfromscratch.com,theloopywhisk.com,themediterraneandish.com,thewoksoflife.com,titlecaseconverter.com,whec.com#$#replace-xhr-response /[\s\S]*/ '' /pub_300x250/
 ##DIV#ad-float.kyty
 iprima.cz#@#.bannerAd
 sohu.com##.cbd-plate-bill.common-ad
@@ -8937,6 +8938,7 @@ finance.sina.cn#?#.snp-container:upward(div)
 l2top.ru#$#abort-current-inline-script $ cleanAndEval
 @@||oneplay.tv/assets/js/ads.js$script,~third-party
 bb.lv#$#abort-on-property-read adjustBackground false
+geoguessr.com#$#override-property-read window.navigator.connection.rtt 2000
 match.tdping.com##P[style='text-align:left;margin:0;'],td.livetitle > L
 ||fasterjson.com^$third-party
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=faucetofamerica.com
@@ -8989,7 +8991,6 @@ yaofangwang.com##.bad
 /asfile/m/gudings.js
 karaoketexty.cz###sky_right_col
 autokult.pl#$#abort-on-property-write scriptTag
-@@||*/abd.js^$domain=acouplecooks.com|amazingribs.com|amybakesbread.com|budgetbytes.com|disneydining.com|disneyfoodblog.com|downshiftology.com|halfbakedharvest.com|krollskorner.com|natashaskitchen.com|onceuponachef.com|recipetineats.com|sallysbakingaddiction.com|simply-delicious-food.com|skinnytaste.com|spendwithpennies.com|tastesbetterfromscratch.com|theloopywhisk.com|themediterraneandish.com|thewoksoflife.com|titlecaseconverter.com|whec.com
 cbox.ws##[href^="http://secretstory24h.com/cms/"] > IMG
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=theplace2.ru
 m.huya.com##.u-btn-down.header-app-btn
@@ -9665,6 +9666,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ifeng.com/*&adids=
 ||stopstomach.com^$third-party
 ||wirypaste.com^$third-party
+||frogtray.com^$third-party
 ||qsptv.net/tpl/newstyle/js/pv.js
 ||sina.cn/cm/sinaads_
 ||popplantation.com^$third-party
@@ -9688,6 +9690,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mat1.gtimg.com/rain/bailing20/*.*.png$image
 ||pinyuege.net/template/pinygm/public/js/
 ||rigidveil.com^$third-party
+||friedone.com^$third-party
 ||zhiyoo.com/mplus/images/banner.jpg
 ||jia.com/js/zixun/zixun_
 ||terrynow.com^$csp=script-src 'self' * 'unsafe-eval'
@@ -9927,6 +9930,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||niftyhospital.com^$third-party
 ||grayreceipt.com^$third-party
 ||fx678.com/htcount/count.js
+||frightenedpotato.com^$third-party
 ||vibrantgale.com^$third-party
 ||widgets.outbrain.com/outbrain.js
 ||s.ssl.qhres2.com/ssl/
@@ -10229,6 +10233,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||rqq.co/visitScript/$script,third-party
 ||smashshoe.com^$third-party
 ||record.xl.pt/common/images/pub/
+||friendlyfold.com^$third-party
 ||lofter.com/mailEntry.do?blogad
 ||seedscissors.com^$third-party
 ||tangibleteam.com^$third-party
@@ -10251,6 +10256,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||scrubswim.com^$third-party
 ||hexun.com^*/appDplus
 ||www.ykjyyy.com/8888/
+||friendlycrayon.com^$third-party
 ||greyinstrument.com^$third-party
 ||hornywood.tv/Webservices/jsParseLinks.aspx$script,third-party
 ||futuristicfairies.com^$third-party
