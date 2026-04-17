@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-17 17:18:16
+! Last Modified: 2026-04-18 00:55:13
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,6 +19,8 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -915,8 +917,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1022,7 +1022,6 @@ bitchute.com###advertisement-banner
 emule-island.ru##.newsgroup
 fox.com.tr#@#.text-ads
 m.youtube.com,music.youtube.com#$#override-property-read playerResponse.adSlots undefined
-cap3.fit#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 ||enviousshape.com^$third-party
 @@||wp.pl^$script,image
 24video.xxx##.adt
@@ -2558,6 +2557,7 @@ evget.com###popelevencenter
 worldve.com###img
 financerites.com##div[id^="__vliadb"]
 m.baidu.com##.suggest-hot
+buomtv.media,clipsexvip.com,chuyentiepanimehay.one,cliphot69.hair,genz3x.com,damconuong.ceo,demo.14412882.com,doctruyen3qhubz.net,dualeotruyenbx.com,goctruyentranhvui19.com,hentaizvn.net,hhtq5.vip,ihentai.network,javtiful.com,luottruyen5.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh10.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.sh,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.mu,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 sm.cn##.ad-wolong-container
 @@||eami.in/images/js/ads.js$script
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
@@ -2767,7 +2767,6 @@ voici.fr,femmeactuelle.fr,caminteresse.fr#$#abort-current-inline-script btoa /la
 ||effervescentcoral.com^$third-party
 ||enterdrama.com^$third-party
 btvsports.com###ai_tapar
-michorussellweekend.ie,onflix.my,phimmoichill.so#$#prevent-listener click ads
 a.9game.cn##.biubiu-recommend-box
 truyen-hentai.com#$#hide-if-matches-xpath './/*[@class]/ancestor-or-self::div[contains(@class,"reklam")][1]'; hide-if-matches-xpath './/a[contains(@href,"zlinkd.com")][@rel="sponsored"]/ancestor::div[@class][1]';
 @@||fullstuff.co^$generichide
@@ -3497,6 +3496,7 @@ monacomatin.mc,nicematin.com,varmatin.com##.RhooBg
 @@||serve.popads.net/checkInventory.php$script,domain=imgnova.xyz
 @@||smartadserver.com/diff/js/smart.js$script,domain=lequipe.fr
 y.qq.com##.related_album
+cap3.cyou#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 so.com##.res-mediav-right
 ||bobo.com/special/mod-follow/
 @@||toplien.fr^$generichide
@@ -4578,6 +4578,7 @@ omegascans.org#$#abort-on-property-read window.__adFormats
 bilibili.com#@#.btn-ctnr
 /naChotina=$xmlhttprequest,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 5253.com###android-qr
+michorussellweekend.ie,onflix.my,eile.ie#$#prevent-listener click ads
 tieba.baidu.com##.tbui_slideshow_slide
 baidu.com##.ec-result-inner
 m.douban.com##.green.btn
@@ -4913,7 +4914,6 @@ taobao.com##.qr-ft.J_QrFt > .tb-ifont
 ||awarealley.com^$third-party
 ke.com##.download
 mag.relax.by#$#abort-on-property-read Object.prototype.branding_url
-buomtv.media,cave9x.net,chuyentiepanimehay.one,cliphot69.hair,genz3x.com,damconuong.ceo,demo.14412882.com,doctruyen3qhubz.net,dualeotruyenbx.com,goctruyentranhvui19.com,hentaizvn.net,hhtq5.vip,ihentai.network,javtiful.com,luottruyen5.com,lxmanga.space,misskon.com,motphim.pokemonviet.com,mupsexphim.net,newtruyentranh10.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvn96.com,quatvn.my,sayhentai.vc,sex.xinh3x.me,sexdiary.club,sexviet88.xyz,streamvl.top,truyenqqno.com,truyenvn.shop,umetruyenz.org,vevocloud.com,viet69.mu,viet69vn.at,vn2.xvideos69.xxx,vn6.sexviet88.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 ithome.com##div[style^="width:960px;height:60px;"]
 letv.com##.vip_popBox
 ||badgeboat.com^$third-party
