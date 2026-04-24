@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-24 10:42:44
+! Last Modified: 2026-04-24 17:45:04
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,9 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
-## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -916,6 +915,8 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -2322,7 +2323,6 @@ m.suning.com##.hide.f-l-o-a-t-s-a-l-e
 m.youtube.com,music.youtube.com#$#override-property-read playerResponse.playerAds undefined
 @@||squid.gazeta.pl/info/squid/fprint.js$script,domain=wyborcza.pl|gazeta.pl
 t3n.de##.abContentMsg
-||forevergears.com^$third-party
 ##body.active > div.myui-panel > DIV#home_slide
 novinky.cz#$#hide-if-matches-xpath '//div[@data-advert="sticky-container"]'
 firstrowfr.eu###fanback
@@ -7343,6 +7343,7 @@ yahoo.com##.crazyad
 bonstreams.net,cloudvideo.tv,cucuflix.*,flashx.tv,gogoanime.*,gomovies.*,keeplinks.co,movies123.xyz,openloadmovies.*,vidsrc.*,yts-official.*,yts.*#$#abort-on-property-read atob
 /blockadblock.min.js$script
 m.jd.com##DIV.modal__mask
+/matomo.js$third-party
 jingyan.baidu.com###wrapper > .exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
 to8to.com##.ask_side_opa
 ifeng.com###wx
@@ -9801,6 +9802,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||itc.cn/hdpv.js
 ||zol-img.com.cn/star/image/star-banner2.gif
 ||livelylaugh.com^$third-party
+||forevergears.com^$third-party
 ||yizhibo.com/special/h5corner.html
 ||runsky.com/phpstat/
 ||xiaoma.com/xiaoma/www/js/article_right
