@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-04-29 18:05:51
+! Last Modified: 2026-04-30 01:39:29
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -276,7 +278,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -15100,6 +15101,7 @@ fusetter.com##a[href^="https://mahoyaku.onelink.me/"] > img
 iqiyi.com##.m-iqyGuide-layer
 my0511.com##div[id$="bdbc"]
 gbyhn.com.tw##.footer-widget-column
+nextdoor.com#$#hide-if-contains-visible-text 'Sponsored' [data-testid="feed-item-card"]
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
 yahoo.com##a[class^="Pos"][href*=".promotions."]
 league-funny.com##.right > .fansCard
@@ -15753,7 +15755,6 @@ hmitalk.com##div[class*="-pubadban "]
 haianw.com###comiis_haianw01
 wenxuecity.com##label[style*="darkgrey"]
 iplark.com##div[class^="banner"]
-||9129666tp.com^$domain=9xav.cc
 money.pl#$#hide-if-matches-xpath '//div[@id]/following::a[@class]/img[string-length(@src) < 130]/ancestor::div[1]'
 pheclip.site,phim18vip.top,sieudam.sh#$#abort-current-inline-script $ pop
 ||17173cdn.com/a/lib/vda/seed.js
@@ -19999,6 +20000,7 @@ hujiang.com##.qrcode
 yaya0506.com##iframe[style="border: 0;"][width="100%"][height="280"][src^="//www.12beststar.com/"]
 maomaomom.com###execphp-4
 uc123.com##.side-hot
+youtube.com#@##sticker-layer
 tie.163.com,uump4.com,uump4.net###top-banner
 kankan.com##div[id^="cm"].banner
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
@@ -20373,6 +20375,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lsntzzy3.com/Runtime/js/psData.js
 ||99mst.com/upfiles/adv/main02.jpg
 ||aquaticowl.com^$third-party
+||9129666tp.com^$domain=9xav.cc
 ||meizhou.com/images/topbanner
 ||featherstage.com^$third-party
 ||acgnz.cn/static/b.js
