@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-05-08 17:21:59
+! Last Modified: 2026-05-09 01:18:20
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -6058,7 +6058,6 @@ chinamedevice.cn,hgitv.com##.gg12
 @@||webnews.bg/assets/js/ads.js$script,domain=topsport.bg|news.bg
 -1367066484.cos.
 dqzboy.com##body > #popup[style^="position: fixed; bottom:"]
-candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
 anime-sama.fr#$#hide-if-matches-xpath './/a[contains(@href,"paid_referral")]/img/ancestor::div[@id][1]';
 @@||free-reseau.fr/css/publicite.css|$stylesheet
@@ -6469,6 +6468,7 @@ cnblogs.com##.h_ads
 duote.com##.download-box:first-child
 cardu.com.tw##.gold-big-ad
 ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##div[id$="horiz"]
+annabelspizzeria.com#$#abort-current-inline-script window.addEventListener Ads
 discuss.com.hk##iframe[width="728"][height="90"]:style(position: absolute!important; left: -3000px!important;)
 @@||gboku.com^$generichide
 e.mail.ru#$#array-override push /adv-content|slot/
@@ -7247,7 +7247,6 @@ bombaytimes.com,businessinsider.in#?#div:-abp-has(> h2:-abp-contains(Promoted St
 3g.163.com##.widget-floatMenu
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 cool3c.com##div[id^="gpt-c3c_all_side_"]
-fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic/; prevent-listener DOMContentLoaded /0x|popMagic/
 -adblock-notice-
 egame.qq.com##.pop-widget
 extfans.com##.b-ad-1
@@ -10271,6 +10270,7 @@ anhuinews.com##div[style$="height:40px;overflow:hidden"]
 aupetitparieur.com,mamieastuce.com,meilleurpronostic.fr##div[class] > div[id] > main[class][id]
 ##div[bannerlist]
 ###mainbody:nth-child(5) > .mylist
+fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic/; prevent-listener DOMContentLoaded /0x|popMagic/; abort-on-property-read Element.prototype.attachShadow
 @@||udn.com/mall/images/spacer.gif?
 esdict.cn,eudic.net,frdic.com,godic.net###bodycontent > style + div[id] > :nth-child(n+2)
 /phoenix-share/js/code.123.bg.
@@ -11918,6 +11918,7 @@ fights.cz,kinobox.cz,nasepenize.cz##.wrap-advert
 marketrealist.com##iframe[data-kiosked-adframe]
 xhamster.*#$#override-property-read window.initials.layout.layoutPromoProps.promoMessagesWrapperProps.promoMessageInnerProps emptyObj; override-property-read window.initials.bannerUnderPlayer emptyObj; override-property-read window.initials.bannerRight emptyObj
 weather.com.cn###ytc
+foodieteller.com##+js(abort-on-property-write, __ad_unblock_id_obfuscation)
 fr.hujiang.com###uzt-mask
 horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##iframe[ramefamorderx]
 rvtravel.com#$#cookie-remover /adblocker/ true
@@ -12646,6 +12647,7 @@ kaoyan.com##.floatQrcode
 zhidao.baidu.com##a[class="cur"][href^="/mobile/board?"] > img
 gamer.com.tw###BH-bigbanner:style(position: absolute!important; left: -3000px!important;)
 huaban.com,start.firefoxchina.cn##.extra
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"label":"FBUnifiedVideoContainer.*"sponsored_data":\{"__typename":"SponsoredData".*\}/' '{}' '"sponsored_data":\{"__typename":"SponsoredData"'
 so.com##.e-buss
 pirlotv.tv###ad_overlay_content
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div:not([class]) > div[data-placeid]
@@ -14167,7 +14169,6 @@ flyblog.cc###links > div[id] > div.hslice:not(#search):not(#counter):not(#catego
 zab.ru#$#abort-on-property-read document.body.style
 sinolub.com##.gg_cen
 so.com###js-mod-fixed-float
-vi-cliphot.com#$#abort-current-inline-script window.addEventListener Ads
 xchina001.online###z-extra-3
 sohu.com##.hot-article > div.pic-txt[data-spm-content*="_saletype="]
 xchina001.online###z-extra-2
@@ -14896,6 +14897,7 @@ forum.vip-cxema.org##body > #document_modal.modal,#some_ad_block_key_popup
 newtalk.tw,phbzj.com##.ad-container
 minhangcidian.com##div[id^="googleAd"]
 sina.cn##div[sax-type="proxy"]
+teamlanhlungday.store,moontruyen.com#$#abort-current-inline-script $ window.open
 www.facebook.com,web.facebook.com#$#override-property-read Env.xvsijlg4 false; override-property-read Env.qmzkvr8p false; override-property-read Env.x3m9kf2n false; override-property-read GHLDetectionUtilsPreludeSafe.isJSONParseShimmedImpl falseFunc;
 hjenglish.com##.module-recommend-course
 m.zol.com.cn##.app-open
@@ -16877,7 +16879,6 @@ news.baidu.com##.recommend-mask
 ||4399.com/baiduad/
 qqdsw8.cn##.advert
 focus.cn##.module-common-float-im
-teamlanhlungday.store,tusachmanga99.com#$#abort-current-inline-script $ window.open
 mbd.baidu.com##.related-news > section:first-child + div
 qzone.qq.com###appCanvasTodayRecom
 p2peye.com###article_content a[ref="nofollow"]
@@ -18623,6 +18624,7 @@ imnks.com##.adTags
 m.weibo.cn##.wrap
 instagram.com#$#hide-if-contains-visible-text '/Ad|Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/' 'article>div[class]' 'span[class]';
 zx-pk.ru###stickymsg
+foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
 m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots';
 ||6gxs.net/js/
 paperio.*#$#override-property-read checktimeForAds falseFunc;
@@ -18770,6 +18772,7 @@ weibo.com##div[ad-data]
 iqilu.com##.gg580140
 vpser.net##.ab_cpr
 fx168.com##div[adisload]
+gamewith.jp#$#override-property-read navigator.onLine false
 seznamzpravy.cz#$#hide-if-contains-visible-text /Rek̃lama/ 'div[class*="g_bd"]'
 wikisport.cc##+js(no-window-open-if)
 m.zhanqi.tv##.footer
@@ -21816,6 +21819,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||combativedetail.com^$third-party
 ||d1.yingyongge.com/qmoshe.js
 ||duo*.top/Runtime/js/psData.js
+||error-report.com^$domain=gamewith.jp
 ||handsomelyhealth.com^$third-party
 ||baizhu.cc^$3p
 ||fearfulmint.com^$third-party
@@ -24040,6 +24044,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dnwx.com*/ad$image
 ||dyxs39.com/statics/js/jquery.
 ||baomidou.com/_astro/CheckAdBlocked.*.js
+||html-load.com^$script,domain=gamewith.jp
 ||hoopchina.com.cn/web/channel/voice/*/beforelogin/beforelogin.js
 ||dollardelta.com^$third-party
 ||kuk8.com^$3p
@@ -24329,6 +24334,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||linuxidc.com/linuxfile/list
 ||img.virscan.org/images/*/ad_
 ||anluyg.net/static/js/channel*.js
+||content-loader.com^$script,domain=gamewith.jp
 ||error-report.com^$domain=laleggepertutti.it
 ||mwrf.net/images/js/*mrf.js
 ||99danji.com/kchtml/
