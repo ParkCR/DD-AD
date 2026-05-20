@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-05-20 11:38:29
+! Last Modified: 2026-05-20 18:50:15
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -913,8 +913,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -1863,7 +1861,6 @@ cvs.com#$#hide-if-contains /Sponsored/ 'cvs-shop-product-shelf-container' 'cvs-s
 3h3.com##.gaosu_div
 .xyz:9002/*?x=$websocket,script,3p
 ali213.net##.newright
-fgames.pw###html3
 /cdn-cgi/pe/bag2?*p.tanx.com$domain=~hdwan.net
 ##div[style^="line-height"][style*="http"][style$="fixed;"]
 cam4.tw##.subfoot-section
@@ -2110,6 +2107,7 @@ bestopview.com###pubtextnone
 ###mobile-index > div#vodbm
 briian.com##div[class^="hentry-gad-mobile"]
 @@||youneed.win^$generichide
+###float-ad
 benxiang.com##.ad_duilian
 @@||nsongs.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=landofdogecoin.com
@@ -4592,6 +4590,7 @@ dacota.tw##section[class*="widget_text"] > .widget-wrap > .textwidget > div[clas
 ###ad_box1
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 @@||rappers.in/js/antiadblock.js$script
+###index-ad-banner
 :538/attachment/js/
 baidu.com#@#.share-line
 extreme-down.*,zone-telechargement.*#$#abort-on-property-read decodeURIComponent
@@ -6334,7 +6333,6 @@ auto62rus.ru,eset-key.ru,mycrib.ru,piggy-bank.online,politonline.ru,showmehow.ru
 baidu.com##.na-ec-waterfall
 @@||51hanhua.com/2013/brtxt.js
 chinanews.com.cn##.wap_adv
-fh21.com.cn###lbzxM
 baijiahao.baidu.com##span[class*="cm-variable"]
 ##.tg-pc.tg-site
 174.127.195.98##+js(abort-on-property-write, checkAdblock)
@@ -11735,6 +11733,7 @@ money.pl#$#abort-current-inline-script document.querySelector querySelector
 qiniu.com##.extra___2cdPz > div.pc___3nUEX.extraBlock___1mGPY
 ixbt.com##.fc-ab-root
 health.tvbs.com.tw##.fromEditor > section.ed-px-5.ed-lg-hidden
+fgames.pw###html3
 xw.qq.com###taskTips
 yyets.click##.MuiBadge-root:has(>a[href*="/maomao.cloud/"])
 noy1.top##+js(no-xhr-if, /api/ads)
@@ -12095,7 +12094,6 @@ olevod.com##.B1L
 zakon.kz##.adblock_alert
 followme.cn##.money-box
 iqiyi.com##div[class="vue-portal-target "]
-||86uk.com/banners/
 lenovo.com.cn##.adver-bg
 ||126.net/caipiao/js2/index/homePop.js
 olevod.com##.B1R
@@ -15694,6 +15692,7 @@ hackhw.com##.d336x2
 linkshrink.net#@##overlay_ad
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 hao.360.cn###festival-theme > .right-entry-wrap
+fh21.com.cn###lbzxM
 smjb.net##div[style*="height: 50%"]
 rising.cn###shuangshiyibid
 poznamka.ru##body > [id]:not([class])[style^="z-index"]
@@ -20939,6 +20938,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lbx777.*/css/lbxgg02
 ||ifengimg.com^*/red2018icon.
 ||china.com.cn*/ads_js/
+||86uk.com/banners/
 ||bio-equip.com/uploadimages/peiqing.gif
 ||hanjutv2020.com/statics/skin/*/js/plus.js
 ||bitcoin25.com/js/scroll1.js$script
@@ -23537,6 +23537,8 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||killcovid2021.com/*.mp4
 ||lelekan.com/sp/fmt.js
 ||86uk.com/uploads/*0x
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||qq.com/minivideo_v1/vd/res/enttencentvideo.xml
 ||xywy.com/zhixing/
