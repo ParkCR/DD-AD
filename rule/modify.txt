@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-05-30 02:32:58
+! Last Modified: 2026-05-30 11:29:40
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -913,8 +915,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -7664,6 +7664,7 @@ ac.qq.com###qgirlRefreshLead
 @@||e9china.net^$generichide
 baike.baidu.com###J-bds_app
 @@/adimages/*$domain=p9.com.tw
+5dm.dev##div[id^="player_p"]
 2345.com##.mzdh_bottom
 doc88.com##.adpx250
 elecfans.com##div[class^="banner_ad"]
@@ -10513,7 +10514,6 @@ chineseinla.com##div[style^="position:absolute;"][style$=":0px;top:30px;"]
 ##div[onclick*="?i_code="]
 dama.cz##div[class^="sky-wrap"]
 docin.com##.cpro_mod
-5dm.link##div[id^="player_p"]
 bejson.com##div[id^="shuangshi"]
 cn-healthcare.com##.fh_advent_wrap
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
@@ -13397,6 +13397,7 @@ yhdm*.com/js/wap2-jm-ms.js?ver=
 sgamer.com##.plc > div > a[href*=".vgcool.com"]
 taobao.com###J_shopkeeper
 indiewire.com#$#override-property-read d3d3LmluZGlld2lyZS5jb21fb25sb2Fk undefined
+nextdoor.com#$#hide-if-contains-visible-text /S[^a-z0-9]*p[^a-z0-9]*o[^a-z0-9]*n[^a-z0-9]*s[^a-z0-9]*o[^a-z0-9]*r[^a-z0-9]*e[^a-z0-9]*d/i '[data-testid="feed-item-card"]'
 ifeng.com##[href^='https://mall.ifeng.com'],IMG[class^='picMark-'][src^='https://x0.ifengimg.com/']
 pjtime.com###pjtime_full
 ifeng.com##div[class^="container-"][content^="[object"]
@@ -15073,7 +15074,6 @@ kinobox.cz###stickyWrap
 m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
 forusex.com##a[href^="http://redheartnext.com"] > img
 gameapps.hk##.pc-header-video > a[class^="top-ad-"] + .youtube-container
-||5dm.link/htm$image
 ifeng.com##header[class*="headerIn"]
 mnews.tw##.ad-container-pc-only
 pupudy.com##.asst-post_header
@@ -15120,7 +15120,6 @@ iqiyi.com##.m-iqyGuide-layer
 my0511.com##div[id$="bdbc"]
 tvnz.co.nz#$#replace-fetch-response /"adType":"ssai"/ "adType":"none"; replace-fetch-response /"aopUrl":"[^"]*"/ '"aopUrl":""'
 gbyhn.com.tw##.footer-widget-column
-nextdoor.com#$#hide-if-contains-visible-text 'Sponsored' [data-testid="feed-item-card"]
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
 yahoo.com##a[class^="Pos"][href*=".promotions."]
 league-funny.com##.right > .fansCard
@@ -16865,6 +16864,7 @@ fx361.com###k_s_ol_chatWinSm
 iciba.com##.ad-sign
 mydrivers.com##.vwE9JmqU
 motv.app##.wn_banner
+||5dm.*/htm$image
 iwan.baidu.com###j-media
 raenonx.cc##.main_ads-content + div
 sxqjdy.com##.gg2
@@ -17439,6 +17439,7 @@ yahoo.com##.stream-responsive-ad-item
 jianshu.com##.top
 hao.360.cn,hao.360.com###plane > .plane-hd
 ||23aitt.com/zz/
+super.cz#$#json-override ads emptyArray
 jq-school.com##.setfarme:nth-child(7)
 nunuju.net,bz88888.net##+js(abort-current-script, document.getElementsByTagName, _mtj)
 online.dramacafe.in##BODY > DIV[style^="background-color: rgb(251, 236, 173); position: fixed;"]
@@ -18648,6 +18649,7 @@ t.qq.com###talkList > li[ispopula="1"][tv="2"]
 xiushuang.com##.fix_app
 zzbaike.com##.ceo_slide2
 jdbbs.com##div[style="margin: 0 auto 10px; width: 1000px;"]
+super.cz#$#replace-fetch-response /[^]+/ '<?xml version="1.0" encoding="UTF-8"?><VAST version="4.0"></VAST>' ssp.seznam.cz
 ssnn.net###nrk_gg
 gamesubject.com###headb
 fights.cz,kinobox.cz,nasepenize.cz##.pe-link
@@ -19815,6 +19817,7 @@ gucheng.com##.fixed_img
 mtrend.cn##.hongbaotips
 nfuwow.com##.crightbtad
 league-funny.com##div[class^="dan_pmp"]
+nextdoor.com#$#hide-if-matches-xpath '//div[a//span[contains(@class,"Badge")][text()="Ad"]]/parent::div/..'
 kanav.ad##div[class^="img-ad"]
 newtalk.tw##.dable_response
 ||520cc.tw/AD/
