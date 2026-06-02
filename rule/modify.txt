@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-06-02 12:02:54
+! Last Modified: 2026-06-02 20:03:49
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1486,7 +1486,6 @@ douban.com##IFRAME[width='315']
 beppegrillo.it#@#div[id^="div-gpt-ad-"]
 1688.com.au###top-ad-layout-new
 aboutyou.*#$#hide-if-canvas-contains /Sponsored|Gesponsert|Gesponsord|Sponsorisé|Спонсориран|Χορηγούμενο|Sponsoreret|Patrocinado|Sponzorirano|Sponzorováno|Sponsoreeritud|Remiama|Sponsorēts|Sponsorizzato|Sponsorizat|Sponzorované|Sponsrad|Szponzorált/ 'li>a[data-content-alignment="end"]'
-cap3.homes#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 @@||hh010.com^$generichide
 /jquery.adblock.js|$script
 dailymail.co.uk##.molads_sky_right_top
@@ -3643,6 +3642,7 @@ baidu.com##.result-op[tpl="pc-education-fs"]
 bigbigwork.com##.pinterestbox
 @@||aixifan.com/dotnet/20130418/script/fingerprint.
 /anti_ab.
+cap3.buzz#$#prevent-listener click /setTimeout|e\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 banjiajia.com##.register-box
 @@||yesiget.i234.me^$generichide
 abbao.cn#@##adContent
@@ -4023,6 +4023,7 @@ eprice.com.hk##div[id^="eprice-div-gpt-ad-"]
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 445nan.com##+js(set-constant, btmData, [])
 @@||doubleclick.net^$xhr,domain=yyets.click
+abysscdn.com,freeplayervideo.com,player-cdn.com,playhydrax.com,www.bachnguyetquang.online,www.cap3.buzz#$#override-property-read open noopFunc
 autokult.pl,fotoblogia.pl,gadzetomania.pl,kafeteria.pl,komorkomania.pl,medycyna24.pl,smaczneblogi.pl#$#abort-on-property-read __wpApi
 ##.adwap
 @@||exashare.com/ici.html$subdocument
@@ -9289,7 +9290,6 @@ cnblogs.com###cnblogs_c1
 @@||yacine-app.com^$generichide
 /clys.js?2020
 bamxs.com###inglestore
-buomtv.life,phimsex24h.net,animehay04.site,cliphot69.wiki,clipphimsex3x.net,damconuong.lol,demo.14412882.com,doctruyen3qhub.info,dualeotruyenpy.com,hentaivkl.com,hhtq5.vip,qmanga.art,javtiful.com,luottruyen7.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvzz.com,quatvn.my,sayhentai.sh,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,vn2.xvideos69.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 ##div.callApp_fl_btn.an
 141hongkong.com##.wp.at
 /vh2/*$third-party
@@ -10092,7 +10092,6 @@ bts.to##.dl_blue[href^="/goto_.php?url="]
 /js/common/gg.js
 ##A[target='_blank'][href*='/auth/register?code=']
 @@||kantie.org^$generichide
-abysscdn.com,freeplayervideo.com,player-cdn.com,playhydrax.com,www.bachnguyetquang.online,www.cap3.homes#$#override-property-read open noopFunc
 @@||descargas.seguridadwireless.es/banner.gif
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 @@||weiyun001.com/banner_ads.js
@@ -10670,6 +10669,7 @@ chrissmoove.com#@##adserver
 @@||930mh.com/js/config.js
 baidu.com##.sam_iebrowser_banner
 douyu.com##div[class^="ChargeTask"]
+buomtv.life,phimsex24h.net,animehay04.site,cliphot69.wiki,clipphimsex3x.net,damconuong.lol,demo.14412882.com,doctruyen3qhub.live,dualeotruyenpy.com,hentaivkl.com,hhtq5.vip,qmanga.art,javtiful.com,luottruyen7.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hdxx.com,phimlongtieng.net,phimsexhayvzz.com,quatvn.my,sayhentai.sh,sex.xinh3x.me,sexdiary.club,sexviet88.it.com,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,vn2.xvideos69.xxx,sexviet88.it.com,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 downza.cn###priDownBtn + a[href*="?module="]
 /appnei-huodong.oss-
 .cn/*/o*.js?t=*$domain=12ju.com
@@ -15753,6 +15753,7 @@ vpstop.cn##a[href*="/ClickAd"]
 zhihu.com##.TopstoryItem:has(.Popover > .TopstoryItem-advertButton)
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
 silver.org.cn##.fix_bottom_position
+www.toptruyenzone3.com#$#abort-current-inline-script setTimeout open
 v.163.com###v_shapeRight_divId
 limaenvivo.com##IMG[title="close"]
 ||0598yu.com/api.php?mod=ad&
@@ -17148,6 +17149,7 @@ winandmac.com,nicekkk.com###custom_html-3
 ||20mao.com/js/sj.
 ||26img.com/nnn2/189guding.js
 qinzhou8.com##div[id^="v4ad-"]
+www.toptruyenzone3.com#$#abort-current-inline-script Promise instance
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
 gome.com.cn###gome-aside-app
 xmh/200/200-*.gif
@@ -18352,7 +18354,6 @@ pimpandhost.com##div[class$="aablock_yes"]
 linovelib.com###byspider:style(display: none !important;)
 hvhbbs.com##.margin-add > style + div
 pcgamesn.com#$#abort-on-property-read window.confirm
-www.toptruyenzone2.com#$#abort-current-inline-script Promise instance
 hao.360.cn###background.festival
 gotv.ctitv.com.tw##div[class^="code-block code-block-"][style="margin: 8px 0; clear: both;"]
 ifeng.com##a[href*=".app"]
@@ -19516,7 +19517,6 @@ yuanxue365.com##.content-main > div > .container-fluid:has(span:contains(广告)
 ||34iq.com/index
 huya.com###banner > a ~ .banner-close:style(display: none !important;)
 jianbiaoku.com##div[style="width:960px;height:130px;margin:0 auto;margin-top:35px;padding:0;cursor:pointer;"]
-www.toptruyenzone2.com#$#abort-current-inline-script setTimeout open
 qq.com###mod_float_box
 iqiyi.com##a[id^="100000"]
 gohome.com.hk,idv.st#@##adFrame
