@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-06-04 03:49:52
+! Last Modified: 2026-06-04 12:05:36
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -275,7 +277,6 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
-::1 localhost
 :: micro-xdb.com
 :: logservice1.hicloud.com
 :: syh-imp.cdnjtzy.com
@@ -6676,7 +6677,6 @@ etnet.com.cn##.firstAD
 .com/java/xia1.js
 -adblock-notice/*
 baidu.com##.cos-rich-video-player-video
-feebee.com.tw###afsh_bsearch_list_top
 ##div[id^="photo-header-title-content-text-dall"]
 90oo.com,p9.com.tw,price.com.hk,ttww22.com,xinhuanet.com###ad1
 /vipgg/*
@@ -9428,6 +9428,7 @@ ahaonline.cz,info.cz,iprima.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv
 douyu.com##div[id^="sign_p_"]
 chexun.com##a[attr-outside-ad]
 51wangdai.com##.cx_xx_lis_c01_right_lis_c_ad
+@@||jsxx.gds.edu.cn^$genericblock
 auto-online.com.tw##div[style="width:728px;height:130px;margin:0;background:#000000"]
 /barbar7.*.js^$script,domain=hclips.com
 .icu/*_*_*.js$third-party
@@ -11398,7 +11399,6 @@ gameapps.hk##.adClick
 rtlxl.nl##.adblock
 m.youku.com###banner
 finance.sina.com.cn##.zc-app-btn.right-bar-btn
-huavod.top,huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
 huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos_Simple, noopFunc)
 yocast.tv###ra9e
 qq.com##.ad-text-box
@@ -12996,7 +12996,6 @@ sisixxb.com##.preflink
 ifanr.com##.popup-app-download
 orzice.com##.ad-guanggao
 ||69shux.com/js/otherad.
-huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
 qq.com##.yscoin-box
 zuimeia.com##.app-ad
 ifeng.com##.cont_bottom_YySmall
@@ -13146,7 +13145,6 @@ ifsp.tv##.video-page-right
 hao.360.com##.cube-mod:has(.dh-cpcad-container)
 tw.news.yahoo.com##li[id^="ad-"]
 galacg.me##.sidebar-top
-||7moor.com^$third-party
 ifeng.com##.adbest
 firefox.com.cn,firefoxchina.cn##.sd-promote
 m.xiaomiyoupin.com##.lib10-opapp-wrap
@@ -14528,7 +14526,6 @@ icbc.com.cn##.action_Y_more
 ifeng.com##.newAdImg
 jmbbs.com###xjj_jmbbs2015_01
 novinky.cz,seznamzpravy.cz,sport.cz##div[style="background-color: rgb(255, 255, 255);"] > a[href][target="_blank"]
-huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
 sina.com.tw##.adbig300_mid
 followme.cn##.fm-banner-social
 huanqiu.com##.ad_all
@@ -15465,7 +15462,6 @@ manhuadb.com##.comicbook-index:has(>a[href^="http"])
 sogou.com###PZR
 tianya.cn###login_mask
 iqiyi.com##.rightLink
-huavod.top,huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.ad_duration_ms, 0)
 ||470kk.com/js/config.js
 hao.360.cn,hao.360.com###top_activity
 to8to.com##.quoted-outside
@@ -16063,6 +16059,7 @@ ixueshu.com##a[href^="https://adapi."]
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
 m.ke.com##div.lj-track:nth-of-type(14)
 videopremium.tv#@#.pub_300x250
+feebee.com.tw###afsh_bsearch_list_top
 mnw.cn##.mnw_685
 news.pchome.com.tw##div[style="width:970px;height:250px"]
 hupu.com###topPub
@@ -16477,6 +16474,7 @@ film.org.pl#@##adsense
 yahoo.com###module-tabadsw
 wenxuecity.com###marquee
 kinobox.cz##.box.banner_300, #b300_fixbox
+huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
 qq.com##.father-ad
 pluto.tv#$#replace-xhr-response /<Period[^>]*?id="[0-9a-fA-F]+-[0-9]+"[^>]*?duration="PT[0-9]{1,2}[.][^"]*"[^>]*>.+?<[/]Period>|<Period[^>]*?duration="PT[0-9]{1,2}[.][^"]*"[^>]*?id="[0-9a-fA-F]+-[0-9]+"[^>]*>.+?<[/]Period>|start="[^"]*"|mediaPresentationDuration="[^"]*"/ '' 'urn:mpeg:dash'
 videotools.12pings.net###chucknorris
@@ -16791,6 +16789,7 @@ izaiwen.cn##DIV[carousel-item]
 ||7k7k.com/js/bg-img.js
 m.ke.com##.ershoufang-detail-page__agent-card-bottom.lj-track
 news.baidu.com###detail-HotScrollNews-wrapper
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.ad_duration_ms, 0)
 huaban.com###top_promotion
 wezhicms.com##.card-main:has(.waimai-item-img)
 ||55sky.com/js/diecuo/
@@ -18362,6 +18361,7 @@ github.com##a[href*=".aliyun.com/minisite/goods?"]
 hentaicomic.ru#@#.pcd_ad
 sohu.com##IFRAME[frameborder='0']
 netfly.*,netfly.tv##div[class*="tt-"] > a[target="_blank"] > img
+huavod.cc,huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
 jmbbs.com##img[width="1100"]
 v2ex.com##.sidebar_units
 ||3987.com/images/
@@ -19217,6 +19217,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div:not([id]) > st
 playwire.com#@#.adsbox
 xiaohongshu.com##.more-image-desc
 ||3dmgame.com/templets/index/gimg/
+huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
 warcraftlogs.com##span[id^="ap-"]
 wenxuecity.com##+js(set-constant, adsbygoogle, noopFunc)
 ombak700.org#$#abort-on-property-read sp
@@ -21831,6 +21832,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||jin10.com/assets/img/sites/index/vip_ad
 ||dnwx.com/pic_ad/
 ||koyso.com/aclib.js
+||7moor.com^$third-party
 ||kanshushi.com/js/nxnhsqe.
 ||fd80s.com/static/m.
 ||cdndm.com/3/2015/$domain=1kkk.com|dm5.com
@@ -23833,7 +23835,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||oschina.net/promotion/
 ||sh.sina.com.cn/iframe/522/
 ||sexgangsters.com^$popup
-||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huaren.live|huavod.net|huavod.com|huavod.top
 ||ymlykj.com/nuxt/static/liveBanner.jpg
 ||yuanbao777.com/download/*.gif
 ||x6img.com^$domain=picturedata.org
@@ -25762,6 +25763,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||trends.com.cn/k.js
 ||msn.ynet.com/c/tj_comm.js
 ||pconline.com.cn/download/*/intf*.js
+||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huaren.live|huavod.net|huavod.com|huavod.top|huavod.cc
 ||ntimg.cn/original/images/www_ads.jpg
 ||souka.me/ad/
 ||site-config.com^$third-party
