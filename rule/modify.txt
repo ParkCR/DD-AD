@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-06-11 20:09:30
+! Last Modified: 2026-06-12 02:46:21
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -11267,6 +11267,7 @@ wk.baidu.com##.open-app-btn
 ||5251.net^$third-party
 you.163.com###j-yx-fixedtoolDownloadlink
 gamer.com.tw##.iframe:last-child
+www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{(?:"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":|[^\\n]*?"sponsored_data":\{"__typename":"SponsoredData")[^\\n]+\}(?=,"cursor":)/' '"node":null'
 xitongzhijia.net###top_gg
 sports.ru#$#abort-on-property-read Sports.pageData.browserTime
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
@@ -11813,7 +11814,6 @@ jurong.cn##.ad_190_60_5s
 tw.news.yahoo.com##.YDC-Lead
 mydrivers.com##div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
 llifle.com###ad_blocker_found
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":[^\\n]+\}(?=,"cursor":)/' '"node":null'
 loldk.com##.tools-recommend
 map.baidu.com##.search-item[data-stat-code="poisearch.damoce.item"]
 ||123.sogou.com/discover/?
