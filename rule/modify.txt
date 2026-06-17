@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-06-17 03:36:24
+! Last Modified: 2026-06-17 12:11:48
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -4345,7 +4345,6 @@ bohe.cn##IFRAME[width='400'][height='200']
 5184.com##.fixed_bgg
 douyu.com##.fishop-anchor-recommands-box
 enread.com##.channel-nav > .back
-*$script,3p,domain=m.roushuwu.vip
 @@||58b.tv^$generichide
 @@||fastrapidleech.com/*/adsbygoogle.js$script
 ###haoxinqing_me_img
@@ -4548,6 +4547,7 @@ bitchute.com#$#override-property-read Object.prototype.ads undefined; json-prune
 ##IMG.cupfox[src$='gif']
 /btba/ad/*
 @@||allmedia-d.openx.net/w/1.0/jstag$script,domain=allmusic.com
+fbox.art,youtubetoany.com#$#abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 @@||sovrn.com^$domain=mens1069.com
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
 3yan.cn##img[style*="300px"]
@@ -7372,6 +7372,7 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 bilibili.com##.video-card-common:has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
 baidu.com,comefromchina.com#@#.ad-block
+*$script,3p,domain=m.roushuwu.vip|xiaoaimh.com
 centrum.cz##div[class^="sasic-ad"]
 a.9game.cn##.downApp
 caixin.com##.incubator
@@ -9601,7 +9602,6 @@ acomics.ru##div[style*="/design/common/pic/please"]
 ##.page > .wp-none1
 ##.float-left12 > .div-list
 bilibili.com##.bili-feed-card:has(> div.bili-video-card[style*="display: none !important;"]):remove()
-facebook.com#$#hide-if-matches-xpath '//h2[contains(@class,"html-h2")][.//a[@role="link"][@tabindex]]/ancestor::div[7]/../ancestor::span[1]'
 chinaz.com##.kwLink
 @@||cibntv.net/youku/*.mp4?$domain=v.youku.com
 @@||btaia.com/bloggerex.js$script
@@ -12006,6 +12006,7 @@ xgroovy.com#$#hide-if-matches-xpath './/div[@class and @style]/div[@class][@id]/
 ip.sb##[style='text-align: center;margin: 20px 0;width: 100%;']
 image.baidu.com##.mod-promo
 mysteel.com##body:style(background-image: none !important;)
+xiaoaimh.com##.flex-cols.tops
 huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
 techbang.com##.ad_grey_floor
 soyoung.com###pubWideBanner
@@ -14089,7 +14090,6 @@ fullmatchesandshows.com#@#.text-ad
 lanrentuku.com###advbox
 iqiyi.com##.adBanner980
 qq.com##.masker_1111
-fbox.art,youtubetoany.com#$#abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 wap.gamersky.com##.gsTgWapConBdshareTopBox
 smzdm.com##.footer-floating-layer
 ruanyifeng.com##.entry-sponsor
@@ -17018,6 +17018,7 @@ imail.edu.vn#$#abort-current-inline-script setTimeout Aff; abort-current-inline-
 jd.com###ttbar-apps
 greenxiazai.com##.downbtn > a:last-child
 niotv.com##.epg_ad3
+www.facebook.com,web.facebook.com#$#json-prune 'data.marketplace_home_feed.edges.[-].node.ad_id_string'; json-override 'jsonpath($.data.node)' null '' /ad_id_string/
 microsoftnews.msn.cn##div[class^="nativeAd-DS-card"]
 hanime1.me##.video-show-width > .single-show-list > .hidden-xs[style*="text-align:"]
 ||0460.com/images/banner/
@@ -19210,6 +19211,7 @@ torkitty.*#$#prevent-listener click handlePopunder
 hmitalk.com##div[data-adid]
 hexun.com##.lck-module
 mob.iyingdi.com##.reply
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath '//h2[contains(@class,"html-h2")][.//a[@role="link"][@tabindex]]/ancestor::div[7]/../ancestor::span[1]'
 macromicro.me##+js(abort-current-script, $, /deposit-bonus?platform=26&utm_source=)
 pjtime.com##.top_R
 player.starlight.digital#$#replace-fetch-response testadv
@@ -20284,7 +20286,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gaoqing.la/wp-content/uploads/*/gg
 ||bdstatic.com^*/tam-ogel/
 ||jianpian.vip^$3p
-||m.daomutxt.cc/js/
 ||ctfile.com/iz.php?
 ||9669.cn/jsam/play_
 ||ahuys.net/Runtime/js/
@@ -20525,7 +20526,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dd6364.com/js/777/
 ||ee021.com/Runtime/js/
 ||gaoqing.la/wp-content/uploads/*banner
-||m.danmeixsw.com/js/mwap.js
 ||kmplayer.cn/include/jscript/*-a.js
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||bance.jp^$domain=zozovideo.com
@@ -21709,7 +21709,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||cloudfront.net^$script,domain=croydonguardian.co.uk
 ||hoteastday.com/newspc/show?
 ||axutongxue.net/js/ik474n.js
-||m.daomutxt.cc/dist/common.js
 ||gaoqing.la/wp-content/uploads/*980x
 ||jrzj.com/img_index/guanggao
 ||933m.com/1.js
@@ -23117,7 +23116,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||content-settings.com^$third-party
 ||js.sapo.pt/SAPOWebAnalytics/
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
-||m.ddyueshu.cc/*/$script
 ||count.xxxssk.com^$3p
 ||bdstatic.com^*/plugins/every_cookie_
 ||image-shop.baidu.com/n/imageproduct?
@@ -23838,6 +23836,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ol-img.com/channel/tuku/js/tukuPopup.js
 ||weiyuedu.cc/skin/v3/js/dibu.js
 ||zhhbqg.com/xxgg/*.js
+||m.daomutxt.cc/js/
 ||php.cn/ad1.
 ||stg.html-load.com^$script,domain=guitarworld.com
 ||sentcss.com/get/cors/spread/
@@ -24194,6 +24193,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||property.hk/js/adside.js
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
+||m.danmeixsw.com/js/mwap.js
 ||m.q1xs.com/17mb/script/wap.js
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
 ||texnet.com.cn/images/cnbanner/
@@ -25103,6 +25103,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||stats.chinaz.com/tool_img/
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||taobao.com^$popup,domain=dlkoo.com
+||yilufff.com^$domain=xiaoaimh.com
 ||pufei.cc/skin/footer.js
 ||qixingquan.com/api.php?mod=ad&adid=
 ||ruiwen.com/js/p.js
@@ -25341,6 +25342,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tvsou.com/js/360ad.js
 ||mycodes.net/js/*.js
 ||rainpat.com/Scripts/jquery.SuperSlide.
+||m.ddyueshu.cc/*/$script
 ||qncye.com/ads/
 ||moedao.com/js/top.js
 ||nb.zol.com.cn/detail_*.html
@@ -25802,6 +25804,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mnrrk.com/yuhe/ote/js/pcgg.js
 ||macx.cn/js/jquery.$domain=game.macx.cn
 ||pipix.cc/gg.gif
+||m.daomutxt.cc/dist/common.js
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||t.cn^$domain=28kys.com|92kvip.com
 ||vipyearha.com/uploads/20*.gif
