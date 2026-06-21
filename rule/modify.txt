@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-06-21 19:16:09
+! Last Modified: 2026-06-22 01:39:03
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -1620,7 +1618,6 @@ _float_fuo.js
 cnubis.com#@#.pub_728x90
 airsoftmilsimnews.com#$#abort-on-property-read td_ad_background_click_target
 animezone.pl#@#.myTestAd
-fastconverter.net#$#abort-on-property-read afScript
 discuss.com.hk##iframe[src="/fb_page_plugin.php?interface=web"]
 ettoday.net###ticker_3
 ##style + .a-loading
@@ -4881,6 +4878,7 @@ bitauto.com##.advertise-nav-down
 duba.com##.taobao_search
 ##body#read.read > a.appguide-wrap
 @@||pubads.g.doubleclick.net/gampad/ads?$object-subrequest,xmlhttprequest,domain=tv.majorleaguegaming.com
+51cg1.com##.dplayer-pre-bg
 77mh.nl###bdcotopnew
 ##[href^='https://fcc.hxaxfcc.cn/']
 @@||cruisecenter.com.tw/data/ad/
@@ -5436,6 +5434,7 @@ duba.com,iduba.com,newduba.cn##.left_slidebar_con
 bitvid.sx###aad
 /apsti7.*.js^$script,domain=txxx.com
 2345.com###J_go_erweima
+51cg1.com##.dplayer-pre-countdown
 ##.container > a[href^="http"] > .ads
 cztv.com##div[class^="banner_"]
 40407.com###tcdgg
@@ -8662,7 +8661,6 @@ aliexpress.*#$#hide-if-contains-visible-text /AD|Annonce|Anuncio|Anzeige|Reklama
 51cto.com###ADsList
 ccb.com.cn###leftSideAd
 91porna.com,evgpopxb.cc##.modal-backdrop
-fastconverter.net#?#:xpath(//div[contains(@style,"fixed") and contains(@style,"z-index")]/ancestor-or-self::div[@style][1])
 @@||kfcorder.com.tw/web/Script/Analytics.js
 /nordvpn/autoptimize_
 animeflv.ac,bajarpelisgratis.com,jkanime.*,pelismart.com,pelismartv.com,pelispoptv.com,series-de.online,torrentdownloads.pro#$#abort-on-property-read localStorage; abort-on-property-write JSON.parse
@@ -9090,6 +9088,7 @@ baozimh.one,yazhouse8.com##.banners
 @@||daziba.cn/Images/share.css
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.l_post[data-field^="\7b \"author\":\7b \"user_id\":1990070693,"]
 1616.net###toplink
+51cg1.com##+js(set-constant, DPLAYER_PREROLL_AD.attachPreRollAd, noopFunc)
 1688.com.au###pop-up
 ##.ad_couplebanner
 doudoudm.site,ezdmw.com##.public_ad
@@ -9283,7 +9282,6 @@ cool-style.com.tw#$#abort-on-property-write window.alert
 etextlib.ru##.head_bann
 anhuinews.com###ewm
 delfi.lt#$#abort-on-property-read _dlf.adxtag
-fastadmin.net##body > a[target="_blank"]
 ##div[role="listitem"] .bannerliststyle
 .xyz/ty/*-*-*$third-party
 /game/aplus/pptv/*
@@ -9551,7 +9549,6 @@ cj.sina.cn##.wap-msg-bar
 /adblockchecker.js$script
 @@||dlkoo.cc/down/*/*.htm$popup
 /templates/bootadult4/js/bottom.js
-fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic|preventDefault|Math.floor/; prevent-listener DOMContentLoaded /0x|popMagic/; abort-on-property-read Element.prototype.attachShadow
 @@||pagead2.googlesyndication.com/pub-config/$script,domain=sc2casts.com
 @@||google.es/translate_$media,3p,xhr
 @@||hdsky.net/ad/down.png
@@ -10580,6 +10577,7 @@ ablesci.com##.able-container-body-right > div.fly-panel:has(> div[style="text-al
 40407.com,lzep.cn,qudong.com,xitong8.com##.top_banner
 85tube.com##.block-video > .table
 creativeuncut.com###g_abox
+51cg1.com##.dplayer-pre-img
 ###adblock-overlay
 @@||gg.wudizuqiu.com/72nba.js
 ###advertisementjsalert
@@ -10893,6 +10891,8 @@ c.m.163.com##.commentBar
 cloudflareinsights.com$third-party
 7654.com##div[class^="sidebarimg"]
 @@||picbucks.com/intermission/loadTargetUrl$xmlhttprequest
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||365xuet.com/assets/web/js/main.jsr_
 fox.com.tr#@#.text-ad
@@ -11496,6 +11496,7 @@ makepolo.com##.cpc_tgs
 techbang.com##.techbang_i_m_970x250_1
 ledemondujeu.com#$#prevent-element-src-loading script player.fabster.com
 flipkart.com#$#hide-if-matches-xpath './/div[text()="AD"][@font]/ancestor::div[contains(@style,"static")]/div[contains(@style,"order:")]'
+fastconverter.net#$#abort-on-property-read afScript
 xc6b.com##a[href="http://61.160.236.52"]
 ping.chinaz.com##.sth > .col-red
 gencit.info#$#abort-on-property-read Radish
@@ -18063,6 +18064,7 @@ weather.com.cn##A[href*=".tmall.com"]
 mydisc.net#@#.ad_2
 taoguba.com.cn##.ct_app
 noon.com##img[src^="ad-tag"]
+fastconverter.net#?#:xpath(//div[contains(@style,"fixed") and contains(@style,"z-index")]/ancestor-or-self::div[@style][1])
 makepolo.com##div[class*="_ad"]
 sohu.com##a[href^="https://m.sohu.com/promotion?"]
 nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
@@ -18613,6 +18615,7 @@ jandan.net##.commentlist > li.row:has(> div > font:contains(广告))
 noon.com#$#hide-if-matches-xpath './/img[contains(@src,"ads/banner-")]/parent::span/ancestor::div/parent::div[contains(@class,"Banner")]';
 sohu.com###apkBanner
 sina.cn##.module-finance-client3
+fastadmin.net##body > a[target="_blank"]
 isso.com.cn##.right-content-div > .top-div + div
 staticfile.link###player_pause
 qiuziti.com##.popularize
@@ -18876,6 +18879,7 @@ gas.goodlife.tw###leaderboard_banner
 gas.goodlife.tw###widgets
 goha.ru#@#.goha_ads
 vpser.net##.ab_cpb
+fastpic.org,~new.fastpic.org#$#prevent-listener /click|load/ /exopop|popMagic|preventDefault|Math.floor/; prevent-listener DOMContentLoaded /0x|popMagic/; abort-on-property-read Element.prototype.attachShadow
 tieba.baidu.com###diversBanner
 updown.*#$#prevent-listener mousedown /shown_at/; prevent-element-src-loading script /\.(cfd|rest|cyou)\//
 ||39.net/test/k.js
