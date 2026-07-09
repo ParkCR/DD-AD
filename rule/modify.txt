@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-07-09 11:20:20
+! Last Modified: 2026-07-09 18:54:21
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -13860,7 +13860,6 @@ privatestream.tv###timer2
 lenovo.com.cn##.hotword-list > li > a[href*=".jd.com"]
 search.seznam.cz#$#hide-if-matches-xpath './/picture[@class]/img[contains(@src,"https://d25-a.sdn.cz")]/ancestor::div[contains(@style,"margin-left:")]/ancestor::div[@data-dot-data]'
 news.ebc.net.tw##a[href^="http://www.ebcbuzz.com/url/"]
-sameday.costco.*##div[id]:has(> div[id$="-content"] li[data-testid="compact-shoppable-header"])
 lookmovie.*,lookmovie2.*#$#abort-current-inline-script addEventListener
 ptthito.com###main-content > div[style*="margin-top:"]:not([class]):has(> .adsbygoogle)
 mydigit.cn##.view-hover[channelid="aitao"]
@@ -16723,6 +16722,7 @@ zhihu.com##.zhihuAdvert-MBanner-wordDownload
 happymh.com##[src="https://c.nationaltcm.com/ad/tm1111dd.png"]
 kuaibao.qq.com##.slider-box
 lenovo.com.cn##.game-bd
+kuruma-news.jp#$#prevent-element-src-loading script /\/(feed|media)\//
 youku.com##.callEnd_fixed_box
 fnjiasu.com##.swiper-container
 fontsquirrel.com###bottom_banner_ad_container
@@ -18414,6 +18414,7 @@ zhihu.com##.ContentItem-more
 mcappx.com##+js(abort-on-stack-trace, alert, .onerror)
 yimuhe.com###maincontent3 > div[style^="height"]
 laosiji.com#@#.sns-wrapper
+sameday.costco.*##div:has(> div > div[id] > div[id$="-content"] li[data-testid="compact-shoppable-header"])
 oraridiapertura24.it#$#hide-if-matches-xpath './/div[contains(@class,"anzeigenlabel")]/parent::div[@style][not(@id)]'
 tw.news.yahoo.com##.caas-body > .caas-iframe-wrapper > .flourish
 m.tv.sohu.com##.btn-xz-app
@@ -21831,6 +21832,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||by4d.com/love/
 ||iqiyi.com/track
 ||cultofmac.com/wp-content/plugins/com2014-ads/static/js/frontend-functionality.js$script
+||duhquietly.com^$domain=kuruma-news.jp
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||gd.ct10000.com/js/ecssstat.js
 ||gywb.cn/gggl/
@@ -25312,6 +25314,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||myhack58.com/Articleacb0
 ||mhhanman.xyz/data/my/myjs.js
 ||qunar.com/render/*Advertisement.jsp?
+||peoplebrain.net^$domain=coolmathgames.com|dailykos.com|gamebanana.com
 ||tongji.trafficmanager.net/?
 ||pv.dakawm.cc^$3p
 ||shfq.com/data/attachment/portal/
