@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-07-10 01:56:23
+! Last Modified: 2026-07-10 11:22:45
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1469,6 +1469,7 @@ ddooo.com##.guoasu
 /wutime_adblock/*
 douyu.com##div[class*=LiveRoomDianzan]
 avple.tv##.jss13
+fcenxe*.top/$script,xhr,3p
 duote.com,soft-down.net##.fast-down-btn
 @@||ikea.cn^*/img/ads/
 cars.com##li>cars-banner-ad {remove:true;}
@@ -2786,7 +2787,6 @@ aura.cn##.tc1
 @@||aminhaconta.xl.pt/Campaigns/Blockers/ads.html$subdocument,document=record.xl.pt
 @@||ttkdex.com^$generichide
 ##.popup + .shortcuts-mobile-overlay
-/CC6F9ACB52D1582671AFEA808AFE10FE.gif
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=onvasortir.com
 @@||ipstatp.com/business_center/dist/img/ad-$domain=tiktok.com
 ##.adBlockDetectedSign
@@ -4548,6 +4548,7 @@ bitchute.com#$#override-property-read Object.prototype.ads undefined; json-prune
 ##IMG.cupfox[src$='gif']
 /btba/ad/*
 @@||allmedia-d.openx.net/w/1.0/jstag$script,domain=allmusic.com
+fbox.art,youtubetoany.com#$#abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 @@||sovrn.com^$domain=mens1069.com
 cloudnestra.com,embdmstrplayer.com,knaben.*,moviepire.*,myflixerfree.com,lurvian.space,seeflix.*,stellarthread.com,tvsportslive.*#$#abort-on-property-read aclib false
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pc2client
@@ -10221,7 +10222,6 @@ dict.cn###tjcd
 @@||qq.com/bossweb/jifen/
 ###my_dp_a
 edrawsoft.cn##.activity-banner
-##p > a[href^="/AllRes/Vlog"]
 /Runtime/js/banner_
 ##.player-news > .news-list
 blog.163.com##.postadlayer
@@ -11384,7 +11384,6 @@ kdocs.cn##.business-list-wrap
 mr2oc.com#$#override-property-read window.navigator.connection.rtt 2000
 karaoketexty.cz#$#hide-if-matches-xpath './/a[string-length(@href) >120][@target="_blank"]/ancestor-or-self::a[@href]'
 ouyaoxiazai.com##div[id^="cs_"] > *
-fcenxe*.top/$script,xhr,3p
 ithome.com##a[href*="/lapin."]
 fdc.com.cn##.yifangbanner
 skyroad.downallbook.com##IMG[height='60'][width='98%']
@@ -12824,6 +12823,7 @@ fs14.lol,fss.lol#$#abort-current-inline-script String.fromCharCode 2147483647
 sdamgia.ru#$#abort-on-property-read Object.prototype.getRenderToElement
 nodejs.cn##+js(set-constant, adRender, noopFunc)
 itmo.com##.right-side-pop
+stock-calculator.net##.grid > div > div.overflow-hidden:has(> div.inset-0 > ins.adsbygoogle)
 sina.cn##.topLogoBar
 jinhua.com.cn##.banner935
 redtube.com###slidePanelContainerAB
@@ -14122,7 +14122,6 @@ fullmatchesandshows.com#@#.text-ad
 lanrentuku.com###advbox
 iqiyi.com##.adBanner980
 qq.com##.masker_1111
-fbox.art,youtubetoany.com#$#abort-on-property-write zfgformats; abort-on-property-write window.open; abort-current-inline-script EventTarget.prototype.addEventListener 'delete window';
 wap.gamersky.com##.gsTgWapConBdshareTopBox
 smzdm.com##.footer-floating-layer
 ruanyifeng.com##.entry-sponsor
@@ -16260,7 +16259,6 @@ m.ke.com##.kem__download-app-ad
 opdown.com##.cq-recom
 pconline.com.cn##.block-jcz
 usgang.ch###rectangle-wrapper
-||*.mp4$redirect=noop-0.1s.mp3,domain=huavod.com|huaren.live,media
 iqilu.com##.gg300250dbl
 hupu.com###threadLeftAd
 news.pchome.com.tw##div[class^="adnewlist"]
