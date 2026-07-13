@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-07-13 10:50:08
+! Last Modified: 2026-07-13 19:11:18
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -907,8 +909,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -6032,7 +6032,6 @@ chinamedevice.cn,hgitv.com##.gg12
 dqzboy.com##body > #popup[style^="position: fixed; bottom:"]
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
 @@||free-reseau.fr/css/publicite.css|$stylesheet
-faxingw.cn##.detailgc
 ##.maomi-content > .section-banner
 ahtv.cn,frdic.com,huasing.net,it168.com,qinbing.cn###ads
 ###bottom-gg1
@@ -10634,6 +10633,7 @@ chinaz.com,mydrivers.com,oschina.net##a[href*="click.aliyun.com"]
 dmhy.org##div[id$="_ad"] > a[onclick*="'ad'"][target="_blank"]
 baidu.com##.search-box-wrapper + .pager-container
 @@||pagead2.googlesyndication.com/pagead/js/r*/r*/show_ads_impl.js$script,domain=bricozone.fr
+bbys.app##.global-desktop-ad
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.net
 autokult.pl,dobreprogramy.pl,echirurgia.pl,money.pl,o2.pl,pudelek.pl,wp.pl#$#hide-if-matches-xpath '//div[@id]/a[@id]/img[string-length(@src) < 120][contains(normalize-space()," ")][@class="img-full show"]/ancestor::div[1]'
 baidu.com##.opr-zhaopin-ad-ctn
@@ -15516,6 +15516,7 @@ hao.360.cn,hao.360.com###top_activity
 to8to.com##.quoted-outside
 freeuseporn.com#$#override-property-read p18 undefined
 sogou.com###PZL
+faxingw.cn##.detailgc
 xw.qq.com#?#.comment.follow_top:contains(热评)
 guancha.cn##.g_header44
 ifeng.com##.yy_right_bottom
@@ -17790,7 +17791,6 @@ liba.com##.ad-split
 kupi.cz,novinky.cz,sport.cz,super.cz##[data-e4e-advert], .basafoxy
 techritual.com##.th-single-ad
 sohu.com###bottomBanner[data-spm='b-mb'][data-spm-stop='init']
-||66game.cn/skinnew/js/ad.js
 jrj.com.cn##.bd.pa10.bgn
 verkaufsoffener-sonntag.com#$#override-property-read window.navigator.connection.rtt 1001
 hao123.com##.title-wrap + .right-img
@@ -21867,6 +21867,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
 ||acg.youku.com/webfile/*.jpg
 ||dagumanhua.com/style/mdagu.js
+||66game.cn/skinnew/js/ad.js
 ||hh010.com/static/image/fff/
 ||autoimg.cn/club/v1Content/images/young
 ||baidu.com/newspage/api/getmobads?
@@ -22182,6 +22183,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dzwww.com/images/ad_down.js
 ||h-ciyuan.com/wp-content/uploads/*.gif
 ||ganimgs.com/images/*.gif
+||bbys.app/api.php/web/feature
 ||chusan.com/js/m*_
 ||78dm.net.cn/acg_201*_250
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
