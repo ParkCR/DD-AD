@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-07-29 01:34:05
+! Last Modified: 2026-07-29 10:39:23
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -12695,6 +12695,7 @@ yiyouliao.com##.yyl-weiruan-video-list-item:has(> div#small2)
 vmvps.com##.spbox
 ||51wady.com/me.php?id=
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//div[contains(text(), "Sponsored by")]]/self::div[1]'
+www.facebook.com,web.facebook.com#$#json-prune 'data.viewer.companionUnits.nodes.[].item_collection.nodes.[].rhc_ad'
 news.owlting.com##.profit-wrapper
 mooc1.chaoxing.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"], [src*="player-widget.mixcloud.com"])
 qq.com##.mod_ad_side
@@ -12970,6 +12971,7 @@ hh2d.top#$#abort-current-inline-script $ adblock
 qyw0.com##.iad
 pssite.com#@#.adver
 mfiles.pl###float_square
+sameday.costco.*##div[id]:has(> div > a[href*="/brands/"] img[src*="display.instacart.com"]):has(> section div[data-testid$="-carousel-container"])
 mparticle.uc.cn##div[class^=recommend]
 proplanta.de#@##mainAd
 gongkong.com###dull_right
@@ -14929,6 +14931,7 @@ pptv.com##.mod_960x90
 tingfm.com##+js(no-setTimeout-if, adblock)
 wikisport.cc##+js(addEventListener-defuser, click, window.open)
 image.baidu.com##.tjImgli
+sameday.costco.*##div[id]:has(> div[id$="-content"] li[data-testid^="compact-"])
 ||4399.com/loadimg/loading.htm
 zhujicankao.com##.eboxx
 karaoketexty.cz,osobnosti.cz,tiscali.cz###clickLayer
@@ -15375,6 +15378,7 @@ globes.co.il###chromeWindow
 onetv.cz##a[href*="verdsi="][href*="&ip="]
 iwatchme2u.com##.video-ad-box
 ifeng.com#?#div[class^="index_link"]:contains(app)
+instacart.*##div[id]:has(> div > a img[src*="display.instacart.com"]):has(> div > a h2):has(> section div[data-testid$="-carousel-container"])
 needrom.com#@##ba_banner61
 streamcloud.my#$#hide-if-matches-xpath './/div[@style="pointer-events: none; position: absolute; top: 0px; left: 0px; width: 1839px; height: 1815px; z-index: 2147483647;"]/self::*[1]'
 ting89.com,tingshuge.com##.banner688_1
@@ -16968,7 +16972,6 @@ tw100s.com##div[class="ui_adblock"]
 pchome.com.tw##.ad_triple
 runoob.com##.sidebar-box:has(.re-600160)
 supertaste.tvbs.com.tw##div[class]:has(> div[id^="supertaste_"])
-||6080w.com/template/ttk/img/
 ifenpaidy.com##.btn-copy + .btn
 xvideo.cc##+js(set-constant, poped, true)
 jm18c-oec.club,18comic.org,18comic.vip,18comic.ink##:has(>script+ins)
@@ -18344,7 +18347,6 @@ hk01.com##.cmp-article-detail > .items-center:has(.lazyload-wrapper > .js-ad-slo
 qingdaonews.com##.surround
 jingyan.baidu.com##.task-panel-entrance
 vidara.*#$#abort-on-property-read popundersPerIP; abort-current-inline-script String.fromCharCode 2147483647
-||6080.tv/public/js/m/uaredirectformobile.js
 ktsf.com###sow-slider-7
 yuanbao.tencent.com#?#div.input-guide-v2-item:contains(下载)
 m.nownews.com##.ui-footer-fixed
@@ -18811,7 +18813,6 @@ fwwang.cn###n_s_300250
 uwants.com###foruminfo + div[align="center"]
 qq.com###download-btn-wrapid
 yfsp.tv,aiyifan.tv,iyf.tv##.video-player + div.ps > div:has(> div.bb)
-||6080aa.com/template/*/images/g_js/
 moe-acg.com##div[style="position: relative;width: 100%;height: 0;padding-bottom: 18%;"]
 tvgolo.com###hstp-bg-overlay
 teepr.com##body .ucfad_async
@@ -19424,6 +19425,7 @@ hao.rising.cn##.activity-gt
 gmw.cn###rightad1 + .contentColumnRight
 sina.com.cn##A[href*="/comfinanceweb."]
 videopremium.tv#@#.pub_300x250m
+instacart.*##div[id]:has(> div[id$="-content"] li[data-testid^="compact-"])
 pconline.com.cn##.jcz-focus
 ifeng.com###optimusPrimeContentId
 qq.com##.m[pbflag="guess"]
@@ -21271,6 +21273,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||html-load.com^$script,domain=freeconvert.com
 ||ebrun.com/jfile/position/js/*.js
 ||ithome.com/js/recommend.js
+||6080w.com/template/ttk/img/
 ||78dm.net.cn/acg_201*_980
 ||7wzx9.com/tbad.
 ||baidu.com/xpage/interface/sourcecontent?
@@ -22317,6 +22320,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||error-report.com^$domain=onlineradiobox.com
 ||eastmoney.com/cachedata/ad.js
 ||kygso.com/js/lrtk.js
+||6080.tv/public/js/m/uaredirectformobile.js
 ||isyd.net/images/ad1.jpg
 ||kanpb.com/skin/images/
 ||choujue.net/one/down.js
@@ -22666,6 +22670,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ifengimg.com/ifeng/sources/
 ||a.tbcdn.cn/s/tb-tracer-min.js
 ||linovelib.com/modules/article/scripts/
+||6080aa.com/template/*/images/g_js/
 ||debugease.com/static/js/show.js
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
 ||eastmoney.com/js/headbiggg_
