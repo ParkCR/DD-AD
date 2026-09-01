@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-09-01 11:55:25
+! Last Modified: 2026-09-01 21:09:52
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1684,7 +1684,6 @@ dmhy.gate.flag.moe##a[href^="https://7segu.taobao.com?"]
 .bt*.com/imgs.js?t=
 @@||pingan.com^*/rrweb-record-
 amz123.com##.two-activity-style
-/^https?:\/\/pikabu\.ru\/ajax\/{1,2}[A-Za-z0-9_-]{8,}(?:\.[A-Za-z0-9_-]{1,2})?\?[A-Za-z0-9]+=[0-9a-z_-]+/$xmlhttprequest,domain=pikabu.ru
 @@||syndication.exoclick.com/ads-iframe-display.php$subdocument,domain=mobilevids.org
 @@||baidu.com^*&cb=BaiduSuggestion.
 /tops/fmt.js?v=
@@ -3970,7 +3969,6 @@ ceiea.com##.adclass2019
 .qidian.com/floatOpBox.
 buzzhand.com##div[style="text-align:left;margin-top:0px;height:600px;"]
 @@||cqshuda.com/template/conch/asset/js/conch.vip.js
-fanyi.sogou.com##.survey
 91porna.com##.row > div[class^="col"]:has(> .video-wrap > a.checkNum)
 alexa.cn##.importantList
 comefromchina.com##.ad_navtext_11 > li:nth-child(n+2)
@@ -5612,6 +5610,7 @@ duelmeta.com##.single-bottom-html
 .xyz/xefeliffng_$third-party
 bimibimi.cc##[src^='https://dd-static.jd.com']
 @@||taobao.com^*&adgroupid=
+/^https?:\/\/pikabu\.ru\/ajax\/{1,2}[A-Za-z0-9_.-]+\?[A-Za-z0-9]+=[0-9a-f]{24,}_[0-9]+/$xmlhttprequest,domain=pikabu.ru
 2345.com##.top-lvy
 @@||imasdk.googleapis.com/js/sdkloader/*$script,domain=mindgames.com|htmlgames.com
 ##.ad_headerbanner
@@ -7925,6 +7924,7 @@ downmsn.com###downShow_tellDownload
 @@||ads.cdn.tvb.com^*.key
 ##IMG[alt='155.fun']
 /guangao/*
+fandom.com#$#hide-if-matches-xpath '//div[contains(@class,"fandom-ad-wrapper")]'
 @@||service.4gtv.tv/4gtv/Data/GetAD.ashx
 chinaz.com###loc.Mnav-right02
 ##body > .zdhf
@@ -9237,7 +9237,6 @@ cs-amba.ru##.banka
 @@||goodinfo.tw/StockInfo/image/*.png
 @@||videacesky.cz/getbanner.cfm$script
 closermag.fr##div[id^="detection-block"]
-fanyi.youdao.com##.dict-download-guide
 ##.top-read-ad
 7654.com##.dh2_bottom_wrap
 /Runtime/Js/pc_top.js
@@ -10787,6 +10786,7 @@ eprice.com.hk,ddcar.com.tw##.popup-adv
 @@||javedit.com/d/js/acmsd/thea0.
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
 /^https:\/\/(www\.)?zxzjhd\.com\/[0-9]+\.gif/$domain=zxzjhd.com
+fandom.com#$#hide-if-matches-xpath '//div[contains(@class,"fandom-ad-wrapper") and not(contains(@style,"display: none"))]'
 ###modalgg
 ##[style='width: 100%; height: auto; position: fixed; left: 0px; top: 0px; z-index: 2147483647;']
 @@/social-share.$domain=patentguru.com
@@ -13639,6 +13639,7 @@ olx.bg#$#replace-fetch-response /("ListingSuccess","data":\\[(?:\\{"_nodeId":"bG
 sm.cn##.ad-dot-container
 fxykx.com,pantsu.cat#@##banner_ad
 tobosu.com###alert_order
+fanyi.sogou.com##.survey
 ghxi.com##div[style^="padding:10px;position: fixed;bottom: 0;left: 0;right:0;z-index"]
 ozlib.com#$#abort-on-property-read _0xb7d3
 fullmatchesandshows.com#@#.text_ad
@@ -18772,6 +18773,7 @@ olx.pl#$#replace-fetch-response /("ListingSuccess","data":\\[(?:\\{"_nodeId":"bG
 v.qq.com##.player-side-ads
 tigtag.com###Home942x70_A1
 infoq.cn##.live-fixed-bar
+fanyi.youdao.com##.dict-download-guide
 hupu.com###game-center-entrance-container
 hcomic.net##div[class^="horizontalBanner_"]
 teddysun.com##.sidebar > .widget:nth-child(3)
@@ -20603,7 +20605,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||itc.cn/hdpv.js
 ||693836.com^$popup
 ||69shuba.cx^*/shu.js
-||connect.facebook.net*/bundle/sdk.js$third-party
 ||alicdn.com/img/ibank/*_1082732848.
 ||fragment.firefoxchina.cn/html/
 ||bkill.com/css/js/abcbl.js
