@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-09-04 11:14:52
+! Last Modified: 2026-09-04 20:32:47
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -905,8 +907,6 @@
 :: ads.huantest.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
 ## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
@@ -4061,7 +4061,6 @@ eprice.com.hk,eprice.com.tw##.popup-adv
 ###syad6
 billboard.com#$#prevent-element-src-loading script /loader\\.min\\.js/
 cbber.com,xiaot.com###diy_chart
-buomtv.sex,phimhay47.net,animehay12.site,cliphot69.forum,phimsexsuong3x.net,damconuong.mobi,demo.14412882.com,doctruyen3qhub.vip,dualeotruyenuv.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen17.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.boats,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.xyz,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88z.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 dom.wp.pl,facet.wp.pl,film.wp.pl,finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,kuchnia.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,teleshow.wp.pl,turystyka.wp.pl,wawalove.wp.pl,wiadomosci.wp.pl#$#abort-on-property-write window.INITIAL_STATE.ui
 ###syad1
 8se.me,xchina.*##.block-overlay
@@ -4674,6 +4673,7 @@ blog.163.com###r_m163news
 91porna.com##div[class^="col"] div.filters:has(a.checkNum)
 /sh588com888/*
 ##a[data-ad_type="1"]
+buomtv.sex,dam69.vip,animehay12.site,cliphot69.forum,phimsexsuong3x.net,damconuong.mobi,demo.14412882.com,doctruyen3qhub.vip,dualeotruyenuv.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen17.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.boats,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.xyz,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88z.xyz,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 85tube.com##+js(addEventListener-defuser, DOMContentLoaded, document.createElement)
 ##body#chapterbody.novel_chapter [style='padding-top: 150px;']
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_listLiveTvCnt + .listBtnCnt + #listTalkCnt
@@ -6033,6 +6033,7 @@ chinamedevice.cn,hgitv.com##.gg12
 dqzboy.com##body > #popup[style^="position: fixed; bottom:"]
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
 @@||free-reseau.fr/css/publicite.css|$stylesheet
+faxingw.cn##.detailgc
 ##.maomi-content > .section-banner
 ahtv.cn,frdic.com,huasing.net,it168.com,qinbing.cn###ads
 ###bottom-gg1
@@ -6503,7 +6504,6 @@ eworldship.com###d2
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=trading-evolution.com
 ###js-popup-blocker
 cnubis.com#@#.adsense
-##.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
 @@||padstm.com^$image,subdocument,domain=bitzfree.com
 ###ads-blocked
 @@||tnabucks.com/intermission/loadTargetUrl$xmlhttprequest
@@ -6698,6 +6698,7 @@ ext.tofilecrypt.*,yifysubtitles.*#$#override-property-read isAdblock false; abor
 /js/profit.js$~3p
 @@||yafud.pl^$generichide
 dyhjw.com##.guessEntranceOpen
+faxingw.cn##.detailadv
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=thehomestyle.co
 /adblockDetector.
 @@||mmstat.com/eg.js$domain=1688.com|taobao.com|tmall.com|tudou.com|youku.com
@@ -7928,7 +7929,6 @@ downmsn.com###downShow_tellDownload
 @@||ads.cdn.tvb.com^*.key
 ##IMG[alt='155.fun']
 /guangao/*
-fandom.com#$#hide-if-matches-xpath '//div[contains(@class,"fandom-ad-wrapper")]'
 @@||service.4gtv.tv/4gtv/Data/GetAD.ashx
 chinaz.com###loc.Mnav-right02
 ##body > .zdhf
@@ -9232,6 +9232,7 @@ cs-amba.ru##.banka
 131400.best,vikacg.com,vikacg.icu,vikacg.xyz##a[href^="http"] > img[src*="/assets/moonlight/"]
 /wap_advpic/*
 ##section > SPAN[style='display: block; clear: both; overflow: hidden;']
+##body > noscript + #root > div > div > .grid + div[role] + div
 /bookad.oss-
 @@||english-subtitles.club/assets/$image,~third-party
 @@||goodinfo.tw/StockInfo/image/*.png
@@ -9746,6 +9747,7 @@ ettoday.net##div[id^="abp"]
 @@||cpm1.affiz.net/tracking/ads_video$script,domain=pltform.springstreetads.com
 ##DIV._42701c0173
 debrideurstream.fr#@##pubdirecte
+fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; prevent-listener click 0x; prevent-listener click preventDefault; prevent-listener click '(e)}'; prevent-listener DOMContentLoaded 0x
 ##.player_ggw
 @@||85tube.com^$generichide
 ##.adBlockNotification
@@ -10008,7 +10010,6 @@ anisearch.com#@##advertise
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=xiaopan.co
 csdn.net##.float-left > div[id^="dmp_ad_"]
 ##center > [href^='https://docs.qq.com/doc'][target='_blank']
-##.grid > .m0auto > div > .grid + div:not([class]):not([id])
 _adblock_killer.
 ##.w-full > .banner.el-carousel
 /modules/video/player/nuevo/midroll.php?
@@ -10786,7 +10787,6 @@ eprice.com.hk,ddcar.com.tw##.popup-adv
 @@||javedit.com/d/js/acmsd/thea0.
 @@||animedigitalnetwork.fr/templates/*/js/advertising.min.js?$script,~third-party
 /^https:\/\/(www\.)?zxzjhd\.com\/[0-9]+\.gif/$domain=zxzjhd.com
-fandom.com#$#hide-if-matches-xpath '//div[contains(@class,"fandom-ad-wrapper") and not(contains(@style,"display: none"))]'
 ###modalgg
 ##[style='width: 100%; height: auto; position: fixed; left: 0px; top: 0px; z-index: 2147483647;']
 @@/social-share.$domain=patentguru.com
@@ -13228,7 +13228,6 @@ qq.com##.yw-gg-float
 hao.rising.cn##.bd-lmhot
 item.m.jd.com###imk2FixedBottom
 ojogo.pt###moldura_ojogo
-www.facebook.com,web.facebook.com#$#race start; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg'; race stop;
 play44.net,videobug.net,videofun.me,vidzur.com,yucache.net##[style^="position: absolute; width: 100%;"]
 idnes.cz#$#abort-on-property-read redistributePositions
 splash.antipubfirefox.org##DIV[align="center"]
@@ -13819,6 +13818,7 @@ fun48.com###float2016
 plus-belle-la-vie-replay.blogspot.com#@##publicite
 vndoc.com#$#override-property-read seconds 0
 numberempire.com###toplink > h3[style="color: red"]
+www.facebook.com,web.facebook.com#$#race start; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg'; hide-if-contains '/^(?:Sponsored|Ad|Sponsorisé|Commandité|Patrocinado|Bersponsor|Sponsorizzato|Sponsorowane|Được tài trợ)$/' 'div[aria-posinset]' 'div[aria-posinset] use^^svg^^use^^svg^^use^^svg^^use^^svg^^use^^svg'; race stop;
 fffdm.com##[style^="width"][style*="height"]
 igo.cn##.adBG
 jianshu.com#?#div[role="button"]:contains(抽奖)
@@ -15602,7 +15602,6 @@ hao.360.cn,hao.360.com###top_activity
 to8to.com##.quoted-outside
 freeuseporn.com#$#override-property-read p18 undefined
 sogou.com###PZL
-faxingw.cn##.detailgc
 xw.qq.com#?#.comment.follow_top:contains(热评)
 guancha.cn##.g_header44
 ifeng.com##.yy_right_bottom
@@ -16254,7 +16253,6 @@ yabeat.org#$#abort-on-property-read __meteor_runtime_config__
 horoskopy.cz,kupi.cz,novinky.cz,sport.cz,super.cz##[id^="branding-"]
 txahz.com###archy_ad2
 nownews.com###ads-footer-bar
-faxingw.cn##.detailadv
 iplaysoft.com##.crumb_ad
 ishare.ifeng.com##section[class^="allLook"]
 storm.mg,mobile01.com##div[id^="dablewidget_"]
@@ -16861,6 +16859,7 @@ xiaoz.me##.gg5
 yastatic.net#$#abort-on-property-read Object.prototype.vast
 pingwest.com##.article-bottom-bd
 ||163.com/special/*_netease
+forums.digitalspy.com#@#body .has-ad
 rychlost.cz###cpcbsd9z1
 gismeteo.by,gismeteo.kz,gismeteo.md,gismeteo.ru#$#abort-on-property-read Object.prototype.showRTB
 yeshuyuan.com##+js(abort-on-property-read, adbyunion)
@@ -19249,7 +19248,6 @@ vids.*#$#abort-current-inline-script document.createElement pop_tag
 junksport.com##DIV[style="background-color: rgb(251, 236, 173); position: absolute; margin: 0px 0px 0px -350px; left: 50%; width: 700px; z-index: 999999; height: 22px; font-family: arial; font-weight: bold; font-size: 14px; text-shadow: none; text-align: left; color: black; padding-top: 5px; padding-bottom: 5px; top: 0px;"]
 sex8.cc##.V-video-float
 hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
-fastpic.org,~new.fastpic.org#$#abort-on-property-read Element.prototype.attachShadow; prevent-listener click 0x; prevent-listener click preventDefault; prevent-listener click '(e)}'; prevent-listener DOMContentLoaded 0x
 x6d.com##li:has(>.myad)
 hayhaytv.vn#@#.ads_wrapper
 keepfiles.fr###shadow
@@ -21191,6 +21189,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ackjoyouslyonto.com^$domain=fandom.com
 ||elsbfby.com^$popup,3p
 ||c.imedia.cz/js/scripts.js$script,domain=rychlost.cz
+||jewelryagency.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||gamersky.com/g/gamerskyflash.js
 ||bmp1.ali213.net/pubjs/index_sc_utf8.js
 ||djdedu.net/static/*.gif
@@ -21238,7 +21237,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||klandmart.com/K-Landmart_0011.jpg
 ||75.125.41.29:8080/
 ||admin25.com/ad/
-||jewelryagency.com^$domain=addictinggames.com|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||kppt.cc/zb_system/script/common.js
 ||ieforex.com/r/cms/www/red/red2/images/*0.
 ||aty.sohu.com/v?
@@ -21350,6 +21348,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hnyishidengbao.com^$3p
 ||aoshi.com/rbc.jpg
 ||bdcde.com/js/x*.js
+||coffeefire.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||hoopchina.com.cn/web/ad/
 ||isky.ltd/skin/js/ad.js
 ||everyonepiano.cn/Public/*0x
@@ -21462,7 +21461,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||66wz.com/data/attachment/portal/
 ||api2.coolapk.com/v6/main/init$replace=/{"id":1170.*?}\,/ /
 ||chnci.com^$3p
-||coffeefire.net^$domain=addictinggames.com|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||haiyuer.com/didi
 ||9527yy.com/js/data2.js
 ||cbu01.alicdn.com/img/ibank/2020/714/563/22725365417_967741881.jpg
@@ -21989,7 +21987,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gaoqing.la/wp-content/uploads/*980x
 ||jrzj.com/img_index/guanggao
 ||933m.com/1.js
-||consumerdebtnegotiation.com^$domain=addictinggames.com|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||haoyu666.top/uploads*%E7%B2%BE%E5%93%81%E5%BD%B1%E8%A7%86.apk?
 ||kokojia.com^$3p
 ||dxg0070.top/img/
@@ -22060,6 +22057,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kuaidiwo.cn/kdwkxmlt.jpg
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
 ||bmp2.ali213.net/js/
+||ampscamp.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||54admin.net/images/ad_
 ||ithome.com/file/js/win*china.js
 ||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
@@ -22097,6 +22095,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ali213.net/static/js/*_ali213tv.js
 ||baidu.com/event/img/zwdzjs.jpg
 ||agogo.tv/images//uploads/ad/
+||consumerdebtnegotiation.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||httpcn.com^*-120
 ||d2.sina.com.cn^$object,script
 ||7k7kimg.cn/cms/cms10/20180706/135219_4911.jpg
@@ -22130,7 +22129,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hs.cnfol.com/Cm/Imgs/Load.gif
 ||error-report.com^$domain=invoice-generator.com
 ||jin10.com/assets/img/sites/index/vip_ad
-||ampscamp.net^$domain=addictinggames.com|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||dnwx.com/pic_ad/
 ||koyso.com/aclib.js
 ||7moor.com^$third-party
@@ -24598,7 +24596,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||nnm-club.ws/forum/docs/requests.js$script
 ||meijuxz.com/template/ZQ/
 ||nefroto.net^$script,domain=dada44230.fr
-||socialsend.net^$domain=addictinggames.com|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||sinaimg.cn/finance/wanghong_
 ||vsping.com/website/adLinks?
 ||y3600.cc/js/jquery.min.js
@@ -24652,7 +24649,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||wan.sogoucdn.com/cdn/flash/$domain=~sogou.com
 ||xyj321.com/static/zx/js/zx-con-jsq_
 ||loli.net^$domain=9kanqq.com|acglover.me|hdsky.me|magnet2048.com|nulltm.com
-||szaction.cc/public/*/plugins/
 ||orzx.im/Document/union/
 ||youfap.me/visitScript/$script,third-party
 ||zhimg.com/80/v2-c991beef44875fa5971c6bbfc6dc0ad2.
@@ -24711,7 +24707,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||wnimg1.ru/data/game/*/*-*x*.gif
 ||zhhbqg.com/ee/*.js
 ||qiyipic.com/common/fix/rebull_
-||szaction.cc/public/*/assets/js/custom/tt.
 ||pc6.com/img/
 ||tusmangas.net/ama/oso.js$script
 ||kxd56.com/qq.js
@@ -24891,7 +24886,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zol-img.com.cn/detail/js/module/app-download-float/script.js
 ||shulihua.net/js/gzlishigoogle.js
 ||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
-||peoplebrain.net^$domain=addictinggames.com|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||rfidworld.com.cn/js/RFID.js
 ||topmba.mobi/ad/
 ||vjie.com^$3p
@@ -25557,6 +25551,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sdzbcg.com/images/sdfhyl
 ||uiadmin.net/uview-plus/assets/js/3.1b3a95a0.
 ||syndication.exosrv.com/splash.php?$xhr,redirect=noop.txt,important,domain=hboav.com
+||peoplebrain.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||qqc.co/Webservices/jsParseLinks.aspx$script,third-party
 ||shfq.com/wuyue
 ||mat1.gtimg.com/rain/bailing20/*.*.png$image
@@ -25848,6 +25843,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
 ||toptoon03.xyz/app/tuijian.html
 ||taozi888.com/sys
+||socialsend.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|gamebanana.com|gameslantern.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||yzpsb.net/js/system.js
 ||s.yimg.com/ja/ap/tw/js/
