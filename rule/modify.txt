@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-09-15 21:11:07
+! Last Modified: 2026-09-16 03:32:53
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,6 +17,8 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
+! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
+::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -1122,6 +1124,7 @@ baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
 blesk.cz,e15.cz,maminka.cz,reflex.cz##a[class*="-combined"]
 /haojio/js/scoll_bg.js
 ##IMG.lazyload[src='/statics/img/load.gif']
+/^https?:\/\/pikabu\.ru\/ajax\/{1,2}[^?]+\?[A-Za-z0-9]+=[0-9a-f]{22,}_[0-9]+/$xmlhttprequest,domain=pikabu.ru
 @@||edu.cn^*/ad.css?$stylesheet
 exashare.com##[href="http://www.videohube.eu/script/url.php?c=ep"]
 _300x250.js
@@ -7728,7 +7731,6 @@ cn.bing.com##.bnp_rich_div_visible.top
 /^https:\/\/[a-z0-9]+\.[a-z0-9]{14,}\.(cfd|rest|cyou)\//$script,third-party,domain=vsembed.su|vidfast.vc
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 @@||th7.cn/sanda2015/css/ads.js
-/^https?:\/\/pikabu\.ru\/ajax\/{1,2}[A-Za-z0-9_%.-]+\?[A-Za-z0-9]+=[0-9a-f]{23,}_[0-9]+/$xmlhttprequest,domain=pikabu.ru
 .com/hm/*?*=*$third-party
 91porna.com##.row > div.flex-container:has(> a[href][target="_blank"] > img)
 ##.wumii-bottom-popup
@@ -11392,7 +11394,6 @@ mcdulll.com,mcdulll.pixnet.net###box1290930
 ifeng.com##div[id^="couplet3_"]
 nongjitong.com##.ad_sms
 mcdulll.com###box2155090
-||4567.org^$3p
 hcbbs.com##.plc > .pct + :last-child
 ltaaa.com##.topAds2
 maiziedu.com##.msg
@@ -15953,6 +15954,7 @@ m.tvsou.com##.story_ad_android
 vpstop.cn##a[href*="/ClickAd"]
 zhihu.com##.TopstoryItem:has(.Popover > .TopstoryItem-advertButton)
 sinoptik.ua#$#abort-on-property-read SIN.globals.ADBLOCK_DETECTED
+news.qq.com###article-promotion
 silver.org.cn##.fix_bottom_position
 v.163.com###v_shapeRight_divId
 limaenvivo.com##IMG[title="close"]
@@ -19744,6 +19746,7 @@ playno1.com###m7
 flyert.com.cn##div[style^="width:300px;height:90px;"]
 tom.com###body_right_banner
 fx110.com,fx110.uk##.Adv_1
+news.qq.com##div[dt-params="e_type=download_banner"]
 goodcome.com.tw###jad-right
 ifeng.com##.yiyuan
 honglingjin.co.uk##.rs-side-ads
@@ -20402,8 +20405,6 @@ view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 xbeibeix.com##+js(no-setTimeout-if, /\.height\(\) == 0|adsbygoogle/)
 maoken.com###siderAd01
 mathportal.org/temp/blocked/blockedCounter.php
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 ||img588.net/images/*.gif
 ||goldenmoustache.com/wp-content/themes/golden-moustache/js/libs/modernizr-$script
@@ -20755,6 +20756,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||alexa.cn/upfile/images/
 ||b168.net^*.*?$image
 ||9ez.me/embd.php?type=
+||4567.org^$3p
 ||ad.doubleclick.net/activity;register_conversion=$domain=golfgalaxy.com|dickssportinggoods.com
 ||jyfw.cn/nav/cf_
 ||huo720.com/back/ad_
