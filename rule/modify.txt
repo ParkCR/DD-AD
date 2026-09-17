@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-09-17 03:23:47
+! Last Modified: 2026-09-17 11:46:16
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -11141,6 +11141,7 @@ hdtodayz.*,moviesjoy.*#$#hide-if-matches-xpath './/img[contains(@style,"width: 1
 hortonanderfarom.blogspot.com#$#override-property-read setTimeout noopFunc
 httpcn.com##a[href^="http://www.okbmf.com/"] > img
 qciss.net##div[style^="border-style:solid;"][style*="border-width:2px;"][style*="width: 80%;"]
+pinterest.com#@#div[data-grid-item]:has(div[data-test-id="pinrep-video"]):has(a[rel="nofollow"][href^="http"])
 yiche.com##.h-gd-box
 pcauto.com.cn###PcPoPmarket
 sogou.com###right
@@ -11985,6 +11986,7 @@ sina.com.cn##.ad_01_center
 mydrivers.com##div[style="margin: auto;width: 800px;padding: 10px 0;"]
 now.com##+js(set-constant, preBid, {})
 oglaszamy24.pl#$#abort-on-property-write onload
+ikanbot.com##+js(no-window-open-if, _blank)
 time.is#$#prevent-element-src-loading script /ad-shield/
 lahoo.ca###diyrighttop
 novinky.cz##section[role^="complementary"]
@@ -14216,6 +14218,7 @@ zhihu.com##.RelatedReadings-adItem
 news.pchome.com.tw##div[style="width:687px;height:145px"]
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##body > div[class^="hr-t-"]
 ruten.com.tw###search_u_970x90
+pinterest.com#@#div[data-grid-item]:has(a[rel="nofollow"][href^="http"])
 fullmatchesandshows.com#@#.text-ad
 lanrentuku.com###advbox
 weerplaza.nl#$#replace-argument Element.prototype.setAttribute 1 '/[\\s\\S]*(error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError)[\\s\\S]*/' ''
@@ -15707,7 +15710,6 @@ image.baidu.com##.wrapper_dot_box.dot_black
 redtube.com#$#abort-on-property-read smpop
 jkptgbf.xyz,mfulbvu.xyz,91porna.com##.dx-banner-item
 wezhicms.com##.activity
-||4paradigm.com^$domain=sina.com.cn
 partnerkin.com#$#override-property-read Object.prototype.autoPopups undefined
 guancha.cn##.member_recruit_index
 hdzone.org#$#abort-current-inline-script Math zfgloaded
@@ -20487,6 +20489,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||d1bz.xyz/static/book/static.
 ||imgxr.com^$domain=xiuren.org
 ||hanime1-me.*/herebyad
+||4paradigm.com^$domain=sina.com.cn
 ||jxtest.bolecdn.com/player/*.gif
 ||error-report.com^$domain=trilltrill.jp
 ||hbzjht.com^$3p
@@ -21020,6 +21023,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||adm.cnzz.net^$3p
 ||cnc.cdn.dopc.cz.^$script,domain=blesk.cz
 ||90mh.com/mip/qdbao77.js
+||ikanbot.com/resources/common.js?v=$script
 ||centurys.net/promo_
 ||66wwvv.com/js/
 ||awifi.cn^$3p
@@ -21787,7 +21791,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||douyucdn.cn/butterfly-java/*?width=1200&height=120&
 ||kxd56.com/tg.gif
 ||bkill.com/css/js/*top
-||labuladong.github.io/algo/pictures/ad/
 ||520click.com/ad.$domain=~video.520cc.cc|~surirt.com
 ||abcache.com/youlaohu/
 ||goupu.org/1files/*0.
@@ -26113,6 +26116,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lpl.qq.com/*/data/LOL_MATCH2_NEWS_RECOMMEND_*_INFO.js
 ||qunlove.com^*.gif
 ||lnd.com.cn/sys/real_calc.js
+||labuladong.github.io/algo/pictures/ad/
 ||sunofbeaches.com/ast/assistant/ad-item/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||www.karaoketexty.cz/*/*.png$domain=karaoketexty.cz,rewrite=abp-resource:2x2-transparent-png
