@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-09-27 21:33:47
+! Last Modified: 2026-09-28 03:34:40
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -19,8 +19,6 @@
 ||*-ad.gskwai.com^
 ! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
 ::1 localhost
-! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
-## hosts does not support wildcard
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -980,6 +978,8 @@
 :: adscdn.baidu.com
 :: g.dtv.cn.miaozhen.com
 :: ykad-gateway.youku.com
+! 👇This Part Merge from: damengzhu (https://raw.githubusercontent.com/damengzhu/banad/main/hosts.txt)
+## hosts does not support wildcard
 ! 👇This Part Merge from: Cats-Team AdBlock List Lite (https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_lite.txt)
 @@||shippuden.tv/gkplugins_license.swf
 ##div.poi-row a > IMG[width='100%'][height='auto'][src]
@@ -1153,7 +1153,6 @@ cncrk.com###gsxza
 .mp4?*sdtfrom=&$domain=m.v.qq.com
 ##A[href*='jialu6699h.vip']
 @@||item-voyage.fr/ads.css
-.com/js/bnr_
 dangdang.com##.foot_tip_ad
 ###googleAdIndexTop
 5imx.com###diy_mxad06
@@ -1717,6 +1716,7 @@ camerabay.tv##.popupad
 /skin/ecms082/images/kf-
 duba.com##.J_side_activity
 colamanga.com##html:style(overflow: auto !important;)
+.com/img/bnr2_*.gif
 ##[href^='https://jd.dangbei.com/']
 client=ca-pub-$subdocument,domain=expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 douyu.com##.vcode9-sign
@@ -2176,7 +2176,9 @@ cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][
 douban.com##.channel_promo
 bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 coolmathgames.com#$#abort-current-inline-script eval /xx44zp0c391/
+fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?adurl="]
 chinabidding.com.cn##.innovate + .layer
+.com/img/bnr1_*.gif
 ##body.fed-min-width.website-read > [style='bottom: 132px;']
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
 briian.com###main > div[style="width:100%; height:auto; margin: 5px 0 15px; background:#FFFFFF; text-align:center; padding:7px 0 10px 4px;"]
@@ -4384,7 +4386,6 @@ cekresi.com##.pleasehideadblkuc.popio
 ##[src$='/dibu.adadadad']
 bilibili.com##.ad-f
 ckdzb.com##div[style="float:right;margin:10px 10px;clear:right;height:310px;width:336px;"]
-/js/mmdaohang_2.js
 ##a[href^="http://yunbofangbt."]
 /BadwebRemindPage.aspx?param=$popup,3p
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
@@ -4479,6 +4480,7 @@ aliexpress.*#$#hide-if-contains /AD|Annonce|Anuncio|Anzeige|Reklama|Advertentie|
 /xxgg/goodad.js
 baihe.com##.scrollUpf
 51cto.com##.ad-jing
+.com/img/bnr3_*.gif
 91porny.com,91porn.fans,91porny.org###main > div[class][id]:has(>div>style)
 dayoo.com###ad-xl
 ##.b_pr
@@ -5056,7 +5058,6 @@ baidu.com###asideLeft
 base64encode.org#$#replace-argument Element.prototype.setAttribute 1 ';await new' ''
 163.com##.redpacket-footer
 baidu.com##.spage-couplet-container
-/js/huath_2.js
 2345.com###leftSideBar
 @@||costco.com.tw/jsps/website/zh/images/location/AD
 ##.ad-below-post-title
@@ -6941,6 +6942,7 @@ asus.com##.bg_block
 douyin.com##.discover-video-card-item:has(>div>div>span:contains(广告))
 ##.main-ad-r + .topad
 :900*/d/*n=$script,3p
+.com/img/bnnr1_
 .xyz/get?$third-party
 @@||inpad.com.tw/data/adv/
 baidu.com##.ec_wise_ad *
@@ -8199,7 +8201,6 @@ bilibili.com#?#.left-entry__item-trigger:contains(下载客户端)
 360kan.com##.eb-rightbox
 ##.gg_960
 eprice.com.tw##.ad-970x90-g
-/js/yueyupp_3.js
 dinozap.com,dinozap.info,dinostream.pw##[id^="total"]
 ##[href^='https://ccs.holor0803.cn']
 cineb.*#$#prevent-listener mousedown shown_at; abort-on-property-read window.open;
@@ -9066,7 +9067,6 @@ cngold.org##.mainRight > .border_top:first-child
 @@||szhr.com.cn^*ad
 crypto-clix.net#@#.ad-block
 91porna.com##.carousel-container:has(#carouselExampleInterval)
-.com/js/bnnr_
 360.cn###weishi-alert
 crazyshit.com,donk69.com,extremetube.com,fantasti.cc,gfjizz.com,keezmovies.com,mofosex.com,pornxt.com,smutr.com,spankwire.com,wankflix.com,yuvutu.com#$#abort-on-property-read phtData
 58.com##.invokeApp
@@ -12017,7 +12017,6 @@ novinky.cz##section[role^="complementary"]
 talkfx.co###frameff1Hu9_left
 tuliu.com###red-envelope
 huanqiu.com###winNext
-fights.cz,horoskopy.cz,kinobox.cz,kupi.cz,nasepenize.cz,novinky.cz,onetv.cz,sport.cz,super.cz##a[href*="?adurl="]
 oschina.net##.soft_detai_above_ad
 ||11img.com/ad/
 yeshuyuan.com##a[href^="http://www.18wen18.com/"]
