@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-10-01 12:32:38
+! Last Modified: 2026-10-01 23:09:11
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -9571,6 +9571,7 @@ crx4.com,galacg.me,moneyweekly.com.tw###carousel-example-generic
 admin5.com##.notice
 ##body > embed[id][src*="://"][src$="="]
 /A-duoduo/Add-
+bilibili.com#@#[class^="footer-ad"]
 ##.gg_300
 4gamers.com.tw##.home-carousel-container
 324324.cn##.link_header
@@ -9640,7 +9641,6 @@ enhuku.com##+js(set-constant, adObj, noopFunc)
 111os.com###midBox
 @@||coolkora.com^$elemhide
 banma.com##div[id^="disapper"]
-filegaga.com##A[href^="/ot/fast.php"]
 1010jiajiao.com###daan_recommend + .xiti
 2embed.*,animeonline.ninja,filemooon.*,gomovies.*,harimanga.*,maxstream.video,myflixer.*,myflixerz.*#$#abort-current-inline-script document.documentElement '/break;case \\$/'; abort-on-property-read window.open;
 ###interstitial_fade[style^="display: block"]
@@ -12537,6 +12537,7 @@ o2.pl#$#hide-if-matches-xpath '//div[.//script[contains(.,"__INIT_CONFIG__")]][n
 firefoxchina.cn###theme-side-banner
 kinoafisha.ua##.turn-off-add-block-text
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > [style*="important"]
+sudugu.cc,sudugu.*,nunuju.net,bz88888.net##+js(abort-current-script, document.getElementsByTagName, _mtj)
 uc123.com###right_elevator
 free.com.tw###custom_html-11
 wnacg.com#@#.pcgg
@@ -17673,7 +17674,6 @@ hao.360.cn,hao.360.com###plane > .plane-hd
 ||23aitt.com/zz/
 super.cz#$#json-override ads emptyArray
 jq-school.com##.setfarme:nth-child(7)
-nunuju.net,bz88888.net##+js(abort-current-script, document.getElementsByTagName, _mtj)
 online.dramacafe.in##BODY > DIV[style^="background-color: rgb(251, 236, 173); position: fixed;"]
 xhamster.*#$#abort-on-property-read wig-popunder; abort-on-property-write wit-popunder; abort-on-property-read wih-popunder; abort-on-property-write dataPopUnder; abort-current-inline-script Array.prototype.find /dimension59/;
 savevideo.me##div[id^="ads_notice_"]
@@ -19134,6 +19134,7 @@ pornhub.com,tube8.fr,tube8.es,tube8.com###abAlert
 runoob.com###sidebar-right-re
 m1xdrop.*#$#abort-current-inline-script document.createElement; abort-on-property-read window.open;
 gaytxxx.com,transtxxx.com,txxx.com#$#abort-current-inline-script adver; abort-on-property-read ExoLoader; json-prune '0.ad_network';
+filegaga.com##A[href^="/ot/fast.php"]
 r3sub.com##div[class] > a[href^="show.php?id="][target="_blank"] > img
 xanimu.com##div[id^="related-boxes-footer"]
 muchong.com###creditegg
@@ -22123,7 +22124,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||jingyanlib.com/home/data/getAdOnlineList?
 ||inoreader.com/adv/$domain=inoreader.com
 ||jxnews.com.cn/assets/js/dspshow.js
-||kuaidiwo.cn/kdwkxmlt.jpg
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
 ||elementarywhole.com^$popup
 ||bmp2.ali213.net/js/
@@ -22212,7 +22212,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||douguo.net/upload/post/d/
 ||avple.video/asset/bann.js
 ||johojima.com/wp-content/uploads/*/bn_*.jpg
-||kuaidi100.com/mobile/mobileapi.do
 ||daily.co.jp$csp=script-src-attr 'none'
 ||cnblogs.com/units/
 ||bzhanyy.com^*.gif
@@ -23218,7 +23217,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||bdstatic.com/pc_static/detail/game_promotion/
 ||alicdn.com/kf/U0732534bf37c454e84b8378ceaa5d7c2V.
 ||coolapk.com/v6/feed/detail?$replace=/extra_entities//
-||kuaihou.com/c/shuoming.js
 ||ituba.cc/uploads/allimg/201610/603/
 ||baidu.com/ndcore/interface/searchTop?
 ||dyguo.com/pc/nr336.js
@@ -24046,6 +24044,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||m.manhua123.net/js/com1.js
 ||see.xxx/poppy/*.js^$domain=see.xxx
 ||xitek.com/idzone
+||kuaidi100.com/mobile/mobileapi.do
 ||nbegame.com/nbeos/*.jpg
 ||tritoshi.com/libs/check.js
 ||pv.sohu.com^$domain=chinafund.cn
@@ -25571,6 +25570,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sspai.com/attachment/sponsor/
 ||pchome.com.tw/iframe/$domain=mail.pchome.com.tw
 ||localau.vip/plugin/pause.php
+||kuaihou.com/c/shuoming.js
 ||pufei.cc/skin/middle.js
 ||xiexingcun.com/tongji.js
 ||xxffo.com^*_slett.php
@@ -26602,6 +26602,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ruten.com.tw/search/imp_ad_
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_get_multiple_strategy?
 ||xinxindm.com/gog.js
+||kuaidiwo.cn/kdwkxmlt.jpg
 ||vdianying.cc/img/youhuiquan250.gif
 ||www.china.com.cn/node_$domain=news.china.com.cn
 ||upaiyun.com/system/post_tile/new_web_banners/
