@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-10-02 12:25:07
+! Last Modified: 2026-10-02 22:29:58
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -11339,7 +11339,6 @@ jd.com###toolbar-qrcode
 wk.baidu.com##.open-app-btn
 you.163.com###j-yx-fixedtoolDownloadlink
 gamer.com.tw##.iframe:last-child
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/"node":\{(?:"__typename":"MarketplaceFeedAdStory"[^\\n]+?"sponsored_data":|[^\\n]*?"sponsored_data":\{"__typename":"SponsoredData")[^\\n]+\}(?=,"cursor":)/' '"node":null'
 xitongzhijia.net###top_gg
 sports.ru#$#abort-on-property-read Sports.pageData.browserTime
 tvparapobreskids.com#$#prevent-listener click /InstallTrigger/
@@ -12747,7 +12746,6 @@ kaoyan.com##.floatQrcode
 zhidao.baidu.com##a[class="cur"][href^="/mobile/board?"] > img
 gamer.com.tw###BH-bigbanner:style(position: absolute!important; left: -3000px!important;)
 huaban.com,start.firefoxchina.cn##.extra
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/\{"label":"FBUnifiedVideoContainer.*"sponsored_data":\{"__typename":"SponsoredData".*\}/' '{}' '"sponsored_data":\{"__typename":"SponsoredData"'
 so.com##.e-buss
 pirlotv.tv###ad_overlay_content
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div:not([class]) > div[data-placeid]
@@ -13615,7 +13613,6 @@ papergeek.fr##[id^="padb_widget_"]
 wss://*/api/wss/GetNotReadCount$3p
 yes-news.com##.new-index-ad300
 jiakaobaodian.com##.com-footer-flex-panel
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/"(instream_extra_config|instream_video_ad_breaks_comet|post_roll_ad_break)":\{/' '"$1":null,"__x":{'
 hao123.com###topbeWrapper
 xw.qq.com##div[class*="content-more"]
 kissjav.li##.asside-link
@@ -14400,6 +14397,7 @@ nipic.com##.vip_show
 pincong.rocks##+js(no-setInterval-if, Ad Block)
 so.com##.res-mediav
 html-js.com##div[style="margin:10px auto;width:1000px;"]
+lupanda.tw##div[style="min-width: 300px; min-height:400px;"]
 ||2048hd1.com/js/tc.js
 ||39.net/PictureLib/A/f76/20170814/org_1428963.gif
 mangakakalot.gg##div[class^="fly-ads"]
@@ -18337,6 +18335,7 @@ oschina.net###project_ad_banner
 noon.com#$#hide-if-matches-xpath './/span[@style][contains(text(),"Ad")]/parent::div[contains(@class,"adWrapper")]/ancestor::div[contains(@class,"ProductDetailsDesktop_maxWrapper")][1]'
 ruanyifeng.com##.asset-content > p:contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ishare.ifeng.com##section[class^="relateVideo"]
+||4k.video/b.js
 finance.sina.com.cn##.clearfix.blk-wxfollow
 kinobox.cz,onetv.cz##[id*="Adform"]
 genshin.honeyhunterworld.com#@#.a_p
@@ -19120,7 +19119,6 @@ oilchem.net##.LzAdv
 sohu.com##.cbd-plate-bill.common-ad
 tut.by#@#.text-ad-links
 hao123.com###hao123-gw11
-www.facebook.com,web.facebook.com#$#replace-xhr-response '/"instream_video_ad_breaks":.[{]/' '"instream_video_ad_breaks":[],"__xb":[{'
 youth.cn##.hd_pic
 mafengwo.cn##.hotel-banner
 gamingroom.tv#@#.adsbygoogle
@@ -19323,6 +19321,7 @@ freehdsport.com##[id^="ltas_overlay_Player"]
 ipcfun.com##div[style="height:280px;width:336px;margin:-10px auto 20px auto"]
 twinsyang.net,free.com.tw###custom_html-7
 noodlemagazine.com,ukdevilz.com#$#override-property-read zfgcodeloadedonclick 1
+xfastest.com###xfastestWide385
 wealwomen.com##div[data-cptid]
 litv.tv##body > .right_float_poster_container
 ||1biqug.com/js/ajax.js
@@ -22388,7 +22387,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||eastday.com/static/js/ad
 ||di2y21.top/jian/jiansshu.js
 ||kan98.com/images/*.gif
-||4k.video/b.js
 ||cpt.9136.com/img/b_special/
 ||js0573.com/images/cus/
 ||bcquan.me/front/*_ad
