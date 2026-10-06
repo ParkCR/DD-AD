@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-10-06 13:13:22
+! Last Modified: 2026-10-06 22:47:10
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -14359,6 +14359,7 @@ jm18c-oec.club,18comic.org,18comic.vip,18comic.ink##div[data-group][data-width="
 libaclub.com##.merchant-link
 tieba.baidu.com##.img-open-app
 itblogcn.com##.sidebar > div.widget:has(> div.item > aside > div.textwidget > a[href="https://www.itblogcn.com/vultr/t"])
+pinterest.com#$#json-prune 'resource_response.data.[-].promoter resource_response.data.results.[-].promoter'
 nasepenize.cz###side-offer-wrap
 sogou.com##.tgad-title
 tmall.com##.sn-mobile
@@ -19949,7 +19950,6 @@ foerderland.de#@#.pub_728x90
 wuyong.fun##.sidebar-innter > section[id^="b2-widget-html-"]:has(.adsbygoogle)
 xcar.com.cn##div[class^="adset"]
 huke88.com##.hand-once
-pinterest.*#$#hide-if-matches-xpath './/div[@data-test-id="pinrep-video"]//ancestor::div[@role="listitem"]//div[@data-test-id="pinrep-footer"]//div[string-length(text())>1]//ancestor::div[@role="listitem"]'
 mtrend.cn##a[href*="taomoubao.com"]
 psnine.com##center[style="overflow:hidden;"] > a > img
 qq.com###image_ad
@@ -22073,7 +22073,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||933m.com/1.js
 ||haoyu666.top/uploads*%E7%B2%BE%E5%93%81%E5%BD%B1%E8%A7%86.apk?
 ||hd.kinopoisk.ru^$addheader=response:set-cookie:kdetect=Q3Cu+4wJ/C; path=/; max-age=31536000
-||kokojia.com^$3p
 ||dxg0070.top/img/
 ||go2av.com/for_ad/
 ||baimakanshu.com/assets/public/
@@ -22284,7 +22283,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kefeng56.com^$3p
 ||jpysvip.net/ad/
 ||findingmid.com/session/$domain=billboard.com
-||kocpc.com.tw/adsbyso.js
 ||jsdelivr.net/npm/live2d-
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=kuruma-news.jp
 ||autohome.com.cn/risk_fp_log?
@@ -24160,6 +24158,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kppt.cc/zhifu.jpg
 ||s1-a1.dnvodcdn.me^*.svg
 ||weiyun.com/cgi-bin/tianshu_get?position=4&
+||kocpc.com.tw/adsbyso.js
 ||zudns.cn/uploads/*.gif$image,domain=tcptest.cn
 ||sinaimg.cn^$domain=t66y.com
 ||zhenjiang365.cn/*/ad_
@@ -25165,6 +25164,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||r.trwl1.com/s1/$subdocument
 ~upupoo.com##a[href^="http://www.upupoo.com"]
 ||uwants.com/dfp_forum.php?au=Uwants_Web_
+||visualcommservices.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com
 ||qingxinwx.*/static/xbiquge/js/wap.
 ||zx123.cn/templates/zx123cs/theme-2015/js/right_xh.js
 ||supfree.net/xxx/
@@ -26572,6 +26572,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||meipian.me^*/api_ad/
 ||naajie.com/float.js
 ||poco.cn/v1_1/rank/get_floating_layer_ad
+||kokojia.com^$3p
 ||zhzyw.com/js/InsertJS.js
 ||linuxidc.com/linuxfile/list
 ||news.tagtoo.co^$3p
