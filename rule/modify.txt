@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-10-23 03:46:27
+! Last Modified: 2026-10-23 11:40:21
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -296,6 +294,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: dsplog-adnet.vivo.com.cn
 :: micro-xdb.com
 :: logservice1.hicloud.com
@@ -1350,6 +1349,7 @@ csdn.net##.recommend-item-box[data-track-click*="http"]:not([data-track-click*="
 @@||ops.prismamediadigital.com/js/advertisement.js$xmlhttprequest,domain=voici.fr
 /adpv?cn=
 flyert.com.cn##div[style^="width:950px;height:90px;"]
+@@||netease.com/online/lib/sentry/*/bundle.tracing.
 cnubis.com#@#.text-ad
 fx168.com###ImgText_03
 @@||cheshi-img.com/ad/csad_2019.js
@@ -5176,7 +5176,6 @@ bejson.com##a[href*="layui.com"]
 btmulu.com##.item:has(> a[target="_blank"])
 delfi.lt#$#hide-if-matches-xpath './/a[@href][contains(@style,"100%")]/parent::*[@style][1]'; hide-if-matches-xpath './/div[contains(text(),"Užsakomasis")]/parent::div[contains(@class,"U-display")]/ancestor::article[1]'; hide-if-matches-xpath './/*[contains(text(),"Užsakomasis")]/parent::a[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]/ancestor::div[3]//parent::div/ancestor::div[@class="col"]'; hide-if-matches-xpath './/*[contains(@class,"pt-content")]/parent::*[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]'; hide-if-matches-xpath './/*[contains(@class,"supported-content")]/parent::*[starts-with(name(@*[starts-with(name(), "data-")]), "data-")]';
 17173.com##.js-lol-pop
-gdrc.com#@#.midAd
 520cc.cc##+js(no-setTimeout-if, myModal)
 dditblog.com###income_div
 fqlook.cn###rtj1009_ren_imme1
@@ -14650,6 +14649,7 @@ newtalk.tw##.ad-half
 haiwai.com##.container + .fixed-bottom[style^="box-shadow:"]
 ifeng.com##div[class^="qrCode"]
 target.com#$#hide-if-contains-visible-text /Sponsored/ 'div[data-test*="ProductCardWrapper"]' 'p[data-test="sponsoredText"]'
+gdrc.com#@#.midAd
 laogu.cc##.rowIvy
 ||11kkzz.com/se/wf/
 w3school.com.cn###sp_tiy
@@ -23047,7 +23047,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||image-shop.baidu.com/n/imageproduct?
 ||dfcfw.com/js/news/fundfloatmedia_
 ||itjsb.com/itjsbwx.jpg
-||m.xsbiquge.la/js/detail.js
 ||applinzi.com^$domain=soyunpan.com
 ||hybase.com/ckjs/
 ||deqixs.com/config/v7.js
@@ -25173,6 +25172,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||yunupload.net/jsa/
 ||udn.com.tw/upf/*_banners/BD/$3p
 ||udn.com/common/iframe/
+||m.xsbiquge.la/js/detail.js
 ||mp4ba.net/static/js/mp4ba.js
 ||vrrw.net//templets/default/js/ad.js
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
