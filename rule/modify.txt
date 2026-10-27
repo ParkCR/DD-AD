@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-10-27 22:02:34
+! Last Modified: 2026-10-28 04:27:56
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -11554,7 +11554,6 @@ jd.com##.gl-warp > li[data-spu=""]
 laleggepertutti.it#$#override-property-read window.navigator.connection.rtt 1001
 sina.com.cn###left_focus_ad
 ||373nn.com/java/
-zonatmo.*#$#abort-current-inline-script String.fromCharCode 2147483647
 rollingstone.com#$#json-override isActive false hasActiveAutoRecovery
 ||*/main.js|$script,domain=9gag.com
 poczta.o2.pl##dd-holder[slot^="DOUBLE_BILLBOARD"]
@@ -14840,6 +14839,7 @@ xgrb.cn##.d_2016_ggw
 goodcome.com.tw###jad-float
 qq.com##.public-banner
 global.hk01.com##.cmp-article-detail > .flex:has(> .lazyload-wrapper > div:is(.js-ad-slot, [data-id="lazyload-placeholder"]))
+xchina.co##div[style="container-type:inline-size"]
 udn.com###doctop
 zelaznalogika.net#@##adsense
 m.lianjia.com##.download_full_box
@@ -16697,6 +16697,7 @@ kuaibao.qq.com##.slider-box
 lenovo.com.cn##.game-bd
 kuruma-news.jp#$#prevent-element-src-loading script /\/(feed|media)\//
 youku.com##.callEnd_fixed_box
+xchina.co##div[data-block-overlay]
 videowood.tv#@#.text-ads
 m.huya.com###template
 skyarea.cn#@#.post-share
@@ -17315,6 +17316,7 @@ muzhi.baidu.com##.leftnest
 yisu.com##.coupon-get-link
 tgbus.com###guide-download
 pixnet.net##a[onmouseover*="_openBrWindow('https://goo.gl/"]
+zonatmo.*#$#abort-on-property-write zfgloadedpopup
 itheat.com##.hot_ad
 nowcoder.com##.mini-banner
 wk.baidu.com##.sf-edu-gonglve-id-rec-adv-second.rec-adv-second
@@ -17803,6 +17805,7 @@ morningpost.com.cn##.gg-2
 myfreax.com##main > div.w-full:has(> ins.adsbygoogle)
 ||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=doviz.com
 jyacht.com##.hot_reoc_adve
+zonatmo.*#$#prevent-listener /click|mousedown/ /async/
 rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
 goodto.com##div[data-bordeaux-hook-loaded]
 wdzzz.com##.zz
@@ -17867,6 +17870,7 @@ super.cz##img[id^="rs-bg-img"]
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###ecl-temai-general
 huya.com##.end-ab-wrap
 yesky.com##div[class^="ad7"]
+zonatmo.*##div[style*="z-index: 2147483647"] {remove:true;}
 goodav17.com##.ads_pc
 wnacg05.cc##+js(abort-current-script, Math.floor, tips)
 popeoftheplayers.eu###html4
@@ -22409,7 +22413,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lofter.com/blogPhotoAd?
 ||delivery-pc.wasu.cn/d/js/
 ||chexun.com/delivery?
-||looyu.com^$third-party
 ||d3t4q9r0y6a1oz.cloudfront.net^$script,image
 ||cr173.com/skina/
 ||fx110.*/Pub/Ghz/GetModel
@@ -24375,6 +24378,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sodu2020.com/js/ppc.js
 ||wandouys.com/Runtime/Js/
 ||trenhdg.com^$3p
+||looyu.com^$third-party
 ||renwai.ren/cdn/pic/ad
 ||myhack58.com^*0$script
 ||nzydzsw.com^$3p
