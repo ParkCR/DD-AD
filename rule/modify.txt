@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-11-09 12:57:15
+! Last Modified: 2026-11-10 02:24:30
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -17,8 +17,6 @@
 ||api2.coolapk.com/v6/main/indexV8$replace=/{&quot;entityType&quot;:&quot;card&quot;\,&quot;entityTemplate&quot;:&quot;listCard&quot;.*?}&quot;}\,/ /
 /pangolin-sdk.*/
 ||*-ad.gskwai.com^
-! 👇This Part Merge from: 大圣净化 (https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts)
-::1 localhost
 ! 👇This Part Merge from: AWAvenue-Ads-Rule (https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt)
 :: api-access.pangolin-sdk-toutiao2.com
 :: api.installer.xiaomi.com
@@ -296,6 +294,7 @@
 :: api-ad-product.huxiu.com
 :: cdn-f.adsmoloco.com
 :: sdkoptedge.chinanetcenter.com
+::1 localhost
 :: dsplog-adnet.vivo.com.cn
 :: micro-xdb.com
 :: logservice1.hicloud.com
@@ -2643,6 +2642,7 @@ bjd.com.cn##.screenadButtom
 @@||niotv.com^$generichide
 @@||squid.gazeta.pl/info/squid/fprint.js$script,domain=wyborcza.pl|gazeta.pl
 ##.widget-qianhuiji
+bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,gutefrage.net,huffpost.com,loawa.com,malaymail.com,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#blob-override '/.*/' ''
 fctv33hd.*,fctv33.io,mpanrc4imind.my,mp77g69ainei3gx2voxygen.ru,006hndchurch05g7ifbreathing.sbs,diuyzbnotevd3ieinstead.sbs#$#hide-if-matches-xpath '/html/div[@data-shb]'; prevent-element-src-loading script /^https:[/][/][^/]+[/][a-zA-Z0-9]+[/][0-9]+$/;
 ##body.active > div.myui-panel > DIV#home_slide
 91xx133.cc##div[id].is-multiline > .is-one-quarter-tablet:has(> .is-shadowless a[target="_blank"])
@@ -2807,7 +2807,6 @@ finance.eastmoney.com###ContentBody > p[style="text-align:center;"]:has(> a[href
 /content.php?id=148&type=g|$xhr
 /avple-images/ad.
 eastmoney.com##.head_adbox
-bab.la,collinsdictionary.com,dictionary.cambridge.org,gazetaprawna.pl,gutefrage.net,huffpost.com,loawa.com,malaymail.com,pons.com,sankei.com,sourceforge.net,timesofindia.indiatimes.com,tz.de,winfuture.de#$#blob-override '/.*/' ''
 chazidian.com##.ggin
 ##.ads-after-header
 @@||adnxs.com^$image,subdocument,domain=bitzfree.com
@@ -2883,6 +2882,7 @@ aura.cn##.tc1
 fx678.com##div[class^="fx_fa_"]
 @@||2345.com/images/activity/20171111/open/j/close.png
 csdn.net###asideCustom65392991
+buomtv.biz,heo69.tube,animehay16.site,cliphot69.golf,phimsexsuong3x.net,damconuong.cool,demo.14412882.com,doctruyen3qhub.fit,dualeotruyenjv.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen21.com,lxmanga.top,misskon.com,mupsexphim.com,phim18hd.site,ww2.8phimx.com,hotphimxxxhay.com,quatvn.best,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.live,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.live,www.sieutamphim.fun,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 @@||technews.tw^$generichide,badfilter
 cnlinfo.net##.guanggao-left
 androiding.how##.jsXY6yjBmGN4
@@ -4380,7 +4380,6 @@ fichier.net#@##contentAd
 /js/ggtop.js
 @@||live.b8b8.tv/watch/js/adview*.js$script,~third-party
 @@||520click.com/ad.php$domain=520cc.cc
-anime47.best,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,vlsexhihi.one,thefaplive.com,truyensieuhay.com,qmhsex.shop#$#abort-on-property-read document.cookie
 @@||smartadserver.com/config.js$script,domain=comics-sanctuary.com
 bingfeng.tw###adbt
 cekresi.com##.pleasehideadblkuc.popio
@@ -7509,6 +7508,7 @@ dm5.com,dm5.hk##.cl970
 /js/utils51.js
 :900*/sc/*n=$script,3p
 fjsen.com,nuomi.com#@#.right-ad
+chatgpt.com#$#hide-if-matches-xpath '//button[@aria-haspopup="menu"][@aria-labelledby][preceding-sibling::span][preceding-sibling::div//img[@inert][starts-with(@src,"data:image/")]]/ancestor::div[.//div[@role="link"]][1][not(.//div[@data-message-author-role] or .//li[@data-message-role])][not(ancestor-or-self::div[contains(@style,"width: 1px")])]'
 /pushstart.aspx?$popup,3p
 f1comp.ru,tagaev.com,times.zt.ua#$#abort-on-property-read PUM.getPopup
 ##.guding312
@@ -9066,7 +9066,6 @@ crypto-clix.net#@#.ad-block
 91porna.com##.carousel-container:has(#carouselExampleInterval)
 360.cn###weishi-alert
 crazyshit.com,donk69.com,extremetube.com,fantasti.cc,gfjizz.com,keezmovies.com,mofosex.com,pornxt.com,smutr.com,spankwire.com,wankflix.com,yuvutu.com#$#abort-on-property-read phtData
-buomtv.biz,phimdem.pro,animehay16.site,cliphot69.golf,phimsexsuong3x.net,damconuong.cool,demo.14412882.com,doctruyen3qhub.fit,dualeotruyenjv.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen21.com,lxmanga.top,misskon.com,mupsexphim.com,phim18hd.site,ww2.8phimx.com,hotphimxxxhay.com,quatvn.si,sayhentai.cx,ftscontent.com,sexdiary.club,sexviet88z.live,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,sexviet88z.live,www.sieutamphim.fun,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 58.com##.invokeApp
 fuxnxx.com,hqpornero.com,ilikecomix.com,mangaforfree.com,mangaforfree.net#$#abort-on-property-read a3klsam; abort-on-property-write JSON.parse
 /static/js/pages/dialogAd.js
@@ -10787,7 +10786,6 @@ eastmoney.com##div[data-url*="same.eastmoney.com"]
 ali213.net##.coopSteambox
 dcfever.com,gaodun.com##.advertisement
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
-chatgpt.com#$#hide-if-matches-xpath '//button[@aria-haspopup="menu"][@aria-labelledby]/ancestor::div[not(@class)][.//div[@role="link"]][1][.//span[normalize-space()="Ad"] or .//div[normalize-space()="Ad"]][not(.//div[@data-message-author-role])]'
 douyu.com##.XinghaiAd
 /cache/OTca.js
 ##.ant-modal-root > .tuia-modal-wrap
@@ -10932,6 +10930,7 @@ firstrowas.co###ad_overlabut
 55188.com##.page-aside
 bilibili.com##A[href*="cm.bilibili.com"][data-target-url*=".biligame."] + .bili-video-card__info
 //cdn.*/uni-ggs.js$3p
+anime47.best,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,asexhihi.net,thefaplive.com,truyensieuhay.com,qmhsex.shop#$#abort-on-property-read document.cookie
 @@||aliyundrive.com^*/share_link/$xhr
 2014.qq.com#@##adIframe
 .com/tonglan2.js
@@ -12295,6 +12294,7 @@ goldderby.com#$#override-property-read confirm noopFunc
 image.baidu.com###only-lady-sec
 zuoyebang.com##DIV[class^="questionQRCodeWrap_"]
 jisuxz.com##.dl_gaosu
+qmhv3.top,qmh.garden#$#abort-on-property-read sessionStorage
 olx.bg#$#replace-fetch-response /("ListingSuccess","data":\\[(?:\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj(?:(?!\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj)[\\s\\S])*?\\},(?=\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj)){11})(?:\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj(?:(?!\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj)[\\s\\S])*?\\},(?=\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj)){1}/ '$1' /"promoted":\\[(?:[0-9]+,)*(?<!10,)11\\]/
 olx.bg#$#replace-fetch-response /("ListingSuccess","data":\\[(?:\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj(?:(?!\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj)[\\s\\S])*?\\},(?=\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj)){39})(?:\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj(?:(?!\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj)[\\s\\S])*?\\},(?=\\{"_nodeId":"bGVnYWN5QWR2ZXJ0Oj)){2}/ '$1' /"promoted":\\[(?:[0-9]+,)*(?<!38,)39,40\\]/
 kekenet.com##.h_news_c
@@ -12649,6 +12649,7 @@ ping0.cc###adjright
 manwa1.me,manwa2.me,manwa.me##[style='transform-origin: left top; margin: 0px auto;']
 v-wb.youku.com##+js(set-constant, Object.prototype.adData, {})
 manwa1.me,manwa2.me,manwa.me##[data-group^='ad_chapter'][data-width='300'][data-height='250']
+onvista.de#$#hide-if-contains /^Werbung$/ div.rounded-2xl 'div.rounded-2xl span ^^sh^^ span'
 xcar.com.cn###eMeng
 vanpeople.com##.banneradv-newbox
 tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
@@ -14105,7 +14106,6 @@ voici.fr,femmeactuelle.fr,caminteresse.fr#$#json-override isActive false eventSa
 mzh.moegirl.org.cn##.download-app
 xiaomiyoupin.com##.site-item.m-download.fl
 index.hr#$#json-override isActive false isUnregistered
-www.sieutamphim.fun,freeplayervideo.com,player-cdn.com,playhydrax.com,qmhv3.mom,hopphim.online,streamc.xyz,qmhv3.mom,qmh.garden#$#override-property-read open noopFunc
 rutube.ru#$#override-property-read Object.prototype.advert undefined
 ||3boys2girls.com/templates/default/2013/life/160b5.js
 rollingstone.com#$#override-property-read as_retry 0
@@ -14403,7 +14403,6 @@ qianlima.com##.seo400
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##div[tpl="houses_new"] > .c-border
 quark.cn##.ad-wolong-container
 taobao.com#?#button:-abp-contains(打开手机淘宝)
-pons.com#$#override-property-read performance.getEntriesByType noopFunc; override-property-read window.requestIdleCallback undefined;
 m.you.163.com##.w-button
 ifeng.com##div[class^="rightContent-"] a[href^="//health.ifeng."]
 hao123.com##.tvtip
@@ -14750,7 +14749,6 @@ qq.com##[dt-params*="ad_creative_"]
 text-compare.com#$#abort-on-property-write window.confirm
 nicovideo.jp#$#hide-if-matches-xpath './/li[@class="count ads"]/parent::ul/ancestor::li[contains(@class,"adVideoItem")]'; hide-if-matches-xpath './/h1[text()="Niconico Ads"]/following::img[contains(@class,"UadVideoItem-image")]/parent::div[contains(@class,"UadVideoItem")]/ancestor::div[contains(@class,"UadVideosContainer")]'; hide-if-matches-xpath './/img[contains(@class,"NicoadVideoItem")]/parent::a[contains(@class,"NicoadVideoItem")]/ancestor::div[starts-with(@class,"NicoadVideosContainer")]'; hide-if-matches-xpath './/div[@data-nicoad-sponsor]/following::a[starts-with(@class,"NicoAdContainer")]/parent::div[contains(@class,"NicoAdContainer")]/ancestor::section[@class="TopPage-section"]'; hide-if-matches-xpath './/img[contains(@class,"UadVideoItem")]/parent::div[starts-with(@class,"UadVideoItem")]/ancestor::div[contains(@class,"UadVideosContainer")]';
 www.17173.com##.pn-tg
-instacart.*#$#hide-if-matches-xpath './/pd-tag/ancestor::li[1]';
 yfsp.tv,aiyifan.tv,iyf.tv##+js(abort-on-stack-trace, Object.prototype.pgmp, invokeInterstitial)
 qidian.com##div[style="background: rgba(0,0,0,0.4);position: fixed;left:0;right:0;top:0;bottom:0;z-index:9999;"]
 sogou.com##.pc-brand-wrapper
@@ -14803,7 +14801,6 @@ xia1ge.com##div[class^="category-iloveyou"]
 sogou.com##.sponsored
 qzone.qq.com###appCanvasTopBanner
 kuman.com##.guide-download-footer-box
-quatvn.si#$#abort-current-inline-script window.addEventListene localStorage
 onemanhua.com##body > div[style^="position: fixed;"][style*="z-index:"]
 qq.com##.adv1000
 jiankang.com##.all_eye
@@ -15238,7 +15235,6 @@ jd.com###J_mobile > DIV.dt.mobile_txt:first-child
 mgnacg.com##a[href^="https://fanqiev2.work/auth/register?code="]
 ifeng.com##div[class^="bottom_box"]
 onetv.cz##div[style*="background-image: url("][style*="background-repeat: no-repeat;"]
-www.facebook.com,web.facebook.com##div[role="complementary"] div[data-visualcompletion="ignore-late-mutation"]:has(a[attributionsrc]) , div[role="complementary"] span[data-visualcompletion="ignore-late-mutation"]:has(a[attributionsrc])
 muzhuangnet.com##.widget_sentence
 renren.com###videoAd12
 solarmovie.*#$#abort-current-inline-script Math zfgloaded
@@ -15404,6 +15400,7 @@ nownews.com###crazy-video
 ||4275.com/css/91kf.
 vesti-ukr.com###adblockpopup
 momondo.com#$#hide-if-matches-xpath './/div[contains(@class,"c_3eP-pres-default")]/ancestor::div[@role][@tabindex="0"]'
+instacart.*#$#hide-if-matches-xpath './/bl-tag/ancestor::li[1]';
 ldqk.xyz#@#.google-ad
 xhamster.*,xhamster1.desi,xhamster2.com,xhamster3.com,xhamster19.com,xhaccess.com,xhopen.com,xhbig.com,xhvid.com,xhtotal.com,xhofficial.com,xhspot.com,megaxh.com#$#override-property-read window.initials.layout.layoutPromoProps.promoMessagesWrapperProps.promoMessageInnerProps emptyObj; override-property-read window.initials.bannerUnderPlayer emptyObj; override-property-read window.initials.bannerRight emptyObj; override-property-read window.history.replaceState noopFunc; abort-current-inline-script document.createElement dd.master.spot; abort-current-inline-script document.createElement dd.interstitial
 ||17gameworld.com/gmifr_lei.
@@ -16732,7 +16729,6 @@ ifeng.com##.pic1000
 hao123.com###__elm_0_4
 v2ex.com##.sidebar_compliance
 jianshu.com##.aside > div[aria-label="3rd-ad"] + div:last-child
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"loessCleat")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 v.youku.com##.youku-advertise-layer
 instagram.com#$#json-prune data.xdt_injected_story_units.ad_media_items; json-prune data.xdt_injected_reels_units
 lfg.co,leasticoulddo.com#@#.text-ads
@@ -16864,6 +16860,7 @@ ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
 news.gamebase.com.tw##.PCAD
 jianhuadaily.com##.alignnone[width="300"]
 m.v.qq.com##.at-app-banner
+www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@role="complementary"]//following::a[contains(@rel,"nofollow")]//img[@*[starts-with(name(),"data-") and contains(.,"marlSpandrel")]]/ancestor-or-self::div[contains(@class,"x1n2onr6")][2]/parent::div[1]/..'
 mercadolivre.*,mercadolibre.*#$#hide-if-matches-xpath './/span[@class="ui-billboard-ad__title"]/ancestor::div[@id="ui-billboard-ad"]'
 qq.com##.mod_ad_square
 ||521000.com/co/
@@ -17960,6 +17957,7 @@ hk.yahoo.com,tw.yahoo.com###fullbleed > div[data-content="廣告"]
 hgitv.com##.index_gg
 pockettactics.com#$#json-override isActive false isUnregistered
 yespornhd.com#$#hide-if-matches-xpath './/button[contains(.,"Advertising")]/parent::div'
+sameday.costco.*#$#race start; hide-if-matches-xpath './/bl-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//bl-tag]/ancestor::li[1]'; race stop;
 huya.com##.main-bd > .item-nav > li:has(> .item-pic > .img-tips)
 taobao.com###J_ActivityOut
 health.tvbs.com.tw##.ad_desktop_top
@@ -18271,6 +18269,7 @@ sm.cn###download-uc
 ishare.iask.sina.com.cn##.loginRedPacket-dialog
 tripadvisor.com#$#hide-if-matches-xpath '//span[text()="Sponsored"]/parent::div/parent::div/parent::div[.//a[contains(@href, "Restaurant_Review")]]/parent::div/parent::div[.//button[contains(@data-automation, "trips-save-button")]]'
 seznamzpravy.cz/*seznamzpravy.cz$subdocument
+www.sieutamphim.fun,freeplayervideo.com,player-cdn.com,playhydrax.com,qmhv3.top,hopphim.online,streamc.xyz,qmhv3.top,qmh.garden#$#override-property-read open noopFunc
 squidboards.com##.premiumBlock
 truyen-hentai.com#$#abort-on-property-read Math.random; prevent-listener getexoloader; abort-on-property-read initCustomEvent;
 jstv.com##.jadv
@@ -18383,7 +18382,6 @@ sina.cn##div[class^=m-client-call]
 x.com/*/videoads/
 youku.com##.sub-slides-wrap .swiper-wrapper > .swiper-slide:has(> a[target-url])
 nowcoder.com###jsSideTopicList
-qmhv3.mom,qmh.garden#$#abort-on-property-read sessionStorage
 superflixapi.pro#$#prevent-listener /click|touchend/ /pop_opened/
 zt5.com##.gg_bt
 huaban.com,zcool.com.cn##.ad
@@ -18922,6 +18920,7 @@ hao123.com##.navrecommend-top
 nfmovies.com##[onclick^="openurl()"]
 gas.goodlife.tw###leaderboard_banner
 gas.goodlife.tw###widgets
+quatvn.best#$#abort-current-inline-script window.addEventListene localStorage
 goha.ru#@#.goha_ads
 vpser.net##.ab_cpb
 yahoo.com#$#abort-current-inline-script fetch last_bfa_at
@@ -19387,7 +19386,6 @@ olx.pl#$#replace-fetch-response /("ListingSuccess","data":\\[(?:\\{"_nodeId":"bG
 new.qq.com##.hot-choice-bar
 rlsbb.com###contentArea > .information
 qudong.com##.advert_bottom
-sameday.costco.*#$#race start; hide-if-matches-xpath './/pd-tag/ancestor::li[1]'; hide-if-matches-xpath './/div[@role="group"][.//pd-tag]/ancestor::li[1]'; race stop;
 ||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=souvlakiforthesoul.com
 m.zhanqi.tv##.topbarOpenApp.btn-1
 jkptgbf.xyz,mfulbvu.xyz,91porna.com##a.checkNum[target="_blank"]:not([href*="91porna.com"])
@@ -20225,7 +20223,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ckxxbao.com/templets/default/js/wx.js
 ||fulitech.com.cn^*/float.js
 ||jz5u.com/public/js/t$script
-||lgmi.com/syimg/
 ||itavcn.com/pic/news/201802/20180207/image/050N2.gif
 ||dahe.cn/indiboy/ads/
 ||e.changyan.sohu.com/dataService/getData?
@@ -20415,6 +20412,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ali213.net/zt/twtk/images/tzxf.png
 ||dfcfw.com/EMFloatFrame/
 ||error-report.com^$domain=nemzetisport.hu
+||coffeefire.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||haoxxwang.com^$3p
 ||any.gs/visitScript/$script,third-party
 ||fb.content-loader.com^$script,domain=movie-locations.com
@@ -20423,6 +20421,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||en8848.com.cn/js/ad
 ||guangzhoubingqing.com/88888.jpg
 ||cnblogs.com/blog/36987/201509/36987-20150913115252950-1736386654.jpg
+||jewelryagency.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||btmulu.com/assets/*/ad02.gif
 ||google-analytics.com/analytics.js
 ||digitalcameraworld.com^$csp=script-src-attr 'none'
@@ -20508,7 +20507,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||cifnews.com/ajax/adrequest/
 ||cbsi.com.cn/js/mlt.js
 ||api2.coolapk.com/v6/feed/detail$replace=/\,"":{.*}/}}/
-||jewelryagency.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||go.kbnmnl.com/api/models/vast
 ||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
 ||a6.hujiang.com^$domain=~class.hujiang.com
@@ -20537,7 +20535,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gk99.com/static/js/a-d-sys.js
 ||actoys.net/index.php?m=poster&
 ||bookben.com/js/m/wap.js
-||lianmeng.360.cn^$domain=~lianmeng.360.cn
 ||jxcn.cn/js/hotpic_
 ||error-report.com^$domain=creativebloq.com
 ||fpdisplay.com/upload/n_ad/
@@ -20739,7 +20736,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||aiqu288.com/da/
 ||hexun.com^*/appDplus
 ||content-loader.com^$script,domain=vimm.net
-||lianaiyx.com/d/js/cst/
 ||houyi.baofeng.net^*.html
 ||cgdyw.net/xx/
 ||dzwww.com/data/js/asp_$script
@@ -20983,7 +20979,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lahoo.ca/api.php?mod=ad&
 ||affyun.com/wp-content/uploads/*-ad.
 ||biqgg.com/w.js?v=
-||liangpinge.com^$3p
 ||advertclicks.ru^$domain=pronpic.org
 ||90oo.com/tp/down.gif
 ||hf365.com/0/15/64/87/15648725_922274.jpg
@@ -21165,7 +21160,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||80yc.com/js/yidong/
 ||avitya.ru^$domain=pronpic.org
 ||7k7k.com/js/bg-img.js
-||liisex.com/images/banners/
 ||ggsfq.xyz^$3p
 ||fapoff.com/visitScript/$script,third-party
 ||hellocenter.xyz^*.mp4$redirect=noop-1s.mp4,domain=localmv1.com,media
@@ -21408,7 +21402,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||baidu.com/common/fc/
 ||fzd3.com/gg/
 ||fenxiangdashi.com/img/banner/
-||lianmeng.la/ad1/
 ||biquge96.com/123.
 ||html-load.com^$script,domain=movie-locations.com
 ||99nets.com/kfb/index.html
@@ -21495,10 +21488,8 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||heiye.cc/js/bancity.
 ||hao123img.com/res/ecom/
 ||kiees.cn/jm.png
-||firsthoughtstudios.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||junshizhanlue.com^$3p
 ||koyso.com/static/js/abcd.
-||lianle.com^$3p
 ||autoimg.cn/Space/help/HelpRdTask.js
 ||folha.uol.com.br/folha/furniture/paywall/$xmlhttprequest
 ||huoche.net/public/huoche/ad/
@@ -21528,7 +21519,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 ||china.com/v_test
 ||bavei.com/img/*.png
-||ampscamp.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||error-report.com^$domain=wenxuecity.com
 ||csaimall.com^$popup,3p
 ||heiye.cc/js/xuanfu.js
@@ -21547,7 +21537,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||c.admaster.com.cn^$popup
 ||ebiotrade.com/netother/sy2013.ashx?type=quanping
 ||cnmo.com/pv.js
-||lianmeng.la/cde/recommend.js
 ||a5xiazai.com/z/
 ||html-load.com^$script,domain=doviz.com
 ||guokr.com/baidu-cbjs/
@@ -21559,7 +21548,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||biqiuge5.org/mo.
 ||d2t7a3zbo166a9.cloudfront.net^$script,image
 ||962.net/show/down_
-||lianmeng.la/abc/
 ||feedou.com/nzq/style/pc/js/popbig.js
 ||iqshw.com/d/js/m/thea
 ||cntvboxnow.com//ads_
@@ -21612,7 +21600,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ldb.cc/js/top.js
 ||delivery-pc.wasu.cn/d/frontJs/3.0$redirect=noop.js,domain=wasu.cn,script
 ||aixiaoju.com/dbxf/*.js
-||lh168.net^*/attachment/portal/
 ||ghost580.com/js/nei4.js
 ||image.51cto.com/ad/
 ||9669.cn/ipdat/duilian/
@@ -21645,7 +21632,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||jitashe.org/template/jitashe/image/bc/3
 ||js.jialingmm.net/dm/tj.js
 ||ld0766.com/*20*a/
-||liantu.cn/script/
 ||btschool.net/images/*/HDYGR
 ||creativebloq.com^$csp=script-src-attr 'none'
 ||hoopchina.com.cn/common/lazyLoadAd.js
@@ -21706,7 +21692,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||goupu.org/1files/*.htm
 ||gtimg.com^*/ad/
 ||d2zs9z3hmfhcr6.cloudfront.net^$script,domain=omnicalculator.com
-||lianmeng.la/cde/text.js
 ||api.live.bilibili.com/*/Banner
 ||duba.com/dhads?id=
 ||chexun.net/images/sales//cxgg/
@@ -21726,7 +21711,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ctrip.com/Domestic/tool/AjaxGetCPTList.ashx?advpositioncode=
 ||ainunu.*/vad.js
 ||house365.com/js/fixWin.php
-||lianmeng.la/cde/image.js
 ||abcache.com/xc/image/
 ||guqu.net/Cooperate/
 ||kekenet.com/images/*980
@@ -21847,6 +21831,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||fkxs.net/tops/
 ||koolearn.com/v2/js/wxewm.js
 ||kiees.cn/img/
+||figbirddesign.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||hao123.com/ifeed/cpc?
 ||chinaz.com^*_g/
 ||chatgpt.com/ces/statsc/$xmlhttprequest,ping,domain=chatgpt.com
@@ -21862,7 +21847,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||bmp2.ali213.net/js/
 ||ithome.com/file/js/win*china.js
 ||bianshengruanjian.com/tu/%E6%89%93%E8%B5%8F.
-||largetony.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||acg.youku.com/webfile/*.jpg
 ||dagumanhua.com/style/mdagu.js
 ||66game.cn/skinnew/js/ad.js
@@ -21913,7 +21897,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||imgdb.cn/item/66a73333d9c307b7e9dbb6ef.jpg
 ||guazimanhua.com/assets/ad/
 ||ifengimg.com/static/news/js/newsAdvtrack_
-||lib.onet.pl^*/adp/adp.js$script
 ||cnr.cn/cnrxwph/iframe/tpdy/
 ||abbao.cn^*adblock
 ||huakai2025.com/color.js
@@ -21999,7 +21982,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||fvedio.kuwo.cn^$app=cn.kuwo.player
 ||gd.189.cn/ad/$popup,3p
 ||dlkoo.com/down/$subdocument
-||lihuasoft.net/images/ad_
 ||countrylife.co.uk^$csp=script-src-attr 'none'
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||aiyidu.com/aiyidu/adver/
@@ -22066,7 +22048,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||cheshi-img.com/js/pv.min.js
 ||asp300.*/2012adimg/
 ||adbottw.net^$3p
-||liangjan.com/js/show_
 ||duba.com/wangmeng/
 ||html-load.com^$script,domain=base64encode.org
 ||dyjqd.com/images/js/dyjqd.js
@@ -22083,7 +22064,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||fang99.com^*/advjs/
 ||a.dlads.cn^$3p
 ||avseesee.com/htmls/vlinks.html
-||lgmi.com^*_gg
 ||html-load.com^$script,domain=digitalcameraworld.com
 ||aaaimg.com/images*.gif
 ||goupu.org/1files/*.gif
@@ -22122,6 +22102,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||eastday.com/static/js/ad
 ||di2y21.top/jian/jiansshu.js
 ||kan98.com/images/*.gif
+||largetony.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||cpt.9136.com/img/b_special/
 ||js0573.com/images/cus/
 ||cqvip.com/viewserver/ViewAD
@@ -22137,7 +22118,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||jmcomic-zzz.*/templates/frontend/airav/js/f_
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||baidu.com/po/api/configure/show.jsonp
-||lien-torrent.com/eticilbup/$image,subdocument,script
 ||hxsxw.com/hx8899/$image
 ||aolusb.com/forever/
 ||codejie.net/wp-content/uploads/*/1120-50.
@@ -22167,7 +22147,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||heiguang.com/f/uad/
 ||houstonbbs.com/data/ad/
 ||alicdn.com^$domain=1avlang.com|51dll.com|52kpop.com|63ef.com|7mav2.com|aotu101.com|dytt.com|hanfan.cc|jb51.net|jitapu.com|junying.com|jvhao.com|magnet2048.com|qingmanyong.com|supfree.net|thztv.cc|wenkuxiazai.com|xiaomingming.org
-||lieqinews.com/json/zhiketj/
 ||html-load.com^$script,domain=kuruma-news.jp
 ||baidu.com/showbrand/banner_
 ||html-load.com^$script,domain=kurir.rs
@@ -22407,8 +22386,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||citysbs.com/no/*/650x50-
 ||itad.linetv.tw/api/v2/vmap?ad_id=$xhr,redirect=noop.txt
 ||canton8.com/adphoto/
-||lgmi.com/left_right_
-||lianty.com/getImg?id=
 ||deb.gs/Webservices/jsParseLinks.aspx$script,third-party
 ||hhdmh.net/bd/36mh.js
 ||angelweb.cn/Inc/AngelG.js
@@ -22418,7 +22395,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dytt.com/oj.js
 ||inping.com^$3p
 ||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
-||licai18.com/pic/article/*.gif
 ||delivery.speee-ad.jp^$domain=nikkansports.com
 ||7794.com^$3p
 ||99zuowen.com^*/gg.js
@@ -22448,7 +22424,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ccav5.com/static/js/floatImgAd.js
 ||bjcathay.com/s?z=
 ||content-loader.com^$script,rewrite=abp-resource:blank-js,domain=dreadcentral.com
-||lgmi.com/tjyf200x207.asp
 ||affxc.com^$3p
 ||iqiyi.com/*/ad/*/feature_feed_ad?
 ||hornywood.tv/Webservices/jsParseLinks.aspx$script,third-party
@@ -22547,11 +22522,9 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||dshangyan.com/pc/advertising/
 ||goproxy.cc/api.php
 ||itavcn.com/images/2012/ad_
-||flowerybunch.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||html-load.com^$domain=weeronline.nl
 ||hujiang.com/Web/tx.ashx
 ||iqiyi.com/player/common/adflash
-||licai18.com/henyepweb/
 ||9ist.com/others/ad/
 ||abmedia.io/*/pum/
 ||aiqu222.com/da/
@@ -22599,6 +22572,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||freean.us/Webservices/jsParseLinks.aspx$script,third-party
 ||ifengimg.com/ifeng/sources/
 ||a.tbcdn.cn/s/tb-tracer-min.js
+||dusthorses.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||6080aa.com/template/*/images/g_js/
 ||debugease.com/static/js/show.js
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
@@ -22676,6 +22650,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||bc.vc/js/link-converter.js$script,third-party
 ||jc001.cn/ci/jad/fix.
 ||letv.com/pzt/hyhmzq/index.shtml
+||flowerybunch.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||biancheng.net/uploads/ggxc/
 ||alu.cn/Ashx/AjaxGuangGao.
 ||gmbbku.com/img/top.js
@@ -22758,6 +22733,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||amazononline.xyz/mp4/*.mp4$redirect=noop-0.1s.mp3,domain=iyingshi7.tv|localmv1.com,media
 ||dianyingim.com/statics/recommend/
 ||chongdiantou.com/wp-content/uploads/2019/02/pzb.jpg
+||ampscamp.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||bdstatic.com^*/her/static/indexher/pkg/treasure.
 ||jianxun.io/ad/
 ||chazidian.com/mobile_general_
@@ -22808,7 +22784,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||html-load.com^$script,domain=musicradar.com
 ||jrjimg.cn/ad/
 ||hentaicomic.*/data/ds/
-||liepin.com/event/jobadver/
 ||kyliane.fr/pub.php
 ||bbsbaba.com/js/1.js
 ||lancdn.com/public/images/view/Tencent-
@@ -22852,7 +22827,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kgimg.com/public/root//images/hardware.jpg
 ||hkjunkcall.com/images/b_banner_
 ||eduuu.com/website/public_js/pc_aso.js
-||coffeefire.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||91bixin.net/api/adv/
 ||f8dy.tv/template/m1938/js/foot.js
 ||ithome.com.tw/media/serve?
@@ -22888,7 +22862,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||anhuinews.com/zhuyeguanli/*ad/
 ||caibaojian.com/d/uploads/*0-
 ||bad996.com/dakaads.js
-||lgmi.com/ggimg/
 ||banma.com/js/adi.js
 ||btmao.cc/Public/yd/
 ||caoimgs.com/images/*.gif
@@ -22990,7 +22963,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||kiees.cn/k1.js
 ||boylov.xyz^*/img/20*.gif
 ||kuaizitech.com^$3p
-||lgmi.com/right_ys
 ||haokan5.com/js/haokanjs/youxiajiao.js
 ||chaospace.fun/wp-content/uploads/*/tg-
 ||js.jialingmm.net/dm/history.js
@@ -23083,7 +23055,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||gamersky.com/web/getJS?url=*.gamersky.com*newAd
 ||baidu.com/xda?
 ||eastday.com/assets/js/dftongjiad.js
-||figbirddesign.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||antpedia.com/viewnewsrightboxtop.
 ||javhub.net/img/r18_banner1.jpg
 ||abczxw.com/skin/bbb/pc/js/bd.js
@@ -23114,6 +23085,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lahoo.ca/slider
 ||iocoder.cn/alert/js/alert.js
 ||baomitu.duapp.com/js/layer.js
+||firsthoughtstudios.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||bdstatic.com^*/QSURrcmRKV.js
 ||bdstatic.com^*/js/m.js
 ||hoopchina.com.cn/static/www/*340-230.
@@ -23287,7 +23259,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||76fengyun.com/jsa/
 ||html-load.com^$script,domain=oxfordlearnersdictionaries.com
 ||javlibrary.com/img/bnr*.gif
-||liaoxuefeng.com/files/attachments/00144*/0
 ||api.bilibili.com/x/ad/
 ||easyicon.net/gg2019/
 ||baike.com/newtop/news.html
@@ -23364,7 +23335,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||cdn141.com/banner/adcards.
 ||hao123img.com/res/js/common/erjiAdv.
 ||j.sdqoi2d.com^$3p
-||consumerdebtnegotiation.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||itopdog.cn/itopdog/ad.js
 ||dobiez.com/statics/wap_v1/js/qwd.
 ||gladlythattoady.com^$script,domain=variety.com
@@ -23473,6 +23443,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||error-report.com^$domain=cool-style.com.tw
 ||chinafpd.net/js/2012-10/
 ||douyucdn.cn/japi/sign/web/getinfo
+||consumerdebtnegotiation.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||duba.com/static/*/js/min.pop.js
 ||langya.cn/2014html/2014ad_
 ||kuaihou.com/c/you1.js
@@ -23483,7 +23454,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||hgyouxi.net/source/plugin/hgyouxiad/
 ||baidu.com/newspage/api/getadsdata?
 ||fxxz.com/skin/know/all.js
-||dusthorses.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||jijidown.com/static/img/dongcidaci/
 ||cdn.wwads.cn/js/makemoney.js$script,redirect=noop.js,domain=nodejs.cn,important
 ||fanyi.baidu.com/pc/config
@@ -23597,7 +23567,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||itc.cn/activity/activity_js/changyan_config_
 ||hdsky.me/adv/
 ||kovla.com/?$popup,domain=rapidgator.net
-||lgmi.com/windows/*-Advert.
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 ||content-loader.com^$script,domain=androidcentral.com
 ||bdstatic.com^*/mip-*ad
@@ -23657,6 +23626,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||yiparts.com/Chance.php?aid=
 ||midifan.com/aaa/
 ||yxdm.*/js/ddetector.js
+||lib.onet.pl^*/adp/adp.js$script
 ||qguwoq.cn^$3p
 ||mop.com/js/common/watermark.js
 ||tw.beanfun.com/bfweb/NEW/commonlogin
@@ -23680,6 +23650,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mysteel.com/ads/
 ||static.bro.adca.st/ad*.html$subdocument
 ||pianbar.net/JS/bootfloat.js
+||lgmi.com/syimg/
 ||pic.deueza.cn/*.gif$domain=mqoeomads.cc
 ||udn.com/mall/cus/cat/OutWebAd.do
 ||qingkai.com/2009/html/top.htm
@@ -23791,11 +23762,11 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||yiren34.com/js/
 ||rqq.co/Webservices/jsParseLinks.aspx$script,third-party
 ||xlmp4.cc/js/wcount.js
+||lihuasoft.net/images/ad_
 ||linuxidc.com/linuxfile/linux$script
 ||yorkbbs.ca/crm/section/v1/get/list/open
 ||qishula.com/css/ding.js
 ||sinaimg.cn/finance/ny_live*.js
-||quicktattoo.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ~sports.qq.com,~work.weixin.qq.com,qq.com##+js(json-prune, ad)
 ||me360.com/swt/swt.js
 ||sogoucdn.com/dhfe/
@@ -23840,7 +23811,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||szonline.net/static/js/ads.js
 ||macx.cn/js/blockadblock.js
 ||yigujin.cn/img/abc/
-||musicenforcer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||sohu.com/mdevp/*-advert/
 ||sina.com.cn/1016/getPhones-
 ||nanfengyl.com/static/js/zdad.js
@@ -23878,7 +23848,9 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||panmeme.com^*/common.js
 ||suning.cn/javascript/sn_da/sa.js
 ||pconline.com.cn/count.php?
+||superstarorganizer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||taijuwang.com/template/alifun/js/unFavui.
+||liangjan.com/js/show_
 ~daquandy.com##.m_acmsd
 ||res.cngoldres.com/web/index/img/*_ad_
 ||tubeviral.com/Webservices/jsParseLinks.aspx$script,third-party
@@ -23896,6 +23868,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||searchrecterm.kuwo.cn^$app=cn.kuwo.player
 ||qnvod.net/qna/
 ||wlxww.com/html/analytics/
+||lgmi.com^*_gg
 ||yiqifa.com^$subdocument
 ||qyerstatic.com/common/models/common/component/footerBanner/
 ||t*.baidu.com/it/u=*,*&fm=76$3p
@@ -23905,7 +23878,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||theseblogs.com/visitScript/$script,third-party
 ||stocktwits.com^$csp=script-src-attr 'none'
 ||rfidworld.com.cn/js/a.js
-||visualcommservices.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||qq.com/bbs/bbs_topgg.htm
 ||newsres.cn/temp/tempad
 ||sass.hk/images/hengfu.jpg
@@ -23954,6 +23926,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||wenshenbang.com^$3p
 ||pingpang.info/themes/v1.0/images/temp/ad/
 ||s7tu.com/images/*.gif
+||sudugu.cc/scripts/yuedu.js
 ||nyaa.*/static/js/ccheck.js
 ||lwlwlw.com/js/FVgg.js
 ||sohu.com/api/labs/mp/load?
@@ -23976,6 +23949,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||webkaka.com/info/script/articleAd.js
 ||picbucks.com/Webservices/jsParseLinks.aspx$script,third-party
 ||sinaimg.cn^*_wap_ad_
+||lien-torrent.com/eticilbup/$image,subdocument,script
 ||xindingwealth.com/js/39.
 ||verysadfun.com/assets/publish/jquery.*.js
 ||p.udn.com.tw/upf/2014_banners
@@ -24005,11 +23979,11 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||metal-bitcoin.com/libs/check.js$script
 ||miaoshangmanhua.com/template/pc/skin01/images/250_250.
 ||ruishungp.com/assetscms2019/js/get_content.js
-||peoplebrain.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||xiaopi.com/statics/new_js/15.js
 ||zzccseo.com/statics/js/di.js
 ||m.qhxcdmfj.cn^$3p
 ||zol-img.com.cn/star/image/star-banner2.gif
+||lieqinews.com/json/zhiketj/
 ||yizhibo.com/special/h5corner.html
 ||vsping-*.myqcloud.com/ggw/
 ||so.com/com/ads?
@@ -24094,6 +24068,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||xchina.*/ad/
 ||zhuwang.cc/api.php?op=ad_
 ||w010w.com.cn^$subdocument
+||reviewacousticguitar.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||meijutt.tv/js/pcjs/alltop_960_1.js
 ||zhongwangmy.cn^$3p
 ||zwdu.com/getuserinfo.php
@@ -24154,6 +24129,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||s-msn.com/portal/js/vendor/manto/
 ||up.qingdaonews.com/up/$object,script
+||lianmeng.360.cn^$domain=~lianmeng.360.cn
 ||zdcj.net/html/weibo
 ||static.game-state.com/images/main/alert/replacement/
 ||zol.com.cn/js/ask/ask.js
@@ -24201,6 +24177,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||metal-bitcoin.com/js/scroll1.js$script
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||s8bbs.com/ad/
+||peoplebrain.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||sass.hk/js/ggcn.js
 ||wantgoo.com/wantgoofiles/banner/
 ||qiyipic.com/common/*_aLink
@@ -24359,6 +24336,8 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tusmangas.net/ama/oso.js$script
 ||tag.*/scripts/px.gif?ch=1$domain=golfgalaxy.com|dickssportinggoods.com
 ||yzpsb.net/js/shang.js
+||lgmi.com/left_right_
+||lianty.com/getImg?id=
 ||peachring.com/new-page/js/human-verify.js$script
 ||tinylinks.co/visitScript/$script,third-party
 ||my0511.com/*/ad_
@@ -24369,9 +24348,9 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||vmvps.com/aoyohost-com-bann
 ||lzyysw.com/upload/
 ||qy0.ru/data/game/
-||socialsend.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||nownews.com/assets/js/setAds.js
 ||ypojie.com/wp-content/uploads/*.js
+||licai18.com/pic/article/*.gif
 ||wzbaohe.com/imgadnew/midad.js
 ||qdross.com/vip/
 ||runoob.com/images/re/
@@ -24409,11 +24388,13 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||soufunimg.com/homepage/new/*/buttomLayer.js
 ||w3cschool.cn/index/*Advert
 ||milimili.tv/js/loadjs/jquery10.8.js
+||lgmi.com/tjyf200x207.asp
 ||soft.mumayi.net/images/download.gif
 ||tutudao.net/js/gg*.js
 ||www.ykjyyy.com/8888/
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||zol-img.com.cn/ad/
+||lianaiyx.com/d/js/cst/
 ||spl.ztvx8.com^$3p
 ||youle55.com^$3p
 ||youmelive.com/timg/
@@ -24544,7 +24525,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zhulang.com/zlpv.php
 ||yemancomic.com/static/maoshuang.js
 ||qiyipic.com/common/*/255x205
-||reviewacousticguitar.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||yefu365.com/rebo/function.js
 ||xn--p3tv7h.com/imgs/Uxuan2.jpg
 ||tklivechat.com/widgets/$3p
@@ -24563,6 +24543,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sinaimg.cn/large/007drMcOly1gfnqzv8a7ij30xc02nwfr.jpg
 ||lovek01.com/gif/97-
 ||sozi.cn/images/tj/szdown
+||licai18.com/henyepweb/
 ||rmhfrtnd.com^$third-party
 ||py.cn/src/img/pyy/
 ||tomshardware.com$csp=script-src-attr 'none'
@@ -24721,6 +24702,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||qunar.com/vata?chan=
 ||qq745.com/m/ad/
 ||todayapp.tv^$popup,3p
+||liangpinge.com^$3p
 ||qiyipic.com/common/*/kehuzhuanqu
 ||torrentz.eu/p/$popup
 ||tzfdc.com/fdcSell/
@@ -24758,6 +24740,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||muzisoft.com/static/*_f.js
 ||okbmf.com^*950_120
 ||mahua.com/api/$subdocument
+||techglow.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||yccz.net/xml/
 ||xinshijue6080.com/gg
 ||stg.html-load.com/session$domain=oxfordlearnersdictionaries.com
@@ -24888,6 +24871,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lnhsjob.com^$3p
 ||meitiantv.com/ganggao/
 ||sinaimg.cn^*/pushDiversion*.js
+||liepin.com/event/jobadver/
 ||linkpicture.com^$3p
 ||pstatp.com/growth/fe_sdk/bannersdk
 ||qchannel03.cn$third-party
@@ -24903,6 +24887,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||maxthonimg.com/v6/festival/
 ||ye120.com/swt.js
 ||megaline.co/visitScript/$script,third-party
+||visualcommservices.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||zjxc.com/source/plugin/e6_xc_ad/
 ||qk6.org/file/script/
 ||yangpinwang.com/wp-content/uploads/*E5%B9%BF%E5%91%8A.
@@ -24974,6 +24959,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||shushenge.com/js/BC
 ||tianji520.cn^$3p
 ||mmonly.cc/js/mmonlyAPP.js
+||musicenforcer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||tarotmood.com/img/banner$domain=ixdzs.tw
 ||sinaimg.cn/large^$domain=fcw45.com
 ||meiju22.com/new/Public/gg.js
@@ -24987,6 +24973,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mikanani.me/images/Masha/
 ||sina.com/rm/
 ||xp85.com/common/js/allpage.js
+||lgmi.com/ggimg/
 ||wild-match.com^$domain=camwhores.tv
 ||nex.163.com/q?
 ||molibaike.com/js/ads.
@@ -24998,6 +24985,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ~weibo.com##.con_ad
 ||openinstall.io^$third-party
 ||luolikong.net^$3p
+||liisex.com/images/banners/
 ||xinwenren.com/index.php?m=poster&
 ||piroji.com^$domain=pronpic.org
 ||pharmnet.com.cn/cnbanner/
@@ -25137,6 +25125,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||moneyweekly.com.tw/Uploads/AD/*970x
 ||ysxs8.vip/js/bd_top.js
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
+||lgmi.com/right_ys
 ||panc.cc/uploads/hongbao.png
 ||myqcloud.com/ad/
 ||udn.com.tw/upf/*_banners/BD/
@@ -25204,7 +25193,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||shipin188.com/66
 ||wan.liebao.cn/zt/
 ||yydsxs.com/js/guding.
-||replantable.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||shuakongbao.com/resource/images/banner/
 ||pcgames.com.cn*/index.js
 ||web8.net^$3p
@@ -25222,6 +25210,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||vidrock.ru/sbx.js
 ||myhack58.com/Articleacb0
 ||mhhanman.xyz/data/my/myjs.js
+||quicktattoo.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||qunar.com/render/*Advertisement.jsp?
 ||liuxue86.com/css/liuxue_output.js
 ||tongji.trafficmanager.net/?
@@ -25356,17 +25345,18 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ynztzh.com^$3p
 ||u.riju.com/click.php
 ||mikuclub.*/pub/
+||lianmeng.la/ad1/
 ||thztv.*/tool/
 ||res.taotu.org/adimages/
 ||sasadown.cn/ad/
 ||w3cschool.cn/attachments/image/20170919/1505817817281252.jpg
 ||uuu9.com/photolog.html
 ||supfree.net/poland/mobile.js
+||tableleaders.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||mscs.svaeuzh.cn^$3p
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
 ||taozi888.com/sys
 ||tvtechnology.com^$csp=script-src-attr 'none'
-||topratedwaterfilter.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||yzpsb.net/js/system.js
 ||s.yimg.com/ja/ap/tw/js/
@@ -25381,7 +25371,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||xdcad.net/source/plugin/disad/disad.js
 ||rising.cn/js/haoAdData.js
 ||scupio.com/adpinline/
-||techglow.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||webconf.douyucdn.cn/resource/common/giftPhotos_w.json
 ||loldyttw.com/blr.js
 ||winwin7.com/statics/js/user/xz.
@@ -25389,7 +25378,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sinaimg.cn^*/everyoneReading.js
 ||myweb.hinet.net/menu.htm
 ||wanfumei.net^$3p
-||massivesalad.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||static.zongheng.com^*/adClickStat.js
 ||xianzhenyuan.cn/data/attachment^$image
 ||youtube.com/embed/wqLWTeNBEEQ?
@@ -25473,6 +25461,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mipcdn.com/c/s/by.manhuachi.com
 ||nicelinks.site/ad-block-
 ||warnermedia.com/api/v1/events?*=ad-break*^$xmlhttprequest,domain=cnn.com
+||topratedwaterfilter.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||womanandhome.com^$csp=script-src-attr 'none'
 ||omlube.com/O/1000970O3001405O1O.js
 ||securepubads.g.doubleclick.net/pagead/$domain=golfgalaxy.com|dickssportinggoods.com
@@ -25501,6 +25490,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mnks.cn/jk/appAD_
 ||r3sub.com/nb/
 ||tiexing.com^$3p
+||lianle.com^$3p
 ||mitbbs.com/ad_
 ||wangzhanmeng.com/link/link.html
 ||niepo.net/api/arrayid/analytics.
@@ -25536,6 +25526,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||to8to.com^*_bottom_
 ||wake-up-neo.com/bnet/
 ||panpan.org/other/
+||liaoxuefeng.com/files/attachments/00144*/0
 ||stopadblock.org/adblocker-deaktivieren$subdocument
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
 ||qiyipic.com/common/*980x
@@ -25577,6 +25568,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||swoole.com/_images/kundian
 ||star-media.cn^$3p
 ||seriousdeals.net/visitScript/$script,third-party
+||lianmeng.la/cde/recommend.js
 ~leynwell.top##body > [style^="display: block; width: 100%; height:"]:empty ~ :not(div)[style^="display: block; z-index: "]
 ||onlineradiobox.com$csp=script-src-attr 'none'
 ||sonimei.cn/images/gg.png
@@ -25597,6 +25589,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||tw.jav321.com^$popup,domain=ucptt.com
 ||so.com/index/advertise
 ||tagtoo.co^$3p
+||lianmeng.la/abc/
 ||linkbucks.com/visitScript/$script,third-party
 ||yzpsb.net/js/jquery.
 ||pixabay.com/static/img/publisher/*_ad_
@@ -25636,6 +25629,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lyd.com.cn^*950-90.
 ||m.niupizhi.net/lokedpgdjs
 ||onesignal.com^$third-party
+||lh168.net^*/attachment/portal/
 ||zxzj.me/slade2.js
 ||polarbyte.com/*/pb.min.js^$script,domain=games.bab.la
 ||stockstar.com/api/?id=
@@ -25700,6 +25694,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||suning.cn^$domain=qianggou5.com
 ||tomshardware.com^$csp=script-src-attr 'none'
 ||music.163.com^$domain=mvcat.com
+||liantu.cn/script/
 ||soutubot.moe/static/airport
 ||swoole.com/_images/w7.jpg
 ||qqtn.com/js/html/down_
@@ -25789,6 +25784,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||mddcloud.*/oweApi/ad/
 ||sentry.io^$third-party
 ||liu16.com/vip.png
+||lianmeng.la/cde/text.js
 ||tingchina.com/js/*220-
 ||zdqx.com/statics/v1/images/gif/
 ||weibo.com/ajax/feed/getTipsAd?
@@ -25819,6 +25815,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||zhongkaowu.com^$3p
 ||wuxibus.com/Image/title
 ||yunzhan365.com/resourceFiles/js/weixin-share.js
+||lianmeng.la/cde/image.js
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||taiwandaily.net/wp-content/uploads*_600x100.
 ||xl02.com.de/zzzzz
@@ -25888,11 +25885,13 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||x21.cn/service/feeds.
 ||youth.cn/images/c.js
 ||s.go.sohu.com^*/?callback=
+||replantable.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||moneyweekly.com.tw/UC/JQueryJson.aspx/MwAD
 ||wpa.b.qq.com/cgi/wpa.php?
 ||m.audio699.com/template/m/js/qqwweef
 ||minecraftskins.com^$csp=script-src-attr 'none'
 ||spiritednow.xyz/ad^$subdocument,domain=pressian.com
+||massivesalad.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||so.com/resource/js/mod/detail/business.
 ||wangjing.cn/images/js/YlFloat.js
 ||livefootballhd.net/ad.html$subdocument
@@ -25962,12 +25961,12 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||sooopu.com/js/contentad330.js
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
 ||p.mprd.se/js/bscripts*.js$script,domain=emuparadise.me
+||socialsend.net^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|deseret.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||p.wktfkj.com^$3p
 ||zhihu.com/api/v4/brand/question/*/card
 ||m.ygexing.com/d/js/acmsd
 ||mvcat.com/api/wx/follow.js
 ||tianshui.com.cn/newbg
-||superstarorganizer.com^$domain=addictinggames.com|convertcase.net|coolmathgames.com|dailykos.com|danslescoulisses.com|eater.com|gamebanana.com|gameslantern.com|hayertv.com|icy-veins.com|knowyourmeme.com|prydwen.gg|sporcle.com|the-independent.com|wowhead.com|boredpanda.com|nj.com|theweathernetwork.com|wusa9.com|11alive.com|9news.com|kgw.com|denofgeek.com|ebaumsworld.com|weather.com|10tv.com|12news.com|13newsnow.com|13wmaz.com|arcwestmichigan.com|cbs19.tv|dailypassport.com|guideauto.com|historyfacts.com|kagstv.com|kare11.com|kcentv.com|khou.com|kiiitv.com|kvue.com|localmemphis.com|mediaite.com|myfoxzone.com|nbcsports.com|nightlife.ca|quizdaily.com|rocketcitynow.com|telemundoaustin.com|thv11.com|tonbarbier.com|wbir.com|wcnc.com|weareiowa.com|wfaa.com|wfmynews2.com|wgrz.com|wkyc.com|wltx.com|wnep.com|worddaily.com|wordgenius.com|wqad.com|wwltv.com
 ||sccnn.com/SF/zt.jpg
 ||webkaka.com^*x50.
 ||mzyfz.*/modules/46/
@@ -26000,6 +25999,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||rising.cn/rxbox/
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||nen.com.cn/service/js/beitou
+||lgmi.com/windows/*-Advert.
 ||sass.hk/plus/mytag_js.php?aid=
 ||suibianlu.com/zb_users/theme/tx_fzy/script/zhao.js
 ||pagechoice.net^$3p
