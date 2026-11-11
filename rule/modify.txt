@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-11-11 12:58:48
+! Last Modified: 2026-11-11 23:54:18
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -11669,6 +11669,7 @@ olx.bg#$#replace-fetch-response /("ListingSuccess","data":\\[(?:\\{"_nodeId":"bG
 livesport.cz#$#hide-if-matches-xpath './/span[.="AD"]/parent::div/ancestor::div[@id][@class][1]'
 scrolller.com#?#.popup--sticky:-abp-contains(adblock)
 hao123.com###layout-guess
+onvista.de#$#hide-if-contains /^Werbung$/ div.rounded-2xl 'div.rounded-2xl span ^^sh^^ span'; hide-if-contains /^Werbung$/ .ov-carousel__item '.ov-carousel__item span ^^sh^^ span'
 sstv.pw##.container > a > img[style="width: 100%;"]
 ssm.fun##.cAnnouncementsContent
 www.facebook.com,web.facebook.com##div[aria-posinset] a[href^="?"] span[style*="absolute"]
@@ -12653,7 +12654,6 @@ ping0.cc###adjright
 manwa1.me,manwa2.me,manwa.me##[style='transform-origin: left top; margin: 0px auto;']
 v-wb.youku.com##+js(set-constant, Object.prototype.adData, {})
 manwa1.me,manwa2.me,manwa.me##[data-group^='ad_chapter'][data-width='300'][data-height='250']
-onvista.de#$#hide-if-contains /^Werbung$/ div.rounded-2xl 'div.rounded-2xl span ^^sh^^ span'
 xcar.com.cn###eMeng
 vanpeople.com##.banneradv-newbox
 tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
@@ -16893,7 +16893,6 @@ xhamster.*,xhamster1.desi,xhamster2.com,xhamster3.com,xhamster19.com,xhaccess.co
 hboav.com#@#script + div[class="cc5278_banner_ad"]
 supertaste.tvbs.com.tw##div[id^="taboola-"]
 pconline.com.cn##.bk_art_banner
-||5tmobi.cn^$3p
 yam.com##.axdBox
 ix8.la##div[class^="ADTOPLB_"] > .bd
 programme.tv^$csp=script-src-attr 'none'
@@ -21178,6 +21177,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||guoguoks.com/1.
 ||hello-jm.com/foot.js
 ||gtimg.com/sports/000_AD/
+||5tmobi.cn^$3p
 ||ithome.com/images/v2.1/downsoftmaster.gif
 ||api.psy-1.com/cosleep/newborn/vips/picks^
 ||hnyishidengbao.com^$3p
@@ -21277,7 +21277,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||jd.com/exsites?spread_type=
 ||gansudaily.com.cn/2017zt/images/*gg
 ||jia.com/js/zixun/news.js
-||leparisien.fr/espace-securise/shield/read-article/*?fingerprint=
 ||iask.sina.com.cn/s-b/mxbg
 ||goodto.com^$csp=script-src-attr 'none'
 ||imagedelivery.net^$domain=vikacg.com
@@ -22466,7 +22465,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||jable.tv/assets/images/wejo/$image
 ||d5.sina.com.cn^$image,domain=~www.sina.com.cn
 ||asp300.com/2017images/kefu.js
-||lensdump.com/i/*.gif$badfilter
 ||fastadmin.net/uploads/store/aliyun
 ||dio99.com/images/*.gif
 ||itc.cn/w/u/0/old-insertAd-
@@ -23465,7 +23463,6 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||html-load.com/session/$domain=euronews.com
 ||gd.189.cn^*.htm?SP=$3p
 ||kuaihou.com/js/new/xiazai
-||lequipe.fr/v6/js/popinVideo.js$script
 ||cna5.cc/skins/js/
 ||gd163.*/2018_ad/
 ||geotmt.com^$3p
@@ -24458,6 +24455,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||moonbbs.com/data/attachment/portal/
 ||rfidworld.com.cn/js/RFIDExec.js
 ||qiming360.com/mingJs/xmKu_
+||lensdump.com/i/*.gif$badfilter
 ||suiyishop.cn/zhuangxiu_
 ||wendellyu.com/banner/
 ||qiuyi.cn/Baojian/
@@ -25130,6 +25128,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||ysxs8.vip/js/bd_top.js
 ||txxx.com/*x/*.js$domain=gaytxxx.com|transtxxx.com|txxx.com
 ||lgmi.com/right_ys
+||leparisien.fr/espace-securise/shield/read-article/*?fingerprint=
 ||panc.cc/uploads/hongbao.png
 ||myqcloud.com/ad/
 ||udn.com.tw/upf/*_banners/BD/
@@ -25852,6 +25851,7 @@ mathportal.org/temp/blocked/blockedCounter.php
 ||lzbao.net/mtvbox.
 ||onx8.com/theme/tange/add/
 ||shuidixs.com/1.
+||lequipe.fr/v6/js/popinVideo.js$script
 ||postimg.cc^*-960x60.
 ||yibian.hopto.org/apng/load.php$important
 ||sums.suning.com^$3p
