@@ -1,6 +1,6 @@
 [ADFS Adblock List]
 ! Title: modify.txt
-! Last Modified: 2026-11-13 00:37:13
+! Last Modified: 2026-11-13 13:25:59
 ! Homepage: https://github.com/ParkCR/DD-AD
 ! 👇This Part Merge from: DD-AD (/home/runner/work/DD-AD/DD-AD/rule/DD-AD.txt)
 ||*-ad.wtzw.com^
@@ -1419,7 +1419,6 @@ cinemablend.com#@#.pub_300x250
 @@||dlkoo.com^$generichide
 @@||sports.ru^*/adfox.$xmlhttprequest
 ##[href*='anrvl.com']
-##body > meta[name="robots"] + script + #__nuxt > div > .container > div[class^="menu-"] + div + div[class^="pg-v-sec-"][style*="important"]
 centrum.sk#$#hide-if-matches-xpath '//div[text()="Reklama"]/ancestor-or-self::div[contains(@class,"ReklamnyBox_")]'
 applefans.today##.tipi-overlay:style(display: none !important;)
 ##a[href*="/137.220.194.105:"]
@@ -4290,6 +4289,7 @@ ccoo.cn,hackhome.com##.adn
 51nongyao.net##a[onclick^="javascript:trackEvent('AD-Banner'"]
 baixing.com###port-info
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
+##body > meta[name="robots"] + script + #__nuxt > div > .container > .top-menu + div[class]
 eprice.com.hk##.article__content > div[style*="text-align"]
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
 /float_r.js
@@ -5615,6 +5615,7 @@ api.so.lianmeng.360.cn,pos.baidu.com##body
 finance.sina.com.cn#?#.clearfix.tech-quotation:-abp-contains(下载客户端)
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 ###detectadblock
+##body > #__nuxt:first-child > div > .container > div[class^="pg-"] > div[style*="important"]
 /baha/*$subdocument,domain=gamer.com.tw
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 coflix.*,gbadosadl.com,topcinemaa.com,movies2watch.biz,fbox.art,attackertv.vip,cataz.stream,player.videasy.*,vidfast.*,embdmstrplayer.com,watchseries.*#$#abort-on-iframe-property-read open
@@ -7350,7 +7351,6 @@ finance.sina.cn##.pluse.animated
 .com/rs/shto/$3p
 ##.gg_4
 eelly.com##.top-picture
-##body > #__nuxt:first-child > div > .container > .top-menu + div[class]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exe-urls.com|fileink.com|phoneky.com|rockmods.net
 cnblogs.com###blog_c1
 ##.apd-home
